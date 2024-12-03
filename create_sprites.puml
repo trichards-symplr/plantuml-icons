@@ -1,0 +1,64 @@
+@startuml
+skinparam sequenceParticipant underline
+
+actor User
+participant "create_sprites.sh" as Script
+participant "Argument Parser" as Args
+participant "Directory Handler" as Dir
+participant "SVG Processor" as SVG
+participant "PNG Processor" as PNG
+participant "File System" as FS
+participant "Inkscape" as Ink
+participant "PlantUML" as PUML
+
+activate User
+User -> Script: Execute with arguments
+activate Script
+
+Script -> Args: Parse command options\n(-p, -w, -h, -g, -s, prefix)
+activate Args
+Args --> Script: Return parsed settings
+deactivate Args
+
+Script -> Dir: Validate directory
+activate Dir
+Dir --> Script: Confirm directory exists
+deactivate Dir
+
+alt SVG processing enabled (-s flag)
+    Script -> SVG: process_svg()
+    activate SVG
+    
+    loop for each .svg file
+        SVG -> FS: Read SVG file
+        SVG -> Ink: Convert to PNG\n(width, height)
+        activate Ink
+        Ink -> FS: Save PNG file
+        deactivate Ink
+    end
+    SVG --> Script: SVG processing complete
+    deactivate SVG
+end
+
+Script -> PNG: process_png()
+activate PNG
+
+loop for each .png file
+    PNG -> FS: Read PNG file
+    PNG -> PUML: encodesprite
+    activate PUML
+    PUML --> PNG: Return sprite encoding
+    deactivate PUML
+    
+    PNG -> FS: Create .puml file
+    PNG -> FS: Write sprite definitions\nwith prefix
+end
+
+PNG --> Script: PNG processing complete
+deactivate PNG
+
+Script --> User: Processing complete
+deactivate Script
+deactivate User
+
+@enduml
