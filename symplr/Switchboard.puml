@@ -1,0 +1,12 @@
+sprite $symplr_Switchboard [64x64/16z] {
+xTO5TWCn38JXDMaip_tlsw22ykjJolKVXc-PjkUjMdc9P-fBld1ydo-bD8xTSt9dRyORBNVgCF52Zd5yE1DGsMV-FFH_vLKcFcapEtQHkoTSyymnyVMoENTQ
+GOzIwkuUziTPISilVwcGOLzeXNoZbME-dq7GunDzKTL1xfuHyg0LzBtMLciDUpb_VAzNaGuHntSHXM3YhISUj1oV1EWaWBhT--EloW6WEFxk_7_ddvm_lj_t
+b79EAUojaC_6TGluk-FNd_2PVU8BuNWhROvthX-JUSlnJZcvNW7jmCv74beXdvf8vn2HiaMhrB1Ttgv_xrkz0G
+}
+
+!define SYMPLR_SWITCHBOARD(_color)                                 SPRITE_PUT(                                      symplr_Switchboard, _color)
+!define SYMPLR_SWITCHBOARD(_color, _scale)                         SPRITE_PUT(                                      symplr_Switchboard, _color, _scale)
+!define SYMPLR_SWITCHBOARD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SWITCHBOARD,         symplr_Switchboard, _color, _scale)
+!define SYMPLR_SWITCHBOARD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SWITCHBOARD,         symplr_Switchboard, _color, _scale, _shape)
+!define SYMPLR_SWITCHBOARD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SWITCHBOARD, _label, symplr_Switchboard, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SWITCHBOARD>> White

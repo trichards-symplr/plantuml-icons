@@ -1,0 +1,16 @@
+sprite $symplr_DoctorDialogue_411 [64x64/16z] {
+xPK7pgKm30O_Ezrp__kk8hs0u3NurRODlKoAmObK1bVfMMSik4FNYSvmNIK5HKV0T9t4EFle1lO7-l_z_xwPk_tKznOmQUadVcTdtFOjO6IRPxa3PtzGlzMU
+jN10HnoYjxQpXfFQ9cFNqnYMe9mBw1mOfedn82HBkGsORWMTCKyxMuHWNdAWoS7raLN0m2LVZUWrgO8fAFg8FGfeP2b3SjC380-gBXMGQL9XQCS3eEiB5jFo
+kQi7NzQk-BAWIx3gFpQkwLe10rSXTAHJTQs0JbO67GcAhXK0HGwc0v1q1Mkzl7Xz5NYLSxWgeJiKE7M_wWu6MJi9NBVen2avxc7GjAZWkac1jfzstGOOILBg
+GDPT3DWfkea3fJCPYTlzRm1PyZH5xXLW5OX1tTiI45cNI1qWzXoUPnO0rVMD74oQbBQKWIuD9b7iO_813EXBcsIeaaCR0CtrXWfGRULEG7VDIqnI8sJrmqZQ
+8RBstAqiGjAQGlA0iDS_RDK4yagw00ZgOGXBhrkmz0p3jp7BJP3MbFqXcnEiNW1f4_RlqAdl9_yrPIHeEOZzLYLqyWj3PnfzEnZuQjAgxEZ7Qty5ASWh089q
+zlCBlz8tHPss2akmzRf_zHri3qPZh5Dv0CFU-4l9i3x6usfrFvYCXyzBV-rN00qIf8VYMXVl_N7y1uC1w_5-ErtrsshoLhz_zYj4jm3iOL6rzv-kTtvXh2Hq
+LWePszUt0NJJn7jxvyjJKawchLOjFBdkKgXwoIy
+}
+
+!define SYMPLR_DOCTORDIALOGUE_411(_color)                                 SPRITE_PUT(                                             symplr_DoctorDialogue_411, _color)
+!define SYMPLR_DOCTORDIALOGUE_411(_color, _scale)                         SPRITE_PUT(                                             symplr_DoctorDialogue_411, _color, _scale)
+!define SYMPLR_DOCTORDIALOGUE_411(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOCTORDIALOGUE_411,         symplr_DoctorDialogue_411, _color, _scale)
+!define SYMPLR_DOCTORDIALOGUE_411(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOCTORDIALOGUE_411,         symplr_DoctorDialogue_411, _color, _scale, _shape)
+!define SYMPLR_DOCTORDIALOGUE_411(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOCTORDIALOGUE_411, _label, symplr_DoctorDialogue_411, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOCTORDIALOGUE_411>> White

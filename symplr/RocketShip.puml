@@ -1,0 +1,15 @@
+sprite $symplr_RocketShip [64x64/16z] {
+xTI7qYKh20HWS0ILVl_dlNUtow9c_iHwAcpi4oTy2fFajyg_j6u-Xjibvr6Ro5p7skdM6EuZO8VSlbjhUsd0p_W0LfPyxYUU1JlyaEVazVmrbmbxbJCB_P1x
+03E70TeHrm1ZmZJWYCj2T6tPY64UyGjGBcttnUNdwnwGYzDbtHpkumpSGqu_k5L1lp0-vzOp07ptk_ZR4Hpji-dzSPa6DXS5_xM0YtJ03ZXZm1eJ23O_JZa7
+0B3qEvy_phNt9eoQ-oLdN2SdRP8vum740j1UuZ8GJKGNLia7u9eX5zaNZmAju8Pdo1kGD_lNNFexVlT1x-HrF9ysGD_ZA5UZj3aRunpW2amXNuNKwSz7qm8J
+Ibvv3Uun4IexP8CyUk5r8Hg7kJySMnCX5_gQIm-00sJiEwSlENKESEFqDHS09eq3t7dXDH2whoGCoG6I5zx9tmsGlF9ja3Tz3A0Y5tdbRtla0054w-0ejT_E
+imL31803psdpBs0w4OxqHb_nN0XXwBEwckTYJ_zkUycPzAVSWqHqENtDnMwR1z380vE-u8m-7-HvITFNN3xXzAzpUd-Tqn_m0VGdbnEkcyj8BWTSn2vXcgli
+T9DVEF_oFm
+}
+
+!define SYMPLR_ROCKETSHIP(_color)                                 SPRITE_PUT(                                     symplr_RocketShip, _color)
+!define SYMPLR_ROCKETSHIP(_color, _scale)                         SPRITE_PUT(                                     symplr_RocketShip, _color, _scale)
+!define SYMPLR_ROCKETSHIP(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ROCKETSHIP,         symplr_RocketShip, _color, _scale)
+!define SYMPLR_ROCKETSHIP(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ROCKETSHIP,         symplr_RocketShip, _color, _scale, _shape)
+!define SYMPLR_ROCKETSHIP(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ROCKETSHIP, _label, symplr_RocketShip, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ROCKETSHIP>> White

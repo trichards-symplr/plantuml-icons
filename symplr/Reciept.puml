@@ -1,0 +1,13 @@
+sprite $symplr_Reciept [64x64/16z] {
+xTG5aiCm44JHcH5tt_--Mqf5ImBRMeONZlpDjZpvzyyN7Yf1PX9FoPCyaD4ia4ddRkCo1CRwuKcLgVcuaMq-JgRcuuwGcqmlAstyutjzM-yOfTBGk4jzO7fz
+Nbpe3I2XzLjg_8KUH07TyVPRrVKEQ7jmtMTMeU_fJXs_KdEumVeJKS_qVhZzca6YVWriokc-qW1YkwyKiDtr3ohY0Tti7G6GUNl_PP08ijsB0d9ZgGcNUkRk
+ldgXVwAXiOs-yqDwSpqztni7SBxNWbxyWEtF359vbgq-thlCkDKhcLKqaRhLY-ST0EH1xz6aKI-kyCbWF4wFNwFUtUbetBhpP-OlZ6kG_Rutxyql7FVAbNJO
+6rbcm7ocbvcmw1EZL8vbCKrQp1jIvVaqYjKn0ek99j9ap0eXSux7J1OiSosh7B255lzx
+}
+
+!define SYMPLR_RECIEPT(_color)                                 SPRITE_PUT(                                  symplr_Reciept, _color)
+!define SYMPLR_RECIEPT(_color, _scale)                         SPRITE_PUT(                                  symplr_Reciept, _color, _scale)
+!define SYMPLR_RECIEPT(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR RECIEPT,         symplr_Reciept, _color, _scale)
+!define SYMPLR_RECIEPT(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR RECIEPT,         symplr_Reciept, _color, _scale, _shape)
+!define SYMPLR_RECIEPT(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR RECIEPT, _label, symplr_Reciept, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR RECIEPT>> White

@@ -1,0 +1,13 @@
+sprite $symplr_Pool [64x64/16z] {
+xPI7akGW44FfG9B-_t-l05yFdbHxEQorE-aLmYqvf3jTkdJ9JEAxkdwh6oHoMkeWkdoBNOQ3z3JKY0xsR_6NiJmJQoz84l9R8ZJcb9ISuJ6s8VEt-CVeGap_
+_03jcu-FwRUF-1KdaPpl-tVYKRJN_h2yyUFTK0AaKAUbRzJbfuVm7NwUbB_3tqFyv_gx_2H2fFzsFo0XV7H-USWl3_dbXTSgXfg7tzf1llg3F8oZ5RS7NdD9
+Iju8MII9jNsDRkuyKHb8vlVbMaJpzaHUfAprCJc9ghU0fGFOYIvIz3nltDJ55lJiaUmDMTjOEJKvqWsX-mEnUzBiQNszDM0OYfTLLdj9zi01ea3EicIHyaW6
+WDxwEmqaNblDkfCSP9lOpvUKrOxUF5e9akv8zN25j867kczbHO4xsUUDF40riznNayVbOcO5Z-HSeFBu6GM2m4RAGOhi1upyydW-JUKbYG8r_TkwTEaB
+}
+
+!define SYMPLR_POOL(_color)                                 SPRITE_PUT(                               symplr_Pool, _color)
+!define SYMPLR_POOL(_color, _scale)                         SPRITE_PUT(                               symplr_Pool, _color, _scale)
+!define SYMPLR_POOL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR POOL,         symplr_Pool, _color, _scale)
+!define SYMPLR_POOL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR POOL,         symplr_Pool, _color, _scale, _shape)
+!define SYMPLR_POOL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR POOL, _label, symplr_Pool, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR POOL>> White

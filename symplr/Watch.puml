@@ -1,0 +1,12 @@
+sprite $symplr_Watch [64x64/16z] {
+xTP7aaCX40DGaK6w_trdDzKE6BgSmzkhMZyGyA9IDWAyeYp2QuZz7rMzxKdJEKlkyGs6jq0I0uma1JXGzRJFlYnE2hd6MqFTFTwAP72C3oVs2rHDHEnecifO
+wsABE1NIa0fMYfWmKJS-8kqC_qUC8kOYkVpq0nSiVuAYxduwgrxEI-hNvOkko-Udvd_vpkloJDVagN7j_nkkpCUtpl_omP7txv_bolqxNNb-WCgOwXfOg6B4
+H9RYpiMpXhFbkrInDZHLhxk09EoXMZunDB2fdB-_HLZEtwoh0xu2y-kZly1GXqCM_UCjgawlx_u2oJiUe4RxHrKu9Lc4Msv6nCJF7m
+}
+
+!define SYMPLR_WATCH(_color)                                 SPRITE_PUT(                                symplr_Watch, _color)
+!define SYMPLR_WATCH(_color, _scale)                         SPRITE_PUT(                                symplr_Watch, _color, _scale)
+!define SYMPLR_WATCH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR WATCH,         symplr_Watch, _color, _scale)
+!define SYMPLR_WATCH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR WATCH,         symplr_Watch, _color, _scale, _shape)
+!define SYMPLR_WATCH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR WATCH, _label, symplr_Watch, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR WATCH>> White

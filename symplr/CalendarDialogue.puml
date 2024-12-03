@@ -1,0 +1,12 @@
+sprite $symplr_CalendarDialogue [64x64/16z] {
+xTHLkiGm34DXEnnh_-iTndngwro6EUz_kP8FxDKhBIgi4do-8WifeNsorsCNhqCNhyUu3ePZTlA6CJtwXbEH-OvJdNix-OfJnZmGVFUlmAelt4TKdvSej2WE
+x-ZFUkkkRCdxupv7L-cVlp_fpUzvN-XJMIw7BQ-6rVA6hx2wN3iPuhqFfI5lULtpzRzuJS_5ITyn5ETyQaFw2vuVl_v0lV_vvNU-FrdmDkvtcBl_Xh4qvRNQ
+SptuFUyTthyVGto_ifoAPBz8P3_bM2BxESJt6z0JHoFxxGZG4wz2yddE_Pvolo_luM9u5vTeAF9NsmC
+}
+
+!define SYMPLR_CALENDARDIALOGUE(_color)                                 SPRITE_PUT(                                           symplr_CalendarDialogue, _color)
+!define SYMPLR_CALENDARDIALOGUE(_color, _scale)                         SPRITE_PUT(                                           symplr_CalendarDialogue, _color, _scale)
+!define SYMPLR_CALENDARDIALOGUE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDARDIALOGUE,         symplr_CalendarDialogue, _color, _scale)
+!define SYMPLR_CALENDARDIALOGUE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDARDIALOGUE,         symplr_CalendarDialogue, _color, _scale, _shape)
+!define SYMPLR_CALENDARDIALOGUE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDARDIALOGUE, _label, symplr_CalendarDialogue, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDARDIALOGUE>> White

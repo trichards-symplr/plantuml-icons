@@ -1,0 +1,13 @@
+sprite $symplr_CalendarCompliance [64x64/16z] {
+xTHLWgLG34NHsBMS-S-t2VBSGfTNxGzyuK0_gR-AqOEqFk4Cq8CSyjZBCw_luSMnnE4LTxBmZAKXfxjTa_26EvNmWZK_Ua0uMi-VxxIUFqS2d7hEtd--xSdq
+aPT2ztoY7-WjtRdFzxQUATlNz7zUsnHB3ELqo37KvxvWIYo6gZ4qcuSQm_BSIvtYPSWn59c7o_HdtJ-jlRV2ExqvlBSEDDvn_wcYoReVb_pzhp3Qwk3i_RU5
+husHlVxHQKrSIM0vpz2DeqEezvmt19NWjOouFq_k__7wXQQg1uLEt4Qin-ltV_Dj69QZX-UNdp_HUhwZMbau6NBNBv1v1ojFtp_oTlhS6INf3Kh7kbFIKuVG
+LeEcFVNjd6N0AE-f0hsMEZ24zdZYqjr7qo_x_o-MxTHtxAZHiTBI5Ve9_VKF
+}
+
+!define SYMPLR_CALENDARCOMPLIANCE(_color)                                 SPRITE_PUT(                                             symplr_CalendarCompliance, _color)
+!define SYMPLR_CALENDARCOMPLIANCE(_color, _scale)                         SPRITE_PUT(                                             symplr_CalendarCompliance, _color, _scale)
+!define SYMPLR_CALENDARCOMPLIANCE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDARCOMPLIANCE,         symplr_CalendarCompliance, _color, _scale)
+!define SYMPLR_CALENDARCOMPLIANCE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDARCOMPLIANCE,         symplr_CalendarCompliance, _color, _scale, _shape)
+!define SYMPLR_CALENDARCOMPLIANCE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDARCOMPLIANCE, _label, symplr_CalendarCompliance, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDARCOMPLIANCE>> White

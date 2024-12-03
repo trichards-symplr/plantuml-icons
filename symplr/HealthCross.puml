@@ -1,0 +1,11 @@
+sprite $symplr_HealthCross [64x64/16z] {
+xTGt0WCm24DHt0tS_xwPKX1JUjFRNFugUGOgQwCgLnYUhEjwxS6-jjzmyQIUFNlsPGFBlIceSj8zMTWdyxAt7ZK17UpOgrnfFgfdpvwzA-WIL0LssJT7UN-I
+8MUjHoltkqVjK_URFNlsRe5VrpTFfboZDb3b2UW
+}
+
+!define SYMPLR_HEALTHCROSS(_color)                                 SPRITE_PUT(                                      symplr_HealthCross, _color)
+!define SYMPLR_HEALTHCROSS(_color, _scale)                         SPRITE_PUT(                                      symplr_HealthCross, _color, _scale)
+!define SYMPLR_HEALTHCROSS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HEALTHCROSS,         symplr_HealthCross, _color, _scale)
+!define SYMPLR_HEALTHCROSS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HEALTHCROSS,         symplr_HealthCross, _color, _scale, _shape)
+!define SYMPLR_HEALTHCROSS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HEALTHCROSS, _label, symplr_HealthCross, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HEALTHCROSS>> White

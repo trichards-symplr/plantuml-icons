@@ -1,0 +1,14 @@
+sprite $symplr_DoctorDialogue_13 [64x64/16z] {
+xTQ7pjiW64RXbu_DkV_xRR7G7upik1dTURIyZk81A7g_Zu-GBmJTKxbKTIv3YdSbo3e5NXSyQ65XY112q7rWsWdN3pXhQr-fPGBsMD_6Gxkn-sJloI_raVf2
+7-ZAqxsdox_j_YMRtr-kIPtLwjMbcX_uVX68smumnXZnj5_7ZnAmtG20axO3-RHVU1bZ5EQHES1E-nGcsuNEZwVnNbq_SFNyUdByrXVxGj04t6Dz8Y_hosEz
+t_rY8J_OgrBcnSWUxGtABKzwg1zLI-OiL2Xwl9Tl34adBhvFA0rgShgIQLhuqho6mf5cagonyPfPQjF1oh4e6PksotqFMYhWHvuQGFOsgSIULpDpoyD0wMK1
+l-KsxgZD5nPYpxKAaDpNSuSjtuH6tVNvA5SZJjVGyy61d_l3t85kAjZyP6dg3tCPRVSmzMnIbYK_wSlNVu6bjwGVxTduqQ-k-rY-otgs7_w6_jCxgcxyhWWa
+NNAQsRBtB_lu1W
+}
+
+!define SYMPLR_DOCTORDIALOGUE_13(_color)                                 SPRITE_PUT(                                            symplr_DoctorDialogue_13, _color)
+!define SYMPLR_DOCTORDIALOGUE_13(_color, _scale)                         SPRITE_PUT(                                            symplr_DoctorDialogue_13, _color, _scale)
+!define SYMPLR_DOCTORDIALOGUE_13(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOCTORDIALOGUE_13,         symplr_DoctorDialogue_13, _color, _scale)
+!define SYMPLR_DOCTORDIALOGUE_13(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOCTORDIALOGUE_13,         symplr_DoctorDialogue_13, _color, _scale, _shape)
+!define SYMPLR_DOCTORDIALOGUE_13(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOCTORDIALOGUE_13, _label, symplr_DoctorDialogue_13, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOCTORDIALOGUE_13>> White

@@ -1,0 +1,13 @@
+sprite $symplr_BrowserArrow [64x64/16z] {
+xTO5RhD138HXBtXfxd_U7-hFaYDDm16LtZ8yiuMGV95--ssTMC_oWfkMPEl0RbV3VN9WYgN49mRSPvj0eRxfaygZyyl6iwPpvW-mvkDgu3Lwsos9Fzx6lFK3
+CyM1UUCdHeeFu2Hzv5KwyD0hz06tZwbt3XzWt3wZp3lVFa2uHxpp8SC76ES-Sl41pkkgt3lt0SvbO7Blt0SOvpxoC40vzv5hkGO8vpxoid5yW77k8ySrq9Ln
+xkFfxLm3Z7CVUPNY0uHJN-7Se0yGJdtP6hWFCCwzPJ-yX072kG-dXm72gO-dnm72gO-dnm72gMUSnxt_yEzxSdh6Dy8pNZhX2UzbVLNLZKNlyJygv4iBsxzX
+W-PtK8--OTjT_vhhhEbv2z3-BoKF3Jx0mZ7VXBPmDONMp6zquUd-I8MdzlCFUvDlNrSQODUInQLkm5J3cpMnwdf7hofVlz_-0W
+}
+
+!define SYMPLR_BROWSERARROW(_color)                                 SPRITE_PUT(                                       symplr_BrowserArrow, _color)
+!define SYMPLR_BROWSERARROW(_color, _scale)                         SPRITE_PUT(                                       symplr_BrowserArrow, _color, _scale)
+!define SYMPLR_BROWSERARROW(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BROWSERARROW,         symplr_BrowserArrow, _color, _scale)
+!define SYMPLR_BROWSERARROW(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BROWSERARROW,         symplr_BrowserArrow, _color, _scale, _shape)
+!define SYMPLR_BROWSERARROW(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BROWSERARROW, _label, symplr_BrowserArrow, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BROWSERARROW>> White

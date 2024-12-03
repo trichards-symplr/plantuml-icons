@@ -1,0 +1,14 @@
+sprite $symplr_MobileStats [64x64/16z] {
+xTO5WkCu44RXNrKbgdV_youeIzfsscvdUEQ5uJEJlhL-5MCUDk8I7pnjwBmABGvhKC_zVFwdoZptYUdV8lHlHfvxDW-RvwC-ugttA5VzQlTb0lM-xp2XtFQ9
+Qn8l-669t_KLWDHDts3ExEMkXtPf_PUHqwKz1q9NV4a0qvObc2xvohH1ttu8I9FQkE0RGnsQRVlrac3dVi8089j9fVNQeUkYjrnsH0V8pgfADQxu2caMBacn
+S3Peaf5NF8oYXMqz9rNzuJdr1MYIGZBc-ggH5UAITy0bLPgSb8gf931rwgsemIoFSVQ7XxAMlywyisgIYdQ_Ak_x0Wc4f85jVjcWlUk3gKfAqYHstt5L-edF
+Kfc7VX2dNWbGxtkRYz_sZyPupSDzF-8bxyoNV7nbx_zwLwF9cF_tAUKphsfIX6HLAgr8rV_zGdz_uLMV9_DLX1-q_sR7-__r_AqlCrUG1-s_pTldNsrzTjyp
+smk-0_Jx7jpXjYyWGRdhbMIIkkqj8UrZVj-_t3zw_JvfUb9ddFk0KGyRu3glyRIcArdhXpNJjzVl
+}
+
+!define SYMPLR_MOBILESTATS(_color)                                 SPRITE_PUT(                                      symplr_MobileStats, _color)
+!define SYMPLR_MOBILESTATS(_color, _scale)                         SPRITE_PUT(                                      symplr_MobileStats, _color, _scale)
+!define SYMPLR_MOBILESTATS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MOBILESTATS,         symplr_MobileStats, _color, _scale)
+!define SYMPLR_MOBILESTATS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MOBILESTATS,         symplr_MobileStats, _color, _scale, _shape)
+!define SYMPLR_MOBILESTATS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MOBILESTATS, _label, symplr_MobileStats, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MOBILESTATS>> White

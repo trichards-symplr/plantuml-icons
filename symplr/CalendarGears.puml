@@ -1,0 +1,16 @@
+sprite $symplr_CalendarGears [64x64/16z] {
+xPG7Zkim30L9iKbyzp_l5if6X5HxVoy387rOfT2Fup__CGXT4M0wJC3eYW6X0sX4QFaU2r9-VD2Uwm2GvMEbqu0803nlewERjVB55hZogrb2dljA7pHdka9y
+6uE-yf_ms_i38vwIj_wSzDnhuYLELpGKFFDtVyfL_YP4ZkmTq2_qhq1QXNGCjxE-Oh8tST9N8DWpk3g98IVzH7-mVtFN_T7TfHxRjUyO3_m1z5fc4DNA681U
+-mm85SnN-IECo2EKA2Aa7c_ojyqt0AbdpwycaFH1eB2JVW9LafGQ09_rspR5sBwu-Dwx4qNlHjHxL-AFHxdlnrwvdPj_GjSjvffVpRGUXQZkPZrU-tFe34IJ
+CMV9HaVxRnt0N5yXL1pq2ymtqe7UQ2S08Fcrtu16Dp0AV-t7pVtnT3QCrWn9CWO_zGV6bNuvYIYINzG_f6F8HOy4AgkXtbG0MSZ5fuR9pAALMHfDb8aJMVDS
+OLe382Gnbsv8kg8-qbmOUZNjAZLZMUT2XNu50_j5ZbbvTEUjFARNi0WJIUnNv78SWM5CXp1WhhC3RWFOjv1qYDZso42h8hpU6N3KzssBOtaYFkiBShRJp_ff
+F0KZucrpqe_wkfyj1qPV_fe77ODro-d0TWa8Y4Q72SGMoOHEd9zYtznARV4mVk_-W0uZG12xRkzSI81Efm8CO7RH0OpIpmN0I7ZDegFqKqW8AL8rC8ZTwIkW
+CFegsZy8-grv1m
+}
+
+!define SYMPLR_CALENDARGEARS(_color)                                 SPRITE_PUT(                                        symplr_CalendarGears, _color)
+!define SYMPLR_CALENDARGEARS(_color, _scale)                         SPRITE_PUT(                                        symplr_CalendarGears, _color, _scale)
+!define SYMPLR_CALENDARGEARS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDARGEARS,         symplr_CalendarGears, _color, _scale)
+!define SYMPLR_CALENDARGEARS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDARGEARS,         symplr_CalendarGears, _color, _scale, _shape)
+!define SYMPLR_CALENDARGEARS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDARGEARS, _label, symplr_CalendarGears, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDARGEARS>> White

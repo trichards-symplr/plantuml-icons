@@ -1,0 +1,15 @@
+sprite $symplr_TennisBall [64x64/16z] {
+xLP7ecCn28iDBaZtF-zK5Yy1y_9dC-rhas84Cd9x7F69JpHH7IhzbxZJ0Fu4iFLZRCLFsXnZBWD8xFTb392OrtZP8AsznUuWhQT9vpl5dPtAmgs4JOvZJusG
+ccv4rQT9baw0N6kg76KgMIXOf0Fx4AQ5G2L4L7LkWCGuJU6Whk6YJOr4oztTfzRFfyYibqeQcCv0YD0EX1ZEXnAvTH8LxLVn6YDzBClw8jKuVggmp3lD5lFA
+IY2n04WjmPDrmxzmHlcMByYdTdHFwq92xW1Zl_8bY4q38yLhQFmxonWbk_ihg2tueTED5ZBTyP7-wjolHddgu7-wH3ijDxfUVqA4-fN-zHfcld3aBRw44w2H
+KlKlxhQu_xklXBlrqy2PTHGzh9ziHGXSOmYa1BNHaS6ikeyCebufRHSNXJBBlIuJK9JNK2TxSNvrOvnwM4O1HdNfNlm8UFSJ0NsJq4S9fHtskgNNLbmNFHzW
+O6UmOtC6sMxfawZ6xXACCcI7qIYnz6RNBvp5O5sCc4NdqU-VdYS9yxqdP3FIGeOs4Smj911BBcGra3ihdaCC961hpRKD8B5gTj0xzkNzxc8-YYwg8ktnX-8J
+Nm4
+}
+
+!define SYMPLR_TENNISBALL(_color)                                 SPRITE_PUT(                                     symplr_TennisBall, _color)
+!define SYMPLR_TENNISBALL(_color, _scale)                         SPRITE_PUT(                                     symplr_TennisBall, _color, _scale)
+!define SYMPLR_TENNISBALL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR TENNISBALL,         symplr_TennisBall, _color, _scale)
+!define SYMPLR_TENNISBALL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR TENNISBALL,         symplr_TennisBall, _color, _scale, _shape)
+!define SYMPLR_TENNISBALL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR TENNISBALL, _label, symplr_TennisBall, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR TENNISBALL>> White

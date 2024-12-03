@@ -1,0 +1,14 @@
+sprite $symplr_Gavel [64x64/16z] {
+xPLN5bqX30CDfchslzuqd-Jr0ZSzqR-68c7iaVxhlt8wPaVP3gY1tFObW6AxIb8QgDgc2Z8Ri0jm66OTslO6c6OD-jxfiujfLc5is47kGYdsiMpNX9A_05oh
+W2-siGsOA5c4buHoqL8ACueVuIK1QE4fZA_s22z9wibMx6vs0bJBjg1q4NTTUq5bpdHUkB9IlZm4A9yAvqlL0zI-n1M52xkln5Oi2Ndq9OjfSw4v0sfWNCZ3
+3dexl7ZiKNn0rb7L6g37FgBu0tdMmXnktuPEQYdkn9CMIb0lfbO0R49RdLgoCq1Vw973jCOynOfRMsYI2ubY5u02yzqOiYBq2u0BBG1aeTCThEIOXjiD80dS
+jXG0cr0F0GRq8u38SKkHWbMOXtOGEUu3xkJevPxI0y1jZjpLUBI3cnpxl2Utnu01xSWTM3-D5DS3pUSzyDFCqpsXz11GeLhluMVaUvBImo91imxXVr3fy3y0
+zBY1FR_r5X_xplv31ThU_OLgs1Vo-ntrNny1
+}
+
+!define SYMPLR_GAVEL(_color)                                 SPRITE_PUT(                                symplr_Gavel, _color)
+!define SYMPLR_GAVEL(_color, _scale)                         SPRITE_PUT(                                symplr_Gavel, _color, _scale)
+!define SYMPLR_GAVEL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GAVEL,         symplr_Gavel, _color, _scale)
+!define SYMPLR_GAVEL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GAVEL,         symplr_Gavel, _color, _scale, _shape)
+!define SYMPLR_GAVEL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GAVEL, _label, symplr_Gavel, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GAVEL>> White

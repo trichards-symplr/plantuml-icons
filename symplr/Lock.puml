@@ -1,0 +1,14 @@
+sprite $symplr_Lock [64x64/16z] {
+xLO7bYiX35kwBTt_lDjvGIayytjPfHjhS8k6ftyINyXLa8_8QO1KOAGmlO2mtXPq1r6YT7BSMWTPOi63zPwz4Y7-u3XSK00pZ_Q9eYjxPFhxPmKdPkcSWJPM
+ZiyYMlk4VPPki4Ju_Uq3R1TR-uYfiyRvq9eSyfFo7UcKxp-0dqkj9NyR7mFWEu21KtvxvxcDOGwIR2Vy318jJLDg8973_4vwLci1sODy47Vy6eaOdxWhDHcC
+yCT2LoJI0k8ZT44AI134vLY2-Zv4Oz_p8T5N0wng1W7nM7eEK8JRTYrGXQgabPIAS-4K-Zxy9TH9gsHIZxrspaYR55KYV3pxkf5-tskOBfQraSOYMmJuqeaX
+zf-tVxlKB6d-uX8Q7sUxS5nIUOYqE6REe0kNde5vEpyYEFRgcuriuh61Z7UTyx_Qxlu_7urtSy1RH1xswt41ASJfvHMscoyF22ZODz8SEhxrHw4XHmvGeATx
+rnNw1ic9VcqRUblQeuCOPUcAaUod1t30Hk_3WFZnMxMVxv1xm0bIgQyewUcVnHTU
+}
+
+!define SYMPLR_LOCK(_color)                                 SPRITE_PUT(                               symplr_Lock, _color)
+!define SYMPLR_LOCK(_color, _scale)                         SPRITE_PUT(                               symplr_Lock, _color, _scale)
+!define SYMPLR_LOCK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR LOCK,         symplr_Lock, _color, _scale)
+!define SYMPLR_LOCK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR LOCK,         symplr_Lock, _color, _scale, _shape)
+!define SYMPLR_LOCK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR LOCK, _label, symplr_Lock, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR LOCK>> White

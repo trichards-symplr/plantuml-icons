@@ -1,0 +1,17 @@
+sprite $symplr_GearSearch [64x64/16z] {
+tPP9ckKe38GD0epqt_-yEIa_sRn2tS_BgjXu8iAQuVWBy5T2HZz-qOSy9BS9q7uV06PxG2-0AUPFXXfG7l7hDw__MF-jKv_otUulJd4_dlBTy1_eyIw_Zket
+pXVdI_1zIKu7XhkCsr5BgSx3Wp60cjC1Qw9kym85a-OUrOokXw-m_kVdRgv-Q29mOcuXvx75YNjd-mM2wvOqq1wA2ljodelNAPIPPhqjp-rKCptROb3BAi4h
+DI1AGDtWI6G2kQIh0ZgwI1y_j_KoKZA-CIuZ6M5c6Lok3Un_pHym5oVB3BEzBLSq72qUrmoxPDiiTcWqcYSu_90kDu7wiZe0jNpX9S5r0cpAetoXthu8jabm
+0spsh3oCoxIbeZHwUDQN4EXIhIC-t2kaG5c3i7vnYDw_TwwVTQRBpqtbz-EAJBzBZuZKfA__SeIqnvjp_NmDQFk9KjlqOhmikma2zxZstOmGBDRc_1_jjkko
+wlpjC2-h_SUknvlpTy7fjiJFaSMll4vOCJ2v5YK8wLZlw7Uz2XaVwjtUe9nBieoUpuSBohdaDT0p0rxxf-qAEzyVJf1jCyH4c356T_jNx7ppZ_dHSKWyzWsz
+Jv3usxAaVg6Ca3pN0HXlVWLAgL_OpU--osXaAmGI-EIA2c4sgLMQ--i6-UQTyvT_1gpxI4yiI2gd3ZKm7TwGkK2wCmNU4QYPS2AGd5zQMl_jluCeC7tVHYKN
+o5jCG87HlPHNp7aJI3mLVDyk9-p7emlCBD0ovRwwGZJDjIcgWRnrVjRD-RdXe-iDla0jnTCQ_4DwU_FyRemegyVdVtI2Fy5K7l6FOG3zDbri78zGsZoZCcSh
+np-AJm
+}
+
+!define SYMPLR_GEARSEARCH(_color)                                 SPRITE_PUT(                                     symplr_GearSearch, _color)
+!define SYMPLR_GEARSEARCH(_color, _scale)                         SPRITE_PUT(                                     symplr_GearSearch, _color, _scale)
+!define SYMPLR_GEARSEARCH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GEARSEARCH,         symplr_GearSearch, _color, _scale)
+!define SYMPLR_GEARSEARCH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GEARSEARCH,         symplr_GearSearch, _color, _scale, _shape)
+!define SYMPLR_GEARSEARCH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GEARSEARCH, _label, symplr_GearSearch, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GEARSEARCH>> White

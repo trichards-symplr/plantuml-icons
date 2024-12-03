@@ -1,0 +1,12 @@
+sprite $symplr_ClipboardCheck [64x64/16z] {
+xTP7jeCm44JHKcofQl_h_JdeM5YcOUJmfjOr6HeFNWXdT2JPZlCiaM8uo8lK42d6Gzma0n0ePQ-jPfJKFwEaRfPz1pxdEd9Q7sicxgEfcbbNmqMIVLJZMWVg
+kpxvdspfALgjTNlxNp-eBdZ-kLdAxCdV5GjlCW0nsOPNIW40LtTJKm4wkNdy92j0tV2HejIslBZ7YoXIlqX4u5wVDUNoI7agElncp-jVFiHJFb31usTEUFpC
+Wy_FtEaJqmNt-IAcWRizcfG6xlPeOXguswE9XUBn-wz98evxD15dFDApFVyl__8KhwGz7fsw4klWL_FVTkFyjvu_bojkpR_bUhL9zTRylSwmBbjRL2F6Nhq3
+}
+
+!define SYMPLR_CLIPBOARDCHECK(_color)                                 SPRITE_PUT(                                         symplr_ClipboardCheck, _color)
+!define SYMPLR_CLIPBOARDCHECK(_color, _scale)                         SPRITE_PUT(                                         symplr_ClipboardCheck, _color, _scale)
+!define SYMPLR_CLIPBOARDCHECK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CLIPBOARDCHECK,         symplr_ClipboardCheck, _color, _scale)
+!define SYMPLR_CLIPBOARDCHECK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CLIPBOARDCHECK,         symplr_ClipboardCheck, _color, _scale, _shape)
+!define SYMPLR_CLIPBOARDCHECK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CLIPBOARDCHECK, _label, symplr_ClipboardCheck, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CLIPBOARDCHECK>> White

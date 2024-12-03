@@ -1,0 +1,12 @@
+sprite $symplr_Thermometer [64x64/16z] {
+xPT5OiKm30KjCZpT_xwjep9BARUp-JY29ARs3F_mmYLQrRix0FTLrWStCjG24DoY2xYMqgz7xp8ijvjAKF3XSlFsoto6dVA7uxry2gg-EJPkHLyzV3tR_n_r
+UGPKzBi7lLg_1UsltZyEgdu_ENu4WTJy__6p0lwgyIEwaJyxVbBy-tJ7ts-pu333dmvAwkQWUEWdxRtOIgUthMr0ZP0iW6F8GKdWYCrW1jq5mpLsZzowpsJx
+y-QsmINYfVE3m-U8bq0SrxTjnDkHqICf8SuFMdY2ncw0jmqzxaJ-yTqLi-wywla7MDmNtHvaMXg5OvdgHEXfUC4F8Aq6zRdMaFQxkG
+}
+
+!define SYMPLR_THERMOMETER(_color)                                 SPRITE_PUT(                                      symplr_Thermometer, _color)
+!define SYMPLR_THERMOMETER(_color, _scale)                         SPRITE_PUT(                                      symplr_Thermometer, _color, _scale)
+!define SYMPLR_THERMOMETER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR THERMOMETER,         symplr_Thermometer, _color, _scale)
+!define SYMPLR_THERMOMETER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR THERMOMETER,         symplr_Thermometer, _color, _scale, _shape)
+!define SYMPLR_THERMOMETER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR THERMOMETER, _label, symplr_Thermometer, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR THERMOMETER>> White

@@ -1,0 +1,15 @@
+sprite $symplr_MobileCloud [64x64/16z] {
+xPO7ZXin34MjJlBT_xwPZ0bCaxHnI_yes_Z4pxRmxTFwhr2QcahBJz5905SB3-SMG6jEgLG3wcDuj7tIA20FuM1n_uiCze1vGyFPq0CE10iTI-LBsocd1KpW
+vaybX2dSM6LLQKiDboTqEeILLb5WJMGiAMMVCS4OLv1q3zErKtNnq5XCR3uWJV2qLRB_JeYRnL415O-wgcmr5DfWtf2dkvnz0Z9AhzDBSYwFmgoJNambk_KK
+dBSuiDzx4w063odh2dPtC5ReBcDLy8oLuaTTps42m_AJUMU36obd1ncG4iQdT9fiWN349NnrYtShFdkb7JhN3cxgNMc9hpuJkpiMNz2uDo37oXNNybl0abjS
+K-NhiCEnk8grknOmDuDqEflJ5PHp-jmhtO6K7K9EJuruj-TdOuGpBvGPxx_mjSyUMsbR_ZcVDUpExvgqqaRyMBkU9-nXlkmPeypuGfp_goaG9xoGpxYTHsxn
+0JuQ5axlqU8Fyh61nUk1OYhVHOyFub802TFF6VNAPpQvqujYNcLT_zcL1l03_V_x-V_yVpw8Qds1Zu2-uZ_c5DvIlpx6LwpkrI3S7ZDmKhazfbpRJZNU_bvz
+0m
+}
+
+!define SYMPLR_MOBILECLOUD(_color)                                 SPRITE_PUT(                                      symplr_MobileCloud, _color)
+!define SYMPLR_MOBILECLOUD(_color, _scale)                         SPRITE_PUT(                                      symplr_MobileCloud, _color, _scale)
+!define SYMPLR_MOBILECLOUD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MOBILECLOUD,         symplr_MobileCloud, _color, _scale)
+!define SYMPLR_MOBILECLOUD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MOBILECLOUD,         symplr_MobileCloud, _color, _scale, _shape)
+!define SYMPLR_MOBILECLOUD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MOBILECLOUD, _label, symplr_MobileCloud, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MOBILECLOUD>> White

@@ -1,0 +1,13 @@
+sprite $symplr_PersonClose [64x64/16z] {
+xTHNOYKX34JH0WGIkljVxoHdktc6oUbyTQ38e1l-gysiwYkru4uqdIi1C6CcCEjnuu3VfUe0x33-eiqo3oieIUWvXwfzmLnysLBVjbQWQPVZUcqGsfMqgpvf
+Ku55fNiQgRScjfsVUYlesbEtsZyVV_r9yoyd5kl_S_QVd2nwOHBVSlu2YWvKo9Vdl-b8JV2xJ7EMyRNY03aJ88hELK--yAQlL9grgZzAwHuphypmNdMR9RTb
+rrfBO0vhrwm7aAQ53lJoVWU7BZcutZSW5grtxR3BTXfqxJ4mlPQuTWtoelVQbumtNxhs6UpShlitT2Tqml5NxrqdZAdd0jE9HYx6iwV0ZygRQSNwHXwq0kMl
+pF_FGtfljMpaIstc4_HSy20Xmdryrdjtxv-CJzm3Ck7Er0l5HinaomoteakbrcRskK7_8ZBzpXZT-jqGd_pt4G
+}
+
+!define SYMPLR_PERSONCLOSE(_color)                                 SPRITE_PUT(                                      symplr_PersonClose, _color)
+!define SYMPLR_PERSONCLOSE(_color, _scale)                         SPRITE_PUT(                                      symplr_PersonClose, _color, _scale)
+!define SYMPLR_PERSONCLOSE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSONCLOSE,         symplr_PersonClose, _color, _scale)
+!define SYMPLR_PERSONCLOSE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSONCLOSE,         symplr_PersonClose, _color, _scale, _shape)
+!define SYMPLR_PERSONCLOSE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSONCLOSE, _label, symplr_PersonClose, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSONCLOSE>> White

@@ -1,0 +1,15 @@
+sprite $symplr_Trees [64x64/16z] {
+xTQ7ikqW20LGmOBi_V_V-qey8-atkLDVuVIoL91aalx6aD9QaM_h3fA4Vs-40W9c3g9-WrVITLc6a_P-ThB5KAy7qC5ZWFBEOpjZ8-GDx_Iq2ITUS0KqRKB0
+-jpxNBtvB06Urpx-2qXKv7dnwj7dPmk8VuQFKH-5isrzPFKa9Cp69pnheiQUJdsZFwjU7asWEo_0UACbortlZ3T43hzAe00akdor_4xcwIC18-40eTVBZm4s
+Ne7Vt9QtLqVKIdJk_WMqUII3k6wUM07NtadMEABiElqOG3S_ZYqiCcRIe-_RBftpvq4uNZnE4iVodLN3w9yEY1m5o2TUJxnzoXO-1hqiVtniP9qVmmiW3_p2
+uwDE7qVgRVx11VXjfY_4qPUTNtWqO2LjicC2Hjjw2vug_VSJftUMq_uBpybdletaR2Wx5b1Jn8PBxERemlrinqqD7WttKSwU10SlO3xVJWLpU5_QV_g8nilp
+PuyQEP7JgKzEF_DEolGVBcTUG9VmmJ7tY0i_D50a2jrw1Kd8zCYneSSG9xg6bmv2dNrUZWokiRnT60bOLY3d1f1TaX9H_oMS_VxY3oH8mdKC2brxkx-gAHq3
+rwWXSlW-Fjt6Ba4dNHSl5KH9Btqo402vF3IzzaaC84d4vCzyX3OYnzVlVDJ_x_N_VRLFa7QCJjY8Uiw5JqE-cB-xtKL9Vqly1
+}
+
+!define SYMPLR_TREES(_color)                                 SPRITE_PUT(                                symplr_Trees, _color)
+!define SYMPLR_TREES(_color, _scale)                         SPRITE_PUT(                                symplr_Trees, _color, _scale)
+!define SYMPLR_TREES(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR TREES,         symplr_Trees, _color, _scale)
+!define SYMPLR_TREES(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR TREES,         symplr_Trees, _color, _scale, _shape)
+!define SYMPLR_TREES(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR TREES, _label, symplr_Trees, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR TREES>> White

@@ -1,0 +1,14 @@
+sprite $symplr_Saw [64x64/16z] {
+xPH7bkCw40GJ7fLn__D-Hxs6cYiL_yoiEbPoC1agffByq5RieSS406vwH37UOnfFFQ0QLqbQ42KVtVYrgZ_8C23ENcGpBDXVRwODr9pu-VxEZfKJttKmBIl-
+RK6fTisBVx5iSCc9B-UjiPt8Fc7h3RiemOQbn-jBm7WtLxkTMFvTVDY0K-AhRkfYw4EwST6Xs4emJDp6oC_5bpQ3nFhluhKDiFFYZxezMxAf3XLBoee_TEA1
+-CDY9Phg9dxiW9vjggC2iCkpfjA4cBqcc-gmcVcckbLbigcUriMw3MZfCumJ3yoytGRi_Q5uRkAryHwjV2oUyTnSDy3TN4sOYtuhwcBdHZQWwj1mScI1hwxQ
+Dl7nyYffb7Obg3Q0tVK96vThbrU2YHD_tAMv6LW24a_CAVLgeaFji6HQTlqYfFrAO5SbCErLRxuIsCgm2JLSf0wb0xdrnJG5MyMuA22KOc5LsDSSrFJwOhgc
+h-vfG5MEYQKwsccm96PyLT1Mdd6LTWcOUaBWMFjqVvfj05SzfOmrc_uiF_mD
+}
+
+!define SYMPLR_SAW(_color)                                 SPRITE_PUT(                              symplr_Saw, _color)
+!define SYMPLR_SAW(_color, _scale)                         SPRITE_PUT(                              symplr_Saw, _color, _scale)
+!define SYMPLR_SAW(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SAW,         symplr_Saw, _color, _scale)
+!define SYMPLR_SAW(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SAW,         symplr_Saw, _color, _scale, _shape)
+!define SYMPLR_SAW(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SAW, _label, symplr_Saw, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SAW>> White

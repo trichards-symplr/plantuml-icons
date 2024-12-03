@@ -1,0 +1,15 @@
+sprite $symplr_PieChartMoney [64x64/16z] {
+xTO5igHA48NXB4tvzx_U9wDSIe0UbnFI0b-KYtpZ_4rpqrxpopvu7osl-jww0qHxpRyhkFG0sgl-_zG0pwzxaGhKUooLMjFPIpBebxPq1y07Bz91zmNt0222
+c7Yfq3TQ0RHcaJBtqZPzq03_y7JbfKEU5sxWHUJ2Y-4pdWEQoBLFq4PU8BBSyTA8iNHmaNjUWZRMoUIshqC579VxNg2SnoGzyOgU6bzaxyU7XpWcZxn0EhvA
+UkYTUfnGAW-z7aOm7OhNkEVxeSX-Q7sCljT959sq9Jj4E_b5REpB74G4RtppHUeubeQ9v3eCyJuD6wR14z_fdxUVQ6dhzqEf0UX3RxItks_xu1U9TFPrjhir
+LYch-gSa8lhPvrbYzFrpqHPGFtgPPTYz6_hnMm3HvC8F2yqFnqyJsVfnM18Ssb8kVCCsHtmgSk6DjjyCzpv1dXmTjtt3ryV9skzVhSHDNs5noLlwySKn5V8T
+tmcPnl0Rla2P-mHwwLEWiaY1FlY1konJeMzzSYB9EWrqutCGMNPfu7db6qFfGqf0d_hiO0CVaWnewUoptRxwbm2ifiy-zm0qoSrK1mXJWwuEW6PvaDoTGwpA
+uwHIkuRtLhFyrlaN
+}
+
+!define SYMPLR_PIECHARTMONEY(_color)                                 SPRITE_PUT(                                        symplr_PieChartMoney, _color)
+!define SYMPLR_PIECHARTMONEY(_color, _scale)                         SPRITE_PUT(                                        symplr_PieChartMoney, _color, _scale)
+!define SYMPLR_PIECHARTMONEY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PIECHARTMONEY,         symplr_PieChartMoney, _color, _scale)
+!define SYMPLR_PIECHARTMONEY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PIECHARTMONEY,         symplr_PieChartMoney, _color, _scale, _shape)
+!define SYMPLR_PIECHARTMONEY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PIECHARTMONEY, _label, symplr_PieChartMoney, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PIECHARTMONEY>> White

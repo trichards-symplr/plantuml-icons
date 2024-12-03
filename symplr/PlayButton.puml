@@ -1,0 +1,14 @@
+sprite $symplr_PlayButton [64x64/16z] {
+xLPbmkWm2AjYkVzvdts-mFhSys-iWOHg-q7uZ__eSstPQ_QluMx72tn_MOxvG0utCu-75FFpsV6fv7WEZ1q0OdwUSWEW_HfL0DRFzFd2JZAC4tq1KGqQ0Qnx
+-WQirJ1W7wfhkuFUAfX4pnBCilCaFhVGor_HpWXOgNwqCqRb8CXy3irbBZQMe-Tpu92B7I_i23p9UYs_omNVCwKRteWFI4kbxdDimsOWzReJ0y0W_gUc9cqO
+G1fYVckIjO5NoaBa_DQDsn1OFBgCp03Y3S6eWGAzoRWkHuz2leYlGFIlve_0or_Y7_qBQCUn_mNF-IDe_hZ_zVplT0K2WqET-Tq1xza6Qeqb4Ny1P9JDFa1W
+LpuUYZCisPOZs_zI7K23et6HEikBR2DIKxWeQWMAEoX8RWxXydm0duzVXjEqVDce3kYHhZSg5x0Fz7rxWGkmJtGvgBlxBqU70dZbhpjbPnHxXhPoYU50B6R7
+ZJ8k19tj1LDnACx5W32HBM8F7xjz2QO6NX0wlkRvlqLDPS_UVbFynti
+}
+
+!define SYMPLR_PLAYBUTTON(_color)                                 SPRITE_PUT(                                     symplr_PlayButton, _color)
+!define SYMPLR_PLAYBUTTON(_color, _scale)                         SPRITE_PUT(                                     symplr_PlayButton, _color, _scale)
+!define SYMPLR_PLAYBUTTON(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PLAYBUTTON,         symplr_PlayButton, _color, _scale)
+!define SYMPLR_PLAYBUTTON(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PLAYBUTTON,         symplr_PlayButton, _color, _scale, _shape)
+!define SYMPLR_PLAYBUTTON(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PLAYBUTTON, _label, symplr_PlayButton, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PLAYBUTTON>> White

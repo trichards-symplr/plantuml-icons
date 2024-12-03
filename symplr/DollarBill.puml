@@ -1,0 +1,14 @@
+sprite $symplr_DollarBill [64x64/16z] {
+xPHNcjim30ODTc1q__CcSYYOs4P_crVD5ZSEp1yiZ__WvkRcvaPoEQbbJ_qtACkYDtv1Sxs0dXZe5h3vM2w_prgLiOywg7FEtT-QfPIwzoiw9pq--1ba7PcQ
+6fYs55eD-KjVZBxQYgDFmzEQVE6BOM4KZ994KXcmLXP3vQCl3IojNQAB6vsriycWoU8h9of1Bsle4Wh85AxNzfnht4zfnfYP4hIrte1NtE6VUOkBbtxDGCAW
+5lktqg-FieBLAsGFWyht_ZNx36RW2TxqovLCZ_7NUqKfx_cDVlazf6exFvwGHmMhthNgmiPNVpau3feB-eOVNqepg47O-p6e7kfjsVengCZvuJ6yBLi_hhIY
+mo1Vcr9s_iHcW6OSllyQzjZxSQ_Be8OpyRMlMCzn1VLgPGflERbRFB_OKa6OnULwSuJqnOZdjtV20S-WATw5ELmFfn7pjrZ0eATfTx0KzFP5_qhea0p0j7Sr
+OFZaVLpqmmhvrqvw-c9re-ydF91BhSM3nziX-hx3jtJQHx-XvQHXPOlHoec-sYt6Bp1vDRlf4qot6FgaoUFcvWy
+}
+
+!define SYMPLR_DOLLARBILL(_color)                                 SPRITE_PUT(                                     symplr_DollarBill, _color)
+!define SYMPLR_DOLLARBILL(_color, _scale)                         SPRITE_PUT(                                     symplr_DollarBill, _color, _scale)
+!define SYMPLR_DOLLARBILL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOLLARBILL,         symplr_DollarBill, _color, _scale)
+!define SYMPLR_DOLLARBILL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOLLARBILL,         symplr_DollarBill, _color, _scale, _shape)
+!define SYMPLR_DOLLARBILL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOLLARBILL, _label, symplr_DollarBill, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOLLARBILL>> White

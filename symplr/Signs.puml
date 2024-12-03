@@ -1,0 +1,12 @@
+sprite $symplr_Signs [64x64/16z] {
+xTPLOYHX201XVWVg_kTTUUiHsbXDyerBjPjyS6rDIQWEckWNqppHArMz_Bc-zaV6CFf6An9hph4faS4fFLpMU9KZXaO_O4KEJLpUA0vBv7Q_O4YYXocPtbcf
+Vi9AzC7Y3_fuzITwwS2eJzhpPqSbq3YbIgGeXxp9dlB8cUQrRCWbpb0_tUJxilm1F_a3wpivPwX45EROcZh670yClCIpAuTcl0rmffSEz4GlrQ4bUYcEPdgP
+UAQlfCRVWNA_N-4ATAR4Zezq2-oH_xm_09P4d1E6nFhIBSSSVJ3B7xb--Ug_-g_-gr-MwHVWSb-PStRvmBu3
+}
+
+!define SYMPLR_SIGNS(_color)                                 SPRITE_PUT(                                symplr_Signs, _color)
+!define SYMPLR_SIGNS(_color, _scale)                         SPRITE_PUT(                                symplr_Signs, _color, _scale)
+!define SYMPLR_SIGNS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SIGNS,         symplr_Signs, _color, _scale)
+!define SYMPLR_SIGNS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SIGNS,         symplr_Signs, _color, _scale, _shape)
+!define SYMPLR_SIGNS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SIGNS, _label, symplr_Signs, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SIGNS>> White

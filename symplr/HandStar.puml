@@ -1,0 +1,14 @@
+sprite $symplr_HandStar [64x64/16z] {
+xLQ7iYCX30C3Rlh__xrPCWafMp3NxvxI4oGS6Mis_UduGkNsFNG1u7cPNW1ny3BV89l6QW7KgRPSW48t2u4rUWPeUtMqHVErlpPuVEzI1IYfms6jp9jOnD0X
+euqRJDiCdR71JSfe1AlV9APSaqexrL9beCwSkHD7UMB_mqKqitzgG3kYwwI1RPy-x8iBa7Vw57QCpWuBvGQzZxB59hzzZd800dxdnvBdtO3W_X__tr5YqV6H
+HJKKl7v_b-yjvG2_GH-phBIzgz2m_Gs00v2yDS13V4d50IyfAm1E9SIlsE3jPe6DD0jC07Z8EQ3107xjF-NqQv1hOswLJYy9w8ZCZZjaVr5pu20XUwTWoYpT
+SMq3bHv6kkXkmBMDKXydMF4AwOsyzRJ1tytD1XYzbDDam00r0BmpNXKWSg1TdYZEEsbIqU5qbGYQHnJBCrriuYeBAEDiZjNKdG5mlZtftRBYlPAHwxqKUnTG
+lAFqvG9utGrCq25_fCZn71ek4v96ZrS46aQFum8qV5iH6Bwj25I_fUYQG1c-pGZanizG7xvD2Nn20ka7mEGPN2FPAS6W_wJNj8xwVVH4LjFVWsy
+}
+
+!define SYMPLR_HANDSTAR(_color)                                 SPRITE_PUT(                                   symplr_HandStar, _color)
+!define SYMPLR_HANDSTAR(_color, _scale)                         SPRITE_PUT(                                   symplr_HandStar, _color, _scale)
+!define SYMPLR_HANDSTAR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HANDSTAR,         symplr_HandStar, _color, _scale)
+!define SYMPLR_HANDSTAR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HANDSTAR,         symplr_HandStar, _color, _scale, _shape)
+!define SYMPLR_HANDSTAR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HANDSTAR, _label, symplr_HandStar, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HANDSTAR>> White

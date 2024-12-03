@@ -1,0 +1,14 @@
+sprite $symplr_PersonalGrowth [64x64/16z] {
+xTC7aYCX341H10A4_ltlk-rHKSNqCi5i3h_2n6TakKdVh_zbhULS5-THFUGLC7FePwT3YvSvcs3GvnmSS059aLDEnlVvhL5_kb_dvsJ-P5Xyq_3qRZhoxja3
+anUElkzzVu02Fe3sFc-mNr0U05u-N9Hj1YZjSbAAf9JxL-cwfv7yDgCq1tGkOjDOrfIJpWzh4GCqVc3KMmtggyTyO8jtnaKxQF3TplfSCZAdc2cnZWuwUTQr
+wlFy-SxxSagRs-WGN8nRBd4tv-O5TFfEdTy5JmE6hJMvguQ_yXA_jRXBvBHhdTgfYy_qsxOsvRXPwoQdLyRgsxjNB1hqvto1VFlnAJzezt6UyHNaVfFA4zx1
+huQyN5M_0l-y5uXAp18zSRwKHqxuKHx94puQXBSK_HQ-VUIbFYfxtx0Fl13rhI-GDRpahQzuxzrWwvE1XNTav-D2oiP71k4vyqd7iO_qk_l_FjkuidBgdKZE
+l81UENhcCyI5_IFyVozNK4IaJozNuKr4SdWLaNRt6TOqXeboKY9FoOXQUbrZgSTCplpF7hoa98D79kdlw0i
+}
+
+!define SYMPLR_PERSONALGROWTH(_color)                                 SPRITE_PUT(                                         symplr_PersonalGrowth, _color)
+!define SYMPLR_PERSONALGROWTH(_color, _scale)                         SPRITE_PUT(                                         symplr_PersonalGrowth, _color, _scale)
+!define SYMPLR_PERSONALGROWTH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSONALGROWTH,         symplr_PersonalGrowth, _color, _scale)
+!define SYMPLR_PERSONALGROWTH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSONALGROWTH,         symplr_PersonalGrowth, _color, _scale, _shape)
+!define SYMPLR_PERSONALGROWTH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSONALGROWTH, _label, symplr_PersonalGrowth, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSONALGROWTH>> White

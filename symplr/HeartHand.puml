@@ -1,0 +1,14 @@
+sprite $symplr_HeartHand [64x64/16z] {
+xPFNUgmm30P_sSP5y_xFcyeU7mYha2-zp2sQGTgYBySVjWo0NlH8xW1UJQUeNF0iAJaNcaumm9TabYfGLO2MJLO6k9tHYrOQ3EWNAPy8D4Zwnx9TsfoX48Ci
+JVfMI90LKVSls2tSY1TuqZTjI62nhvZuWFI_d_rWT53E-k0lzGqstrrvuVxo-HWSFtY1dVl-AcvF5sYCSx-V1xVY1uy3B7T6lgVXQ-GEookLaQFzOPAbTO74
+1jCUgxqLtT7z3l0xsjpNmH_0xnZQKu3vryppniS5slhA14K79F3QPg0p0mODycLCHmow9FF3G0LQg0kIhWOCVEg1Vosma69TJbKGa69T1SfHe6nqqrNQFc2D
+OygfW06l2GmyMpWM1o15bnxIPm2GNX4eWN_g1AZF1b8GM63K3ROVMwX1eB8ZxyOQjEW4Mze6su_HWkD2rlkaE13hNTVeq0wfUUfD2WBNQ5EFAEsG_kYLM8_F
+Re5-AZ02_KpWLRhAw_JbTRgzJbU2fDVWhmpObmZOwm9ThyBqflnn2m
+}
+
+!define SYMPLR_HEARTHAND(_color)                                 SPRITE_PUT(                                    symplr_HeartHand, _color)
+!define SYMPLR_HEARTHAND(_color, _scale)                         SPRITE_PUT(                                    symplr_HeartHand, _color, _scale)
+!define SYMPLR_HEARTHAND(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HEARTHAND,         symplr_HeartHand, _color, _scale)
+!define SYMPLR_HEARTHAND(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HEARTHAND,         symplr_HeartHand, _color, _scale, _shape)
+!define SYMPLR_HEARTHAND(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HEARTHAND, _label, symplr_HeartHand, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HEARTHAND>> White

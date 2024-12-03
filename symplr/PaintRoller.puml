@@ -1,0 +1,13 @@
+sprite $symplr_PaintRoller [64x64/16z] {
+xPK7SiGW40HtMUBC_z_hH9KLaBWIE5jp-QHkCiWVpXtBo6uSZoG8Fu57bqW_ZFlbOn0V4UofIFXHVB06hXB3Wi0iCY68JB99kYOmmZK2ko38iuAo5zHXl0Ns
+tGBQtOJV9z1cDSuAe5E2p2Wp0i_ycD9pGM5um2QyfbWhwBVV9I1f0Wa0PD5MaCudSM1DFVerWB3zF03PmRDPMTsGrmAjfHFdUAYtfgMjEq4YmD35nGWv5cGG
+vbcwk3X0ZWIP99m8S8vN8ikXm7aJgNm7zwIJHh14WGTu5Ea80ak3Buo1IQGZKD0wE1Uy5LGyNooz2kez7itqyHryINnV4YqUsigtiG8GsCyzHTFsiwXpUj2m
+tE1NKkZ7yShFu19PPd1Hi9YbGRoEEKb46Oqc8DjLwiup
+}
+
+!define SYMPLR_PAINTROLLER(_color)                                 SPRITE_PUT(                                      symplr_PaintRoller, _color)
+!define SYMPLR_PAINTROLLER(_color, _scale)                         SPRITE_PUT(                                      symplr_PaintRoller, _color, _scale)
+!define SYMPLR_PAINTROLLER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PAINTROLLER,         symplr_PaintRoller, _color, _scale)
+!define SYMPLR_PAINTROLLER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PAINTROLLER,         symplr_PaintRoller, _color, _scale, _shape)
+!define SYMPLR_PAINTROLLER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PAINTROLLER, _label, symplr_PaintRoller, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PAINTROLLER>> White

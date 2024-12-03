@@ -1,0 +1,13 @@
+sprite $symplr_Interlinked [64x64/16z] {
+xS_7WSGs343HZqm2_VThQxHnJjBwQ3tcJF0_y7Wy7W_nN6kb2tyXDIlSFTUKS5jC2YV9SMwgBNpJJcx93KZkcLuEI0StM0l4b0dYUol8ADUr_OmWHY4sb_c6
+s6_VQUMgvSW8eBLBWQnNEVagXNTUtxFAkTicBCT0Hj3cfUPVnfjycnKHQ0EyWUKm76GE3Lg2b47bv-m6UaED4ECo74OWysp1vqMeSMmAfa7d1UW-prlRvtdu
+Fl_zaWJW0Yh071Q_xGHo0HKmlCJCjF36ZrdbYoeWlNDl0LgnpKd31TvfXC397MiEdWPW3PbSPGqx-DOEeros7MddqrgGY-jq5EqI3jO5Di8DqOBKxCpgTj1n
+Rebs48yC1NoScwoNSRBTodtHlJ9pzGx-HYChNVdF7e_7uny
+}
+
+!define SYMPLR_INTERLINKED(_color)                                 SPRITE_PUT(                                      symplr_Interlinked, _color)
+!define SYMPLR_INTERLINKED(_color, _scale)                         SPRITE_PUT(                                      symplr_Interlinked, _color, _scale)
+!define SYMPLR_INTERLINKED(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR INTERLINKED,         symplr_Interlinked, _color, _scale)
+!define SYMPLR_INTERLINKED(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR INTERLINKED,         symplr_Interlinked, _color, _scale, _shape)
+!define SYMPLR_INTERLINKED(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR INTERLINKED, _label, symplr_Interlinked, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR INTERLINKED>> White

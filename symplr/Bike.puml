@@ -1,0 +1,15 @@
+sprite $symplr_Bike [64x64/16z] {
+xPG7ijum28GD0Wbsxt_U5CNw6LwRzFvDSK5Bjwz_WF_yvp__KPLlaIy2YAztuG18V5CE2kRrMOYewaiEy5bg023jkGNyR3rINh3evuzhc9dF5P5P-NmkpWv8
+vkVB1qbaHgmvtSRGHH9VCYX2kxy5l5Mys8fO9liUpAGtVt4bCv5XybA-2MwGOyilPxQzaU0DubaUGIAN-qoG0QAjYe1fsxyDymHFQcN7alj-dIq7fCoJJ0Lj
+FmSPRQbQh_9kTD8UPYVdTQqZCt2rBrDwATiw6RS_373k8PoIZ1oLFKTpDXJKn-aWDUvU0bh7Ac2KV99sNW7ooP-0UgSopy4Tj9nMNhxdXU4BjEslHccFgDKB
+9MeBS0S0DyktlySg2L0BYUCpsvQTde6RkRsT3FS4koklya426nAH91czmbbp0-IfFW3UyeDSBRx4A7qhfF_wm6K-WuJM9ZKKg9kY9sSaYTFhXZDxJugQavC4
+NWm1-gCdU6wSfnPfpyyYTEjh7WUelKVWR4lNItjMKH3QvMZnskTOJqKINkc0a9umuR8zEtXIQyGv8fOiUNaaDYJ6zH8Eyfnu8O3bjY3jUWrFRAQyRDSnz7eR
+KRb-5_xpd_S
+}
+
+!define SYMPLR_BIKE(_color)                                 SPRITE_PUT(                               symplr_Bike, _color)
+!define SYMPLR_BIKE(_color, _scale)                         SPRITE_PUT(                               symplr_Bike, _color, _scale)
+!define SYMPLR_BIKE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BIKE,         symplr_Bike, _color, _scale)
+!define SYMPLR_BIKE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BIKE,         symplr_Bike, _color, _scale, _shape)
+!define SYMPLR_BIKE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BIKE, _label, symplr_Bike, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BIKE>> White

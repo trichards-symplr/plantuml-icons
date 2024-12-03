@@ -1,0 +1,14 @@
+sprite $symplr_Bus [64x64/16z] {
+xT9LmkGW00JXng7h_lVTuNSX2RDktsjIkBwZ_uglzAX3mU1pG3l9NOBEXDIF1nWub74XP4XQYNQKkL3Li5OgGx9hFZ6e2dRGGgVEFchf_9zYOBVdnYFgLGFx
+gS_fn7ZgROXw4Ykqe47Hpld9P2NZh0UPoOzzzOKu-vJys4m3UzXnqD8Mapgs8JtsMJBHR2lzQHzlUy1ReAxxhYs_MV-_xwNStO_P9DqK9kkUFZCvQ2gzznRk
+wfNxJTGRz_KBuBBbgDzNj31mtm9ftHTjyU_SXrAZ3kIQhlfie4kXl9UbOC3dVJ2ZcwB11qd6tVJJFcEfC6H6VmDoi8EYkUY7bB5CAs-OsKl1Fkt3x4oL-I3B
+Z6B6QQ_ApP1IVwz9oO33QJ_3KRGMscZXHxwVchOSzhlMlTbM5dcmexOqnhhNdepNVT2MohZQlnSkzg_WtRvfpTHyqnbn0V9aiWuyVQfqBTYQ_kA-umdQiiSF
+Y3eGpMG7BHGpUUXOJ3THQo5DKN-LBm
+}
+
+!define SYMPLR_BUS(_color)                                 SPRITE_PUT(                              symplr_Bus, _color)
+!define SYMPLR_BUS(_color, _scale)                         SPRITE_PUT(                              symplr_Bus, _color, _scale)
+!define SYMPLR_BUS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BUS,         symplr_Bus, _color, _scale)
+!define SYMPLR_BUS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BUS,         symplr_Bus, _color, _scale, _shape)
+!define SYMPLR_BUS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BUS, _label, symplr_Bus, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BUS>> White

@@ -1,0 +1,14 @@
+sprite $symplr_ElectricCar [64x64/16z] {
+xTC5ikCm48JXdX6Dkkz_tWLBsLgxP7XKcEzXu0zr2J_dxSqRXy1dL8eR4P_GfEhuYv_fa-WO96xm4Lq57-WzvJqHBwJXaWKf7VtNurAYo1ux_NdlL1YEACSa
+RG_Ui4QjRgaY9as65HUnGlKPKFalnr9LnOhz-rH4N0XbhBMvobsVSCRJnfxtrvxtLe8laUs3lNTAd2Gnx2DzbHZPRV0SbEhpleiLEzQaUDg7wAipqfxrHRJr
+ASbFUgCILhBuf0y5rhhgVM-YOSr9k-r3xMBfTjDRbcevKwLa5tqbTOSis6jp5wD4tkPIjyFUCNCwxYKUThJniOOwdk5Xnn1jFaegWmE8018Tw0s0bo41JcA7
+OYaAeEab0oJGL60aKFHIWQw4dIv93U0Shuc7dcfpGivFV2V5xDic5dsqpRe7iZfGDJ4T-amDBC3oX4aEU1wsGJgGv003WEN1WIGjLo4UCIsN3ea9zpAbjkmf
+yP8qVftqkSmxdUOYsNEvECRcafz8eXk0gnuWiJQ6_C6-vhyk-_nNE-bVJdjDozvZAZXJOp9ytTlRRm
+}
+
+!define SYMPLR_ELECTRICCAR(_color)                                 SPRITE_PUT(                                      symplr_ElectricCar, _color)
+!define SYMPLR_ELECTRICCAR(_color, _scale)                         SPRITE_PUT(                                      symplr_ElectricCar, _color, _scale)
+!define SYMPLR_ELECTRICCAR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ELECTRICCAR,         symplr_ElectricCar, _color, _scale)
+!define SYMPLR_ELECTRICCAR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ELECTRICCAR,         symplr_ElectricCar, _color, _scale, _shape)
+!define SYMPLR_ELECTRICCAR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ELECTRICCAR, _label, symplr_ElectricCar, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ELECTRICCAR>> White

@@ -1,0 +1,12 @@
+sprite $symplr_Syringe [64x64/16z] {
+xPO5ZiHG34EJ3mM_-vztES95_-KPby6l2acDHrsLccjsQ6lsyKdseJJib7_2OTWBiCD7lt_2g0Wc7qz4QbGA1XJ0oU4EQbe0eFHhEO7qcs40pU-cMOMp05Lt
+5p21QGz4rTq6R2Yr0fWPBg3q0k0Ac3y9I667K7OVa8A-aCGK_V5wCm6znckXZDtFGTcxVC09kT87UURz7WzGcdOEoYxvW05dB3NI6R44UDm3RI69WYF21WZE
+21iWWF00PMTp0GB53ka114Ga76410DGxa1xWsAa4E80ZefqBltTnhw6X0fZAVmAu0dgiA7ly0zq2
+}
+
+!define SYMPLR_SYRINGE(_color)                                 SPRITE_PUT(                                  symplr_Syringe, _color)
+!define SYMPLR_SYRINGE(_color, _scale)                         SPRITE_PUT(                                  symplr_Syringe, _color, _scale)
+!define SYMPLR_SYRINGE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SYRINGE,         symplr_Syringe, _color, _scale)
+!define SYMPLR_SYRINGE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SYRINGE,         symplr_Syringe, _color, _scale, _shape)
+!define SYMPLR_SYRINGE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SYRINGE, _label, symplr_Syringe, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SYRINGE>> White

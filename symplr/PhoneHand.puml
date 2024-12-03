@@ -1,0 +1,15 @@
+sprite $symplr_PhoneHand [64x64/16z] {
+vPO7qXGx30ObPwdlVzxtmBM55v1dfao6_iCcjzFdiF9xaaeDo0zjDM8yFz8Th7_D0Ce3V-19GZeyyE5TLtd37tGWWImoJHQTTkjdN1R9gomQ_Qc_-BTyhPU-
+z-i4Au3iC01FLvq7zXteq1pR-vq-2rsCNs7V0QFCNkxzLvaDJfuhE1ss3ph_zwslZjtj7MTiVSVr8hqf6hRp0Nmx_a5zu4E-FZfyvzkCTko6Lt2v6d-3_fgb
+47ij76WRlQvcmiMhBx_47qzTVHFleAzwuhKzzJZ1fJNOXhFNvLEt38-7RtFkgA7UNjPs-Igu0M3nqislShlraHsWjJ2UmRYzfHAunlcjNRbVVU9J3zTFNHBK
+MAzCNVeg6zni1I9vbMdHyZ9oSFv72oYUFYVT-XbQCSBDnGDVEapiq9SAz0RjqFUL_ubVLlv7VgEj_8_yiSiVzDvFC4fqFKufyDFuo6hDW4WNeqT-_IBkXjl8
+qS3Go9Vo4Rtz_W950ZyC828lNHHqvnjLRZ76TlsWztu6g-KpwdmzeCi32Z617gDjs1iERcQZ9pcXmP1Zaa4_jpjGprpDpO6Xnmq38ya9q_PUL8uOqBES0yi-
+GLL-3ly3
+}
+
+!define SYMPLR_PHONEHAND(_color)                                 SPRITE_PUT(                                    symplr_PhoneHand, _color)
+!define SYMPLR_PHONEHAND(_color, _scale)                         SPRITE_PUT(                                    symplr_PhoneHand, _color, _scale)
+!define SYMPLR_PHONEHAND(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PHONEHAND,         symplr_PhoneHand, _color, _scale)
+!define SYMPLR_PHONEHAND(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PHONEHAND,         symplr_PhoneHand, _color, _scale, _shape)
+!define SYMPLR_PHONEHAND(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PHONEHAND, _label, symplr_PhoneHand, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PHONEHAND>> White

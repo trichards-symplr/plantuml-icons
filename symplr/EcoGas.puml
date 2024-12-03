@@ -1,0 +1,14 @@
+sprite $symplr_EcoGas [64x64/16z] {
+xTG7Ug8X54RXI_k1x-n_lTE8YZuNRDDdJdh2IujgFwB_vQwlrVIIhW990fIVracebnWif2hemQxgFMnvWHulFmd5AmvA6vwXsbGG2ZDNXxBaKHnsdUYNcq7H
+AkILxpIxAOXysLmwpUAMK71kHEUPniuRydsZEhyLQMoEFlt6I-x6AlLcSuNkyI0jJZMMFwQ1mH-uddPytXuWqysQhYjct-H1-oRxkAZY-cP1Q0vz-4wwxA9o
+BBtYL3vxALpyRdtPL9gyNRn8xtc51xsx_umytkbhtybdB-VuHO3Mlj27zvUleBPRtqGQtbl-G7bt_Z4aVFjpG_wJVE-jen2buZpzn-7k-22K9E_oEldigLDj
+yXR4r-hYYJyyD_NXHmrejlEModLXzdQ0RRtJxAFqdkSzd-5T_qlt7_NR-l_-lqTUFEWZydlGhtl8Xxpk4I_MbGTyRkl2dTSFaZrKydsZFkOhTJ5jVF3w_N4D
+vViyYsP-7NGtwBQgI6ARf6ARGapROh2_hSy
+}
+
+!define SYMPLR_ECOGAS(_color)                                 SPRITE_PUT(                                 symplr_EcoGas, _color)
+!define SYMPLR_ECOGAS(_color, _scale)                         SPRITE_PUT(                                 symplr_EcoGas, _color, _scale)
+!define SYMPLR_ECOGAS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ECOGAS,         symplr_EcoGas, _color, _scale)
+!define SYMPLR_ECOGAS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ECOGAS,         symplr_EcoGas, _color, _scale, _shape)
+!define SYMPLR_ECOGAS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ECOGAS, _label, symplr_EcoGas, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ECOGAS>> White

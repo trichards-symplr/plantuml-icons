@@ -1,0 +1,13 @@
+sprite $symplr_StatsVS [64x64/16z] {
+xTK7RWGX30LGup7rt_--MLWn3beJZTFRKvtoPJhq_lv573IqIXGREd7a4ofr4Oq4SES3xWre4Af8eIFoDc2KfuQ3bAS1epmbe9IIYBmD6ELl2hhgRe3qyXsB
+n0RnDW1e-fYHt0sub-HuayQ3IqAZhc4ev9MOEicTqES8hCPpe1jU1Te2L1xFO_2nuYlv9ZCl3Ijv8RzxLlLNv-j9nwyk0Fcm-GjoEhJzXooOBj6yCd4oySnp
+KcBa2qnbvWkWp7pDZvxNpzCcBuxry1tpCHZq_p3n9czAvlephsjJdFa8LSZ5gFUX-TAKwFbd4iV-jHGpVqoixUVZKThaZMUJVDDyF8MP3z5GxBnzVbZCVCnA
+puziudTUVu5NchzqzpCMk_L7Em9btFyNyjMn7dvZ7bLjxd_Wm-QFMDJs_W-VU_uoq-_s1
+}
+
+!define SYMPLR_STATSVS(_color)                                 SPRITE_PUT(                                  symplr_StatsVS, _color)
+!define SYMPLR_STATSVS(_color, _scale)                         SPRITE_PUT(                                  symplr_StatsVS, _color, _scale)
+!define SYMPLR_STATSVS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR STATSVS,         symplr_StatsVS, _color, _scale)
+!define SYMPLR_STATSVS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR STATSVS,         symplr_StatsVS, _color, _scale, _shape)
+!define SYMPLR_STATSVS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR STATSVS, _label, symplr_StatsVS, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR STATSVS>> White

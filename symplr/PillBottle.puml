@@ -1,0 +1,12 @@
+sprite $symplr_PillBottle [64x64/16z] {
+tPO5TWCn34GjLGkQkVzvmnnNLZVe_k32tsVsb7_8Y2fZLYTHWKm-01nAXO58-WZET-1txnEi0ARzEbbVRE8ytJ1pCidvvgpYbh75-LlzwTBMGOpLssG48ItV
+Wti4z5RT2GaBPx6FU9AFHAlsAW5AI5ny8eHn1OQctweVIqXFlX8xgCjy8uzDlj37zWVBVT_-U7--sfRfw4-sHVC-3npy0taVz1ssguRl82Jlezo1_lr7s--n
+_iDVnyzuz4VRehtEdyVNZy-iNue3sjdw7_kFxf-Fxj-FveV7yylZ-Udn_1RSmwcU7oSIaiklu1t8vDSTvgZYFoMBw1rIlf8r
+}
+
+!define SYMPLR_PILLBOTTLE(_color)                                 SPRITE_PUT(                                     symplr_PillBottle, _color)
+!define SYMPLR_PILLBOTTLE(_color, _scale)                         SPRITE_PUT(                                     symplr_PillBottle, _color, _scale)
+!define SYMPLR_PILLBOTTLE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PILLBOTTLE,         symplr_PillBottle, _color, _scale)
+!define SYMPLR_PILLBOTTLE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PILLBOTTLE,         symplr_PillBottle, _color, _scale, _shape)
+!define SYMPLR_PILLBOTTLE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PILLBOTTLE, _label, symplr_PillBottle, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PILLBOTTLE>> White

@@ -1,0 +1,14 @@
+sprite $symplr_ArrowUp [64x64/16z] {
+rPC75kCm24HfLc7kVzvj3Y-y53QojlxqyiSI8FhNuJtReJl-123NzG5CE5_L6w3ic1Vr0p0Y1iObNO6MNbSHe9_l33YkT6xcEgpwkUxKbxiuGazf2-Z31PUx
+sFIn79zsaSsqR4TD1m0tUg3ked2QU9y08e14yZY-cTCyAdOkuapa2RZKNLJ0OyOdslbwhbKS0FnrKuEEJdeBY2iqz5EVJ0ujnw2ZKGG06fcXdtun1WPO18nR
+8HmM-W1-qiL-3pZFganuqlNXK5S13ITwr-rfjLM0EO0Xh_Kup5K0iJ29mn_q4G3WCe1UwOg4KHcGzS3W5YXH5P3rvEVEbm78fHDxuTS1MQS9UV3B02BIngdD
+3iq-2nK0z-qEUkKxUCi7v7_o_tz_WBTyOhhg1rlpOvqMvrTQKR-Wy0VilQ_7iY_PTyYQhyT2_SClwh_fMwCDF_Xx_WHl-Nt-b_lVzmLZooUcLNyTeFVkcBtF
+9x_f1txYmTTF5gJj6tsqxppkzn3w3Nm5
+}
+
+!define SYMPLR_ARROWUP(_color)                                 SPRITE_PUT(                                  symplr_ArrowUp, _color)
+!define SYMPLR_ARROWUP(_color, _scale)                         SPRITE_PUT(                                  symplr_ArrowUp, _color, _scale)
+!define SYMPLR_ARROWUP(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ARROWUP,         symplr_ArrowUp, _color, _scale)
+!define SYMPLR_ARROWUP(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ARROWUP,         symplr_ArrowUp, _color, _scale, _shape)
+!define SYMPLR_ARROWUP(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ARROWUP, _label, symplr_ArrowUp, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ARROWUP>> White

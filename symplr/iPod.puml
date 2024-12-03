@@ -1,0 +1,13 @@
+sprite $symplr_iPod [64x64/16z] {
+xTS74jim34JH1Hk8tVkVDuN3T6aaE3tHTyVukLi5VrobdMMupe8wYu7BA3AE8qLSrCM2imhLBdoe0tOSC1INBxyYUDn45MzuYaU9jtt1jzK_tZ_-yOz__EEd
+VzjC-CDk--A7ZNBJdvRsjVLMNlKsgVTnsYk-KsJC8CMUzov5mK8XUTQFzQIxGVMSjorsNRIKdme0vYJNIm_Db2VBUX6YrbCNCk7t_KAirgZOy_k-QwxdD61V
+X7h2knneuXurm3MIpx_z7it4yszgv7hFf6NVloqpHMzE-HeWuVVt7PAqhar5ofVzUcVC_NvAoiF52kmQvSXvXEIsbmFIHDR3ATA7aw8Zxr62UX-ZuBOF3NpC
+sfYZ6Jus5D-p_rEbXej2OXn7AN3PfCwYuqPMst7LyE_r5W
+}
+
+!define SYMPLR_IPOD(_color)                                 SPRITE_PUT(                               symplr_iPod, _color)
+!define SYMPLR_IPOD(_color, _scale)                         SPRITE_PUT(                               symplr_iPod, _color, _scale)
+!define SYMPLR_IPOD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR IPOD,         symplr_iPod, _color, _scale)
+!define SYMPLR_IPOD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR IPOD,         symplr_iPod, _color, _scale, _shape)
+!define SYMPLR_IPOD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR IPOD, _label, symplr_iPod, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR IPOD>> White

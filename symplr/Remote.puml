@@ -1,0 +1,13 @@
+sprite $symplr_Remote [64x64/16z] {
+xPHNqkOW30Gb10RrtF-ycuE_L0Luy_xzC8vD1dlaZPPF66NI3lISCQKxejL7Ekep_b2-Q9Vm2H-5VS3BaozrniS_v434GykEAVz3D0bXj_HvFzKCohRVbGry
+stSaTTlspVkejkk_u5VxVW1atVGh4Y3bdj-LuLuEy0s_AjmiQZ7pp7KVrSyzI3VKLlqgB2HIIcjYrHyw37KpHs7WYtwgsjTQkq7PyBdW3_NFxI_dzg-F7poC
+t-By3TkPFmkYc9Lmyp9oP_qEKOj7b_p2_f6Kb_RlYAldnr_fUpddijy1F-UQNm3bbnGer_og3FYUOirtXCQdx9zpTV_1EEVw-NkKSwxwAH7dNFD3f3ZdwlZJ
+H1N7vrpr3Kd7ATkYxoFRJLxrVstxgpYkZ5-8SMN-B2MTre_YbwxVHrPyj-SCjHd_vLye9lmcuaNrs0mfo0UG29kYeoT0iLcYFX1k_oBl0G
+}
+
+!define SYMPLR_REMOTE(_color)                                 SPRITE_PUT(                                 symplr_Remote, _color)
+!define SYMPLR_REMOTE(_color, _scale)                         SPRITE_PUT(                                 symplr_Remote, _color, _scale)
+!define SYMPLR_REMOTE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR REMOTE,         symplr_Remote, _color, _scale)
+!define SYMPLR_REMOTE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR REMOTE,         symplr_Remote, _color, _scale, _shape)
+!define SYMPLR_REMOTE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR REMOTE, _label, symplr_Remote, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR REMOTE>> White

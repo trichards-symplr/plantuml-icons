@@ -1,0 +1,12 @@
+sprite $symplr_Briefcase [64x64/16z] {
+xTL5Wkqm34JHCiYoNFjVxmS_j986DKFE97Z3W7s7l42Gqb5463Sia5UoO5786ZbwtPaLwGME_EXUT35ewXY7BWGtWumRk6WS4ZOeEEiKX0dxhQy8gp-XF_gZ
+V_txespOKPfEhM17ezuEPUokSDMmDLXnGGgyH6gRb4pmX5mc14wbuSnOuRZ2I9Ewq7bzSfxNL-kY3VS_L6xDdfpz3btx9cgBSTyFMsXjcnvEeLrwOu7pT9_c
+LU_zF1RkOUoOEWs8zvcq36GZSxIV2iyAmlsKb2Gr8T0xQSQXtllw_T4tTeHqDlUePWHaltud9QTdoa9_lCaOOWcEMA2McHmEVm4
+}
+
+!define SYMPLR_BRIEFCASE(_color)                                 SPRITE_PUT(                                    symplr_Briefcase, _color)
+!define SYMPLR_BRIEFCASE(_color, _scale)                         SPRITE_PUT(                                    symplr_Briefcase, _color, _scale)
+!define SYMPLR_BRIEFCASE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BRIEFCASE,         symplr_Briefcase, _color, _scale)
+!define SYMPLR_BRIEFCASE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BRIEFCASE,         symplr_Briefcase, _color, _scale, _shape)
+!define SYMPLR_BRIEFCASE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BRIEFCASE, _label, symplr_Briefcase, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BRIEFCASE>> White

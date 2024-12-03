@@ -1,0 +1,14 @@
+sprite $symplr_BarGraphHealth [64x64/16z] {
+xPI7hkiW40KFVTdv_-zznQ3uHWvMYCghamuUoXvYRVAVLAttblKPiJCf-e0Cj9noTR2FT0ldLsqIe4cgjKOfxc-XqIK5EZPM4BG5fCEN7Kllcmj8kDGSrC23
+2hPPFPEyfQYG4b69hXqAxScF-ERyVQxVS0_ZzmOHzBL-ZQOjd3BoSplZsA3WuN5-r71juX0qASlfKobHhmWTF8zQ69JbHT1q9JeuOAqvArqEri6komAFAiw1
+nRiQ9OYNzEd7vcEf9GSjCChvyONAUsbtyl1DWrXR3JAeUeUPAe3bupU0GzQRFfRoh3HcOBKpoX7IW_Ns9r6nEZEcJX_HFB1bzYKsxpMClJSusiS7-8IknG59
+rrlEwHDcyqi_WmSzC-fMwRT-ob4gOrVNs8j1ll4pW1kqPK6Brdu6xx1AE3MhKJV-CMy0UyhlSjvMVeIZQNnmqc_zPKGn79Ht_G1n_6-VBidl-Z8ynmBbXHzE
+bdxmUQAlVkOah7o5wlIY5txb95tyArU_QT1V-__zv0zwsFQl4UtxbWR-eTyq-3FzFz-tE9X-YWU5VjEvFZyd_Rvpalni2rA3YHSftdJ-3lpdEm
+}
+
+!define SYMPLR_BARGRAPHHEALTH(_color)                                 SPRITE_PUT(                                         symplr_BarGraphHealth, _color)
+!define SYMPLR_BARGRAPHHEALTH(_color, _scale)                         SPRITE_PUT(                                         symplr_BarGraphHealth, _color, _scale)
+!define SYMPLR_BARGRAPHHEALTH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BARGRAPHHEALTH,         symplr_BarGraphHealth, _color, _scale)
+!define SYMPLR_BARGRAPHHEALTH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BARGRAPHHEALTH,         symplr_BarGraphHealth, _color, _scale, _shape)
+!define SYMPLR_BARGRAPHHEALTH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BARGRAPHHEALTH, _label, symplr_BarGraphHealth, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BARGRAPHHEALTH>> White

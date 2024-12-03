@@ -1,0 +1,13 @@
+sprite $symplr_Wallet [64x64/16z] {
+xTM7RiKW38LXRBDyplk_RqKwCXK1tUtzDUxyie7m5Jqo2VD90NrQcuFJNZ98r3pdhJQT9TYCJmrxR6_7lPQcYuGmuwCttNPzyAAzrwneM3D2Ot40p5sxJc-V
+c-DB05awRfSkxsDsy2ruYIRvpcjjEgkbzcODDRsUp8rFgrbXjh1suxKUgTToaREgtEow9y3sl90Oq2JJbblxF58c9Amvon0_2b07VQHlFKQzVQr_UD5TQSXB
+0S13rkqD90wHZ9tUIDVR8N3lmNArVZfJbrzMhWp2zrj8B5qUj119W3WCeThdqROHbmrDUqWxuJZdPPak3D0PtwwpaY1hcF6HaA00ycaXwBt_aCklOvyN45bb
+NmJH-_oBayGkaj0-txAAavS_CtyzFErTws-TMF_pVeRD8rhAOKXb4YEHyN0-6Cejd9B-miVrw0a
+}
+
+!define SYMPLR_WALLET(_color)                                 SPRITE_PUT(                                 symplr_Wallet, _color)
+!define SYMPLR_WALLET(_color, _scale)                         SPRITE_PUT(                                 symplr_Wallet, _color, _scale)
+!define SYMPLR_WALLET(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR WALLET,         symplr_Wallet, _color, _scale)
+!define SYMPLR_WALLET(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR WALLET,         symplr_Wallet, _color, _scale, _shape)
+!define SYMPLR_WALLET(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR WALLET, _label, symplr_Wallet, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR WALLET>> White

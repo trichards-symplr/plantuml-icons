@@ -1,0 +1,12 @@
+sprite $symplr_LineGraph [64x64/16z] {
+xSp7OSG030D1Kfb0__LUXEFBX9nF-v-Dd-_eQEIyXoV9OGS7IGnx-9x1HYnSYsNwNEBYOnd2xkhLl_I7F_ouNS9eU_0QR3_C2yXol2gIc--BM4mlFaoU5yyO
+C5bUN1bUtFFYXizx4E_wmZtnhWUXCWmFlZZ3Yvi-nJqltlK3e2ZUyWC8AF6El_1A9TtnLnv6yYsEUkytS8kFUzOxpmwF116lMacY5Sct7csVyT8uz2fo3h-D
+7CCl2N6p8UC_T7G6
+}
+
+!define SYMPLR_LINEGRAPH(_color)                                 SPRITE_PUT(                                    symplr_LineGraph, _color)
+!define SYMPLR_LINEGRAPH(_color, _scale)                         SPRITE_PUT(                                    symplr_LineGraph, _color, _scale)
+!define SYMPLR_LINEGRAPH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR LINEGRAPH,         symplr_LineGraph, _color, _scale)
+!define SYMPLR_LINEGRAPH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR LINEGRAPH,         symplr_LineGraph, _color, _scale, _shape)
+!define SYMPLR_LINEGRAPH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR LINEGRAPH, _label, symplr_LineGraph, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR LINEGRAPH>> White

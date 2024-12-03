@@ -1,0 +1,13 @@
+sprite $symplr_PersonCheck_391 [64x64/16z] {
+xTC5ikmW443HXg45xlxN-wIBAhudPBw_t74vCK0-HaLjflBUe-rnLlMTvylvZE4pIqx8Jex9RF5zly-Nt-3bEpvwEUOrWDw-vGUz7765BBxXws0Sy0PHfHYu
+PELHr_cN8ouZtPeW3V3fymZy_SSetyJ9vhj8eJ10qwyS_UxXntgNctDn_0iV9tt9i-teD_tnyGzwdaB9-RyQj3FNBnZb_OtEzRSQPyRFeKgP6ongApqpVnIQ
+I6V8NdF-LZ0HXx9ZVLYkdtdf6pmsT0VcG7MwI0NRu40OIIAFUn1ola6Kl7ucbiUTutUoDNKK0ZJVL3cV4ci4FKz7PIF3FzjIeyirBqKk-jgRP1Uzukjwtlxs
+6-cJlZ6UyZ9mIr_YiUqJGFf6xFjtCIxxcJtfzG_wsz_-zbtLWc5cVi5NOAMoNJL_guUxMvFVqIi
+}
+
+!define SYMPLR_PERSONCHECK_391(_color)                                 SPRITE_PUT(                                          symplr_PersonCheck_391, _color)
+!define SYMPLR_PERSONCHECK_391(_color, _scale)                         SPRITE_PUT(                                          symplr_PersonCheck_391, _color, _scale)
+!define SYMPLR_PERSONCHECK_391(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSONCHECK_391,         symplr_PersonCheck_391, _color, _scale)
+!define SYMPLR_PERSONCHECK_391(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSONCHECK_391,         symplr_PersonCheck_391, _color, _scale, _shape)
+!define SYMPLR_PERSONCHECK_391(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSONCHECK_391, _label, symplr_PersonCheck_391, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSONCHECK_391>> White

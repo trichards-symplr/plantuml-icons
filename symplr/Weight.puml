@@ -1,0 +1,12 @@
+sprite $symplr_Weight [64x64/16z] {
+xPK5eaCX3C2AGtF_yyvzs7SPUIx1AV9FM2mM2-ESD77E3FG4g6lO2gI1hgc0bGeMIb9YprVT5J2GfK8cY1ZLZcufigFwp-bjmTPT4qlov96VyQd4vsPq79Zm
+gJQn4crWflm46z6dxFFk7D6HhyH3AWy5y8J3cP4FVdSEX_CDuTO7hG2tVlXINohyC_ztjRydlcNynCVnumuZFysCtrGPluVtRdR-kCJJ7rRVD7zj9NxaE1a_
+SZIV7x-kyJEsucVSbHAaGqHp0TEAttaGloMEreyuNBywzRDEFel5Oh7O0W
+}
+
+!define SYMPLR_WEIGHT(_color)                                 SPRITE_PUT(                                 symplr_Weight, _color)
+!define SYMPLR_WEIGHT(_color, _scale)                         SPRITE_PUT(                                 symplr_Weight, _color, _scale)
+!define SYMPLR_WEIGHT(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR WEIGHT,         symplr_Weight, _color, _scale)
+!define SYMPLR_WEIGHT(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR WEIGHT,         symplr_Weight, _color, _scale, _shape)
+!define SYMPLR_WEIGHT(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR WEIGHT, _label, symplr_Weight, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR WEIGHT>> White

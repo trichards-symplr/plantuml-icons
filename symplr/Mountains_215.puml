@@ -1,0 +1,13 @@
+sprite $symplr_Mountains_215 [64x64/16z] {
+xPG7ajim40IH5vZ-_tiTSQQAfSMPaBFPYamxZHZ-2cvkuekFIozL6A2mJqMYxzj3YSBsxKS86UgsVVpwatVjl_mnb7Rjvp_5FVk961lsDRwHe6_Cd0F0BjgZ
+Hu0ILZJQextEjxVr82H1UTBt1xOS1258J_h-OA25lOw0i_txevWWpm37VfOrpxxF0DT-nbJ7_WXmxBzGmBMVer33MCorMdtx6M1N5qk7_WrlelaapboB5wCy
+K2_kkEryUxoqs9F8wscovjczMTGz-qc5l6j_xBXRzjwE6sFqxTThDPlU65REyzuXpaaTJO0cmDh-88dszMcrFDrZhkLaxrDW28ta2avxNm3rk5es6ishNYNM
+2pbr2IHPEHL9TGXaCRn3B5zgWAJUhTNQh4i2ZHA-ZvXjIE906ZM6QyHSFcURrP9Z-8dStDny1
+}
+
+!define SYMPLR_MOUNTAINS_215(_color)                                 SPRITE_PUT(                                        symplr_Mountains_215, _color)
+!define SYMPLR_MOUNTAINS_215(_color, _scale)                         SPRITE_PUT(                                        symplr_Mountains_215, _color, _scale)
+!define SYMPLR_MOUNTAINS_215(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MOUNTAINS_215,         symplr_Mountains_215, _color, _scale)
+!define SYMPLR_MOUNTAINS_215(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MOUNTAINS_215,         symplr_Mountains_215, _color, _scale, _shape)
+!define SYMPLR_MOUNTAINS_215(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MOUNTAINS_215, _label, symplr_Mountains_215, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MOUNTAINS_215>> White

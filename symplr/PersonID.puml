@@ -1,0 +1,13 @@
+sprite $symplr_PersonID [64x64/16z] {
+xTM7pkiW68FXpspi-x_URd943qGXgkQVHpEoNheR-_CkbukF-R0KOBr0BM7fJaWIIpwkKeHjWXHj2IZQXgjvttZHbWLL-uZA5l8tRxj0saTMCls7jg_hGULU
+cmE_k67Vhk3HprdiAEpqg1HBFxiURAUdIAgsUMBQHn46ohSvZeL9NnJVbvyvQSBF-cTPjXwv32KRzruCYA9hCoOclHM9qdPy58Va9hr5ai5Qxpc1OO_CjtJg
+ymCbFabypuvZ5QE-YjuzUIf_Nl_4yFMJi3SdlcVdXvmDUf3MaEkl7nGRdUYDsanxk2SCU_X_CEwz-2Ht-F-dX-xp-zN_NrGv-_zx_ly_gbf39Li4AbWJj7g0
+e-elxh-D9xM2sRwuc0wBmNxWShdS0G
+}
+
+!define SYMPLR_PERSONID(_color)                                 SPRITE_PUT(                                   symplr_PersonID, _color)
+!define SYMPLR_PERSONID(_color, _scale)                         SPRITE_PUT(                                   symplr_PersonID, _color, _scale)
+!define SYMPLR_PERSONID(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSONID,         symplr_PersonID, _color, _scale)
+!define SYMPLR_PERSONID(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSONID,         symplr_PersonID, _color, _scale, _shape)
+!define SYMPLR_PERSONID(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSONID, _label, symplr_PersonID, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSONID>> White

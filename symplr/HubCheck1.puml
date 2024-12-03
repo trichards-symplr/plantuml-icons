@@ -1,0 +1,13 @@
+sprite $symplr_HubCheck1 [64x64/16z] {
+xTK5aWCX48NX5aRWtV-yQqWDrMnwulh5vOyYT1qVSng9lBTF6DBz_QH6EgONCjwgJyNsslu-OaXeBwrcHArixWjOgNc7NcFtfoKWTMQdN-1m-qKrQ1DqAxZz
+Z9d-nsulgpYzwubxMOauoiaz43aYdTmhVia9FJFdyGvekzrmeG1NPiMHSXdBC5wf2kvg123nNpu1aMW6a3Q3SY3qlUGdAcaUmTBrYraYXprnEPtM5tVfbJFX
+BFHzUxGmlN7Kxx_2MhfXQJ2DB2UiF-_J2x1ZnrzfJ0_ClwrbJ--CNqyyfTVp-WcBqpivvCG-p2NlUt7dLP4mvpnrprCCp6Hnmc_UzVpRHohuyFZZ126ZzVxu
+PPExlU_-lNLCp-F__rry0m
+}
+
+!define SYMPLR_HUBCHECK1(_color)                                 SPRITE_PUT(                                    symplr_HubCheck1, _color)
+!define SYMPLR_HUBCHECK1(_color, _scale)                         SPRITE_PUT(                                    symplr_HubCheck1, _color, _scale)
+!define SYMPLR_HUBCHECK1(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HUBCHECK1,         symplr_HubCheck1, _color, _scale)
+!define SYMPLR_HUBCHECK1(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HUBCHECK1,         symplr_HubCheck1, _color, _scale, _shape)
+!define SYMPLR_HUBCHECK1(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HUBCHECK1, _label, symplr_HubCheck1, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HUBCHECK1>> White

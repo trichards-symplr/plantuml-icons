@@ -1,0 +1,13 @@
+sprite $symplr_CalendarHealth [64x64/16z] {
+xPHLejWm30G5ba5x__lMLb9kG2azceyDZjccDyK7mdG2ouNE67J209_x0gSJ7F8tVAvj8tnk1t3u-qFvhbixidp30NNvWftsrGSiA5lxxO2j_SK2u9j1Hxx_
+l_QfrpE_TZhmqtphV_Xv_golQLxc-7_uh1EEtE_fcxps2oPgaN5VTAN9odh3zubigIjLLXPUQVzj_AGKvST-TIn6kVPP9dlIdeuwBwGDdVFZBryjyN7FZnGD
+tpjDL6KcUy_sl_fAWsErGg597nQ-SVWqMixNfRNkqn_TLaCIunyDZpOOazdeKTxjyG_VPu2dnDocBv3hzQ-H4i-OuO0nW7fO_o42-MxygYV7tsluess-jwHl
+uR6PxKz9dyRujZULiZx7I0O5dT8-yK0lmc83zTd-BnsB9i_FBn7-Y-S_9-tlwtGyuDjP7GzqfjVF1vy
+}
+
+!define SYMPLR_CALENDARHEALTH(_color)                                 SPRITE_PUT(                                         symplr_CalendarHealth, _color)
+!define SYMPLR_CALENDARHEALTH(_color, _scale)                         SPRITE_PUT(                                         symplr_CalendarHealth, _color, _scale)
+!define SYMPLR_CALENDARHEALTH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDARHEALTH,         symplr_CalendarHealth, _color, _scale)
+!define SYMPLR_CALENDARHEALTH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDARHEALTH,         symplr_CalendarHealth, _color, _scale, _shape)
+!define SYMPLR_CALENDARHEALTH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDARHEALTH, _label, symplr_CalendarHealth, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDARHEALTH>> White

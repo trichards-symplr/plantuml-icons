@@ -1,0 +1,13 @@
+sprite $symplr_Headset [64x64/16z] {
+xTDNaYCn30DGA50YWVkVTtUYOmUE9uVtQwCBP57uiKeV4MJuQ3U41wa3qWgGLvqIEQstrir9YRCWQrACZgDYb6X8gHIzua8BAJ8LEiMszaF57fCSomh5jX-V
+M1Lx3Peqi274WdM5ScoY0kjSnBP2sNhxn8BxnWInihladofPiAk9gzCx4bOtG5Oac09BgeYCGcB9a2E5QilZ6r9S8__PV56o8gKlBj2Kx5zSgWj3IV9Cd9BK
+hphHBBK15_lrEviQmCpSFraNTksov0MGvTFpV_c__6ll_pNlRugu4Azx_u15639AI1Mlq1Nullc__93ZDIZ3ApIof6hoMTZv_SzSonEEPvKY4apixObHrXzO
+KBdsBiD1w80JALEE0ugFt0foAiK34I_MgMTanGrgVzGgVgx_
+}
+
+!define SYMPLR_HEADSET(_color)                                 SPRITE_PUT(                                  symplr_Headset, _color)
+!define SYMPLR_HEADSET(_color, _scale)                         SPRITE_PUT(                                  symplr_Headset, _color, _scale)
+!define SYMPLR_HEADSET(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HEADSET,         symplr_Headset, _color, _scale)
+!define SYMPLR_HEADSET(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HEADSET,         symplr_Headset, _color, _scale, _shape)
+!define SYMPLR_HEADSET(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HEADSET, _label, symplr_Headset, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HEADSET>> White

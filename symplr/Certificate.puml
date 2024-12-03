@@ -1,0 +1,13 @@
+sprite $symplr_Certificate [64x64/16z] {
+xTS5eY8m34NHI2N9s_zwqU9I6VbwSUZ1BVJt-erBxLVa5KyOgppd0dZkPu0-zHL6h-klCwGXhmXwbWzw6VHwYHUyuL8i-1oNogZlz0CyUxpEfUiLxqfTJwAl
+an_m-gNyfhvNl2jtFTLtSSV_Vdu4xz9_xBlzI2-vrYohdWs7N9Qy0B1I380kU0uud-u63_XqIjk_1RyiiAdl3w5TxQ0z4kvwhjQgbpyRbnMpZp_1BYSgyhpt
+omcRzm9SJiJ2vo-GB_S5CzyVmGsbCyyp7jpEHc4YBe1JtnEVQcShTaLWL-hw9od2iSjZsHEBCFcwFzJpDkZrXQ-mhc_hnkU7vbMRR_F3yFnIzbuTYBJt-N3U
+nFp4Etyk4RVvQRo3Bqpbu5UodTvNZEdRjGK
+}
+
+!define SYMPLR_CERTIFICATE(_color)                                 SPRITE_PUT(                                      symplr_Certificate, _color)
+!define SYMPLR_CERTIFICATE(_color, _scale)                         SPRITE_PUT(                                      symplr_Certificate, _color, _scale)
+!define SYMPLR_CERTIFICATE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CERTIFICATE,         symplr_Certificate, _color, _scale)
+!define SYMPLR_CERTIFICATE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CERTIFICATE,         symplr_Certificate, _color, _scale, _shape)
+!define SYMPLR_CERTIFICATE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CERTIFICATE, _label, symplr_Certificate, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CERTIFICATE>> White

@@ -1,0 +1,15 @@
+sprite $symplr_GraphAnalysis [64x64/16z] {
+xTM7pXqx20JWmJQBOTx_UUzDh1_fhF6czsJKLg2FTJa5Foh_yY_EbyJuN2wyPUAKTitfqrHGqqblRxbENYoOSJqEI3KE_Y99qp7qSfBHZmEUl3ZfII1Ayi8U
+8-NiMv3ZlfbwHfepYvTW2EuPf5L-ziv0oI3rn4VnIWfgBb8A5-VSVL0tsjwMPGTEJhrvPPGt-zk5IU6X96_UgJidFJix5_Ix5r9sRgGlvvK3_UO7VUUAjWOq
+yi217lgw_LdueXCW1UFEbMtVhHM-1ZX0DkYDm-ffNOLd8b-M_EZjYOEKZLS_w3iNwtarEw--aJlFR-DWxBnw17lXNBLvExenplxYt7Y8qG5PKvA3F7iXTmve
+0zQGB3nxz5xuAfEs1eTWyoM5hyTLR2Ou-O_poFB7_7dnRDae_cEyJQx7R5N_pDkuWbm-czK_SoT9pXvbGF4dZaat5K3AWAFNZMVgWBEtmiy3dZnautskXwdt
+0Ut9ttdsE-ErFcd55www--nWq3TVESZYisVb_PLNdrtpkl_Agyy-o_bNVlRI0OnB1K_UaX-zio5pzjq4Q4y-s87Qtp9uFVlIhrvfppxxtz4tZdLO3kJ_iyGY
+5dBg_q8PyGNfGCRu-RcTOF_yDFmP-Hy
+}
+
+!define SYMPLR_GRAPHANALYSIS(_color)                                 SPRITE_PUT(                                        symplr_GraphAnalysis, _color)
+!define SYMPLR_GRAPHANALYSIS(_color, _scale)                         SPRITE_PUT(                                        symplr_GraphAnalysis, _color, _scale)
+!define SYMPLR_GRAPHANALYSIS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GRAPHANALYSIS,         symplr_GraphAnalysis, _color, _scale)
+!define SYMPLR_GRAPHANALYSIS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GRAPHANALYSIS,         symplr_GraphAnalysis, _color, _scale, _shape)
+!define SYMPLR_GRAPHANALYSIS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GRAPHANALYSIS, _label, symplr_GraphAnalysis, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GRAPHANALYSIS>> White

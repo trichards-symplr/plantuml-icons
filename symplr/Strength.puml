@@ -1,0 +1,14 @@
+sprite $symplr_Strength [64x64/16z] {
+xLQ7qlCm20i6so2z__D-C-t5xiBDhN-eUmYG4dJP_YhyHr4rrL94v0ss0Vm1ThYkq9LaX4VW1mH8N-07swIcWP7dWziC0Jq_FkuOIbgItzdkUKgKxFZbVbaa
+-HW6lnQBd8Vbm9S645rs3rC5193l5wqEa008knI0P0u_la4IyF95Sx9U2-Zh0HpV2BUBzCgBfK7sZ8RfSxigRo3AjWnSIMNIa8Ep7au4sYhV64SrN9r0WC4E
+oAe1b45Eh1imbgkh1lYqux9gm3IFhnfWKo2L9NwTB6kFua2RHtZLlO_Lrgl952kFB2mExlZUlGhi7z0wOmwqEvj7H3DLwy1ExAtr00bE3MDUHGNHvE0GOUDW
+CWOLoqGF6V9ow2T1-hD4nJ2FtkwvaziJ2uiEwcxjbPclXAHIV8Vj7H9x94Jgh7wO13sLCOs-dO6pdw4tGavrfxr9dPDy7Gs4d6b-nheEehpDrbFDIt2r-Pmn
+zOJhgT6bHhIR6UMRxP88Q-pPft8i2J9AxW8wJ1qa0KJlxW1-8pc5hljrSn3y1U3sbjzgLisAR7yl_kCJ
+}
+
+!define SYMPLR_STRENGTH(_color)                                 SPRITE_PUT(                                   symplr_Strength, _color)
+!define SYMPLR_STRENGTH(_color, _scale)                         SPRITE_PUT(                                   symplr_Strength, _color, _scale)
+!define SYMPLR_STRENGTH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR STRENGTH,         symplr_Strength, _color, _scale)
+!define SYMPLR_STRENGTH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR STRENGTH,         symplr_Strength, _color, _scale, _shape)
+!define SYMPLR_STRENGTH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR STRENGTH, _label, symplr_Strength, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR STRENGTH>> White

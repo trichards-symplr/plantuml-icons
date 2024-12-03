@@ -1,0 +1,13 @@
+sprite $symplr_RecurringCalendar [64x64/16z] {
+xTS7SWCX38LX9402tltFcqxm5Y2BqfD_giit8oskxYVrNqIqy02Jzu1-88-5HtS4l5PEjqY8-pk2QmbQ-q687qeGtfIVxsWN7q9F1O2tnpAgS9iWdewASRcj
+yBAHRZm3W_qPnTKKSkhBpDVOzJqhRJrhVRGry9r-WXztz3wHnTUQvtwXumtxcpndDdc1NFVKKkXbBpXKlCsZhEx_D3y1PBf-ovuJ6tpjP_cO3m5aElzBdls-
+y8xx4v2qMqQUUASO5cRU-JY8NSzRcljIwEsUHi-O-uXWyFMB_TzxiVc4RF8Cf1KVAsCWBNW2aZobg2i0Als0tL-3riikWc7gDh7eKwbzimNHRXAwlsMoMu_A
+Cg_dJnRlbTnFwXu
+}
+
+!define SYMPLR_RECURRINGCALENDAR(_color)                                 SPRITE_PUT(                                            symplr_RecurringCalendar, _color)
+!define SYMPLR_RECURRINGCALENDAR(_color, _scale)                         SPRITE_PUT(                                            symplr_RecurringCalendar, _color, _scale)
+!define SYMPLR_RECURRINGCALENDAR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR RECURRINGCALENDAR,         symplr_RecurringCalendar, _color, _scale)
+!define SYMPLR_RECURRINGCALENDAR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR RECURRINGCALENDAR,         symplr_RecurringCalendar, _color, _scale, _shape)
+!define SYMPLR_RECURRINGCALENDAR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR RECURRINGCALENDAR, _label, symplr_RecurringCalendar, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR RECURRINGCALENDAR>> White

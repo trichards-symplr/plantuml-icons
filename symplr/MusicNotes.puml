@@ -1,0 +1,13 @@
+sprite $symplr_MusicNotes [64x64/16z] {
+xTQ5ZWKn20NGGftx__-xOPwmpKW2wt8ZJy_K9LtaFvHhdv8Zb4kVkANxTS4ZKo9-gEo5zMtC3tiRz_-UU0RzDlUW2NdBfA2NsGehZlZ90RRqtyTuBgrJnAiS
+0atn-oomLB-VwcJKJ4aYNl1eTT0h-lwUIoqKzaMWaHBpSyC0C8wypQ1wnWTh6mOWUozuXezu0ugztViji-iCEWe1pRh_mC-ools9jJnixjj_cRwK28ZJhzki
+kFt0weVJjwL4e3ez0_brPvBJfmaXw_wHl9u1uQJ90CZZxSuoQsa2ROhV9nPiMSuEObhyPSeGaMw5ym00QUPTwNWaH_m4f31n0n3mxRaYIG27toze2lWAB6FR
+77Q_8FstcBN7WF56tzzO_nphF_lW304zxHPqUFx4Be5IcNAt1HrQFq5kwxUcUEYguVzv0G
+}
+
+!define SYMPLR_MUSICNOTES(_color)                                 SPRITE_PUT(                                     symplr_MusicNotes, _color)
+!define SYMPLR_MUSICNOTES(_color, _scale)                         SPRITE_PUT(                                     symplr_MusicNotes, _color, _scale)
+!define SYMPLR_MUSICNOTES(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MUSICNOTES,         symplr_MusicNotes, _color, _scale)
+!define SYMPLR_MUSICNOTES(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MUSICNOTES,         symplr_MusicNotes, _color, _scale, _shape)
+!define SYMPLR_MUSICNOTES(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MUSICNOTES, _label, symplr_MusicNotes, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MUSICNOTES>> White

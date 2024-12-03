@@ -1,0 +1,15 @@
+sprite $symplr_MapMarkers [64x64/16z] {
+xPLNrYiX38Djquoq__tUC-KGSWDXoFF_fHV6Ge0i7N-egVnCS1pK83_X90x8AZy08X_YDODGsQKIgWx0JR6l818QGG14KZ1jguz6keav6G8XMoWWbKKECY6W
+RSft1UG2CD-SG68ne5aPClDk_RVnPRE-0G9Oym8CiWLWXT1pUFDYWqmN49uA23q-xQ60YlEWQfE_WRE8M2hP3ZSXkoXetMQKRGfhsmoGVHGCNVbzCj5UfwZC
+0KlJyINVa4s6s6cXqyUZqV8DhXCB8M4INeMy2uS2OkmGcC4yYRVqCi79DDH84XDbH-sGtPETIymuKHd6wMYd0mUeAf8cq_GyISUp9afC3kABpQ9gfYezYJWq
+tCve9LGKOm4L5swzUL6ao_HAFvxIb_4aNle0VJkJUdrHPOh62g8BTt6cTq6hZ0hahS28CrIbSSOpi6vfh_7ennVcPVsNOmeEz1knZBJSmldJlymYtsahL5X4
+mFosVkkC1QqpCBJzu_V-aQL_W_qRx_rRblB1qb-gFp-t9rynKEM_HBVi9Ubr9EgZF1z7-ZFtuc0lF6yHW0xCVDgXFjQdiipBh-kB4RQS_JU9plfkxOx_pSBM
+gfSO60VdkLcnfBGkqnyRQHrgIIMhVNJuDeyr3W8UjLisxThxcb114gZbkWZefuZdQ7I0985h1g3BBY4vW6i6A_EUPThlcFJyyGy
+}
+
+!define SYMPLR_MAPMARKERS(_color)                                 SPRITE_PUT(                                     symplr_MapMarkers, _color)
+!define SYMPLR_MAPMARKERS(_color, _scale)                         SPRITE_PUT(                                     symplr_MapMarkers, _color, _scale)
+!define SYMPLR_MAPMARKERS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MAPMARKERS,         symplr_MapMarkers, _color, _scale)
+!define SYMPLR_MAPMARKERS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MAPMARKERS,         symplr_MapMarkers, _color, _scale, _shape)
+!define SYMPLR_MAPMARKERS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MAPMARKERS, _label, symplr_MapMarkers, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MAPMARKERS>> White

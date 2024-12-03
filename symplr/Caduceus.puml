@@ -1,0 +1,15 @@
+sprite $symplr_Caduceus [64x64/16z] {
+xTO7TkCW58NXIttm_ltlT-8Y3h9y9aZJovUu-rfqq8_pNoXc9UYgp5tIDGcyLh_y0qxJXqRN5H7kLGyGhnNVTUUVLY2z2e_hw-vn_P1UQMCSj211qOS2KcWS
+s9JtFV1xiAPKeKWElZVb2wwzuDWer_sP1-qvPNhUuw7livGxzDlZOGp4Za-l3bMIFMeFUbH4cyPJr32Qfsjeq7E0a3kOXiwTXUDeJK6Job0q2GcIZZezQ1Qg
+0tXzURlJzKO4UdDlpURteZRMRfzs8EYTs7bAsi1SmRjHpAEOisCvQSuFAHkUSzJNrFr8WVseglgCWvK1oc3W-bJe74mrNv2gRHeqszIaqq3NX7q-w1G3B6pv
+S7-fTPqRt_BEJTSgmwEYan_v_7nfMXDv6lcdg2MLXxQLl_5GjQHHmesslC9DeMb99x_h_xoQD-gxVCMq94CuvWDaBPbNCfXNhKN1mUASZmOUj2fqm9jL0wlM
+njnTbXexBUciob1rNfttdwgpydx_oph9AThoglZ5mm_CHw1r1PlpZV8pyzVBFpZrSljTxx_hu-SeCsHTK1YApclWPc3cq2vK_tZ-MpTMEvXNn7M5zatZBxwk
+Vq6NcEdlzWK
+}
+
+!define SYMPLR_CADUCEUS(_color)                                 SPRITE_PUT(                                   symplr_Caduceus, _color)
+!define SYMPLR_CADUCEUS(_color, _scale)                         SPRITE_PUT(                                   symplr_Caduceus, _color, _scale)
+!define SYMPLR_CADUCEUS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CADUCEUS,         symplr_Caduceus, _color, _scale)
+!define SYMPLR_CADUCEUS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CADUCEUS,         symplr_Caduceus, _color, _scale, _shape)
+!define SYMPLR_CADUCEUS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CADUCEUS, _label, symplr_Caduceus, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CADUCEUS>> White

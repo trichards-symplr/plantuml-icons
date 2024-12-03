@@ -1,0 +1,13 @@
+sprite $symplr_Blockade [64x64/16z] {
+xTM5aXqX48LX7FgSzt_VmEt8I49tFDcTlsIChmfP2KzFJwb3gdlm05eCXnfNY2vUTN0AdyjapmM4XwSrECjniB2j2vWTVh3hu18-1PrvPtDuwCmR-zKFLe_d
+pSlhFeB9DVznNMmYHwcW14UHbDhEczqFHsAcXttSwq9DF3nJm_4dOjGPd5xgJ7x2jndmW_DFz_c7B9pLwFprkGyU7BhzdZg7dlxH5o1bOaNgvNhLYqnVvQk-
+ab_6ytRL2tQ-XmZTnWnsFHjMdJGMYUJM6pp8tW-RO-TfSM3ZcytJpdVIuW7x_LS-liajRt3JMpmPvs_mYBqNYrldRt3p_Bl1e-77J4YiAqWvN8NpAjpuGhkT
+3xaSgxMSqiUuyQx-HV_u-Zs-uUP1loTuyad0cNIFZZeOu_Z_7pBp_l_NmJZwkYxYz6rTvEJnokcX7PUajU1fQ3tyV4yV
+}
+
+!define SYMPLR_BLOCKADE(_color)                                 SPRITE_PUT(                                   symplr_Blockade, _color)
+!define SYMPLR_BLOCKADE(_color, _scale)                         SPRITE_PUT(                                   symplr_Blockade, _color, _scale)
+!define SYMPLR_BLOCKADE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BLOCKADE,         symplr_Blockade, _color, _scale)
+!define SYMPLR_BLOCKADE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BLOCKADE,         symplr_Blockade, _color, _scale, _shape)
+!define SYMPLR_BLOCKADE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BLOCKADE, _label, symplr_Blockade, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BLOCKADE>> White

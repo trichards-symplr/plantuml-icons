@@ -1,0 +1,14 @@
+sprite $symplr_Apple [64x64/16z] {
+xPQ7qYGX28HLKA3x_T_toletN7A6rKeNkiB63vYc9vI_KEesLFPvS0eOcxpJBG0IVOllz59ALP2-mpVWOGIeUmQqvoJOuUqvTyNa6-pJ0vW31AHClf7syGPY
+Je4nUJ3AXwgWpmApi-ru820YI7eZsjuEIO2SasofgTIY95ivq23BYPpZY0VQ8N-4jms-TVVmeNDmuUIh30lt8GbQ0lmIW0ZI0V0Xt9ff9BohzX4l3WZhgceW
+KI_n-A55q-v3vOq8hjDijs4FuiAvH5X1koXkcOtMPNka4ctBexUZI96IYxIit3iw9PMn87B_6xIZSyhPZyxfe6JvUdIf0LgwR7w1vppFvW_gaVzsk7yXKdoV
+-JimCDWJFonLbsqqTG2sFir0JRHVntmi1aZ_1npRxHyEr3lpu-3dqcyQLD0ketUtOY7rghed_5qQX4n0d6mhSr81TxudKDXx-0UUAV1moSWdr91_a3KINMI0
+721SHUDHA2S5EGKfDHvlhNmYzGYJhyb7mFjlc__NDm
+}
+
+!define SYMPLR_APPLE(_color)                                 SPRITE_PUT(                                symplr_Apple, _color)
+!define SYMPLR_APPLE(_color, _scale)                         SPRITE_PUT(                                symplr_Apple, _color, _scale)
+!define SYMPLR_APPLE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR APPLE,         symplr_Apple, _color, _scale)
+!define SYMPLR_APPLE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR APPLE,         symplr_Apple, _color, _scale, _shape)
+!define SYMPLR_APPLE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR APPLE, _label, symplr_Apple, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR APPLE>> White

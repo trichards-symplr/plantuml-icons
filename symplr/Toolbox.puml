@@ -1,0 +1,14 @@
+sprite $symplr_Toolbox [64x64/16z] {
+xPI5aiCm44DDQv3-_tzlWkTKTIRkuC4RIjLLl1IxNyO__uHStf7ZCtlXYFh4diXQtb51U-1lpCCtuu4VZ2vM9JcFf_v61HD-iDYLWZb_V9tflT_dUi0xwa7s
+lTquJxwCl5dQiMNKJQdB2fv1ZRIkvE9cCRBlpJHTZnERcwUU7SYiCqPnLPgR9n9IoHEqQu1t7t3uFJybxeLyYXtdbmjr4HhP3a2K8jVISRvyLekmBaNOs4OD
+1DVH2Rt_R6Wa8ZQiCGsYZWTTJGya4W2Pzz-3_cjcZRQesuOqfYKWSkpdYx-mh7uWfGJ69K5ZbIwDzi_OLXLSMFpREmVxrvXqjHVLwa8EnBkWqrzfabgl9aAJ
+x1fIcAKrYue3LXbITsjeQMvl-8df-Bg6wls1jLX_edVSuYh3-wjAHHfJcFK_pKWLwRgirdr6CdMjBH0QBKgKJJnG1GoY3Ftzj5NGhqxyics38-HnL6xalJ_e
+S7KWmumQgowdBjkBykqF8Eg5HjOU2G3x3YLm5jYrGBjIilNaObUIT-wVVxu
+}
+
+!define SYMPLR_TOOLBOX(_color)                                 SPRITE_PUT(                                  symplr_Toolbox, _color)
+!define SYMPLR_TOOLBOX(_color, _scale)                         SPRITE_PUT(                                  symplr_Toolbox, _color, _scale)
+!define SYMPLR_TOOLBOX(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR TOOLBOX,         symplr_Toolbox, _color, _scale)
+!define SYMPLR_TOOLBOX(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR TOOLBOX,         symplr_Toolbox, _color, _scale, _shape)
+!define SYMPLR_TOOLBOX(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR TOOLBOX, _label, symplr_Toolbox, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR TOOLBOX>> White

@@ -1,0 +1,14 @@
+sprite $symplr_DocAnalysis [64x64/16z] {
+xTG5TiGm30HGis3kVzv2_3RQaEmoJhkabv-Omo_CVnXkQC0R1ib3tjpMbG6NaVTvfP7tUHXwdv_uM1fHpUOTVlH9W9xQlS_tdW18guq0Q0fnmFTU08hzQr5d
+yXdWiaJkFMq80-cSb_CLLdPFPCYvpm3VKgoikx6CGBdmEgp6PPJu1PxkTrk2BWs8yrvGZ6Ffko9D-tvnGJLkjtHykXqKYlpiKJkVzNNnShku0QtpoVPNS8pH
+ngzXvH484vwsrTQvpT-Sj_MJdFNZ-Vtw5KYOzgNizuy2QTulGyNR_GjsVQhFON3tw_b1jJ40hV37Jz2ZvktyqjhtgUCLJ4IwUZi_MythHlVyyrMyyULuKhp4
+In_CwDp0zGf-vZ2JWVOYlv_VhENLlhdxR-mPnVLNcVDyxNd6XxGaz_TyzoE5eVVp8tngbdnQyBt0SfoGiSzawSydI_c4ySkMU5gOxx_i-wzZNzNIzWNwjkld
+toU0fu9p7mHpkMndBdC9xvT7
+}
+
+!define SYMPLR_DOCANALYSIS(_color)                                 SPRITE_PUT(                                      symplr_DocAnalysis, _color)
+!define SYMPLR_DOCANALYSIS(_color, _scale)                         SPRITE_PUT(                                      symplr_DocAnalysis, _color, _scale)
+!define SYMPLR_DOCANALYSIS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOCANALYSIS,         symplr_DocAnalysis, _color, _scale)
+!define SYMPLR_DOCANALYSIS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOCANALYSIS,         symplr_DocAnalysis, _color, _scale, _shape)
+!define SYMPLR_DOCANALYSIS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOCANALYSIS, _label, symplr_DocAnalysis, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOCANALYSIS>> White

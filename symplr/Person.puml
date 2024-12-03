@@ -1,0 +1,12 @@
+sprite $symplr_Person [64x64/16z] {
+xPK5eaCX3C0go23tF--NCVVEBSybE5IU6pCv7wq0LS_KZK6ty_nETn7lzBFqClSw-Ho_aSPDeftZWotQuRpg-xZnyngWKiVDPDn4SKQxPR0pEu2MSuCYvr40
+XduUcclDAe_0osI5uZ5R6niq3UZMeUQq85VeWGJwLdRQ0eCmivsP1cPXs_LhfftgWyeM2YVguqytMM0-KWtuIbzjJutw1h80x4Nyh__r1NJBZqJ1HjdsA-rK
+Fq7Qz1Du87JIXky-_0Or5hc6FyxnAAPbtIygCMpTD_dwN__hV_rJOGq9araXInorFzpj3vMdvHS
+}
+
+!define SYMPLR_PERSON(_color)                                 SPRITE_PUT(                                 symplr_Person, _color)
+!define SYMPLR_PERSON(_color, _scale)                         SPRITE_PUT(                                 symplr_Person, _color, _scale)
+!define SYMPLR_PERSON(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSON,         symplr_Person, _color, _scale)
+!define SYMPLR_PERSON(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSON,         symplr_Person, _color, _scale, _shape)
+!define SYMPLR_PERSON(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSON, _label, symplr_Person, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSON>> White

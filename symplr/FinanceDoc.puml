@@ -1,0 +1,13 @@
+sprite $symplr_FinanceDoc [64x64/16z] {
+xTO7RWCn34HHLadatF-ywP7XC9OslJvKbm-CN9VUtx_U_2AZhO6LL5hh0Feb8m7UvacN1TecRylUCTQvoR8tZ7LEfLUd4mvVvxKFCEtClFO6D3wQrpvnzexe
+o6ohd0n19mrfrkSzZbjPzmIGSGTmEXdeTC905qlqqcCwVx01pdHdRbDawHDkT_Hy6oUGeND-lrzHUmWzhsK2-hXctrUIYCS-sWsWkHploP7rkss7-XQcFb_m
+XkmtW3w0Gtt7hQ1o_hkWzA8FU6vFXD5plTRUCF6fCJhQI-I3GOyq-72_zljxoONWRMzOaMrFefV9sVvuu_crqLlwwNrxNx1zxrZHRSzzeRtr_B-_Dwp8jjTr
+_mtEZxpnXlxE6_eX8lgopw_IzAhlpw39DpsPL_pqwbEGhpp__SaTySgU02KA-6lxZa42y6jx0JJGgIYRLfyWfi81upsY18oe2XnXPCWBon9xIfoDVerh
+}
+
+!define SYMPLR_FINANCEDOC(_color)                                 SPRITE_PUT(                                     symplr_FinanceDoc, _color)
+!define SYMPLR_FINANCEDOC(_color, _scale)                         SPRITE_PUT(                                     symplr_FinanceDoc, _color, _scale)
+!define SYMPLR_FINANCEDOC(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR FINANCEDOC,         symplr_FinanceDoc, _color, _scale)
+!define SYMPLR_FINANCEDOC(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR FINANCEDOC,         symplr_FinanceDoc, _color, _scale, _shape)
+!define SYMPLR_FINANCEDOC(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR FINANCEDOC, _label, symplr_FinanceDoc, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR FINANCEDOC>> White

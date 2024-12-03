@@ -1,0 +1,14 @@
+sprite $symplr_Cash [64x64/16z] {
+xPE7hkGm201nmHZc_x_tIZRQXszRSaNjCYgkOn0MydzpSL76t0YV7uYO6xhed6Sct_3-axcFhr7GVMno9_R5PCXRybLzs2nG9LExzbOaOzW-Flg6vw9OiE6Q
+duJwmjSbl6tgd054o_jHjlojzrQIRwGdYyEyMKM3N1U7BXBv5u9XB9S2bfYCvMbN9znz3mciIKwYI4AXovq1iDMnupS_BDdIzqfa9N9fTTuoQaIgVyf-FFwx
+IiRGbtu3-PLE7FO79Wz0FUfFkZpWz4D-NcOcUjolye0Tz_rf_EFvJ_H5unxp5N_GAyXHl_1O06E-yxMiX_uOlYvhppw0zoM18PaIENmP0SmSFm0lkO56rZtt
+OsDZxPyoo7S6p9gwDwhaLNzIlnhuqi9CRQMs4U1BT7jU_xAqRJ7kg7mHsAl_wo29eZC8jou99Lx_Vz3b0uwkVjuSc7m0IchdtLU87m341s0VAL--66U99icN
+qbepPc-Vs6zKaUnlA2Q7-IV-FE_xqgD3p-5BoiPfeaYYsqaqw-UvkBZu3W
+}
+
+!define SYMPLR_CASH(_color)                                 SPRITE_PUT(                               symplr_Cash, _color)
+!define SYMPLR_CASH(_color, _scale)                         SPRITE_PUT(                               symplr_Cash, _color, _scale)
+!define SYMPLR_CASH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CASH,         symplr_Cash, _color, _scale)
+!define SYMPLR_CASH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CASH,         symplr_Cash, _color, _scale, _shape)
+!define SYMPLR_CASH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CASH, _label, symplr_Cash, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CASH>> White

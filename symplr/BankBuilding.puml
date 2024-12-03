@@ -1,0 +1,13 @@
+sprite $symplr_BankBuilding [64x64/16z] {
+xPK7ZiD024NjARG_zx_kzlKOYHIIxUkduleYu1Dv-KmEMhl7NWNGzMQzuOLRIs10owg0t592DO2UJpfWDQtJj8e1dBEdihvrOYMXpv8Lhfchs8_Ci6QJR03w
+bW0WxdPcPJgWQXQKTGhVg8xdqwdqYyla1wr3erW2uiSLmxG5Qt4XjOrc6D2WmO2YKMs5CJZuMooJ2xFXeN70FhKeczgUKnkoEAAtATmDXPaDb71Kv7kYU1a6
+ugqbSEnx62wGj4yeIJ_ciizh2lP-HngVbo29B3yGcIaKtILVTSP8foilm6wYl8zdJWie7-WV_k4V_k5NVa80VaTXl67GxHmGVg9w7MdS3n2aFy7SDuJcESdR
+oVQEWExz_lqidsiAzdv3ckRhiIIq_0qU0G
+}
+
+!define SYMPLR_BANKBUILDING(_color)                                 SPRITE_PUT(                                       symplr_BankBuilding, _color)
+!define SYMPLR_BANKBUILDING(_color, _scale)                         SPRITE_PUT(                                       symplr_BankBuilding, _color, _scale)
+!define SYMPLR_BANKBUILDING(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BANKBUILDING,         symplr_BankBuilding, _color, _scale)
+!define SYMPLR_BANKBUILDING(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BANKBUILDING,         symplr_BankBuilding, _color, _scale, _shape)
+!define SYMPLR_BANKBUILDING(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BANKBUILDING, _label, symplr_BankBuilding, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BANKBUILDING>> White

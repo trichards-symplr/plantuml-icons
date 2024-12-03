@@ -1,0 +1,12 @@
+sprite $symplr_Piano [64x64/16z] {
+xPS5RiL030NVCipzxrivtqfTHl5Eq301uLh68TKgexO7sNBDYOLoTTibKW1BDPmjQU5qAODZxHEM0WbFDDZ6rRRztlno5vAakc6wwrhocoshkzyicExxYr8q
+dC7Kp_m4-S_-yOz__ECV__Z7Tx7DrPQl7rPViqEJClI--W1zvYUSAgdWfB0O6P_wIcC3gyee9ksPPNGBLjF7lWDTSZh4mfB-sJ_-yO_VsQ4I_47qGrU6f9i2
+JSw4dPwx678QKEGiaECX-uAB7O8F2bM1jBZfXPjTEZSpXwwcb-Jse2Rxdp2ifJZIbT1b79u
+}
+
+!define SYMPLR_PIANO(_color)                                 SPRITE_PUT(                                symplr_Piano, _color)
+!define SYMPLR_PIANO(_color, _scale)                         SPRITE_PUT(                                symplr_Piano, _color, _scale)
+!define SYMPLR_PIANO(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PIANO,         symplr_Piano, _color, _scale)
+!define SYMPLR_PIANO(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PIANO,         symplr_Piano, _color, _scale, _shape)
+!define SYMPLR_PIANO(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PIANO, _label, symplr_Piano, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PIANO>> White

@@ -1,0 +1,14 @@
+sprite $symplr_Camera [64x64/16z] {
+xTK7ZXin38LXaYeKtxl_UTDaOYmRmKX6K9Bilrqx7zIso1_lgwzAUwqUURvtv45V8_J8GwfVDS6nvtDwxi6M0H_voFYPl_h4QxbIEVCAwDgThrZYUrXgAm_o
+o9EX2qULamg8fyKJAcSfs2K3gvnMYCl_-jG2QB8TNho18BjSQVM8yAQ_yRhuGPTAI5O2d05bmuFsDAX18beffGsGeRVU6TPpVWFH9MiWofrN46HDliuOfDru
+KKUKlDmXQqxeZRyQZBo1NYrN4BlU7dDfW2J27cigctxGymn77tbsdR7f0VlrWUDvwmhiUIFM-MAk1onRlZ3MnmsOswfRld4iW_cfis_vkk6trbzpW2VhpuDk
+p56mpm-svVD143P_4v6dkETz7e22G024vkYUrrof0mHSyuTwqqjdVi-AvJDqsVKIXBwDoBxNnzbb1aBt_JpqOVd5IBxXCmU9qLiV0E4YXrxKmHbSvSXdLhlF
+Fs1tNkKuGB9WF-QDboz4EUIs_CzsmattCmV7ostX9D9boHmdkSa_qLVV0G
+}
+
+!define SYMPLR_CAMERA(_color)                                 SPRITE_PUT(                                 symplr_Camera, _color)
+!define SYMPLR_CAMERA(_color, _scale)                         SPRITE_PUT(                                 symplr_Camera, _color, _scale)
+!define SYMPLR_CAMERA(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CAMERA,         symplr_Camera, _color, _scale)
+!define SYMPLR_CAMERA(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CAMERA,         symplr_Camera, _color, _scale, _shape)
+!define SYMPLR_CAMERA(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CAMERA, _label, symplr_Camera, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CAMERA>> White

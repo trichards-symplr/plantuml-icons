@@ -1,0 +1,14 @@
+sprite $symplr_PersonGraphUp [64x64/16z] {
+xTG7hjqW44RXdp8CSFQ_t-ZQ8_lTfX2d9--ubmzKqVzKyTwzNDMfizKl-W5UgyEun1ipIrAUD2raRS-xjg1egy02hnpLNKr5awAlr_nM9-Qj34M3giKAcxyo
+V_0UVoV8sigGrhd2onaRImFNEZzycapBsIOphVFJAq-sPbxduICRC4ph_FJ5QOeSByjSdIIR01uSODOL7ZMOti23Dv_Gbda6arJ1Drub6UH5hdPpCK1moMcB
+N3s8AWINZBx8JwyATjps9Hu-AaMdN-FXQz9Hgk4NU7Z3TUHO-BUyr2Wl-djk7AtxawinnnQaLHyyVFo-x8DVzS6l-k1NVV2hFlXb7_ozjsTl-3r_xnlzsNVQ
+2sw-Dpxw31RUBBn1KjGFBex6wTLWxXvsVxV-fQhJszQyysfmxy7qAj3MkFTA_TvxqZTvsRqt_K7-qrUYYzuvIjUyfrlvic-wbIxwJz_jLeCMwyUqhTEF_V5s
+7e--yRRmcRlolSyUZU5RVNRVC-sLZz-BVaoVVG4
+}
+
+!define SYMPLR_PERSONGRAPHUP(_color)                                 SPRITE_PUT(                                        symplr_PersonGraphUp, _color)
+!define SYMPLR_PERSONGRAPHUP(_color, _scale)                         SPRITE_PUT(                                        symplr_PersonGraphUp, _color, _scale)
+!define SYMPLR_PERSONGRAPHUP(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSONGRAPHUP,         symplr_PersonGraphUp, _color, _scale)
+!define SYMPLR_PERSONGRAPHUP(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSONGRAPHUP,         symplr_PersonGraphUp, _color, _scale, _shape)
+!define SYMPLR_PERSONGRAPHUP(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSONGRAPHUP, _label, symplr_PersonGraphUp, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSONGRAPHUP>> White

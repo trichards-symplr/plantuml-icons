@@ -1,0 +1,14 @@
+sprite $symplr_Microscope [64x64/16z] {
+xTO5eYKX30NH6u8bjV_rZlHt1yRbF9TgDtr___LnpxJFUD1qe0QpjTOFSsdG9HNG7zdxPBXx1RUZiJ-YVPEySzXNtVgrVGs8UjmFBkEmRz1BwT3FUcYtWvb-
+q1VG1M3QTk-aBia4_63y9aa6fGJKpLx9lDqQhsTyitV8tXD8bmRONg_AfITKAOZDNjQWtKsyGJtT_WUO6ddQAvXIKa_x0aMDEEqr63Amqzv12kffhyJL6Mlz
+8mzVDbLYz_YRkjKPSb8hocIKKYeKtMbC5JW-_rIcZFE-CLJ8utxGvQjz9thlWzIzeAenjSHvVkWsC0swrdWVNxIxsEiWfCIrpmO08OUJF27dzSJGlY2B94-W
+Q8KzraYJJ3A8_SiFeCkIa3fJA_gptjM19YUq3yfzduUz1I6TzvBfstgjzTRcSuzxvkn5RwkyngHBuH95Rt38NfzptV5Qsm1ShukL3SG2JAzOFhqaGwyfgqTd
+q6kSh4l0N--NLRrcng9f-bjy1W
+}
+
+!define SYMPLR_MICROSCOPE(_color)                                 SPRITE_PUT(                                     symplr_Microscope, _color)
+!define SYMPLR_MICROSCOPE(_color, _scale)                         SPRITE_PUT(                                     symplr_Microscope, _color, _scale)
+!define SYMPLR_MICROSCOPE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MICROSCOPE,         symplr_Microscope, _color, _scale)
+!define SYMPLR_MICROSCOPE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MICROSCOPE,         symplr_Microscope, _color, _scale, _shape)
+!define SYMPLR_MICROSCOPE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MICROSCOPE, _label, symplr_Microscope, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MICROSCOPE>> White

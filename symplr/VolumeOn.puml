@@ -1,0 +1,14 @@
+sprite $symplr_VolumeOn [64x64/16z] {
+xPQ55bin34F3uFl_tpk8JfQbd35K9J-uZfwhWhkljzvwosUlejNm3NI5Cge8M3x42q1LdGsmU4hRu8T21TghT08ehecNV0CBBz4sQ2T-xnfVewjtYwzMl2x2
+u8c3Q43JwPDVkxo1lq65b8VAL_JY_TYTHWbso_5Iby79hrDK1yXkLmLCOW8xhneDu_8ACiinb6lUpqJeeEqnyEfxdqypkbN3Jxk13Eu9FtFJiNNIxl6X_u9M
+3f2s5TKqF-IL6tckmq3OGcHFUGsfBHBo8U-II9tSQAUyit6a3ZBJZ_c23TA66Jlc4tnvZd3Cn-_YT-Vfc9ypBtJrEkMzejVrBfpFlu6Enu6Ki_owCfE_kgnp
+oZFUDrGOTH-VWl64Ro2yW1-EcriAa1_o0Imf0XG1yUBhBpzSFyMva6cdkKqTQ7Ne9Yz5v3vgb1SEbifjVdu7EQExI_bSsr07o1klumRcjGll7YYhmyQ7vQlA
+_GFv0bXQl0Rl9rvU-T-Y3il_Id5pJwN0qUFWbw9fzLSKEj0xYmyDNVj91oQVHZ_lJXIDoMTDv5IfXHc-5jqVfRVU-WW
+}
+
+!define SYMPLR_VOLUMEON(_color)                                 SPRITE_PUT(                                   symplr_VolumeOn, _color)
+!define SYMPLR_VOLUMEON(_color, _scale)                         SPRITE_PUT(                                   symplr_VolumeOn, _color, _scale)
+!define SYMPLR_VOLUMEON(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR VOLUMEON,         symplr_VolumeOn, _color, _scale)
+!define SYMPLR_VOLUMEON(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR VOLUMEON,         symplr_VolumeOn, _color, _scale, _shape)
+!define SYMPLR_VOLUMEON(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR VOLUMEON, _label, symplr_VolumeOn, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR VOLUMEON>> White

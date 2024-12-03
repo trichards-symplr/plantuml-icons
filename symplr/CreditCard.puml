@@ -1,0 +1,15 @@
+sprite $symplr_CreditCard [64x64/16z] {
+xPO7SkOm28K1TTxzxxknl6GSWnEsrvVwC_geeq8_IFzL-uZKIueMnPDMXbVew946C1F9G_afCu0_v3l6EwcLR-8NwfVoSkWhUEZncnM7L8pFviy0lMXWo_hU
+bR-CdplXwWR_Y_WsAD-_W5-OMPxvv7MjfOO9q5EygU2KZQq2akDRfKDSweluC6md0olRFsS7Rtk9AAwjdreFFAqTUeJRe-6YvNaX2rs0A6Ve-AnrgTzKCLz3
+1nqKeDtgTmlg_XtlmO59ZkS1OB0PvmxDn-8U72kEjvrxEYZGlKw8kkCPO3S_XHOkYcM7ubcwY--sLqC_SRwudXYM_qIxmdwaZGr_FN4g89Q4xv_UBOPRoIJQ
+TXBTCdeedpk_nHjmtKjiILnqjJJCErulOVfElp-NBm2_nVjbsR8adijV06ASPF1UCDwRlcYCcmR0SVccKYZ4pLPIzrsCamQsXPh5IVpI2Z1vgyDZyGAKl9vm
+yRZnlgTU4tB3DNhK-3qMzsf2XQftm01d-Av253ZePiZDgjmSC53oxoVlO3w5xm0vEGSDO2gAI8q-T53sdcyvt3keEFU317AKSo1pur-Z0gY6EUOT04FegzM0
+IT-Y-gqEx7pAozyxlmodzMquzSNq3-aJ
+}
+
+!define SYMPLR_CREDITCARD(_color)                                 SPRITE_PUT(                                     symplr_CreditCard, _color)
+!define SYMPLR_CREDITCARD(_color, _scale)                         SPRITE_PUT(                                     symplr_CreditCard, _color, _scale)
+!define SYMPLR_CREDITCARD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CREDITCARD,         symplr_CreditCard, _color, _scale)
+!define SYMPLR_CREDITCARD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CREDITCARD,         symplr_CreditCard, _color, _scale, _shape)
+!define SYMPLR_CREDITCARD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CREDITCARD, _label, symplr_CreditCard, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CREDITCARD>> White

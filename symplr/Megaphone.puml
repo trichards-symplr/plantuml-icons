@@ -1,0 +1,13 @@
+sprite $symplr_Megaphone [64x64/16z] {
+xTPdqk0e30RX5v64-lxdtPt0P5VneScX_zgFim7zJVshpC0jpmE0fcHEL7F8dXvCKb1pVBqzi-Tkm0B8-mwHzyN1BUqxq5MIlWKiKzBtWEXIojS9CAIpB_Pf
+jOq5-zm7NsVmMCmgdRpvamoVpIGTVGLcBTfziVtWAwoDCxw0I-ehUifFrjjRm5_iOtdx-9-k4CtqOW_lxxcpfC2lxd_K0Mllt5M9w-TNUBlNecemhxq6Bac1
+QTBlVMDfdxzqfS_lR7pf3Tf-_lT-ji5s1KoxpFlNP6cN-VvK0jSk_VzPtkV___SLvw5OizUJtzaCdlDszBj6s9iMlGpSsd206EL5lXBlx__zBrK7m2XtVZaq
+xTe2-fK7viTR0fPT-Ddio_btNDp_u_o_BELt3IBdTnPa_MvT-Flrdy71oubQdT1ZO0TV0e2gnvnvy2epmatF6VJtFjC0j_ryKWtU5Cfc3eH9-KhH3-jV_mC
+}
+
+!define SYMPLR_MEGAPHONE(_color)                                 SPRITE_PUT(                                    symplr_Megaphone, _color)
+!define SYMPLR_MEGAPHONE(_color, _scale)                         SPRITE_PUT(                                    symplr_Megaphone, _color, _scale)
+!define SYMPLR_MEGAPHONE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MEGAPHONE,         symplr_Megaphone, _color, _scale)
+!define SYMPLR_MEGAPHONE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MEGAPHONE,         symplr_Megaphone, _color, _scale, _shape)
+!define SYMPLR_MEGAPHONE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MEGAPHONE, _label, symplr_Megaphone, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MEGAPHONE>> White

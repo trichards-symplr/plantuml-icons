@@ -1,0 +1,14 @@
+sprite $symplr_Journey [64x64/16z] {
+xTLNTkim301H02mGCFjVxois5JSolIVpAzuZiTdoclscjRVoVEu0P7qc3mZtX2RJgZxqziEtTp2PrA3AEXrSnDbaKWSsNVf6o363kG-WhNodomXqEi0j86pb
+_K4lKe4-zPMKOmNMBz0DiiYakxabllOYDPaEgE0gKeBK-xoepp-XSopjeGKgUNZNTILWF5ZwaL-_Hjjc8ch_SVFwaDU4TlrcExj6hlVvnWNlG0JOu5j2sj9R
+GEZPsw6hI80TU3jyKAnylpx6spXI0URxiwHClUNDDSfzvW4x5wVDl4z-ODYznE0hFpP-wSMhtEF7mPlwozCmzUFkJNsddY-eJdsOBFpbyAJCV8YyoFktzBy-
+7-KtjeKFsgqFwXM7cFj6wl15Xs_xdvZLGmu1RJK1yl3CZg_8kx4Qx6tILZFGv3Y-a4SFVNyGs_-Ih46NHJKl_MPZqg5dhq1bbL_wSaHWCb8Fd_ErB-GIl8SN
+A2_oJjQNU0aWpmgt9tbnhlF7-f6LynosH_fv1UfBl7JYHLxXHLv0F_BzdNYJzUzcLadxry7RhEN-DovIQInocUR9NL55IaxiEF_Vfhy
+}
+
+!define SYMPLR_JOURNEY(_color)                                 SPRITE_PUT(                                  symplr_Journey, _color)
+!define SYMPLR_JOURNEY(_color, _scale)                         SPRITE_PUT(                                  symplr_Journey, _color, _scale)
+!define SYMPLR_JOURNEY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR JOURNEY,         symplr_Journey, _color, _scale)
+!define SYMPLR_JOURNEY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR JOURNEY,         symplr_Journey, _color, _scale, _shape)
+!define SYMPLR_JOURNEY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR JOURNEY, _label, symplr_Journey, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR JOURNEY>> White

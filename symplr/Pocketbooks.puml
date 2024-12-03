@@ -1,0 +1,12 @@
+sprite $symplr_Pocketbooks [64x64/16z] {
+xPO3eiL040GNuxx_UPyTVsCgHeMBBd-9fDCJh6UOdkXbd1POHxHHts7yX2FCBE3yXC57_OZoZ80ESuACdFZ1VcLcW6-87GZ0tP-UluxxVSEd6_C3IiHCDmok
+gd6Q2zrG-Db_-wj_cizoexx19zpnD_WCepCSR_EvdAblyjDtku2t-1rtx0r-QVt6XvV_zDDFF_tqGQJOwDVBU017ec_o8vg4rOXwMCSvX6toqHNUpluRecFh
+XxLQsaXqcuc-lYNwlZrwlptw9yaU
+}
+
+!define SYMPLR_POCKETBOOKS(_color)                                 SPRITE_PUT(                                      symplr_Pocketbooks, _color)
+!define SYMPLR_POCKETBOOKS(_color, _scale)                         SPRITE_PUT(                                      symplr_Pocketbooks, _color, _scale)
+!define SYMPLR_POCKETBOOKS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR POCKETBOOKS,         symplr_Pocketbooks, _color, _scale)
+!define SYMPLR_POCKETBOOKS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR POCKETBOOKS,         symplr_Pocketbooks, _color, _scale, _shape)
+!define SYMPLR_POCKETBOOKS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR POCKETBOOKS, _label, symplr_Pocketbooks, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR POCKETBOOKS>> White

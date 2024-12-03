@@ -1,0 +1,16 @@
+sprite $symplr_Basketball [64x64/16z] {
+xLM7iZOh25CfIlB-ptlRjyiud-nfKsxxC-KKDn02Odl0B_n25pMVEleFkCC1NW2MVezj88cORaO6G6ADRx5XbseXMfC5ClhNb8FSamNz3kfVeFjxeWxqMnO-
+bR28TwycvnKf2FcO7bUAGq2A-x0J8DTqa_uc80itKZuIVmDBDW54_gx4OoED415Lcq4IjbKbkxyF9dOoGpS94ZsJhlm_oFNadRKDO_CIo4XSO5c144VZaA77
+JTUcHEszd7vUKktLWK7A-UMPFe7Bg_4w1EtrQLIzqsgOFGtOU2Zc6AXQ0coCISsmf_pLDWonkG8W0I0MwDBNRNm_2vWfNpnozLnyvXzJHoqss7Dh4OXfAgEt
+lrBsCPonxZ1m2Owp_3514iksi_j3uMnDENN6AumTdGeGORrsTN2rDbvbTujZXZj9M7Nratz5Ipc9dAod_YS_x-4uyqSzqtrFA4JoQw7rval1e9Nww_5JvfpQ
+YzYlCfN-ELysJoPbNrzEBURdiDJEO_yhm3a_JdiJ3tebpmavr9vtsachssEaCvxkx_dI77ufC_Pn0JF5lY7UwntL2X_4jgBze-veEMn1lTOs8xFj-py1ZgVz
+BK52pz2x6SPuUFq2oJvAItImFxrV32q3sow6tcfO-dg-_ubPgSypz2Bzdj3paze2zEVgS_oViSvpqChZ6lDzTfH89JZe9nI4xEPnPEZ3kWezoCW8SMsgxY2i
+95GIY2bNH-wDZzdRLo414eWWrm98mfFz9NHTo0SlVBIVOCZh5Vt7uXT-1m
+}
+
+!define SYMPLR_BASKETBALL(_color)                                 SPRITE_PUT(                                     symplr_Basketball, _color)
+!define SYMPLR_BASKETBALL(_color, _scale)                         SPRITE_PUT(                                     symplr_Basketball, _color, _scale)
+!define SYMPLR_BASKETBALL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BASKETBALL,         symplr_Basketball, _color, _scale)
+!define SYMPLR_BASKETBALL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BASKETBALL,         symplr_Basketball, _color, _scale, _shape)
+!define SYMPLR_BASKETBALL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BASKETBALL, _label, symplr_Basketball, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BASKETBALL>> White

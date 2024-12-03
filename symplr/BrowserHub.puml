@@ -1,0 +1,13 @@
+sprite $symplr_BrowserHub [64x64/16z] {
+xSz50kGW64JXWX-jT__pZWjfUa6o6VtYyXBGxooCGuybt4pIKuLGfkYpd7HRK5K8ITdGTTi4ffIINJf5jtM6PA1BTDqM58bPcGhQqxwf0auwLLjSUqMhEcQW
+NVfRAaM3LkEb7p1qe24rW6lVwPr-q0UzsAclVGSi3Uj00uVQsWytEoLFdKXPUkqL0A53Uw_SUzRpVlExzJaMQU_ZfwnDc5NR-iJ2HLSPFCTFiVVZ9qFHnQJT
+cN_1ki1Ihks7sFlIlgbPifDMje95t_l13qMJ_DfF8l-GzZxbRy9-rpDFvp_uc_h__V_-V_-_jzDPdwRVzPLZRUknLFfOpNMROr4aaxGoHJTaMnS1ezLTxtNN
+XccwgkO6DxrAfRu1zOsITCZM8-aREtyxqmt5tu6_QpfczXwo3YNJwYiJEZLWPvsBkYdw7Nq4
+}
+
+!define SYMPLR_BROWSERHUB(_color)                                 SPRITE_PUT(                                     symplr_BrowserHub, _color)
+!define SYMPLR_BROWSERHUB(_color, _scale)                         SPRITE_PUT(                                     symplr_BrowserHub, _color, _scale)
+!define SYMPLR_BROWSERHUB(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BROWSERHUB,         symplr_BrowserHub, _color, _scale)
+!define SYMPLR_BROWSERHUB(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BROWSERHUB,         symplr_BrowserHub, _color, _scale, _shape)
+!define SYMPLR_BROWSERHUB(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BROWSERHUB, _label, symplr_BrowserHub, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BROWSERHUB>> White

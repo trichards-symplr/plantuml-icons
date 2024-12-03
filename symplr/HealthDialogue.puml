@@ -1,0 +1,12 @@
+sprite $symplr_HealthDialogue [64x64/16z] {
+xTPLWiH024LHe9ot__Msa1fh9untxbVin8r-HrjRaXylqMb9uQgSR1p0U3mzNK579qyLIky3nELF0S0-hq_WqrWgAtt3agxsBUTS0lwuv_87lUHZOthOM79u
+B4q_4u_lbari_HYGF9xf97qkRnbXXUNnUkdwyUEU-5YVNldOCpm_ftwqrdh0MwizroMvvxVlZoAvE9zii44zAv2EGUzZnQq6MGLloSaEDTng_hIyriMpjy3a
+XTR4G82R3t3p0MxUUC17E76C4niFb3FzohRs
+}
+
+!define SYMPLR_HEALTHDIALOGUE(_color)                                 SPRITE_PUT(                                         symplr_HealthDialogue, _color)
+!define SYMPLR_HEALTHDIALOGUE(_color, _scale)                         SPRITE_PUT(                                         symplr_HealthDialogue, _color, _scale)
+!define SYMPLR_HEALTHDIALOGUE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HEALTHDIALOGUE,         symplr_HealthDialogue, _color, _scale)
+!define SYMPLR_HEALTHDIALOGUE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HEALTHDIALOGUE,         symplr_HealthDialogue, _color, _scale, _shape)
+!define SYMPLR_HEALTHDIALOGUE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HEALTHDIALOGUE, _label, symplr_HealthDialogue, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HEALTHDIALOGUE>> White

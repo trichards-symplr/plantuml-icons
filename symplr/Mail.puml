@@ -1,0 +1,12 @@
+sprite $symplr_Mail [64x64/16z] {
+xTO5hWGX40RXlnkdxd_UvpeAoSOsVEjI0JesafPbiJ3EjUMD6JrkSg2F0xB-Qj1Cmwo3RvQ7g469pGO2tHfKZR0ABLFqAzAa1Dt75azAr6qlxv1rpRycTTHB
+1PhTBwwpNl5oZDwXcYvwMOEYOnc8qcKlvPCnXWx5TDN__Z5fgq0Fqa0lgr1jlxWqralf_sBsjVXmB_yxnhXPVA2NCZJ_EWtTDTih0lddPRwNDUX0SmtsMvND
+ufEzB4RJPB_rxFtgLn_ecfCf-cNWcj98-gFIWyPv1TjS44oA-iSACvfhnyRf4PPbUGK
+}
+
+!define SYMPLR_MAIL(_color)                                 SPRITE_PUT(                               symplr_Mail, _color)
+!define SYMPLR_MAIL(_color, _scale)                         SPRITE_PUT(                               symplr_Mail, _color, _scale)
+!define SYMPLR_MAIL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MAIL,         symplr_Mail, _color, _scale)
+!define SYMPLR_MAIL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MAIL,         symplr_Mail, _color, _scale, _shape)
+!define SYMPLR_MAIL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MAIL, _label, symplr_Mail, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MAIL>> White

@@ -1,0 +1,14 @@
+sprite $symplr_BrowserSecurity [64x64/16z] {
+xTI73jiw34RXdn8roFF-ptjl6nk8a0N5A4R7oHwVjwG_jk9zp3d7Q5LVLqS2PEJjDPffF-j0z7eQyv4GTLSF27_ScG7fsWbcqLbDfkce9Ns3s_elSZ2bCyQM
+R_UjnZMuxete6TUz72ZVUHKjDOgsl1LlpOka6Klvw6jhxbxjGKToAwGHQrDQVUSiREL99W1JB-iPVlCEPwbxGHPzg159MVRVF1dBwbVEgsGqBKI-R40X9Ozp
+wxq_5NZ73-_7MBAy-qhAoOYkrrd2rE5hH41Hfgr-OZeg_bHLBPBeEYhqHn_vQV_juSfalFTM7-k7T-g6Vyw28KaJxVWsbbnIaWp965i-MRjF0eEouzTkpXWb
+KixGhgVhLeCf3S2DrBOVjEFxc7IfkbbIzhs29gbXodbUWAull2P3ginEbrIIgg-y1b7KOKfg77pV7wX99fKWJ5zxMP0k6z2a2rxo966QBdgfvIpILN_qD_X_
+VcBQw_NyxsHi1-NHouFTCgeU_PVzIbyRjAy3B-VKUBcKr20lQgXI9tInf1xhlzZDAwztR7cvckblxr__0m
+}
+
+!define SYMPLR_BROWSERSECURITY(_color)                                 SPRITE_PUT(                                          symplr_BrowserSecurity, _color)
+!define SYMPLR_BROWSERSECURITY(_color, _scale)                         SPRITE_PUT(                                          symplr_BrowserSecurity, _color, _scale)
+!define SYMPLR_BROWSERSECURITY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BROWSERSECURITY,         symplr_BrowserSecurity, _color, _scale)
+!define SYMPLR_BROWSERSECURITY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BROWSERSECURITY,         symplr_BrowserSecurity, _color, _scale, _shape)
+!define SYMPLR_BROWSERSECURITY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BROWSERSECURITY, _label, symplr_BrowserSecurity, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BROWSERSECURITY>> White

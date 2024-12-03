@@ -1,0 +1,12 @@
+sprite $symplr_Scale [64x64/16z] {
+xTQ5WSGm34HH6INDz5_lCJWnx37wByCBaxJjTZ6LMJbUr1LS1GqhdK2ubbdg8CgS5_9n-2cVUfu-c_5C9da8fnWV5mzOnppWcSjfCYDZyxSuz4gLnaUhoOf4
+AybouoNJXnwGrbjq2ouMtCLRB-C9IBI3luTYqlawN0A5vU2BMJNLOgQc1nzfmzdF1oz194guVpdu01_wr7hNDZjwNFHLJycB_BnFyjjll_tsss-VN-nzSlvU
+jpv_9_eBVHsF2GWlys0O3rPVnFDiGl6Y9HXdrs-IoFmINkTJHejB7PJKvVKpORMCgmOGwqai01T1vL8XvLafo0zhTmq
+}
+
+!define SYMPLR_SCALE(_color)                                 SPRITE_PUT(                                symplr_Scale, _color)
+!define SYMPLR_SCALE(_color, _scale)                         SPRITE_PUT(                                symplr_Scale, _color, _scale)
+!define SYMPLR_SCALE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SCALE,         symplr_Scale, _color, _scale)
+!define SYMPLR_SCALE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SCALE,         symplr_Scale, _color, _scale, _shape)
+!define SYMPLR_SCALE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SCALE, _label, symplr_Scale, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SCALE>> White

@@ -1,0 +1,13 @@
+sprite $symplr_DollarStack [64x64/16z] {
+xPG5iaCn30CTj2tT_xmVKdWywPHfXmhUe69vC5--V74UGO-XSl1vki-1iM_b7wDAXq9lfJhrotuVkUV7_RhJYX-083s0kEKxJRfKOiDNpgUl0A2p7q5RyuEJ
+QRfLjEiWylndZtFV7SHK3wrEegsC2xUfJyB2GSnfSXgwtt4-RaGnl_ywh361z7OPmuvJooYA7CXrx0EJyt6mIXukexQlS4xAiEatjr27p9aegu1nnUdFh-qh
+j-SdjOJb_iDu_yRnHMRbzlcdk7R-CHyBbkTljiX9G4j4T38kxryN-JCoh-IFn28-7jRoNzVpNnVvruttPpJfelIhlFyp-qzQxpzM__5J-X-6_dUj_cjBlJ-0
+ozkWE0CVV9o538GpaEUXs1dKmGVFOV13FeCeJqCgPv2kTtv9po3BXNpvyWi
+}
+
+!define SYMPLR_DOLLARSTACK(_color)                                 SPRITE_PUT(                                      symplr_DollarStack, _color)
+!define SYMPLR_DOLLARSTACK(_color, _scale)                         SPRITE_PUT(                                      symplr_DollarStack, _color, _scale)
+!define SYMPLR_DOLLARSTACK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOLLARSTACK,         symplr_DollarStack, _color, _scale)
+!define SYMPLR_DOLLARSTACK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOLLARSTACK,         symplr_DollarStack, _color, _scale, _shape)
+!define SYMPLR_DOLLARSTACK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOLLARSTACK, _label, symplr_DollarStack, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOLLARSTACK>> White

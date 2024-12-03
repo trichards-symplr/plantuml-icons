@@ -1,0 +1,15 @@
+sprite $symplr_Keyholder [64x64/16z] {
+rTG7bkiW38LXEfB-_QztAYS6rmUltvaaRfzrgEu_oFyLhu3bLHxvZYvM1oHb0rdo0g7z-XN_gWjbpQVl0qFMV6a7QzwmDWoa5Pz1lpbkAGeOG7Hh4MXyCRw8
+9FSNKesdoBLE_4XkrvtM-znv83mlxNepR-8Hf3voLrvExXNs2PTUqUErO-VVU7CkbjrQqebPQvyW3BwlcBJD3fDmuYiufsCVzjqjTCb7Npwza4QVkzibXgz4
+EUl7_EahUVHfF6mHwi77Rrz67xTTVPZfUl01l2lKqVlD-tll8BYCZA_iXgBqOrtEVDgzE45_B3cbabFA1lxCPnS7d-5YBiUBZJzWko7T4eg8WeXaxqvztNLp
+XKCdcxkA8Jils8HNj8rOTsN2owSTPgOX4zu3sOYVXrPQZqnu5rzBgmqZb1dll07Q-_pen_YTZvFUATRxCEkbym7ShA_myd71byxd1PyxNnPywdnTyA7pWatw
+DcRDAxhYO_Fzyl6bQlb8XKUVc--NJ-QLHrysNxRwXjPQbMTVDv_xYPNRyDp7aCsd5Q-R3_DUiUOz-7alqFom_98YAQNww6lphTRq-6NmFc7UzxMygAc8wAFt
+R54tFtzTsRm_sM75xV8E
+}
+
+!define SYMPLR_KEYHOLDER(_color)                                 SPRITE_PUT(                                    symplr_Keyholder, _color)
+!define SYMPLR_KEYHOLDER(_color, _scale)                         SPRITE_PUT(                                    symplr_Keyholder, _color, _scale)
+!define SYMPLR_KEYHOLDER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR KEYHOLDER,         symplr_Keyholder, _color, _scale)
+!define SYMPLR_KEYHOLDER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR KEYHOLDER,         symplr_Keyholder, _color, _scale, _shape)
+!define SYMPLR_KEYHOLDER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR KEYHOLDER, _label, symplr_Keyholder, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR KEYHOLDER>> White

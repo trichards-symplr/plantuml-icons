@@ -1,0 +1,15 @@
+sprite $symplr_HeartHealth_163 [64x64/16z] {
+xLJHRiGW30iXRI7z__yT61shfHHjF9-tkwi8Teo3AeGllaXfLLbJZte3zL0XwEaeUB5tThaVg5acp9-LCxPnZSQMDHzGAaa01Vlg1HisZg2vOvrRAfwc6Sig
+aiukBSBGxai8HrlAuyVcdhjadDE5aB0fqDJMtTFSr55LceLAMojQCK1mRgM7erCpTR7LS2nmd8HWoEcYXWWamXa89-zSV_WwgGd1guW60f8V1kWm35D9KR2d
+-FIia7f5jkYgzSn-qrlG_RPeC3dDhkMk2txt6eXUCgzhvVGPEPpDrLhwHnWFCN0uZ-RgKZ-fu-4DvOxIoUNwfPMLVoS-LuxFONmHNuE-L4m02w-VGZrtVdu9
+Dirf7j68hn5VL6NN9JX0RRcZL97Jybva78M0lcEsBzVBF3sRSGAADuSYf1D6aYoWy4ApyTIe2CcwaRoQqL3dIwFTUZy6D3AcSDwCQnACqFOTY0wVPWJ4qiGO
+vH4ceuu8uG758L6DaD_udiPKnfl5yHBjo-EiLVyKm_2THXguBsc-_M8annOorPSlDBH9DubXS3vH4GJXdGuS973ss9RqjGF3q9dEAsk1XDmfKQQl1H3WF-ai
+K2a-3UXh0Rtol-diO8VE0apV501TvU_86DqUVGhe1fq5w757O9S-UHjqJircadiECCbTAD4te4JVWAxfN_m
+}
+
+!define SYMPLR_HEARTHEALTH_163(_color)                                 SPRITE_PUT(                                          symplr_HeartHealth_163, _color)
+!define SYMPLR_HEARTHEALTH_163(_color, _scale)                         SPRITE_PUT(                                          symplr_HeartHealth_163, _color, _scale)
+!define SYMPLR_HEARTHEALTH_163(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HEARTHEALTH_163,         symplr_HeartHealth_163, _color, _scale)
+!define SYMPLR_HEARTHEALTH_163(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HEARTHEALTH_163,         symplr_HeartHealth_163, _color, _scale, _shape)
+!define SYMPLR_HEARTHEALTH_163(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HEARTHEALTH_163, _label, symplr_HeartHealth_163, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HEARTHEALTH_163>> White

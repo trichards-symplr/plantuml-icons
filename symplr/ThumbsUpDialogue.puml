@@ -1,0 +1,13 @@
+sprite $symplr_ThumbsUpDialogue [64x64/16z] {
+xTK5WkCm341HoIpz-vzts3jsIieolNBLNmh9T_FVVob7wPMwSSBGQxb7WSi1L0bBVdnrnkM4of1DmUI4yiFw_ttgDzL8txajqckxAVyJooybUQFfI2Dz0xgy
+u5Aa7m0sxsn6hAyPYjmGwQNHlwalZ6_eopVrJlwSLrlrG9zXcTlfvUVqPQwvBFHXdnnNEVFxKtiry9UhOU3fRUxjJNdO3pPTvOKokJxy_FxAHkzGTN-sEtQx
+Fm8vKaZVqekJlwctgp-WqqFz_06g-kK9rLGX1tinYcIWRojabs1V84a2RCcjIh0lC9RrSyp54UqpwEptFBxyPh_dyVLdzZEFzphc-bjmUvGhg6mAkCvxCxyD
+YkoOJGda2gx7P-Pok9_NLmEWrq_DboFElRpmhXWxLudG_ggfI6vzKULlzjyp
+}
+
+!define SYMPLR_THUMBSUPDIALOGUE(_color)                                 SPRITE_PUT(                                           symplr_ThumbsUpDialogue, _color)
+!define SYMPLR_THUMBSUPDIALOGUE(_color, _scale)                         SPRITE_PUT(                                           symplr_ThumbsUpDialogue, _color, _scale)
+!define SYMPLR_THUMBSUPDIALOGUE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR THUMBSUPDIALOGUE,         symplr_ThumbsUpDialogue, _color, _scale)
+!define SYMPLR_THUMBSUPDIALOGUE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR THUMBSUPDIALOGUE,         symplr_ThumbsUpDialogue, _color, _scale, _shape)
+!define SYMPLR_THUMBSUPDIALOGUE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR THUMBSUPDIALOGUE, _label, symplr_ThumbsUpDialogue, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR THUMBSUPDIALOGUE>> White

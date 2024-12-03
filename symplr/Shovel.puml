@@ -1,0 +1,13 @@
+sprite $symplr_Shovel [64x64/16z] {
+xTP7jbmX54DHaK5d_kDrf6evsnSw_a7zhHU8UdCPwufNk2b8vgfWiefP5u_FkYYeMBeec7JT59YYcmAJTLomdxyBm76_dayjXfFXOqfATO5Bc2zFm3Puw82N
+_eNRFHtoePItFUE_o3j_v-_ydOzwnw7USQZ7l4EhKC-VtgGAzVZfqjU20zusbogEymnTE-KBduh4JEsa0pwm7bdKpYeHdatHpgGE9jI0dqpj3FfWg8OAxFmS
+nJ7fKgYWu2UVYoR52WP3sonxgq31uv6QjiitOqhmJjPO-PjMMl3tVPk5Y_xLft_W0R_viK_6MVySAFes9SQr6Dy-VC1A2gHyCr9vE7up7U3PUv_BFhaMgnc-
+n5v59obzpj5hralBHm
+}
+
+!define SYMPLR_SHOVEL(_color)                                 SPRITE_PUT(                                 symplr_Shovel, _color)
+!define SYMPLR_SHOVEL(_color, _scale)                         SPRITE_PUT(                                 symplr_Shovel, _color, _scale)
+!define SYMPLR_SHOVEL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SHOVEL,         symplr_Shovel, _color, _scale)
+!define SYMPLR_SHOVEL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SHOVEL,         symplr_Shovel, _color, _scale, _shape)
+!define SYMPLR_SHOVEL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SHOVEL, _label, symplr_Shovel, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SHOVEL>> White

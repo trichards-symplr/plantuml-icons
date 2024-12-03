@@ -1,0 +1,15 @@
+sprite $symplr_SmartWatch [64x64/16z] {
+tPS5akj030Kj3QllVzvFXlePq3grlAymq-b1WxpzgEJMfUPdzCQOTb-FMEoI8Dxs2tbS4UMsRuJ9dEul06HeKxYh1spQgTxq4tLw9l7szgLjJAQyOlkUs401
+bJ41Rjc5TRAyg1jUxAKE6XQMC1hDrmE8WnNKzJFLvPLqzyxvV1xowtmZUZnOT7s1ul48mUSqTtu5nE4LyDVVg0u7q1NNiAymBds5Tc0P-RxsZ2tzH3r-AMtW
+nzeXhFn6YhkOG0U-hxrGLZw8mlvNoi3bNwS15dx0ZcUk03pmbg-XGMV-ZlTdRiICz1zN2ETJlX5xNmm0ul7tGau0DDaRhg5bVrPtlhBdVEOQGG3Wz0DsJZsJ
+X_cB_itvqb8uccHxy6tkzo-jHErvebtpz_r6RAIUGpfVg9Na-OK2qd75hhUa4Jm_0ZPmkPuk0fldAv2dF1sJQAw_0M760yJz9l7z1bDkbBqNyVr2dV9Szbxo
+vljQTSqpzght0yHN-0hbsIAdajmoA_eLWZoSPfZMJasNkZRQvaS1MmHkr91QMQVAzd8KmYGHv4Fgnws-idvDr7cl7rI_2yYiySE-NohfLTzF2Glwc30KOyyM
+uRRTZrJhxIBRk-Ot
+}
+
+!define SYMPLR_SMARTWATCH(_color)                                 SPRITE_PUT(                                     symplr_SmartWatch, _color)
+!define SYMPLR_SMARTWATCH(_color, _scale)                         SPRITE_PUT(                                     symplr_SmartWatch, _color, _scale)
+!define SYMPLR_SMARTWATCH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SMARTWATCH,         symplr_SmartWatch, _color, _scale)
+!define SYMPLR_SMARTWATCH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SMARTWATCH,         symplr_SmartWatch, _color, _scale, _shape)
+!define SYMPLR_SMARTWATCH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SMARTWATCH, _label, symplr_SmartWatch, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SMARTWATCH>> White

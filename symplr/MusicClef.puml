@@ -1,0 +1,13 @@
+sprite $symplr_MusicClef [64x64/16z] {
+vTRLeIKW34NH12Ux_th7uBeXy_pyBrmYxn0DVeSdeAvp1q3PwLupX7Ll8ePj-G2wunNyZXS87zc_1xVZ4spkNzxn7loEhvXi-0HXmmDLjhojSpMekgmpO5iQ
+R4UdikW3G5R9QxuqBOk-WZcHLLyWYopxTEG-6oGtnntzlGz6ItMJazSsTA0t4QUwZvsR_pV_mCmDpD0FG3cidzh41m19fFyvtOkEVu6kFLOU_CbB0Xq-k1t8
+cTVX5UYmK4w-pseefVbAll9rpCVcNTAr_ZqqALS-Zdc5SEsdVb2ZNlkf2YA2l_4ppnZOjLT8mzv3kV8PTEhzg7hkFNCVU0R2oOVfJo02bbppbVdoHIkSdXzJ
+cOuhz5YKjRYOSiLa9_adUYrXoySJgh1KF9nydVSEOfy9nBNwmVNo3Ltm3iZU9rPBLqTFbBLe0YXEDgBosVCR
+}
+
+!define SYMPLR_MUSICCLEF(_color)                                 SPRITE_PUT(                                    symplr_MusicClef, _color)
+!define SYMPLR_MUSICCLEF(_color, _scale)                         SPRITE_PUT(                                    symplr_MusicClef, _color, _scale)
+!define SYMPLR_MUSICCLEF(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MUSICCLEF,         symplr_MusicClef, _color, _scale)
+!define SYMPLR_MUSICCLEF(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MUSICCLEF,         symplr_MusicClef, _color, _scale, _shape)
+!define SYMPLR_MUSICCLEF(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MUSICCLEF, _label, symplr_MusicClef, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MUSICCLEF>> White

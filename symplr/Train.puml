@@ -1,0 +1,13 @@
+sprite $symplr_Train [64x64/16z] {
+xTPNWjim30RX7u0QEVS_RtfeHKl1I6_xlRaC27VhXLVcCUEgM3kt-cRFQiXjoXp07gR1NOF51ZHByyFq41rOTR91ovRVT1AJbHVOTGCEdNLw-05sESHlZpUT
+68GaM2vJ3qrrTbrwd_GBQ0hYUaMJDh2NOoSSJDUJWCjMOw6h05siiroTjTZBOZ6ftYSgVIjXtg-K7JVzNdBVg-JdzA_zQ-zMSTjNpVk5ibqJ0LxovFl7Fj33
+zTgqN_baqOdtiNdURmnnoXcEl8VTFsXq3GSz_BqDFEiTRF9j_2XWoNeRlzR7kMyqqtiBHDPhPrWr14DJsck7sR-6aTkJNXOVcBxayPx_nDyl0rS5X6PWLK60
+QMO75JIQfWmEFRL3Q6w57afvWpt_zzlRhGwmv-F9zKKPwt3iTm1_cYS7EE3LF1-Gv_c0FAyCgEVr0Hr21GvO_h7A-RmtKv6P_Xbl0G
+}
+
+!define SYMPLR_TRAIN(_color)                                 SPRITE_PUT(                                symplr_Train, _color)
+!define SYMPLR_TRAIN(_color, _scale)                         SPRITE_PUT(                                symplr_Train, _color, _scale)
+!define SYMPLR_TRAIN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR TRAIN,         symplr_Train, _color, _scale)
+!define SYMPLR_TRAIN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR TRAIN,         symplr_Train, _color, _scale, _shape)
+!define SYMPLR_TRAIN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR TRAIN, _label, symplr_Train, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR TRAIN>> White

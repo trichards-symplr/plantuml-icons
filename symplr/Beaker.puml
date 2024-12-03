@@ -1,0 +1,13 @@
+sprite $symplr_Beaker [64x64/16z] {
+xPH5siGm34CRjgNxd_TdS26UU3dmjlrKlP2tHsM8eORZ6JJ85YOLGpoUOT5mlj62UDwk6S-KV-LV-LU-SzXyYkO7kytdQ1uqGrDPmtcht2dXxLCxZ1dT0EoD
+bIEu-zWi9IQGVdRF2aZeyFJuHo97whF_In-X-4looPUkWuZNMro1XSlI5mMKujyfdpnzhCqHMBggO5jSVQadaXNmwvFoWk4As8SYXCe19UjMRmg0VKj0dXmV
+s6_LE_V72FZrQNfyla0rzTS2XKZXrLi1vOZMMm5tb8BDr8S5cgbt182qKEy9oFnZ8OS3OCRJvVC6NMGwdyhtrKfjEDJlKOf9Ver4NFjBNKAfr_ktokI8ikWI
+8_r5Nhm3
+}
+
+!define SYMPLR_BEAKER(_color)                                 SPRITE_PUT(                                 symplr_Beaker, _color)
+!define SYMPLR_BEAKER(_color, _scale)                         SPRITE_PUT(                                 symplr_Beaker, _color, _scale)
+!define SYMPLR_BEAKER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BEAKER,         symplr_Beaker, _color, _scale)
+!define SYMPLR_BEAKER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BEAKER,         symplr_Beaker, _color, _scale, _shape)
+!define SYMPLR_BEAKER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BEAKER, _label, symplr_Beaker, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BEAKER>> White

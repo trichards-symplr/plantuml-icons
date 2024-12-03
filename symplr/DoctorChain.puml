@@ -1,0 +1,14 @@
+sprite $symplr_DoctorChain [64x64/16z] {
+xPQ7ZgKm34KT9t6x__-_-qYc408IPBRltYcM3ZeKEnJwWIdccfTjHeijwWc0L5lUWIAsaW5Uye7Sga4M_TIgG9VyG6dLKPTy0RYNH4i9m3K0MHsWOqkbvN2L
+abRT_9dqsAuOulnSZm3Y5KJWwGnQqqlq-LTA0NruvstjTzgYBxKWdlWPGGa1UVVpSxy4rIQPhVYRnkZhLrRyg4J8M_jgBFbAQVFhml79Ah4Hj_unT_1Bahwe
+mx_aC_3d-5Md6A1pyaMlxYQkV3b6pzYrV-lwym_o__jnY_7LFPNv9alq0y8Q8MbYVcJPNcpM2rhooKkKzqnEM6-qbnB3Up83Lce0T6JpBMIzgO6wPxOLe7mo
+XsvZ6LWNSpyxcpu05Rfdt9aS_VB4jwElv-S_dQk_ippthzO09WR4s3ylCh1XVZopu7ccaUQbBcxr1cET6N5vJ-OJbgvOJmhiOcqBZuncfhlX8Jw2FWcCh7Tz
+P4ezTMW70tpE13vE8X6TB2P78JBKQNdvaUKJlwcJxzqlVwLVHox8_Tyk2kx_XkFm-KTI6jYmuJVCDm
+}
+
+!define SYMPLR_DOCTORCHAIN(_color)                                 SPRITE_PUT(                                      symplr_DoctorChain, _color)
+!define SYMPLR_DOCTORCHAIN(_color, _scale)                         SPRITE_PUT(                                      symplr_DoctorChain, _color, _scale)
+!define SYMPLR_DOCTORCHAIN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOCTORCHAIN,         symplr_DoctorChain, _color, _scale)
+!define SYMPLR_DOCTORCHAIN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOCTORCHAIN,         symplr_DoctorChain, _color, _scale, _shape)
+!define SYMPLR_DOCTORCHAIN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOCTORCHAIN, _label, symplr_DoctorChain, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOCTORCHAIN>> White

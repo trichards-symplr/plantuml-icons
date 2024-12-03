@@ -1,0 +1,14 @@
+sprite $symplr_PresentationCheck [64x64/16z] {
+xTO5aiGW44RXlt5uzp_lAYiPgC2wljB8LpCTrqVrttyn3oNhcxoMEIR5UqxRycceRo5kUSrh5Bt15vhfcBlep4VmmvgBojpFXqy3RwdxdU4DujdynrdpC7oW
+wiJRONCOXbUad7lYuPhGlk_RCVKgLI_n7PN7uR6NUmT-77xVAzFwaKXwZLSZzU5VvmCu9R1NUXMgXw3NUWF8cfQeIwy8LThvVHTpyhh93kihjkKpjrNJsCft
+NbE1-Zhl8FHdnAjyelHrLVFygI_4ysTd9fxvJEuNNDjuT8y-z6kqaZKjBvuVZHRCLx1N_NzPuwwWrtbPQf2TNkLzQLwtMULG3Hi-D03VfxWeB7q2SW5_ovkp
+voNgodj8aWg4DhnZF6tb2xbVWjnnbyfJZRpou9w_tWE7ggszoTrj37P_eSQdlBJZ2-7fWQUXfQylz_y-qFPz7Rr1iZrlQVu1STVeCsD9Ow41D2dXpdqBccOt
+NGwbL_HjlDxgdTCFw1e
+}
+
+!define SYMPLR_PRESENTATIONCHECK(_color)                                 SPRITE_PUT(                                            symplr_PresentationCheck, _color)
+!define SYMPLR_PRESENTATIONCHECK(_color, _scale)                         SPRITE_PUT(                                            symplr_PresentationCheck, _color, _scale)
+!define SYMPLR_PRESENTATIONCHECK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PRESENTATIONCHECK,         symplr_PresentationCheck, _color, _scale)
+!define SYMPLR_PRESENTATIONCHECK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PRESENTATIONCHECK,         symplr_PresentationCheck, _color, _scale, _shape)
+!define SYMPLR_PRESENTATIONCHECK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PRESENTATIONCHECK, _label, symplr_PresentationCheck, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PRESENTATIONCHECK>> White

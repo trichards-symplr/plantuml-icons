@@ -1,0 +1,14 @@
+sprite $symplr_Puzzle [64x64/16z] {
+xPU7pjuW300nsxxtVzukz3aYQLf-qjt_j8BHiK5E-5DuHueQtyUqoDVqnZhjshc2bdX6iKkiT509CugbS4NHS2NPELn1mh8Vn6XJ6L9Oy9qqzrVGiEGxdJgL
+IZYHMw_ntizJXP4kumFGMpzYan-dsW9W07U-G3XWzeKHg43Ty1LaZBANiE5F1tJBpm_zyiWtz6fK0pIk-FKrWOQ9d_X1MV23GO-I3UWZ0cXE3KWBlk3e6CXh
+HC22_qK0oyhmVHmHygq_8o44z_s2G5_qm-7BSTtjpVvy8g1k-8RvriODFp667Hc1Ysywg2FGTG3unvSuUCtaEsLqUyN6i-NClWwWZpAd_hNBU9bqxdz-lnJI
+TDnqvVroNw2-0hRXLmzcsF0xDkteM_tcmJZrBuj-ydFK3pyRG5ln0o1-t8Rlo8AVW9Qo0iSpO5bY1nPyFr_dwneIj0K_YFfiPnGM_7loGpyzzDkUNthoAxhX
+5yQLYWPnmrS0p1-MMp_T-QPy8Nqh_-cK-_TJQc_fBl_Qp__Ay_ppUVxhAEpdtvx_fuNyFnK5bN2cRlv_E5Bwtl_FFkzy1
+}
+
+!define SYMPLR_PUZZLE(_color)                                 SPRITE_PUT(                                 symplr_Puzzle, _color)
+!define SYMPLR_PUZZLE(_color, _scale)                         SPRITE_PUT(                                 symplr_Puzzle, _color, _scale)
+!define SYMPLR_PUZZLE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PUZZLE,         symplr_Puzzle, _color, _scale)
+!define SYMPLR_PUZZLE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PUZZLE,         symplr_Puzzle, _color, _scale, _shape)
+!define SYMPLR_PUZZLE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PUZZLE, _label, symplr_Puzzle, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PUZZLE>> White

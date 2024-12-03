@@ -1,0 +1,14 @@
+sprite $symplr_Summit [64x64/16z] {
+rTM7kfmW441XoZ30dFT_tXHMYNoHwuLDFTlBRrVS_v6Mzpo4DxtAgx3fUtxFrzBwbFStFlOtuTKC2u25gU_TyymhUV9sooCWGO6PRs_AR8VQ2mR87_WCSRgZ
+ssl5vbv0tCodzbeO_Ldp2c7gQt-zzKrMp4ytVsgpHqOleGKDsdG200RKk_Ed7uWLohtt1WCVlT5pawJK7Dp4UpaBl_pyLsFQywdhd_J3CbHCvZFmJk0ZBW-B
+5o6x3oge6qjOh-_IQPNuqpT3wXwzJtvOeXpFdlTVGPoYupSB-x-Gd9B79Lhm6NLfE2cCiE2Lx6JOnk0NV2AxY6rxeRXmzHxSWe_KaOGrt-Pz9H5RyHx6LHRg
+eXztMQAi-3Pl8rvyNlJ1LSITARhaAzaLKX__Csd9HwYbpLFRMfH5xmIWT5cHDU-yGktUY2k-9Nt-ZIpxIBrul-7jz1xSiW_mblS_VC3MlGD_-4ZTyk7mGjdm
+rdqYR_XAFBnk-O8SFgCRFfCENqXRNWzQaGslvExZXa-KmnjXmmlryE0tVCIwTqlUn-y9g1f55U8baEETd_ZA9_FtFjahpkmQs55n_rHV0G
+}
+
+!define SYMPLR_SUMMIT(_color)                                 SPRITE_PUT(                                 symplr_Summit, _color)
+!define SYMPLR_SUMMIT(_color, _scale)                         SPRITE_PUT(                                 symplr_Summit, _color, _scale)
+!define SYMPLR_SUMMIT(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SUMMIT,         symplr_Summit, _color, _scale)
+!define SYMPLR_SUMMIT(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SUMMIT,         symplr_Summit, _color, _scale, _shape)
+!define SYMPLR_SUMMIT(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SUMMIT, _label, symplr_Summit, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SUMMIT>> White

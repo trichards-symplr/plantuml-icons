@@ -1,0 +1,13 @@
+sprite $symplr_JumpRope [64x64/16z] {
+xPG7mkiW38F1REd-vtqZnDsO_AExwdAgV0pXrWtraVU-5o9V9LE5glNtk9sM1f8BnhtgLhoIQ4cqp1M4psJRjdIGPTrt8rB_gZa1opOScbRHqWFU1RqorGYd
+8iDQuNzLvZlGIRHsXxpVi82ccppXuPSqpGJqHfNVNIH21xHrV4TZqqpJEhhOV3vQeUzD8s3J0PFDr-CR0eY6ZlVXwoo-upONW4JMopWxGV1qWnB3SJo6fW79
+dFTsSr-TTzVah-z__BlspuUNd_4qUPdpuQeyCV__DHIkpLScouvpFjjyC-C9bJN8sCv4a37EhZpQV5SQfqCGO1qiVh79RAURMQtD5vCNaJBa5riJ7YmGuEYC
+ychN4PzilgnsC_Yb1KVyOkF-_7Nslpt_dvt_DVkFjLQC-MxdQ_t-d8H5jYtkG1_z1G
+}
+
+!define SYMPLR_JUMPROPE(_color)                                 SPRITE_PUT(                                   symplr_JumpRope, _color)
+!define SYMPLR_JUMPROPE(_color, _scale)                         SPRITE_PUT(                                   symplr_JumpRope, _color, _scale)
+!define SYMPLR_JUMPROPE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR JUMPROPE,         symplr_JumpRope, _color, _scale)
+!define SYMPLR_JUMPROPE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR JUMPROPE,         symplr_JumpRope, _color, _scale, _shape)
+!define SYMPLR_JUMPROPE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR JUMPROPE, _label, symplr_JumpRope, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR JUMPROPE>> White

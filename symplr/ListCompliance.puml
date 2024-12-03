@@ -1,0 +1,14 @@
+sprite $symplr_ListCompliance [64x64/16z] {
+xTO7ZlCy30RXbrJdtF-yVx4X876KjRvU1stReoNJRFqU_Qq5zmr_nojRnJiV5ByF_ArFkYz8FxdtsUVvO9ObfK_spCAbHlrqRvfbI5_W7Qe-nrizpXWCVPQl
+1snWd-SDycfvoRQyAhmkRsK042tTUGLSblVEG_MjZyCdBiitO1GtoLCBYFJ6syaQ-N7q0TsbMGue--yV2ww_R52t_I1CbmhaJTyM_7oE5ZwtsJJE-kHENtYO
+5ScxIuDsaQMR98EqyhMSIHPKETXrydEXHl_u_Ti9gTAlF1fnBlQXBt2Cdw_S77oIXSy7SIWF1rf-vELyOkhIbyF4CRZ1oODsuQgqfTUWpMVTuUG4xPchqDVU
+eN5yFtsdsM1CVkFLvdjqpfyWsOKlvw_z_8wXCt3D0yeJLwTS_Imrk_nHWgGdBl2BNvJd90dA4q-4xhr1cd__n3Le6rvj3g0K-N55i5S_cCtZ3ChwGwdgrVFY
+rrS23K9BxuiDoBhKmTVUz5A7giTIGDAsLmMAFLvBmhNhvpzar99BQG4qqwQVvS5iwaq_iz86Z9eqs_VxzrzVwDr_qVlNJlJxmDvuPwkcTrdUoFLr-zk_
+}
+
+!define SYMPLR_LISTCOMPLIANCE(_color)                                 SPRITE_PUT(                                         symplr_ListCompliance, _color)
+!define SYMPLR_LISTCOMPLIANCE(_color, _scale)                         SPRITE_PUT(                                         symplr_ListCompliance, _color, _scale)
+!define SYMPLR_LISTCOMPLIANCE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR LISTCOMPLIANCE,         symplr_ListCompliance, _color, _scale)
+!define SYMPLR_LISTCOMPLIANCE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR LISTCOMPLIANCE,         symplr_ListCompliance, _color, _scale, _shape)
+!define SYMPLR_LISTCOMPLIANCE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR LISTCOMPLIANCE, _label, symplr_ListCompliance, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR LISTCOMPLIANCE>> White

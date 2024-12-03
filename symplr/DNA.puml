@@ -1,0 +1,14 @@
+sprite $symplr_DNA [64x64/16z] {
+xTP7sjim38JX0TZntV-yAHRjvvSNZ4nbap8xbvS2nQhVdlz9TeyJTiSRznh86MAVDyAXxdEgAjpX4kGxN8s-moiqAGtFn3w7ck063qs_oKs5kCFLQP_pFldE
+-9KJpx33VNBrEVpcoUrZFikt6W14jIKs-HlFOEM1Pyg2E-7Hld8DveDTaXUWB_nqBvxxG__4CstPG0AoD1uyjGTkQVuKp_UJbnKG9Rdd0qFNv0p9ijIN0sgT
+LqOsI5zwvf1aom9UOzMBIHdE79ipube6xSm_cv57-PFRvFBBFiE9konY-ilbdpaeNVQGdpoUF5tVK0pCUESAwdMVuOqx-6NloczSxLc-krtelzwuZYMS1m3T
+LxxJdrnZyWpcZLVQmYSmfHFNOCJ39JCliRuW14FANta28B8aV_HZsK2QwzSdByUZVNwNZx_4SZSDrr73x7K_xLMv9aZB9S0eAUMvgi5E7Dop5l71Cv7L6Mzy
+w5Vn6i2eFcV4agzJu0vNq0xE5dVm6roLEBXlSGsgxE1fvs8Q5EtowMsVp_frSDlmbT0-dyjmdqlZfunjBeDGwRlyLFjs0qFt6kZwE_CT
+}
+
+!define SYMPLR_DNA(_color)                                 SPRITE_PUT(                              symplr_DNA, _color)
+!define SYMPLR_DNA(_color, _scale)                         SPRITE_PUT(                              symplr_DNA, _color, _scale)
+!define SYMPLR_DNA(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DNA,         symplr_DNA, _color, _scale)
+!define SYMPLR_DNA(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DNA,         symplr_DNA, _color, _scale, _shape)
+!define SYMPLR_DNA(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DNA, _label, symplr_DNA, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DNA>> White

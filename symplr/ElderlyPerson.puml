@@ -1,0 +1,14 @@
+sprite $symplr_ElderlyPerson [64x64/16z] {
+xPM5iXWX34Mn993p_zzRPLwcrCZMvOxkma5kXF9r_LUjvRd60fZjuTQJBNl4Bz1QIhDd2nZUzZLWfF4AlMm9dkQ55H_GyyUN-9X8bf-C-33q9-z_thzbs25c
+HdYc6V-hmTPu47y1t5HqxjJlgVnJMFkkpTdIpEuINmi0k_UkWPmvdD5YnaS-xWFguOQbjZ-TaXHVeNuBFrZbCNzMcTAo_68SzPlZdNxoB7clVi53E_ZAYrPD
+yTkCPkyrmLBysNCRvFXob1tKb7zbm1fjgnj-4JyvMa7efWKfw_Y6a2QUhAtTGs6K0JS9J3lgdrOQVjd2A-Sr9rwBz4j-0ApseQTs_uHCL06hHzvSyXLQgGPe
+FPBgYjyfsnOWSO5-ooyaRF2HvAFzJNGuz2IlpB2XB4QITqQy_7c-GzZmWBUTAGtg4nvws93dEnusFE0L2niUys73H5Bvsw6-z91eHlswVXplTJZh9Hjdhm9w
+oJS0y1e70bZbaY_LmBN6WXDSojRqybVflru3
+}
+
+!define SYMPLR_ELDERLYPERSON(_color)                                 SPRITE_PUT(                                        symplr_ElderlyPerson, _color)
+!define SYMPLR_ELDERLYPERSON(_color, _scale)                         SPRITE_PUT(                                        symplr_ElderlyPerson, _color, _scale)
+!define SYMPLR_ELDERLYPERSON(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ELDERLYPERSON,         symplr_ElderlyPerson, _color, _scale)
+!define SYMPLR_ELDERLYPERSON(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ELDERLYPERSON,         symplr_ElderlyPerson, _color, _scale, _shape)
+!define SYMPLR_ELDERLYPERSON(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ELDERLYPERSON, _label, symplr_ElderlyPerson, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ELDERLYPERSON>> White

@@ -1,0 +1,14 @@
+sprite $symplr_VirtualMeeting [64x64/16z] {
+xTK7aYCX341H8K12-lS_xoQwF3s3gurxAsru4vpu3eIo_0t-KnknOxZA4vrz9eiAexSj0zhI1owxZ9Gl2XJP1YgVASYYEE155adTw4loYzxi1rbB3U9UNq2F
+YrjzFMOvQ7VwnrrvivUvpngKUts7i04czten05pkzgBcfdAlR_QXdKUsMbxtcfobFdRqzAfFqZyaUOpYuDTz8ukS97rkHVhnvlfbtt4vir-tWvJ9eLpqStoV
+qrRxSLjFKMAl-dBS1NNsHfm_uAjU7tsRlMFdm_bsFqwJfZTwO-o-_-fDPCpX7cNUFizVu4l_KX8osRf-cwg8bFLGAziYWR5pVbSQJFNjxv-YlrHpQr1LzLCG
+3BdGWbMQF5I8thxgFkzBdZgVqiQbJ1O18G-b-o98Tn-0wJeZBQ79OZdtRSxtgYHZepT2dclaHk-uFAUmrTkxVN0sFwNA6N7H5zRUw9z7NFHITAhwmy3cfzZg
+L_uNzl_xtEuRRTb_KlNN0HwoeSpYwIE_wx_l
+}
+
+!define SYMPLR_VIRTUALMEETING(_color)                                 SPRITE_PUT(                                         symplr_VirtualMeeting, _color)
+!define SYMPLR_VIRTUALMEETING(_color, _scale)                         SPRITE_PUT(                                         symplr_VirtualMeeting, _color, _scale)
+!define SYMPLR_VIRTUALMEETING(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR VIRTUALMEETING,         symplr_VirtualMeeting, _color, _scale)
+!define SYMPLR_VIRTUALMEETING(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR VIRTUALMEETING,         symplr_VirtualMeeting, _color, _scale, _shape)
+!define SYMPLR_VIRTUALMEETING(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR VIRTUALMEETING, _label, symplr_VirtualMeeting, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR VIRTUALMEETING>> White

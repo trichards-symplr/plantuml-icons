@@ -1,0 +1,15 @@
+sprite $symplr_MobileXMark [64x64/16z] {
+tPQ9SkuW28M3H4M_zt_UBlwCQMP2ql7kztIlyo5m8cRxNoMLIrdw5gw4oj_01PhAnK8oICzyeKTBXZtpxPHbhkVAliFhTgWZfzAU-NxY9MshlEl_ubKUtE_S
+yj3I3Lu1-YqF4k82kKAxgLyQ9UILFd98CR_jj93VnmCETiDdBEGBTHoJ7lC9zf2tSNOoX7m2U_9-TpxxHbfE_JUDy0HVVXJ80mVxoiS5PCo1WUT2_lpB59jy
+rWfoCpey_qmUCGQhr5TxHdqzI21vuFAokOnVFt7_mtY1BU3hAqttBmycru7NiOnwUIbonrresmmmSJdmUhlznW2z1RDufJjkqRMXfpmSz33U7GrFLwUwY-2u
+RrJ8NjPU0Kokhmrn5-a7hliCa1XgbmK8qnIe4zzvsJWMnQ3BbgxwNsPPlbpGqVdXWc2l5OlyFvuf0_-fIXqsIkyoE8ichC0HoMOWxp_j4nUGkS59fw5qDA8M
+DyJ42tDSevDtF_yXRz9c_3DVd_aC1FwNHtu6w62BV8Bc1Y_nRVg_may3ExhAH_uNoZtlIotmtyXNVDe_TFoPe_6T85tn3ANJ_TqrQEm5N-n3zJGXhsS7yYFl
+FzhqV8a4qe0F9aaqeUybqOk--0Nof7tv_T-LZ4lDBZrBlgX2aGzjIqeDyhOgAS2-Igi19YkePElUinLL07fDIxHqQ5bbMrJrGxggL6NxzNe7
+}
+
+!define SYMPLR_MOBILEXMARK(_color)                                 SPRITE_PUT(                                      symplr_MobileXMark, _color)
+!define SYMPLR_MOBILEXMARK(_color, _scale)                         SPRITE_PUT(                                      symplr_MobileXMark, _color, _scale)
+!define SYMPLR_MOBILEXMARK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MOBILEXMARK,         symplr_MobileXMark, _color, _scale)
+!define SYMPLR_MOBILEXMARK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MOBILEXMARK,         symplr_MobileXMark, _color, _scale, _shape)
+!define SYMPLR_MOBILEXMARK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MOBILEXMARK, _label, symplr_MobileXMark, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MOBILEXMARK>> White

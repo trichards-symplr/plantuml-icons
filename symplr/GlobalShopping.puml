@@ -1,0 +1,14 @@
+sprite $symplr_GlobalShopping [64x64/16z] {
+xPK5akGm300jewJ-_tyluwJAaqNvc7ftI56R8VsjIErZz58UxrMsxS6D8Ljw0Qnt1_3U3IXxkkMK35e3IodRJW42u_XGF1-ge_C74lKLEnkHqq4-gpOqNFqK
+bP4cOvevt81srdJbJpCT62tcZvbOy7JXb5diYFb6FTuhzYgmvskwq81VsAAy7hGjscjVvS9eihW5CkJZGz_ontF_R-WAm9gXztodfnlEsF07t5TQ1tBSDxXt
+G84QznluhVuAIDnFfIrz1G9-W0rVSYbPlj8lmvbOatq_6opwhj-1uNZje0QUjto58GsNHnGfpjRw7JFzSem-2onXlytaUfrUPGe39EWByvdIBs4TtY5_W1-0
+dy3rkuHyuJqqv5Sy7xJpOtsh4FALjgwG1tA9JeduLrf_Fd7aKY8-oEdtvQz8s1_FVbxF0twEr__j_V_syO_F_xUklytrJtpzn_VVj-__Rpz_lltyspz_l-ty
+bvzu_omar-txxpLnNmEwdBw-zWiUy2k-DkCTnrhz10MjjTbRTMKsoEarqjK-0RS3NGlYM_dF5m
+}
+
+!define SYMPLR_GLOBALSHOPPING(_color)                                 SPRITE_PUT(                                         symplr_GlobalShopping, _color)
+!define SYMPLR_GLOBALSHOPPING(_color, _scale)                         SPRITE_PUT(                                         symplr_GlobalShopping, _color, _scale)
+!define SYMPLR_GLOBALSHOPPING(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GLOBALSHOPPING,         symplr_GlobalShopping, _color, _scale)
+!define SYMPLR_GLOBALSHOPPING(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GLOBALSHOPPING,         symplr_GlobalShopping, _color, _scale, _shape)
+!define SYMPLR_GLOBALSHOPPING(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GLOBALSHOPPING, _label, symplr_GlobalShopping, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GLOBALSHOPPING>> White

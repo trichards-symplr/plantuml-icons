@@ -1,0 +1,16 @@
+sprite $symplr_Gear_Checklist [64x64/16z] {
+xPQ7bgOW34P3gCbz__VTW-WqPDNnzDqxJM0-ICLV_Wb2UALsmENN93hnLz8MHIfL6cMC7f611cGf-rDwTFhGMEvR6T2UkG5LOZqK_QbXSfyAtnEdKEG1JXad
+js55UPR602eIZ4xh6u7SH-icCgYviZyNlNtuI5U2Bj5jaEzNOeHMH4RboAWYaT90R-fDEhwdF1tZstfAsbpEqYbR05Bv-_aQ3zBUD1dVmv7tLWfBSUC7TJFO
+aoRVjcc0htgW0FXNjhFKwRYAA1jjLQrLvHk--HwAOMMSO18os7cyqjn_EltFgWjiJ6Rp6exZgHBoCUfF3H_xdfLRw780-_Ie03LkFSGsAdjDBCh5AH6ErSOW
+IMPGzusp_20DFQZOq1z56uqg5OjIASTqcS_tiUBsiq8Ithu7rvXhO5WTZ2aFIYTCiVfEnOSXQLhJb9BA9urs-fQn83S8YnPMmDebjdmN1USMVYuVpNK9uBgG
+Pxb1T3p8H3wYSh8MZf_3poeJFawl9-OLeiIkEL8CSuxXymwPIYDBeac0uwoqgF--uiIr_g9_d7XF_yB-LV-aTVpIj_ZfMVzaFDpBdvpcJmoFB-f7WhshNmds
+gd-2Wx_eNyVrnVrHzgXed8FJp-lJEdH6amVtfrII9Ae4MEPVyQDy83ogl_NxOrt_PVd-oigblYtx9mFOTV_7rVsJdHQcreYYVTdRxYioaI3AckjFqGrAa6io
+sBlxtnR79EC6bcH9q7Y1VZtxFty
+}
+
+!define SYMPLR_GEAR_CHECKLIST(_color)                                 SPRITE_PUT(                                         symplr_Gear_Checklist, _color)
+!define SYMPLR_GEAR_CHECKLIST(_color, _scale)                         SPRITE_PUT(                                         symplr_Gear_Checklist, _color, _scale)
+!define SYMPLR_GEAR_CHECKLIST(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GEAR_CHECKLIST,         symplr_Gear_Checklist, _color, _scale)
+!define SYMPLR_GEAR_CHECKLIST(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GEAR_CHECKLIST,         symplr_Gear_Checklist, _color, _scale, _shape)
+!define SYMPLR_GEAR_CHECKLIST(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GEAR_CHECKLIST, _label, symplr_Gear_Checklist, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GEAR_CHECKLIST>> White

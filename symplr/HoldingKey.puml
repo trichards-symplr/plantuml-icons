@@ -1,0 +1,15 @@
+sprite $symplr_HoldingKey [64x64/16z] {
+xPK7qkim28IDK07s_lTzWoqdCkCIlTvsoby_14l9yjUBlWqlo5-3fTA_QQXxf9bC12Nm5NKgRGsyJHL2G3hm32mp4jG3tz0-ojlIzas67NY0brLiTtKq62qZ
+K576S0lXtaUBnd6qKP-Ca-sRElOxTLmylrlnNO8DI8yMUkNdolXa2Eh8CzF8bvaTI9uBKFsxeAoyH54QhM63omokuyD94Kqg2W3MQCUnggv5kmhH_awByVh_
+x8HBlOsvhg7BQYgWtFr5e-0OB9E_Ahtz152OAvS703I5t8TgyXOW0V6Wa0-tln5Q64QQWRppKG2T3fKUYx4hNaydQoqhY-nv0QfwoXjCHycMiAqEudtoN6Sy
+ef8xveO1fRuGphbUy9876NXrNzp2epjyoeUfs_WCNIFBwyJKAdR1QtMbaKz07y1khZpMxwF9dU-NdKgXzmK2j9xwBwqrxGKxlpTya43OIxhiVmwyXptiGdhY
+bJF0lFC9K7fVkB8as2t_KdelUyifSUrJ1F0rJsfcW9czqYP1btLBmFVx4vMg6gpjb9vTsWAR-Fn4x225cFUgWDpi-REoMnd7VKQnN82cU0U-YJUaR-1p0wGD
+0bgTu74cdk55wgWcDi6VbQkpFF6tyGB-HZx_KhueVGF_BVx_vmqdHp5zpjF9jWVylxu
+}
+
+!define SYMPLR_HOLDINGKEY(_color)                                 SPRITE_PUT(                                     symplr_HoldingKey, _color)
+!define SYMPLR_HOLDINGKEY(_color, _scale)                         SPRITE_PUT(                                     symplr_HoldingKey, _color, _scale)
+!define SYMPLR_HOLDINGKEY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HOLDINGKEY,         symplr_HoldingKey, _color, _scale)
+!define SYMPLR_HOLDINGKEY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HOLDINGKEY,         symplr_HoldingKey, _color, _scale, _shape)
+!define SYMPLR_HOLDINGKEY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HOLDINGKEY, _label, symplr_HoldingKey, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HOLDINGKEY>> White

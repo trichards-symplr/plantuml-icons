@@ -1,0 +1,15 @@
+sprite $symplr_Paintbrush [64x64/16z] {
+xPS7Rkmm30L9TRsv_tb_8rP8jbbHy573xML6xS6sx7_NJnNAzt2-8yZm7K42whaW2K46wY4-hACKWYFSR20FmH5kDaDG3d4pqIm4HxWLXeNW2BT9in0Su5b2
+RbyI51RUG4hcjQPjGGQjjwfcrWMgcu8aeCLxyHTlQ0pO4sGn9Y58qH4fcrKeIt0rTI6mIYHmcfdFjOmRKnU2Z3nDbCodGFEg1occRWc4XBAva03w4hoSkl51
+u4CQRZQPDXbLJ0_1gx6FZu9kKIxzVRWbeVnIeB_eKm7gOiGilZuYJUJF1GsOyRP3Vo_eBC4AKcvvBP6OW6yA-lDPnkrOu40sEnRCm2y4yvKW_d4eMFYHu1fV
+uxiNxEFMU27OmmUy4EpWBfJzcM0Bpq8U4KdtWWsyteBJUGpIDJwWtOvZkXC05xXFL6x7iNONvGdf-d8ZhIF9NP2knrx4zBNATqcynZlqzLP-TqIwnDVGpGha
+pt45V6_eyRv-ygQ_ZzsXcskDOtVT6moxbPZRXuirSzMwOlpZyT_rFUvIjaR4hK6ohrL2PfCwAPPFhdL5juOWkMX75-dTfjHYxWu5lc9xAB26qlasPRI8xR40
+gfrNwYD_4Vcftm
+}
+
+!define SYMPLR_PAINTBRUSH(_color)                                 SPRITE_PUT(                                     symplr_Paintbrush, _color)
+!define SYMPLR_PAINTBRUSH(_color, _scale)                         SPRITE_PUT(                                     symplr_Paintbrush, _color, _scale)
+!define SYMPLR_PAINTBRUSH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PAINTBRUSH,         symplr_Paintbrush, _color, _scale)
+!define SYMPLR_PAINTBRUSH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PAINTBRUSH,         symplr_Paintbrush, _color, _scale, _shape)
+!define SYMPLR_PAINTBRUSH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PAINTBRUSH, _label, symplr_Paintbrush, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PAINTBRUSH>> White

@@ -1,6 +1,6 @@
 sprite $symplr_Desktop [64x64/16z] {
-xTO5aaKX34JHnY7T-z_k-7otZ4jEoTDBYb8GGkfpEOs2ZKRvqHAULSf6TvgKuHaruPV9ydIJo0Iauf41B8tNXO0kdmKCpKrVPCrZQkprNHakjFVrzXFwwAEF
-FlhegqRog9fxFPPyc3Tz8W7KuT4IC3NmX6o07rNnf8izdr7o6TL4l5WIpv3EVyXurSpTSoPSLsLm-1bzERF_YTjGftjLNBKvpnrRclxvf7i-il6aWHycX7i
+xSzLjWKW34FHO2qayn_lTVS-5_Plra4mJSbwb1SSD4fnOvzNYTPYhFDm0EM8orJ1MY8Ja4h4Aa2NxNl05DFNYH_wej4YN0PJF_HD6I4SPxs5U_w0VlQpd_ti
+Pr_bAQAgd_KO2ihdFQfvG4k0ox51LSGTCnCjtr7k3XInqoNnfhi39MRirS5eJqzuheW8-F2-lgKlT_xlU0rrivSgNf6eX1kwF7p_IlX-PDvc-66cQGa
 }
 
 !define SYMPLR_DESKTOP(_color)                                 SPRITE_PUT(                                  symplr_Desktop, _color)

@@ -1,0 +1,13 @@
+sprite $symplr_Faucett [64x64/16z] {
+xTO5sjmm38HXcQMP-z-tZvFVWK90BhVVChmXUq7-hc9EGVR2VY-LrjAD3aOIWBNI5zC0v2uL07jwxOt0UEjoirx6GXKiLpm2STdKt0pT9z5EhUOelK9S-NHy
+EInlJcGyhU3H-kl73hTuEXxIQ3VxJribz-Emtu9CDySVonkrzjKL4iiUnN4yKDwCVw45uFYIF6_tdkPzAKL98sifoS5vBBpsbL0505CbFBx9QDR_z_6XIiJe
+w8cHvRjPi_dzdOOHIUHBht9HY1MakdslaZhZ9P5rnaiXmemNi4tvH4nv0UASPvhonlmjZ_RDyXD_5SATbzg-7QWN_hv4JFduoprrZKu_ydd9PUJY4fj-vFF6
+4NphtsPNad-rp3hbGOO9NacgdmUoaCdj6o5ASwyUIFqgklU-hrhTHs3zKn11ju_hNZYziIrVybwVICsDh1FJPsu29OLc-Ptw1
+}
+
+!define SYMPLR_FAUCETT(_color)                                 SPRITE_PUT(                                  symplr_Faucett, _color)
+!define SYMPLR_FAUCETT(_color, _scale)                         SPRITE_PUT(                                  symplr_Faucett, _color, _scale)
+!define SYMPLR_FAUCETT(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR FAUCETT,         symplr_Faucett, _color, _scale)
+!define SYMPLR_FAUCETT(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR FAUCETT,         symplr_Faucett, _color, _scale, _shape)
+!define SYMPLR_FAUCETT(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR FAUCETT, _label, symplr_Faucett, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR FAUCETT>> White

@@ -1,0 +1,14 @@
+sprite $symplr_CalendarTime [64x64/16z] {
+xTM5Sjqm48NXio1Bk-VztxUcyTIKI9qE1Bxaidupu7_wzKiTJugWJrAVSaxuXFbCrzul31FhDi3UvxjQ-iehdtlbgkAHap6RbjxYeidSeyMC53mfR1-j_zAl
+Fksdm0DDw-lVVVUUqUEzx_FUX_Nu4VlFIb58AGwKKcJzFD9NSeAH2P3KzVD8NrfpQ6iLQAt9zdbJ9hpsWyPxaKzxMSViJx8zhRmcPrdjmvwathOVuCb3-6Wl
+GUPa0eXLadLi_IN9WkDJ9TjGdqozNAlRGD-OWXCZoqlV8XGbea0ZsZxuD7TPHrFwjXyGhETvb_NBwRbtTu6wAsIxsUbvLhfjVMC-z-yRLlPT4VjoMb_Vzatb
+-tAd75ztzK7V0rRKOrjEd2vz-9q0IVlx2ct7-7hgbKyIY2En9ClrXdpm5dS5Q7Jif1uvAWkwx3EwIXgw68ax9T4fdvQqiQ5J8ULXeHIzad6_85HqKx9TyyG0
+8qDnS3858pJ9PjkyFSWGZ97AMRH8pYQCqvfSvIJuDshk9lXEVlq1
+}
+
+!define SYMPLR_CALENDARTIME(_color)                                 SPRITE_PUT(                                       symplr_CalendarTime, _color)
+!define SYMPLR_CALENDARTIME(_color, _scale)                         SPRITE_PUT(                                       symplr_CalendarTime, _color, _scale)
+!define SYMPLR_CALENDARTIME(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDARTIME,         symplr_CalendarTime, _color, _scale)
+!define SYMPLR_CALENDARTIME(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDARTIME,         symplr_CalendarTime, _color, _scale, _shape)
+!define SYMPLR_CALENDARTIME(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDARTIME, _label, symplr_CalendarTime, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDARTIME>> White

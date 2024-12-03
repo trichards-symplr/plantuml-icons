@@ -1,0 +1,15 @@
+sprite $symplr_Football [64x64/16z] {
+xLP7Ukv029iEIFS_xojs2dzHnYdBQEKcmO3WS_aX_AAxsvgZrQ_HWoS0m6VxBDs9EURo002InFgCHWNVysx3JWcxB37ez_U71kPLlfMCnLLACv1Obuf_5zyu
+Jjsufj29aW6-7hq5YRxZD-2kd4aRfDTD_M_vat5pYsqAjtomtye7kJRyciEZt66H_h5zUof6kabLYA9Xd8bkpoqQLmmuyPwfsp-UjJS1R1iuaIi5MWNNbGp0
+CGsuDKi3IUGZcEBp0ABV-PByJwnlUbCM4FQuDa3IaZi7sJOJa1541ntq56RZm0oFMXflh2DB41ngDVsdzAZ7RIEhS408Ue2hyzMJYx4PWOpZyqwI9eRh3Vwy
+D-COg2DegsUYkDg1RAFrjXKWAgKIAw0Dq7dmL0BwUObrE8TJ1KhF5J9_YXPCGjDfvD2jEg37mpcJl7Ef5bJLW_-ls-iDeS9ukGAmAREFAtnJwto84rpscXCx
+SktJI1K6Z0_92pmmrGUWQ_e2YLZJz2PjUilM8AEd3Ye1LwcXfNMdq4GDWY6sZGoKiOZSfruqQX3ZGJHhBgwDm-v_McvBFdPExo2Mtg-DiREPa-Z9ig7_cFJU
+n10Za_WQ4oHc-iCHV8q14jxJyGLVeWT815a4Vuiw0PBmsSIotw8E42G0kAqn37fHQGq7G9vOvKkehS_blchv0VpYBm
+}
+
+!define SYMPLR_FOOTBALL(_color)                                 SPRITE_PUT(                                   symplr_Football, _color)
+!define SYMPLR_FOOTBALL(_color, _scale)                         SPRITE_PUT(                                   symplr_Football, _color, _scale)
+!define SYMPLR_FOOTBALL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR FOOTBALL,         symplr_Football, _color, _scale)
+!define SYMPLR_FOOTBALL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR FOOTBALL,         symplr_Football, _color, _scale, _shape)
+!define SYMPLR_FOOTBALL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR FOOTBALL, _label, symplr_Football, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR FOOTBALL>> White

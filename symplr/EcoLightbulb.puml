@@ -1,0 +1,14 @@
+sprite $symplr_EcoLightbulb [64x64/16z] {
+xTHN6ZKj20FWg82Qx7-zVpbrsWMUhvVtUkA3E83Vrb_LFCBgX-5EtN6qzVIKo1uMVL9YmvAGw0KFHgbZmP0SMqRDWgmfLkoLAUQBPxawT22bIHKNA4S6PRXI
+HIIOk4jv7vFjtjL8DQ_X9QYRUUiXCmLiFceK6QrMyd5qJPG_DeqSPNkc9oxGNzqhjqQM-YwyQYvSlslS3W6Q9h8DUD-HB2ZK08OSDulvHxoAIEV7i_v2tkED
+SgJh3yNhu__ZTRndjoL6eBrwJ8cJ4ltzDfx_Vuh-nxc9a2MpE_pn-hHMJwMTNO_Pq4WEvjOxMVtSsOcCGZdE6bNJ2-XSQAKSIQxJe1aLI3CTLkYK70ienU4y
+h9ZqG_CMyshOAelvBiDMrSIAqA5-3UITDwMf8-_ylIyzttdKGeOLbJnjjHM5ufPKiMHmR-8xAxPLiOhQmQhMjmpVdV4jiAv_wUkLDtocsGq-r7GN-53q_qN1
+R-klVm4
+}
+
+!define SYMPLR_ECOLIGHTBULB(_color)                                 SPRITE_PUT(                                       symplr_EcoLightbulb, _color)
+!define SYMPLR_ECOLIGHTBULB(_color, _scale)                         SPRITE_PUT(                                       symplr_EcoLightbulb, _color, _scale)
+!define SYMPLR_ECOLIGHTBULB(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ECOLIGHTBULB,         symplr_EcoLightbulb, _color, _scale)
+!define SYMPLR_ECOLIGHTBULB(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ECOLIGHTBULB,         symplr_EcoLightbulb, _color, _scale, _shape)
+!define SYMPLR_ECOLIGHTBULB(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ECOLIGHTBULB, _label, symplr_EcoLightbulb, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ECOLIGHTBULB>> White

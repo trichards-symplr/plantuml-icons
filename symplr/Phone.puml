@@ -1,0 +1,11 @@
+sprite $symplr_Phone [64x64/16z] {
+xTV7aG0X44DHuK7AFzzD0DIptl6krA_femO_KAvR9U61DAa3iY9IAP9hXvHMb4ihuwHJX9Ee0IDJ4yQC3YnaDizaXhVSWKL4e8hkSI6GQVhs_VsWLuAUeY6r
+iAyue-A-t7xZzhU__UrlV_lRVzv-cU_SJqZUf-w_-gx-_VivnVjzQjXrFwFpbTspr64a1XzeqapsvmnUeyYvjIWn8P0NTSAE1r9jMpNZvta1
+}
+
+!define SYMPLR_PHONE(_color)                                 SPRITE_PUT(                                symplr_Phone, _color)
+!define SYMPLR_PHONE(_color, _scale)                         SPRITE_PUT(                                symplr_Phone, _color, _scale)
+!define SYMPLR_PHONE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PHONE,         symplr_Phone, _color, _scale)
+!define SYMPLR_PHONE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PHONE,         symplr_Phone, _color, _scale, _shape)
+!define SYMPLR_PHONE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PHONE, _label, symplr_Phone, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PHONE>> White

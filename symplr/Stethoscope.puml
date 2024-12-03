@@ -1,0 +1,14 @@
+sprite $symplr_Stethoscope [64x64/16z] {
+xTP70fmm40NHtyhTTV_pEY47C31ex8t3sqn0HKxwY_ndjPeqfLgq9WDaRIeGfiUi570dvayOWPUiPoe04cpBBBWoG2GzaC07r0hVjgLq644yM_oG6a3JnkVE
+WAGTIwTzbrJTYpGr7rbIxFhK0RoUzIUEVMLoM-rdFh9a5UADFdtREnRqzRupD2MmvHwIPCEBf45TxGs-X92aHb_j4ypp8iyJPddv9irztschlO8gAPNjUrxk
+As7QD4BBlPn8CwUyqLl0QBq5DBtHomPVHD5UOUZSuKHB5KRHKSProa1xJZuTPZgJYIUzdA8pdVweRuHE6EH7lK7LpmQkHxqgfFi_xtiDuZYsGDNJNduStQ7h
+UQy1KKoRr82cbLuL8CQ8uG74wS2O_QdgJFCiVNwcJPQBCqhMXO7hXK7LNYfrqmBISZ_uGTPgx-1zAj9gNmwhlDftcbRxcv_BVMFyKf-WcHRqVQ_6KJJTQ7Jj
+bE0eJ9SAeGFRIIK8NOEaUmP5bpgk5phzTkxjmGldjV9o1kD-G0DFEbYv9WeGlTLJRK3NFUlSwNgjj7wX9VqE_tq4
+}
+
+!define SYMPLR_STETHOSCOPE(_color)                                 SPRITE_PUT(                                      symplr_Stethoscope, _color)
+!define SYMPLR_STETHOSCOPE(_color, _scale)                         SPRITE_PUT(                                      symplr_Stethoscope, _color, _scale)
+!define SYMPLR_STETHOSCOPE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR STETHOSCOPE,         symplr_Stethoscope, _color, _scale)
+!define SYMPLR_STETHOSCOPE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR STETHOSCOPE,         symplr_Stethoscope, _color, _scale, _shape)
+!define SYMPLR_STETHOSCOPE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR STETHOSCOPE, _label, symplr_Stethoscope, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR STETHOSCOPE>> White

@@ -1,0 +1,13 @@
+sprite $symplr_Sneaker [64x64/16z] {
+xTI53bin38LXE-Ju_E__lajNHjsg4qttAwSo5kp_izljTbxi5o6f_X0EWcQRDRSR0ve5QjlhfLtviNJ0j4qwCEoY8biAaBvbroAWNsOHEfwce6_hVa3MG_04
+L4-dpfOPf7ASGH98nvA-7e9Zje_wSNa2BQFO5TGYaDi7IJFpHEPkzsfPDq33tdAOaNfRHCm4ghrHET1yrsCBimbaVJV-xAEvVJ89WN9KV_5Ujos6MBH4lLzV
+iMrAdreUlfQIspTA3S4r1gfzfoNCQpneZbRTjnHlaMAHdq-4ZYTdcNE9YD5x-wlt4NEc5a0QdZGxggIL7gaJFf2KKG-LWt4JV-5UIgtdaX5pdbiPlTLodN3U
+rV_QWElyiY_rkxyLCNjrsyAzj96w_qi8NPUVHtF9HSy0gJr_BNcp_6lWCJRZtK_jklkZUb0MTxT_QxVRxVu
+}
+
+!define SYMPLR_SNEAKER(_color)                                 SPRITE_PUT(                                  symplr_Sneaker, _color)
+!define SYMPLR_SNEAKER(_color, _scale)                         SPRITE_PUT(                                  symplr_Sneaker, _color, _scale)
+!define SYMPLR_SNEAKER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SNEAKER,         symplr_Sneaker, _color, _scale)
+!define SYMPLR_SNEAKER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SNEAKER,         symplr_Sneaker, _color, _scale, _shape)
+!define SYMPLR_SNEAKER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SNEAKER, _label, symplr_Sneaker, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SNEAKER>> White

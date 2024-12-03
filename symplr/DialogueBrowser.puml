@@ -1,0 +1,15 @@
+sprite $symplr_DialogueBrowser [64x64/16z] {
+xPQ5jkmW30231PBv_-zzKZWtL-ZkTf_B7AanfC7b7o7bajEpSkdEmQZfkbsdx1peHJiPqCiHDwi1vOgU_Mt84iyFwM3lKkuNAaZEaFSqg0_wXib75D93UZqf
+E1WI91qdW9wsoXYQfiuDJlCwIBCzhUun-WpNWzbo1Lu-EqLsn9VnyOyWIy5l-edLUbc3kbgGTjVF86Tqz9w_lkzH-e-AdtBaBvCSfDlv9mKOvQMHPx30esis
+VdOcRGRHEM4y_16fVVIJuqKaTQXVFUoq-SREL_prJUAiQQ7k_2Zlr5ND3iLauoU8_j6PJz_e1SeTNz5Likt6HPUTBx5SsF8CtqGtsVk3laAiclh75bImTE8N
+q4DVUQz-3BB2_BJrfO5tDR2bcmPzE615plpOg_fAuWEZocBhbonLjIKvzglMtw0j2kxyr9nrRz2px3ZtAmTbwi2uv5UmAWEA6EJSOLpn7LrhhK6UpLSVzTV3
+ge0Sa_HHlxqKxfxZ-tK_kEvRZsD6kUvdsAplFzwtCORZms0iul4ScpuypuolzGkzrQgjBbeydgAH_rEKtyCVZFeKwnINUPgyZbUsmS4MuBRXzWfL6R8OLDdo
+j_hL-O1Vg4FPeF8uUODi-Czd
+}
+
+!define SYMPLR_DIALOGUEBROWSER(_color)                                 SPRITE_PUT(                                          symplr_DialogueBrowser, _color)
+!define SYMPLR_DIALOGUEBROWSER(_color, _scale)                         SPRITE_PUT(                                          symplr_DialogueBrowser, _color, _scale)
+!define SYMPLR_DIALOGUEBROWSER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DIALOGUEBROWSER,         symplr_DialogueBrowser, _color, _scale)
+!define SYMPLR_DIALOGUEBROWSER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DIALOGUEBROWSER,         symplr_DialogueBrowser, _color, _scale, _shape)
+!define SYMPLR_DIALOGUEBROWSER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DIALOGUEBROWSER, _label, symplr_DialogueBrowser, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DIALOGUEBROWSER>> White

@@ -1,0 +1,15 @@
+sprite $symplr_Compliance [64x64/16z] {
+xPTNbZGi24JD0dV_w_t35-Kee_q-DTEHSwjGwPJE-bRfKmp0PFRo8LmdUCtwJdS3aD5goRdKDWJ0-YFjubn33mxLmDgfqWoiNF01jAZOWF4bBZ1pNCuJv8ko
+NfVOG7E4strzgO051kegaOgXqThBqs2Uzw1lUAGAVNUzRDqjIf7qB47sSydlVDw6p1WNfZ7NCJLVX2iECsn06LTSLuE1-FNa6pv_N9s9Zjxnv0nqFMwXt_1V
+aFsDN1O0vGKNgCkyhRFt8Uup6-g8qe_D-owLzlSmfiD1W_H5ax7SzJZe1NUXGlVf5UJGl5DV-URmNzTRkbD3Jlc6_RAH87qVWFcBNvCAQ82x_jt-UGFN_AR1
+SAti1XQd-qLNB6q6_j4ke_eNeqTYt3FUoqCUzsfhpvEPDeCGtv4AwMGGuybNZBORDBVpU_kB1ffsWoqzVCFDK7U36A-G_NQW-uIM5CVFxJXxUbQ773vrLpc5
+AVhA6thyzYDlk9nRhJ1Vy1cFDFC9R-5GtPSW3jyDh5o-lD4kzH6Nnyq_POc_w7S3UVi2F_9cF0oiFl_yq57p7xOEnVLrKHD-IEK_AJyaBNsWtARnHpPRJf-h
+rDPxgoM5-jQ_
+}
+
+!define SYMPLR_COMPLIANCE(_color)                                 SPRITE_PUT(                                     symplr_Compliance, _color)
+!define SYMPLR_COMPLIANCE(_color, _scale)                         SPRITE_PUT(                                     symplr_Compliance, _color, _scale)
+!define SYMPLR_COMPLIANCE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR COMPLIANCE,         symplr_Compliance, _color, _scale)
+!define SYMPLR_COMPLIANCE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR COMPLIANCE,         symplr_Compliance, _color, _scale, _shape)
+!define SYMPLR_COMPLIANCE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR COMPLIANCE, _label, symplr_Compliance, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR COMPLIANCE>> White

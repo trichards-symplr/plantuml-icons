@@ -1,0 +1,14 @@
+sprite $symplr_StarRibbon [64x64/16z] {
+xPQ7WYCX242LKK7U_t_lrRaGTZSwrrlUbZGVTaZ9F16r4-U6J_kC7XlzO4DR-nDhdr7G4oVUzBKFzNpMcEL4wUdpFzP_-azVliitRELlxu-0FlO7N4W0uuj_
+TFr0RtRw3VhQZaPL8R0QeNSCE3xRRgFteHF09AQsGG6OhSQO300hbwZ0b98G0-IQxj3UN1UNI_g3TdLU6i74w-gZ3RfeKntR7vyZxwMMGBRrmr-spqQ7tU7B
+jqa7dkFtzUADtBsKF82sl80rNs_5IXdCSiVo1dQYhRG1yYccDecOgpjaz3EG0w3d7W0-8Yqyn3dYMy3KTYewWJDqXNts75WjYQhOBWD6x0Qj9EIMEnpP-aNX
+o3epvhZn8q3MD_tdkTdzF3tqnVpps2OjBfMdCIxtFvw_zFVxtx6Ivfdwt9y_WPeTaQYA-_DV9lqMoakH2TxkrwBXr-v_OrRZ4rDYqBuOVlhy043hUNrQv9-B
+-K_1v3pws6rH-kNyMy_7ksUJMNRuDl_lwqzTr9yjydRzEtozzRaZavAe6kLppm2itVLjW9RhY05CxH_G2J6WgyXmRhY6VPtQXfhfQ0_b9-y1
+}
+
+!define SYMPLR_STARRIBBON(_color)                                 SPRITE_PUT(                                     symplr_StarRibbon, _color)
+!define SYMPLR_STARRIBBON(_color, _scale)                         SPRITE_PUT(                                     symplr_StarRibbon, _color, _scale)
+!define SYMPLR_STARRIBBON(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR STARRIBBON,         symplr_StarRibbon, _color, _scale)
+!define SYMPLR_STARRIBBON(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR STARRIBBON,         symplr_StarRibbon, _color, _scale, _shape)
+!define SYMPLR_STARRIBBON(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR STARRIBBON, _label, symplr_StarRibbon, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR STARRIBBON>> White

@@ -1,0 +1,8 @@
+sprite $symplr_Icon_Library_052824_359 [64x64/16z] xS413G000C8W-wUsnmSi3m0003W
+
+!define SYMPLR_ICON_LIBRARY_052824_359(_color)                                 SPRITE_PUT(                                                  symplr_Icon_Library_052824_359, _color)
+!define SYMPLR_ICON_LIBRARY_052824_359(_color, _scale)                         SPRITE_PUT(                                                  symplr_Icon_Library_052824_359, _color, _scale)
+!define SYMPLR_ICON_LIBRARY_052824_359(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ICON_LIBRARY_052824_359,         symplr_Icon_Library_052824_359, _color, _scale)
+!define SYMPLR_ICON_LIBRARY_052824_359(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ICON_LIBRARY_052824_359,         symplr_Icon_Library_052824_359, _color, _scale, _shape)
+!define SYMPLR_ICON_LIBRARY_052824_359(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ICON_LIBRARY_052824_359, _label, symplr_Icon_Library_052824_359, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ICON_LIBRARY_052824_359>> White

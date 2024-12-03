@@ -1,0 +1,14 @@
+sprite $symplr_Safe_264 [64x64/16z] {
+xTPLWkKm44DH6QiaxN-zmvYaWyFJv-_13SSsVgHNjHze1IzgAHyI9xQ5nPXZNwJCYWsv_dxRb1fMmebtwedJRrB1GX41JFc0M83XME--0sd5t1MqAa1XWGA6
+MN1aY9_szXqbG1KSIpSqp-Nf9o3YXEP0TQpxeiG9zKEVgpvbgv_fSxENHCU3dgZF-jeVzRQNVSdiP_kULXHyXvRgJdzq_yJk-QJFzdjxnPD--XsLk_sqOiYy
+sqi5G7ZUwpy_ZUAzFZ_jsAut-aARUAVPcfVx8ISzWIfFcHVxQlL2MvGzIZglzTDZoXbaJfbLlBZ_RmQpahRZMe-MWIzwJbpgruxxCip-eAVVcVTxQSPl7R_5
+T3my_t6_HnCB7lIuCl_6vle19uGxsgedWUd4eIe1SxL-ILU0Pg-xMaXzQwNJJ00f7s47kXDBwG1GPkph08fKi48dJkdom5gXbRqUQ9FMmAP1dw0iU4aTTaIa
+5GiVlwApOnS9e3Y1ZGSKmmFxg4zBp2KHwtNlshH8gM4fJLB2aSbtEbPAaCoA7-hLMm
+}
+
+!define SYMPLR_SAFE_264(_color)                                 SPRITE_PUT(                                   symplr_Safe_264, _color)
+!define SYMPLR_SAFE_264(_color, _scale)                         SPRITE_PUT(                                   symplr_Safe_264, _color, _scale)
+!define SYMPLR_SAFE_264(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SAFE_264,         symplr_Safe_264, _color, _scale)
+!define SYMPLR_SAFE_264(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SAFE_264,         symplr_Safe_264, _color, _scale, _shape)
+!define SYMPLR_SAFE_264(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SAFE_264, _label, symplr_Safe_264, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SAFE_264>> White

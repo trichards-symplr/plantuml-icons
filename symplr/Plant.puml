@@ -1,0 +1,15 @@
+sprite $symplr_Plant [64x64/16z] {
+xPNRigiW44GTxgp-__yznu31egYKkb_jbqITDPS6SVkJNhrwbG5gZjukXVkOAq0-RY3q4IJtctM98rOSzy1v7r812SAFoXK9IWhUE-JwNN44X89KRKrRbIZV
+z5MXGwgde8Jmo-A8T4fT5TkVg3gN2GjyRgmeJVN74zoC6ofpL9pd7wqnytKKcUStUdJwDiWyGH1sZDVRfZSv_jLFaCNTaga1r2b37Ai-9icxZRb8M9iBx8pR
+VhtlBPFaMxFTZyC0qqVOpe_56HO7rHRKSgEnokmDXFnVY0-QbCzyLjwYYY5LOBzpdj0nl9GKfpLjxMHblYxwK_cMpOy4QS67hKXdF4-RuHZO9DcgVXruHFDk
+o3fQC8H5rMcljhozkCesAo2Hh2Seex--M3JS8X9nVGn9K5C8I0hJooD2I1KaicrhXGhgSkS7fYweyVS1rGwtmwknAEs8TDiLTHEN5tSIFCSxzHplt7Eyanr_
+dA3ZZ-Io96NtZ8wWZo0-g8r4YI74WiJT7W8YdY_2BTmplx_o5z7rnoRVMeQo_FxSyMxn_RlkOLhLAifNULPcUN6PPttNBhg_vYyRuCJ5gTRomYrqWnSBNT-2
+bRLc_rwz-WS
+}
+
+!define SYMPLR_PLANT(_color)                                 SPRITE_PUT(                                symplr_Plant, _color)
+!define SYMPLR_PLANT(_color, _scale)                         SPRITE_PUT(                                symplr_Plant, _color, _scale)
+!define SYMPLR_PLANT(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PLANT,         symplr_Plant, _color, _scale)
+!define SYMPLR_PLANT(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PLANT,         symplr_Plant, _color, _scale, _shape)
+!define SYMPLR_PLANT(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PLANT, _label, symplr_Plant, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PLANT>> White

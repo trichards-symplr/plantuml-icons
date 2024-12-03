@@ -1,0 +1,12 @@
+sprite $symplr_ShoppingBag [64x64/16z] {
+xLO7aaKX25iKKCZzpxkzh-pazvhN7nDB38mFLumxkchVdkq90EbRqWCPxW74blIGbwV4LWqeykCreTjqtpzLt6O0cOlthVcoALrEnx_pcva3zWd0pHfDdrXY
+alI1T5NJBvYfUcAmpfDA4GODKMKK9K77gERLkSJtTS2vCk2mTS2A03jCvHPWLZ8rpW41AIoDu9QVY9mlN_xZ2slVxGtSwrMQXJDObmp6m0QZGaGdH6OHaoIa
+8KLk2BvwyTRWJNO1VCceWr5emnQPYKPKRxeqyXxX4qXsrNzYKg5w04ZN1Jn1RICaK224tBkeBQ1_s7VSyGG
+}
+
+!define SYMPLR_SHOPPINGBAG(_color)                                 SPRITE_PUT(                                      symplr_ShoppingBag, _color)
+!define SYMPLR_SHOPPINGBAG(_color, _scale)                         SPRITE_PUT(                                      symplr_ShoppingBag, _color, _scale)
+!define SYMPLR_SHOPPINGBAG(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SHOPPINGBAG,         symplr_ShoppingBag, _color, _scale)
+!define SYMPLR_SHOPPINGBAG(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SHOPPINGBAG,         symplr_ShoppingBag, _color, _scale, _shape)
+!define SYMPLR_SHOPPINGBAG(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SHOPPINGBAG, _label, symplr_ShoppingBag, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SHOPPINGBAG>> White

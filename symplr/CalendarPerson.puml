@@ -1,0 +1,14 @@
+sprite $symplr_CalendarPerson [64x64/16z] {
+xTH7WYiX38JXaX0WLFU_RoT7SBPV7F-Bpjz2ce2_fs-Iak2yX3xLQzevvuAJ2WrT92wc92F841ohp8_wO2YWmRQJfAy-U98jtaY6TeEIWZaX4u3CkRPwdfRt
+de6pAkl-ecn7aTtySX8M3n7jn_3zf9c-UImf-aJMu-Xjy3SQFVCRVfZ_QM_d-w-y6yuBDW6aCV2ILvAjaTJD5xcL3XwwOBQLep3VdNz8pHIx3CzvKHqJhArN
+n-FeSxkv8v9b4JGaajfxvxK4In4n-_au-_aedSza5embyg7vWmQCQR0-ufN4KCfEXZpYZQspjN791Sai0MQcwr4Wyx7pcNNuHMHurcspVc__PV6YfsipmLPn
+Bu2x6sG-9kXy58m-g4SVkDDzRw5l-Sho2PzhpK2frO1Qgpxdn_q_wwqK0t8f2IYbwBlp_utUsFO-0izx8NNpGkvzOQitEteuex3podjLx9CWUm_DvMQ6awmE
+_idYZ_cl__glRt7u_wNX-4rzcm
+}
+
+!define SYMPLR_CALENDARPERSON(_color)                                 SPRITE_PUT(                                         symplr_CalendarPerson, _color)
+!define SYMPLR_CALENDARPERSON(_color, _scale)                         SPRITE_PUT(                                         symplr_CalendarPerson, _color, _scale)
+!define SYMPLR_CALENDARPERSON(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDARPERSON,         symplr_CalendarPerson, _color, _scale)
+!define SYMPLR_CALENDARPERSON(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDARPERSON,         symplr_CalendarPerson, _color, _scale, _shape)
+!define SYMPLR_CALENDARPERSON(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDARPERSON, _label, symplr_CalendarPerson, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDARPERSON>> White

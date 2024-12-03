@@ -1,0 +1,14 @@
+sprite $symplr_DocReview [64x64/16z] {
+xPC7hYGn24GBSAJkVzvDQ51RlzlUdDyFa_mGXGSa__cF5jiZs52THxpYYPPddY4vS8-I3T39WGsDRBYbXoZaFkJJvvCb7cdOuImFlbthw9kvgsdqsJx3xro9
+Tyfd-yKN1b3TNG7OrAD_vfnV5O1e80X4vVFyIAja49a6IN9yplohqnNY35nXpXTJlpn_8TaKWBPe9ubyR_8704H27q0WWxJK8vG-t7y7d0OXEu9m72-S95tU
+vCzr7QxedBZYRFcKTiuV3I_JEFXnvnApAVI7Wk7lxz_GsB4oMBT-9TtY_brlTgQpVNx-h_4bY3Frflzoo1-4PpVpqqF-eBsEhw4g_OlklwqDIDHRpfEADJzo
+381pBFgyJ78ktwZmsxB_1hrihJdPhyM6QIMxY2pvBVTV0NLo51Kj8mSJ55xGy6-GpXTTwhM03YQI-PESXhRfz5a5G1HOMVCd3dIk2xWfaFcJ6TKCnmBfxwWi
+MQ2S_SqkrOqV7IjNBFtaX_WR_Xc_SKyv-8Dxsj6lk4MsATARjA-QGkC402K5ZmXfpnyDXJa77h59nnE5duFY4HqyqGLRLBRWD-4_xm4
+}
+
+!define SYMPLR_DOCREVIEW(_color)                                 SPRITE_PUT(                                    symplr_DocReview, _color)
+!define SYMPLR_DOCREVIEW(_color, _scale)                         SPRITE_PUT(                                    symplr_DocReview, _color, _scale)
+!define SYMPLR_DOCREVIEW(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOCREVIEW,         symplr_DocReview, _color, _scale)
+!define SYMPLR_DOCREVIEW(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOCREVIEW,         symplr_DocReview, _color, _scale, _shape)
+!define SYMPLR_DOCREVIEW(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOCREVIEW, _label, symplr_DocReview, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOCREVIEW>> White

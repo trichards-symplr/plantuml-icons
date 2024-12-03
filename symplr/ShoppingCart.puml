@@ -1,0 +1,14 @@
+sprite $symplr_ShoppingCart [64x64/16z] {
+xTLNWcGX28LXK33mxt-zayTAwdLo_5wwAui7L7wj__vhz5OygtmbFb7vEgdK7e1_QnNoBGpaMoYOYDfNxsDGHHf0zEgMv0iL4AdSwQrOKZcK8Oc1MQcTEz7A
+KLNW8c3oWMQlFHX6LVi4EqtkQRRIugMgPO85PDXzJJJNIO89aYnfijBwMCaimQC-JkOLsYJ1ypu6NoGe1wQ5Wej2bWCEymI3-ZNpEXAiX1o0Cfl1B1dqgFoy
+c46mhpqk2emMtgl4QWOTpawB2V2Hx8w2BLE18dlBJVQZ5XvZEa_G85q8sdfVb0E-MLZdccvEKT5B1sFzTHf78ikSSQRAWlaHbHshhPhALyfyLEIh612j0sso
+iDukrfuWaeXeUybIWmzCDZhe-E_buz7wnHU0Bmwv-l63AM2xV5qqu-VK4zZHqH2KoPMploFkBo2muyyFGH_3Z3v-iuz_jl7Np_-qQJ8DT3-2uUOTGf-tbc8U
+K8vcE7JHs5NsSWFw92EjGC_oc_ZlBG
+}
+
+!define SYMPLR_SHOPPINGCART(_color)                                 SPRITE_PUT(                                       symplr_ShoppingCart, _color)
+!define SYMPLR_SHOPPINGCART(_color, _scale)                         SPRITE_PUT(                                       symplr_ShoppingCart, _color, _scale)
+!define SYMPLR_SHOPPINGCART(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SHOPPINGCART,         symplr_ShoppingCart, _color, _scale)
+!define SYMPLR_SHOPPINGCART(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SHOPPINGCART,         symplr_ShoppingCart, _color, _scale, _shape)
+!define SYMPLR_SHOPPINGCART(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SHOPPINGCART, _label, symplr_ShoppingCart, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SHOPPINGCART>> White

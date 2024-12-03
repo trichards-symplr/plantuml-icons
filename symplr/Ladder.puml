@@ -1,0 +1,14 @@
+sprite $symplr_Ladder [64x64/16z] {
+xPQ75biX34FB0uEH_lzxinD19oRThSx8z4DmVMG-_7xwhrokoflL1RmBPMjnibSpgvtSiT1fJoF4HZsWjonlrUST0-2XznidKEb2mRwx0Pc9obbVxst3mC4t
+3NIMwJIYogDf86qWRFPKtp3GE2bi895rCD0s30XX8ZOCOEg7JOHwM5I577343HY7lYCHzo_i1qaBrWCa7k9LuGvsSgmlGVwcKmV2GGQc5y92ZmPP0XIUpX8D
+ia9NT00fcgJzzcUZAur21W15HsLzV3ZM0x0_A7Wfe9Mhsge1BPauwuXEeCxU2RyBz6Lwcd-kpYFIAZqv6OhQOf2vK1k9S901Ua-sAHLNwQdUfrHSf2Sln3nP
+O_U7J1A3o4LwsZ4vrTiQFGrFiAIN5dB4EIT_OP_dGe2UiNqqm3EnTlbG3jIfxS0Se0STgEwa0NhzVYAsRc2cPzgI3FG0FIsvTYDh8pr03vMC_kNwxEF3ylFD
+1Dtbva_NVvq1
+}
+
+!define SYMPLR_LADDER(_color)                                 SPRITE_PUT(                                 symplr_Ladder, _color)
+!define SYMPLR_LADDER(_color, _scale)                         SPRITE_PUT(                                 symplr_Ladder, _color, _scale)
+!define SYMPLR_LADDER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR LADDER,         symplr_Ladder, _color, _scale)
+!define SYMPLR_LADDER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR LADDER,         symplr_Ladder, _color, _scale, _shape)
+!define SYMPLR_LADDER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR LADDER, _label, symplr_Ladder, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR LADDER>> White

@@ -1,0 +1,14 @@
+sprite $symplr_ConstructionWorker [64x64/16z] {
+xTK7akGW40NHmXS_xt_VZN5YHqWjqUjDXcdxv05xrFzYUDuc5o3L-8oEuZK17fPv0SXHiWuehlCcqejlLArk846npHVhQCcBQbzx4xx0AxBFFaAyxqLwsOh2
+YyzwaKvRE7jjDt5-TrsZpagajSD_AR1vfzxs6x8SjtVqcpmCFrgu016TR_MwqA2LVTMXtFATq_8T7ri3Rxj4RzLkLl7vdWGRBT-1Z6oXpkvOHLxnYS-7Mv0j
+rUas2WkxtqIpBT5jiGG-PcBPSbce1BFOXCAJ2u0aKBFdobsIMhHVKXWjqzAro_FAbGVj0ZpUqKa0PNVCiGFoSCaTLAGu3-dM1ENoiQMQ7NiBWdR55KwzPS0V
+ygx7lZywWeximdiylmOLXKjl6SMJerUoQs-DVkWTjsj_kXA75tdjJoV3Xjlm9U_ouUVDloJYy1mqVACTBi-RptvGs7n2ao_uyCTjtZJxHbtnqNPrydtVoRDF
+npxelJIyprvdFgBNoCCtofMVvr5RydE_kzTheFC0lSJiNGl-Q0J7bOBzBNq1
+}
+
+!define SYMPLR_CONSTRUCTIONWORKER(_color)                                 SPRITE_PUT(                                             symplr_ConstructionWorker, _color)
+!define SYMPLR_CONSTRUCTIONWORKER(_color, _scale)                         SPRITE_PUT(                                             symplr_ConstructionWorker, _color, _scale)
+!define SYMPLR_CONSTRUCTIONWORKER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CONSTRUCTIONWORKER,         symplr_ConstructionWorker, _color, _scale)
+!define SYMPLR_CONSTRUCTIONWORKER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CONSTRUCTIONWORKER,         symplr_ConstructionWorker, _color, _scale, _shape)
+!define SYMPLR_CONSTRUCTIONWORKER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CONSTRUCTIONWORKER, _label, symplr_ConstructionWorker, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CONSTRUCTIONWORKER>> White

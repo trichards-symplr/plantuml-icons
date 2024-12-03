@@ -1,0 +1,12 @@
+sprite $symplr_XMark [64x64/16z] {
+xTG5RYOn44HXUtXSzp_lRcAry9MY2cCBVlpUiDjRpj_ypTySsfkRJMV6fSDowOhu9UsENmXOlhTTEiZFjY9WUPi1yeQ0vnKWPy3p2f0pG8v0SH_ml08x-1E1
+PVwDWSrylxh09Qq8aFUXst4Vk1plBG-G3yzzm6yz3tJByq2wympad864vm7oF42U1tZcqxar-4t0yS3YQSmv0yUBEGCvPo3d36Gy2EISWPptSp5hRCw7jBez
+o7a5i0SP7_rAzw1BbtlYRhC7gmlCluCpS4kTkW0-uN6-fGKMWNgF03W2v1KWzm7o2f3x07W5o7rW9Pzq1VS15SSUE9ulr1Uv3-oJStRmxpv_yny
+}
+
+!define SYMPLR_XMARK(_color)                                 SPRITE_PUT(                                symplr_XMark, _color)
+!define SYMPLR_XMARK(_color, _scale)                         SPRITE_PUT(                                symplr_XMark, _color, _scale)
+!define SYMPLR_XMARK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR XMARK,         symplr_XMark, _color, _scale)
+!define SYMPLR_XMARK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR XMARK,         symplr_XMark, _color, _scale, _shape)
+!define SYMPLR_XMARK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR XMARK, _label, symplr_XMark, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR XMARK>> White

@@ -1,0 +1,11 @@
+sprite $symplr_Checkmark [64x64/16z] {
+xTD55iD04CJGeJRr_U-RlO9wuSIr_p9E-QRjszV7NNnaplTn12nV1WAIun4yHy1o13ndm7C6F2ybCliTlAwvrP_ZROsxU6PET_4D0SdN6WX8NWe2bYDWEGAM
+8s0v0jSu3nC2vgTTCni2Y-2d0eAV33X-7AYA7mSaPy1p1iXbW5m6o6M0N0R8PO1S1y1z0Dm7m7q0N0Vw1cu3u3O0hXVW7xXz-mu
+}
+
+!define SYMPLR_CHECKMARK(_color)                                 SPRITE_PUT(                                    symplr_Checkmark, _color)
+!define SYMPLR_CHECKMARK(_color, _scale)                         SPRITE_PUT(                                    symplr_Checkmark, _color, _scale)
+!define SYMPLR_CHECKMARK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CHECKMARK,         symplr_Checkmark, _color, _scale)
+!define SYMPLR_CHECKMARK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CHECKMARK,         symplr_Checkmark, _color, _scale, _shape)
+!define SYMPLR_CHECKMARK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CHECKMARK, _label, symplr_Checkmark, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CHECKMARK>> White

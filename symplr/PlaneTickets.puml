@@ -1,0 +1,14 @@
+sprite $symplr_PlaneTickets [64x64/16z] {
+xPC53YKn3CLIoBHvllzvbolz32wp1Hyz1Ilsu_dFV_xpdzAtzWts411VQTSfq1JZQ-mMGb7DAYfVPHFrm_luuWrq0NEjshvm0ovWl2XY-sovR0Bb_tVq9S7a
+jaFuvmVhTi3HPzWX5CtE4Fqfc81PxHn7Zy4qRYg9Th-sxXDjnBKEygSmKhq85fyr88Eu20RKPxz8vMn6987Y7QDP6t49Q6ubNpd1Ay4JMZij0OmgPbyCOFHB
+VEiUQFM4hLX3gR7i0QcyZdGdKkFjoLyLdMa7t_hB-xREsgCT_OQE_cI--dpuwA2ZRy8FVgJpEo1tpdr73xvvRfPz4_t1DyzwzZTqTlx411XswfjeL_UV3r3E
+_K7i_F6oLcdTnGVYt2zIlJv_V3gx0_tWh-DU-vi0bRF-YohvfMzrxTp1JtqB8ljv6lJfeqSvzwj8XkNnyPppw5jatt5xfTg3t_YQ-Ky6ioqSy7RBH7c79CGJ
+QfOeWHRHhOTkcSN-VFxp5W
+}
+
+!define SYMPLR_PLANETICKETS(_color)                                 SPRITE_PUT(                                       symplr_PlaneTickets, _color)
+!define SYMPLR_PLANETICKETS(_color, _scale)                         SPRITE_PUT(                                       symplr_PlaneTickets, _color, _scale)
+!define SYMPLR_PLANETICKETS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PLANETICKETS,         symplr_PlaneTickets, _color, _scale)
+!define SYMPLR_PLANETICKETS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PLANETICKETS,         symplr_PlaneTickets, _color, _scale, _shape)
+!define SYMPLR_PLANETICKETS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PLANETICKETS, _label, symplr_PlaneTickets, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PLANETICKETS>> White

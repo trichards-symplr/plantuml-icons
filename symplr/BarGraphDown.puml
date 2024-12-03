@@ -1,0 +1,12 @@
+sprite $symplr_BarGraphDown [64x64/16z] {
+xTO5aW8n58JXkFNzpxiB9DMuTGdslX8O-SVDEMDof-Q57WUIr9Sq3R4FRkfVq5llIwKWz1bxNUWBHfcQsDSrdBwXjpucYaBlSS1BVL_KtYqtUkkjjtviuA2V
+8zZlXdi-xWSNsZ2LDHoniDzfnxqF_1TF7Z9pE7dEaDBWFaWg49zCGd2KXK-yWpL67fidDEwnvx5xIiVmwqmD9_03VIv7FFG1gBj37vmc0fc7Nf5vMOeg3xse
+CNyNvXy
+}
+
+!define SYMPLR_BARGRAPHDOWN(_color)                                 SPRITE_PUT(                                       symplr_BarGraphDown, _color)
+!define SYMPLR_BARGRAPHDOWN(_color, _scale)                         SPRITE_PUT(                                       symplr_BarGraphDown, _color, _scale)
+!define SYMPLR_BARGRAPHDOWN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BARGRAPHDOWN,         symplr_BarGraphDown, _color, _scale)
+!define SYMPLR_BARGRAPHDOWN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BARGRAPHDOWN,         symplr_BarGraphDown, _color, _scale, _shape)
+!define SYMPLR_BARGRAPHDOWN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BARGRAPHDOWN, _label, symplr_BarGraphDown, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BARGRAPHDOWN>> White

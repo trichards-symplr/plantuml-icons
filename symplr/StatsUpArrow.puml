@@ -1,0 +1,12 @@
+sprite $symplr_StatsUpArrow [64x64/16z] {
+xPG5eeCm40M9oxl_UN7OxF-rBFLcAkWWWtG_HiZgYEw1V42t68bYNGDX_7cXhe0q7uEL-HbPBGsCH8-0eX59UaC78ablMOZwz7nAa9uTZQjC_x-683sRfIlI
+Jz3w2HFvLZzXnbED1NLp_P78V3rITnC5vbU87-WtNzi2WOyIL-7JyxuXzEb9lUWtl_a61R7U3oYH-46l69bFYrxfDx_vpRSJp0zs9Dtgpp1_uRolawQryqAW
+jrjUA5VotLre3
+}
+
+!define SYMPLR_STATSUPARROW(_color)                                 SPRITE_PUT(                                       symplr_StatsUpArrow, _color)
+!define SYMPLR_STATSUPARROW(_color, _scale)                         SPRITE_PUT(                                       symplr_StatsUpArrow, _color, _scale)
+!define SYMPLR_STATSUPARROW(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR STATSUPARROW,         symplr_StatsUpArrow, _color, _scale)
+!define SYMPLR_STATSUPARROW(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR STATSUPARROW,         symplr_StatsUpArrow, _color, _scale, _shape)
+!define SYMPLR_STATSUPARROW(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR STATSUPARROW, _label, symplr_StatsUpArrow, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR STATSUPARROW>> White

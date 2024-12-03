@@ -1,0 +1,15 @@
+sprite $symplr_Drums [64x64/16z] {
+xPO5pkqw30P3njd_UX_SH3ewfVowJ2Cip5T7TggKhyTVQlio7yON-Vwb0G7oimUC-aK1WNr91G7z2vOGgqFRW8s-3zZf-u2zlW-ur_S1DaJqFqJ6QBL-NE_Y
+oGNUwzQj4YyX8y8ZyfM6FNP_vFHSrPntt5QoraVRH8DhGkSZkqge0NYNN2MOZ02fjVK4ztLV562STS2g0AJsCWdqrRZQDG5aSD7TX5xZkBn-w7ipm9kVTf50
+gmcwcxfga3N8u-Ur1BHR_KK7hyTNmIhqZJuPK44EVdOe9_9gQ46EiO1T_bekMZs0uxjCMjdJkVG30DtPrG3ox8y1QpZlQJxVAHT-ASB4nlNMd3BUoidFsOyH
+B39CPVJMsXYY7apMV9xwhx3g7iujgSjoE6sVV2syg-THTNazDnWNNR7pWU8_QjsyEcbhSJj6tBHvLXnIdsIxdxD4T3L8UpqlHIpdqtxhbz8D5kbkfchc7iaY
+HYtbmV-FDYovmcNEpCPVvGwPdtOtrR4MjFNlsVX_VSS_fZUevOnyy81GaonN9EXUxmdjBfWSczgTXpBj-OZHD85ekxypOQFLTxMhpqUzF2F18ZF2tyu_gUsp
+3s2Xe-xLznqeggOYexSRzGlvoxy
+}
+
+!define SYMPLR_DRUMS(_color)                                 SPRITE_PUT(                                symplr_Drums, _color)
+!define SYMPLR_DRUMS(_color, _scale)                         SPRITE_PUT(                                symplr_Drums, _color, _scale)
+!define SYMPLR_DRUMS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DRUMS,         symplr_Drums, _color, _scale)
+!define SYMPLR_DRUMS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DRUMS,         symplr_Drums, _color, _scale, _shape)
+!define SYMPLR_DRUMS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DRUMS, _label, symplr_Drums, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DRUMS>> White

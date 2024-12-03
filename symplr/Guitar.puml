@@ -1,0 +1,14 @@
+sprite $symplr_Guitar [64x64/16z] {
+xPQ9hbqX24K57Dd__xyDaSJQwIYdSxiolE7UnTP8nFIp-OymjT4egZCc7FJ9v1ejK3G345k5Hlm1JsQhSe-u7lKLoAxZMbwf1A04_0nKJuV6TezgwSYZndIW
+1zid0qg2IOxff81s8edfQLXoXF9Q7ydq4j8hJE-lzHhI6z1Vwmre8Rs_rKsiLkG2Og5aZ81ELM5qCRtwwH-JiGZerIIXn4NdBPDlqmSbWzJrgwjcXhcUh_KA
+aBSDJ1T0wVA2DDmKNFGDIP-BvLnahXp6KJut1O11YGQCF0-IZwuCwZ0qssnmgXNWD0usm9PTvQCHHSDSMtbxElrz78dfXdhBL-Z1L9Prqs7xvI0_U-GUbztN
+n_txIlTOAtGsw7cRPkGDmzv9usdxAt7MQS38KhrlslFnTtJtPu6nNcYYp-sx6eIzG540ZIpSDd7iUm63_5YLJ-xtdhO2JZqSLmMQlb20JkUDkB8LyFuvGb6t
+RkYhRo_lB8Cxhwf7a4Tk420NhuloXQbxDIHpsk2xQQ_xrw_VzpG0bMq4ylKh0rfCugBNkca3Yqxf7cbkDqv1Y8Kf_Jby
+}
+
+!define SYMPLR_GUITAR(_color)                                 SPRITE_PUT(                                 symplr_Guitar, _color)
+!define SYMPLR_GUITAR(_color, _scale)                         SPRITE_PUT(                                 symplr_Guitar, _color, _scale)
+!define SYMPLR_GUITAR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GUITAR,         symplr_Guitar, _color, _scale)
+!define SYMPLR_GUITAR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GUITAR,         symplr_Guitar, _color, _scale, _shape)
+!define SYMPLR_GUITAR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GUITAR, _label, symplr_Guitar, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GUITAR>> White

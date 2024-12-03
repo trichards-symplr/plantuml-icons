@@ -1,0 +1,13 @@
+sprite $symplr_Umbrella [64x64/16z] {
+xLRNOWCn3B8y9VZ_x-sq4rlPINUF9sw0GJV3puP27jA3wTVgOsv6ifLq-moa6i01G6-AaGma098s2EhLkG429GOb93H292kkTb0G6bz89bvJW_Qwku14kc9n
+GgNFllKz9Go7In4oTeiquftKGSH8Eoilf4a_cHnfiLksuAn19dLmfUrtOz1qpY1DSfdlFB1C1df2BhDt9UPQc2PqQeWsIy1ouZ6eP3nU7d6-XvPxWkhMSHYN
+Uw2jOqgpH9Pill0moyuy7J_rU641nCscUdVV7YxlWa8BPmFOt3uqVv4Z4Loy5K1StFo4XiBVqJwm7zVnFNNKyO5z6ZyoVtiS3on0S51MLyV7EwzlRESA0j77
+ErlG_Fs5MlPeP6TLEp6YJF2tC7WhwgAlki2i4t8mqnNo6xw_ctxJR_fDl-cBtgdFxeDv6vJglgYt8H7H_GtV1YEqL7IRso76Lw24Uv6QMPNmG_4C
+}
+
+!define SYMPLR_UMBRELLA(_color)                                 SPRITE_PUT(                                   symplr_Umbrella, _color)
+!define SYMPLR_UMBRELLA(_color, _scale)                         SPRITE_PUT(                                   symplr_Umbrella, _color, _scale)
+!define SYMPLR_UMBRELLA(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR UMBRELLA,         symplr_Umbrella, _color, _scale)
+!define SYMPLR_UMBRELLA(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR UMBRELLA,         symplr_Umbrella, _color, _scale, _shape)
+!define SYMPLR_UMBRELLA(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR UMBRELLA, _label, symplr_Umbrella, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR UMBRELLA>> White

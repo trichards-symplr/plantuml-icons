@@ -1,0 +1,15 @@
+sprite $symplr_Gameplan [64x64/16z] {
+vTO7Tkqg38NXJP40_VCVxoiiqftO-Dn-TthvH5tMqQ-TEY1QkgdJW9bwpm_mdEk0SeSRvFbD9-xum2JlHRgnWbGQI0r8SgBc7Tm1C2c0eXG0OTTd3j6B98T8
+Kl81S5eWLQkI4LahnTBJtvoGibdvb3j0aUE7nK4Qm4Z7lC9ehYzzQHtYsCToN_ZrjHvwI6iUKVB7EA6PzdLzAJYEQSRFV6f75KRLgJ_9t-7plFfghfMAxtY3
+8Wr2gnvGDxmwr07vXKFTyEhmcWS1TSCdm9xvS5g7UjqFWBAcCkQ5xyHbFo3tLI2xr379oiR-vpTFRIXRvz_crhcjFnHuwFvrsYC-Gtx43veUy9r8Uzw2y9TM
+HDQMRm2C-NqDADho1InLC6KRh5QKXitI_TotkLt-zf5RODv3qhcVnW2w9QqOU8UYKs_4tFM-x4k1nKzyWcZnSTS7z4lxdmC-xde7y5C_KwscZxmO-CtdTvaJ
+CaZtlBpCYVcFwZyvQIMjpplUWP7r-Zgr3T-PIPeIcv-k-mnLQT2UvjB1j_fVbrI8byLizK-dlVO6s8ulg__snHbWc_qtdXfe1PTlzjy6H5crV9A-uvLArafU
+dt-Trq_js0lg9H_KJ-Q5rzFOWAJ3TAwbw9FKri_ZIRzC_WK
+}
+
+!define SYMPLR_GAMEPLAN(_color)                                 SPRITE_PUT(                                   symplr_Gameplan, _color)
+!define SYMPLR_GAMEPLAN(_color, _scale)                         SPRITE_PUT(                                   symplr_Gameplan, _color, _scale)
+!define SYMPLR_GAMEPLAN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GAMEPLAN,         symplr_Gameplan, _color, _scale)
+!define SYMPLR_GAMEPLAN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GAMEPLAN,         symplr_Gameplan, _color, _scale, _shape)
+!define SYMPLR_GAMEPLAN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GAMEPLAN, _label, symplr_Gameplan, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GAMEPLAN>> White

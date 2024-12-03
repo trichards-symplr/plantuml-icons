@@ -1,10 +1,9 @@
 sprite $symplr_MobileHealth [64x64/16z] {
-tTM7Ofim54RXNrkwzxp_yxOUDGcDGAIxnzlmiOV-cyAi9JoODtHQvwYcivmMPtLCPq7HerAIOhdr-WU_uA6fSCi_vTshYj-oYtxIehSno-7S7xNaHvzby1lM
-V_CbRn_NVUeG94NeyRrFtTnwElGPNXxIvhTJR8G3F_2NT_hcWuFNKXqypBrJw-DhBGtRl47MhGnswFMjjxxSUEpMenAKozuODmWa3UooXop3gsFAiEJxvWD4
-GLO2HGWpRtH9s_VD9q5J0wK3Ns4xxYZRybDl5cYge9aFW8_U-W08BzyVRz0bfq-z6bjLBnzWI245QK2SUpLmi-4tldaLy2mfFmRClJgqnzjRhxfRhAdN08E-
-F_-JSSkIJhmC6DfxAHWMf5Cln_I1rw1hnHjjvsEuuWTUlfQZ9CMIeuE5TPzsTru7i7MlR3pApycb377TxyyW94XNVN3QDP-SzyLBFh8hwvAlU8flqgE6h_dE
-qFT5w6i-Wzi-1yAQr-2ZF6dHAzMsh_Ug5J-huh_1rpYhhVZZVexFCjhCbp3hkVu37FAdjrzmeElSTx-tzrAkIGj-S6_djyvyAlSk-qbBtgcQrJ2TDJYgwQpW
--2miwBoOPaNzntq1
+tTO5bjqm40NH9rPtxN-_EOOP3ScMmqbzXcic_JU5MKlOcDTrM-EgghkWnbaDN_1PHwL4nRBr-iqZ3rM5lU_oxaNPj-oXdxJetMOvBFYBbhorMGQ_OVw7ptcy
+FFUfGv0KeSNtFZLtR-dI9tZr48SVkvY52syum_VXWuFNKXq8S-_KKhHLSyE6zvU_PF1BhvU6trLIRDwZ4kJ7tkYAR4LrxB67BCUhuyhmr0U8WgG4YX1ctkYI
+nllJxnQgwesla7IKeGnFLMEhgLnCVm2mLfi1wDKta3hG9MXJhyQe3Xzs6LAGEeIvLmK_ZXf5mwk0Pqdf_67grQ0TJs-zwll9cdjri1S-lAAnPKatNWPqlVTR
+mR0WtNevfY-yEbrhldxmCJpn7SzRKP9Ypj71mxfFd3NjiUNhNiauIkVWOeQmw4TsJ4012T9J7_ofJyxxuYCV-53M8r_n5D-aeugl-ORfSn7Qci_WdmF2cbVd
+ow8MlLBzLEj5AtvMmN-3lxZ-NF7N_HoVPRIPBs5MnSzLwv2-U_a51vhkVMVBt_kjN98MlB7ttTT_AUz9l_NwksXMNV2Tgvhk2iuy2xelfbbH_t7V
 }
 
 !define SYMPLR_MOBILEHEALTH(_color)                                 SPRITE_PUT(                                       symplr_MobileHealth, _color)

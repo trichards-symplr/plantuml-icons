@@ -1,0 +1,13 @@
+sprite $symplr_Factories [64x64/16z] {
+xSu7hkOW40JXWJ6fw_xdVSa_3YCsAMroARh5Px0_iAVafVLbuoFj3LkNkyJFb5RQ1KYZrJAhNPn96f_rkj1fWFgMBfCFVQbUjtpPbsMXbk9pfEgsQCdpRUcW
+UlzXwKDVzSYJ61PvkmrDx0aKVO_J1duRX3JQvfwpUxhVBU1oNTQ-r3aq1A1agnm4GkVT-p3ceDtZQ_yb_Ue_PDgktYsPVicRtxtz1VxnAGUVK_3-7P-7TFLp
+E7qHzPj-29IcdyF5Tm5jxGj0r-dhFfmUG6FjVG0zsU5TG4isVQe25QjBFuG-j4qlWTe-72_NPhRobTVXwTjjC4kmwvNVNW-rwR-6QkVG17ApbIy2LJiIOG31
+c3hwCW_F01KxIy38Dek-qUqMOKWmzThNw6lqjl2FV_pZ7_zuT0lY4BzlllAhXGTkiHA_ux1TUHQ_cjmkbVgh5VjNUWS
+}
+
+!define SYMPLR_FACTORIES(_color)                                 SPRITE_PUT(                                    symplr_Factories, _color)
+!define SYMPLR_FACTORIES(_color, _scale)                         SPRITE_PUT(                                    symplr_Factories, _color, _scale)
+!define SYMPLR_FACTORIES(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR FACTORIES,         symplr_Factories, _color, _scale)
+!define SYMPLR_FACTORIES(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR FACTORIES,         symplr_Factories, _color, _scale, _shape)
+!define SYMPLR_FACTORIES(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR FACTORIES, _label, symplr_Factories, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR FACTORIES>> White

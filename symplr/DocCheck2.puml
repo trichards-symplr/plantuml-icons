@@ -1,0 +1,14 @@
+sprite $symplr_DocCheck2 [64x64/16z] {
+xTLN0kCW38JXaK0oQEv_tqt71GUolNrlARyh1N-F_rA95Tx5IhMtESSCvmfBMidcvfRJYf4u5rGCaFADlVxrlVR9P6_igvCzKkwIdtJ_gLuefDGjd-tBXK3A
+Zl_sxv-xvo-RTw4JVTgy_u9qVFzfr4EU04Y3ApA_wpC6I1_rnfq5bHSnsOljA99TvAb-u0_eTRaI-FBW0Y3PKihYWru1vBXAKkD9TU5BIPykxdAfgoS1HAsG
+HT_tQRlcf6qX2sdl-iIc07OOyXhqDpsq0J93iIELFdd_oX0SLUQvlbBH8OpJNgFft6aMN6JwMI--l93OySVpgEpt6ub-oAs60iYqarxifL8FEOG55omdVUPA
+9wyXxGOwVIFFS-Gg-nmBPTmlk38oP9V3gEFU7-zA8cIRmvWcps_CaE0sXu_EtvwnCr_Ibi_UFoBmEW0s-TJpR-TmvbqkB9-CFwTjSXZpk4T4UroR7C6P_Tze
+UCYo_-6Wq8zVAJgKWQFC7i5HCA73sH7IMVyCVRAZOeo4ZHHqpCkxzR-G6NDQKKq54BLA5i67jF2bA3xMzj-4x-mB
+}
+
+!define SYMPLR_DOCCHECK2(_color)                                 SPRITE_PUT(                                    symplr_DocCheck2, _color)
+!define SYMPLR_DOCCHECK2(_color, _scale)                         SPRITE_PUT(                                    symplr_DocCheck2, _color, _scale)
+!define SYMPLR_DOCCHECK2(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOCCHECK2,         symplr_DocCheck2, _color, _scale)
+!define SYMPLR_DOCCHECK2(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOCCHECK2,         symplr_DocCheck2, _color, _scale, _shape)
+!define SYMPLR_DOCCHECK2(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOCCHECK2, _label, symplr_DocCheck2, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOCCHECK2>> White

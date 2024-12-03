@@ -1,0 +1,12 @@
+sprite $symplr_GreekBuilding [64x64/16z] {
+xTK5jiCm34JHo2ZDx7-zXJ37dw6-PHs_SfBcrwegPpJ_xjeRdn3ULGUGjAWa4TyQI-A3kkVTp8SafUasaTW_MHcdRRtpONpfbuQmCo_v8kB9wxZSlwzz8jq2
+zR9lM92ToCuhyotYfizy2ztfSrCgxVP4pxI3WNOCFUxsRv4tlIXfJo1IouX-ODq0_O2qtH_0fjkdnBpyPfHfklqtVUrhN_lQrnxfoQRUki7KTmFizGAEj3KD
+i1d8fWzJZjxkOF_uBo4pnrAP6cJHAz_A5hqHV0iGgpusRn4sFUmjG7pgvvVuLj9yWkeE
+}
+
+!define SYMPLR_GREEKBUILDING(_color)                                 SPRITE_PUT(                                        symplr_GreekBuilding, _color)
+!define SYMPLR_GREEKBUILDING(_color, _scale)                         SPRITE_PUT(                                        symplr_GreekBuilding, _color, _scale)
+!define SYMPLR_GREEKBUILDING(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GREEKBUILDING,         symplr_GreekBuilding, _color, _scale)
+!define SYMPLR_GREEKBUILDING(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GREEKBUILDING,         symplr_GreekBuilding, _color, _scale, _shape)
+!define SYMPLR_GREEKBUILDING(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GREEKBUILDING, _label, symplr_GreekBuilding, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GREEKBUILDING>> White

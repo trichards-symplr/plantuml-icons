@@ -1,0 +1,12 @@
+sprite $symplr_ThumbsUp [64x64/16z] {
+xTHLOiCm40RXVyNQkVzvYs5Ejbn_JwOnIxfWiLYOAQ83NlMmmQiHw8jLQ85UAX3gvUHGFobwp0psJexq1XRfArE1tg04UdEc7k-putPhd_Rbt2RhN9EMLdHQ
+vOHsQgyNdL2SVJwAQQCvMqrN3QhEQ90ZlJezr5T6g6-uHNfpHgHN0elqSbAajzZrS-pv4x7tRr23ttzyw_yt8_UVsmJJDKxNIG1PLvtzn8Dfkcw2JYeCtM10
+VsJoMCa08-b8lVpqnT_1A01-02vVlh7I9UiSywABKdwLRBksijs-ibWidW4
+}
+
+!define SYMPLR_THUMBSUP(_color)                                 SPRITE_PUT(                                   symplr_ThumbsUp, _color)
+!define SYMPLR_THUMBSUP(_color, _scale)                         SPRITE_PUT(                                   symplr_ThumbsUp, _color, _scale)
+!define SYMPLR_THUMBSUP(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR THUMBSUP,         symplr_ThumbsUp, _color, _scale)
+!define SYMPLR_THUMBSUP(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR THUMBSUP,         symplr_ThumbsUp, _color, _scale, _shape)
+!define SYMPLR_THUMBSUP(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR THUMBSUP, _label, symplr_ThumbsUp, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR THUMBSUP>> White

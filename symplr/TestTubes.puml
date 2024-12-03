@@ -1,0 +1,13 @@
+sprite $symplr_TestTubes [64x64/16z] {
+xPG7ZiKW34G_7NlkVzybc2I3jl_UdfepuT4aV3YTDsz2BXlPBud_EGcpZWdN1cEYJU0m4TZFaBoXoxy4vIIrDJWHPFOBVmhYuXV-tVm8uGNBxDUuCTQNFP6n
+_fxKsO__FtyyC4a1wG0I-fH2IHySAD4qwNHUmAzx4hgF1G_GVJoRFo1_XVp19VpgE-Ih9Kg-9VLyvt_xRZn8YHqWMr6WLYYA5HcmGiPpTpRziTW65LAFGg3c
+XoDxzkmxWmQuRwDFFhNmVIorim46uRFl5HtP_P7exij8_2V_2Cxcwv6ONt4qrVQnK5131uXMPAWLYcn51AoeA67X6Txlst_xF1fm_3pvWJk0Pfpnmul0I1pC
+2ti3WtbktICZ4D_rl2OL6fgkA6kI-mHU82HIjzHF_K_rK_zJwgYCgsXaJWeQXGTdD2ebZ0l-Kn8-NLGm-obuym4
+}
+
+!define SYMPLR_TESTTUBES(_color)                                 SPRITE_PUT(                                    symplr_TestTubes, _color)
+!define SYMPLR_TESTTUBES(_color, _scale)                         SPRITE_PUT(                                    symplr_TestTubes, _color, _scale)
+!define SYMPLR_TESTTUBES(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR TESTTUBES,         symplr_TestTubes, _color, _scale)
+!define SYMPLR_TESTTUBES(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR TESTTUBES,         symplr_TestTubes, _color, _scale, _shape)
+!define SYMPLR_TESTTUBES(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR TESTTUBES, _label, symplr_TestTubes, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR TESTTUBES>> White

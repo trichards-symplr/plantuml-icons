@@ -1,0 +1,12 @@
+sprite $symplr_Calendar [64x64/16z] {
+xPH50eGm300ReKJ-_zwLh2lkp65E351Dgs87CVq1gAftX_IRqhbJBmFrMGF1Sm_o0ux-_kppiAuKvvxy1nAztu1xRvuvkFm_yNSWUkJ0d9vwR3n-_TxdCls1
+12hwIjRPKyU-1RtsjAxrstkAsmJVNBkFA-tc79TL4QxR5o9oCzyD6vX_9A9lXd1rB-xMPVwpgeJrDFzFvfEtEF_FCzzX_cltfPcUcfljDF_XmSQ_ztlFq1Hx
+wiNR0FSUf7bjd9RFpX4
+}
+
+!define SYMPLR_CALENDAR(_color)                                 SPRITE_PUT(                                   symplr_Calendar, _color)
+!define SYMPLR_CALENDAR(_color, _scale)                         SPRITE_PUT(                                   symplr_Calendar, _color, _scale)
+!define SYMPLR_CALENDAR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDAR,         symplr_Calendar, _color, _scale)
+!define SYMPLR_CALENDAR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDAR,         symplr_Calendar, _color, _scale, _shape)
+!define SYMPLR_CALENDAR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDAR, _label, symplr_Calendar, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDAR>> White

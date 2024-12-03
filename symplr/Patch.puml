@@ -1,0 +1,12 @@
+sprite $symplr_Patch [64x64/16z] {
+xPVdWiCW38FPOEdzd_S69RrbGsullZ-YJSIIizn7im4kAi-LP_tUqZ_lJxKridKqhMdcBk0I5DCkf9IKo9nIqhK8AOQz4V79Ulb4n_yHRAez0A4tSd6wrd4U
+W-QlhEuKLP_067vD02Qnh_6MtpAiplIZFAJr6QHca2xBbr5Gr-Kc7gHBNWReW_6WkeCuoYEEwPMiKCQqOoRJFTQg03_Vjj7OVYN_bN-Tl-qtyx_U7XRp__Jy
+T_ux_vq_HONuXFk_ah-F1dwL_qa-wVdBUCuVgVeBvPnVMFHfCVT6Wvjffh7GJ5Q_Ul_qbSnEfv2022aTJG6oE8iWu098c6OJKYAJ-VuP_Fv-M55bea_Pt08
+}
+
+!define SYMPLR_PATCH(_color)                                 SPRITE_PUT(                                symplr_Patch, _color)
+!define SYMPLR_PATCH(_color, _scale)                         SPRITE_PUT(                                symplr_Patch, _color, _scale)
+!define SYMPLR_PATCH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PATCH,         symplr_Patch, _color, _scale)
+!define SYMPLR_PATCH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PATCH,         symplr_Patch, _color, _scale, _shape)
+!define SYMPLR_PATCH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PATCH, _label, symplr_Patch, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PATCH>> White

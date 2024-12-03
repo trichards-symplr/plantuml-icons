@@ -1,0 +1,14 @@
+sprite $symplr_HealthDoc_20 [64x64/16z] {
+xTS5akGm341HoIpz-zztorF9nhE9Myly2WU-eJieg_-qZgsg4icyL88yWRUoqImSO63oGey6W2GxHSC14iXEfOShY7lfKB-bbmRrQ_jWWB0F1WZxGuSSzub5
+aeB9DO1_SQ_hgY7lUYrjcECsMb5PD0ucCgYRtbYD8fVAGQK_zZe0lDUSKowrCpLTnd-ZyjXh1wX9BgavqEJceK_0oFAfOk0gSL_nB4yAvC_gkpnpUhkKB-vv
+B-wrJClyerzAt0-cTlLVk7_3XjE_eI_IlhPNrQDNrQClUWbwPvhzDEwVlx_kcLmbC_czjwXVRsOUxF-xziTctTrKahdxsIU9-tBsKvPsRPQulnQhEMUdI6Fa
+dDz-0sFHDhs0FXu_DJv_ZkhydJ6wVUm7eopIhg_usQ_dZzwsl-c5yvUfJNh-gyddzGtqwO4eX_t1xrCfM2dX_g_Rnst8ctql5Rgi3DpUwo_w19ZAIVrfyq6F
+f-l2Jv8lx9CVjpmTnrg-h7_hgAa_t_ZYNYGxaoMvPESmWdugZXLPLKuUzfFU_dIIg8_z-dvGNpo_nvoyVt-8DGZVN_QgGGtUdm9LjceVaQPo-ky3
+}
+
+!define SYMPLR_HEALTHDOC_20(_color)                                 SPRITE_PUT(                                       symplr_HealthDoc_20, _color)
+!define SYMPLR_HEALTHDOC_20(_color, _scale)                         SPRITE_PUT(                                       symplr_HealthDoc_20, _color, _scale)
+!define SYMPLR_HEALTHDOC_20(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HEALTHDOC_20,         symplr_HealthDoc_20, _color, _scale)
+!define SYMPLR_HEALTHDOC_20(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HEALTHDOC_20,         symplr_HealthDoc_20, _color, _scale, _shape)
+!define SYMPLR_HEALTHDOC_20(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HEALTHDOC_20, _label, symplr_HealthDoc_20, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HEALTHDOC_20>> White

@@ -1,0 +1,15 @@
+sprite $symplr_IdealLightbulb [64x64/16z] {
+xTI7RcCX44RXdw4Ev_tVTzV1ShW2KhozVEf4vmBAOFtEWfc59zDKEuFNf4-AZQiMFbCxq4iSZQNI8Ske-f0ALDFCifHmVO1rgFDfSvEagKyjw2X2ZvevvT87
+Y6_b7fObc_k6wyIWBOjjh1bj-jnMwBWMTZ_mo9ogaqRNHfbtR3reQprQIlCVSybfIaDPljCfce573ON1xNMXw2g1Bl8Ot34Jj5gTUvNwPgHz-MAeKCTCfCT2
+asmCoPL1qB9OemAq-P15AbcBGjDY7PW4GJjEFisKQTAesZdDLQPf5a4R0Kx7pn_PAD8rCsvSSg8kEb6HcwfN2J_rQUqJDssvvYnyTJn_kBbkLpKv_ryDj31m
+pSvpLJSRMSU33fosZCEIztqUYiaWwQ5JfP8-bXUeKfcsRFGWcrws5BRv_4eRjC71ffSzyjFT7yzMlCgFXrpqefuEhvnrLw6_0DrP6TKqdsULeXUm-tctcsTx
+OoWwAvJp8usj0rIT9OX1iefhBy_zohcBp_MgtFIe9tibmAMdUyMIzGtzy6rzpT_K6_qRUtvWtxwfJ_HlwWFaR-bLeAPuPv_lLPcap_UArVi0-TFzh7vJ_xyl
+96q4N1zZsWhwplxx0W
+}
+
+!define SYMPLR_IDEALLIGHTBULB(_color)                                 SPRITE_PUT(                                         symplr_IdealLightbulb, _color)
+!define SYMPLR_IDEALLIGHTBULB(_color, _scale)                         SPRITE_PUT(                                         symplr_IdealLightbulb, _color, _scale)
+!define SYMPLR_IDEALLIGHTBULB(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR IDEALLIGHTBULB,         symplr_IdealLightbulb, _color, _scale)
+!define SYMPLR_IDEALLIGHTBULB(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR IDEALLIGHTBULB,         symplr_IdealLightbulb, _color, _scale, _shape)
+!define SYMPLR_IDEALLIGHTBULB(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR IDEALLIGHTBULB, _label, symplr_IdealLightbulb, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR IDEALLIGHTBULB>> White

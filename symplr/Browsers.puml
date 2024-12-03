@@ -1,0 +1,14 @@
+sprite $symplr_Browsers [64x64/16z] {
+xTG7hjmm30RXKI4fwR__VMDiuA85dcEbjmzb2p7k5j_gl_-onG9Bp4ABZAicDL_GvmqKgRB4fSGX5520d21b7XYg79eg9YUhmr3YoqBEeQkIMuOmyE01L-Hq
+xHUvDgD-Mx_VXQ552PUJGihVq4DJ--hZTw1eV5EVfT-dJn5HmM9cK69NR_eYgSFG6sZQzPkUQfOXswn0ibt-qTUlr1rGtwJNlDprEXX5RnfeasvwRxi4qMRb
+DVSVTVuf9JPfClzrrsT93Rfc0qAxTjSFAQ1fri6rYz_v_UdZfK4Tkm0VcvxF-StxymAXNTylQ3td7_JayfAEhnisPPEd-O-vVXvHe7wyVcIm25jVFvwzF-QU
+eVYiGFRF4bJt-ZtEFwvzaxEeoyw-IeabHKfdpv0iFrTS2Yvz6bhKkFPWVUYnqIfJ_rBLM3FtHOCrSvAap9gO3hbfP5QuL3Yb8Ot-d2JdAZKj6SQRLEfZ9VCN
+-EyJ
+}
+
+!define SYMPLR_BROWSERS(_color)                                 SPRITE_PUT(                                   symplr_Browsers, _color)
+!define SYMPLR_BROWSERS(_color, _scale)                         SPRITE_PUT(                                   symplr_Browsers, _color, _scale)
+!define SYMPLR_BROWSERS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BROWSERS,         symplr_Browsers, _color, _scale)
+!define SYMPLR_BROWSERS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BROWSERS,         symplr_Browsers, _color, _scale, _shape)
+!define SYMPLR_BROWSERS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BROWSERS, _label, symplr_Browsers, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BROWSERS>> White

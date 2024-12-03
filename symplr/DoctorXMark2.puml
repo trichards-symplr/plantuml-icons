@@ -1,0 +1,17 @@
+sprite $symplr_DoctorXMark2 [64x64/16z] {
+xPQ9heL628PXLk1x_-VjGexEn7CrjMcpNh8eYHy2_o3Aj_tQhzLXxdFKVqSFJkllQGt0vnZJWT2t-FxMyJw0GrbU0NlNEMYxtw2yuGqNQIffFLIS-OQ7BeMe
+Ag8DfdJYNVTQ3vQ5mGk-93JgiC1wqGdmGe46erqpggzukTWhllx4b_-6Bzqyt4Pvxj-t8fgH7GWF8DgJ_kN7Z0nc_SmscDxpb-03pvcS2z59t1LXrtbnXaZG
+BpA5tWhuBR_Hlnxp-mEy-nsaCINxBucMB8lsC83BWY6H2fI8aJD9zZ7YLi6sTm-jZCIxnf0UfMM0VfV0XBfbtsMaf2Dbi2WYDhFGUIiXzMmc8Xxfc8ce5P7f
+ybI01E2jbEOa7ovd03bnCMuL23xce7AU2C_-nLddNV-OrG2iDWWztj_pq6cCf_TFWBdrZuXOU5i1_Bj-7K0COZlDnmUi_OrFx0o0NUXCcj02kgQf0lt3JrSp
+qKZ_EX81W2KrJlrK54Wdp5E5ID3HI-8uPAiu2eWanoTU--ZNqs5S5lOinwwQu2gY1ea0vLibFHq3kgxPhm0H0EtOmkMwu-lf7FcjhyGwGNekbRRtQdSryVr6
+d55xh-VgWnvuFNHozfLmFDKuVpS6ddKn3xvcXssEQR2-XTjJ1N28xPiBRLj1sXq0xulUgXv41YbP2IKTNNoQhhDvvPsndBnq-5g1xPjt4e6sYfbOtlzpNa5N
+CnkSvQTd-indozP5OOsH0r2EK3_p7V-0vLFDKNu7c-1F_2esaqxtECtEpBpqPh-lnYzFEW5jwPDvFVF97TS2H_b6g4oG6zwI643eQXJ0_aj6V-Pb9dzgvkl7
+jyQ9YuvnvMVql6ejKelic-kmKkIjQOJA_ss_zYS
+}
+
+!define SYMPLR_DOCTORXMARK2(_color)                                 SPRITE_PUT(                                       symplr_DoctorXMark2, _color)
+!define SYMPLR_DOCTORXMARK2(_color, _scale)                         SPRITE_PUT(                                       symplr_DoctorXMark2, _color, _scale)
+!define SYMPLR_DOCTORXMARK2(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOCTORXMARK2,         symplr_DoctorXMark2, _color, _scale)
+!define SYMPLR_DOCTORXMARK2(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOCTORXMARK2,         symplr_DoctorXMark2, _color, _scale, _shape)
+!define SYMPLR_DOCTORXMARK2(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOCTORXMARK2, _label, symplr_DoctorXMark2, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOCTORXMARK2>> White

@@ -1,0 +1,13 @@
+sprite $symplr_StopSign [64x64/16z] {
+xSq5bYCn48FXSfcb-vztACxBkac1vMazQFn-sshdpeMjtQ-nkNetvnOdsxsyxxnlTtCHa5m7DDS1pTtt0vfd48Xx0Ss93iBl3CmyvGX-qCAMQlKfeBc37yFb
+zUVg553Sm5v0N6wHCXYdWE017pGEZs2M1fa2Epm2Nqy1mu_WRRuAv1jt4Zpm8r0cNvXih35R4TuYsvxlTFC_xqzlbt_O7_VMabqNxEf3z3lzjE531z73qnv4
+0_kpdbyKZ4zv6oTNvkUyf_4nFkhdts0l-4Awz8rndqUJlZ0VSEqZk-ApNnuA1CMjBdpwuMjbrPnkq_BjUm3zc1V2pNO3cGYQ7mJQueUc-JB0QjT542xv72WW
+MlBWiO3iOSbb83IG13-6P8hFWR5KEtehRfhFWNc2Yu3YEg2v3inS1r9ShmwkLxYvAzTBRMk2FxDpxm
+}
+
+!define SYMPLR_STOPSIGN(_color)                                 SPRITE_PUT(                                   symplr_StopSign, _color)
+!define SYMPLR_STOPSIGN(_color, _scale)                         SPRITE_PUT(                                   symplr_StopSign, _color, _scale)
+!define SYMPLR_STOPSIGN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR STOPSIGN,         symplr_StopSign, _color, _scale)
+!define SYMPLR_STOPSIGN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR STOPSIGN,         symplr_StopSign, _color, _scale, _shape)
+!define SYMPLR_STOPSIGN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR STOPSIGN, _label, symplr_StopSign, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR STOPSIGN>> White

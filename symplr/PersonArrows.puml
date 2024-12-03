@@ -1,0 +1,14 @@
+sprite $symplr_PersonArrows [64x64/16z] {
+xPQ7pgGm30RJdE9v_-UzmbhXzu4YoAbT6LNAhAqlpeRm5vFRw3Njsd5mq3TrXLPAWx7bDpI67oIGdVAGma613R-SRSD6XdBcDiY_LLztwaU8DWKGDkWCMqVQ
+ZXz1IqgYQ0mx9ELWnB2931YokNMKYRRqEZpFomW7j1mdkKD_jtLISEGtcoZX1lRr9gftpIhbUNWIOerXace8bVeylU9VxvGWj7T-U-3_z__x3KTV-GF7CQ9u
+TE57FEFZbsG8QBprxKPIz_RmfvlOVssZNVs1s3T1yIVKz1EsxpEKN_qAqS8btljH8LkawCUNyl4LPFPuhJ_hs5iL3Z-2tJyVz73hMs5hEtRljsW5gE76BptD
+2BiLSdu9FhpSynTVE1-0ndi_AUHP1fd-0BN6vbjNlzWlMxumC1yaL0x1kfIhRyCnOnQOVWx1FwTw7sdG_38NywjfcNbgLL3ds_hxrv8xsbq-nQ__u7oo-9w8
+uskLSVeAixFbGTpcCZHVNyva5lg3-P6mfZoOdoL9qNJrvsGkcLE-cfyrz_DJvloiMSxFSmGO8b91Vg102M_8u4dX7Lbx-y4OxGTzhFLz_lCT
+}
+
+!define SYMPLR_PERSONARROWS(_color)                                 SPRITE_PUT(                                       symplr_PersonArrows, _color)
+!define SYMPLR_PERSONARROWS(_color, _scale)                         SPRITE_PUT(                                       symplr_PersonArrows, _color, _scale)
+!define SYMPLR_PERSONARROWS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSONARROWS,         symplr_PersonArrows, _color, _scale)
+!define SYMPLR_PERSONARROWS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSONARROWS,         symplr_PersonArrows, _color, _scale, _shape)
+!define SYMPLR_PERSONARROWS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSONARROWS, _label, symplr_PersonArrows, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSONARROWS>> White

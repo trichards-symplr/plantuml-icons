@@ -1,0 +1,13 @@
+sprite $symplr_HandStats [64x64/16z] {
+xT85ebmX38LX8f30sVz-UvjUQZ2Mv_8_6Vt2ICehzHt9MT9ZPhdZWH71ipukwrVpOf5dlMEMzLQFMjvhEUAFvodgIS-OjPHNp2pfFIvVmdzxvYTuDXmv9tt5
+MKtv0VJZQ7QWxQNrSOH16zy0Q5oZWRvYCY2QRz4WyS0OSwjvyi7RhUzDHKHR1z0q4YgH0LwkS0Ewb1axPl6MgGFj3wU5Bn-9UFyL01O0Se5RZTEXPHyvZlff
+UA3JSh3DyTi6OFDzOUM0Nr-81l-Bb_-uLAphKDjVENpFpzVTbkCPVpUL0BxXkm7L_gxnbclmTS0-3VvtPC7F0NgJMzat1-JvjGsAQl3R0_8y1jY-sD7R6IuL
+_7OEMDqbDwbqFzUvf89wYm7Wd1VxwGdmbDVHQPwVBRYy7OyDp5U3vvCH_6FqtGy
+}
+
+!define SYMPLR_HANDSTATS(_color)                                 SPRITE_PUT(                                    symplr_HandStats, _color)
+!define SYMPLR_HANDSTATS(_color, _scale)                         SPRITE_PUT(                                    symplr_HandStats, _color, _scale)
+!define SYMPLR_HANDSTATS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HANDSTATS,         symplr_HandStats, _color, _scale)
+!define SYMPLR_HANDSTATS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HANDSTATS,         symplr_HandStats, _color, _scale, _shape)
+!define SYMPLR_HANDSTATS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HANDSTATS, _label, symplr_HandStats, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HANDSTATS>> White

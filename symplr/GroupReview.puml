@@ -1,0 +1,15 @@
+sprite $symplr_GroupReview [64x64/16z] {
+xPM50fmm342JUlB-_tldEUW65ERspW_YKhdYFxaDSxTML9wJEXjMv1aw04OjfTJkW6TvG0769g4Dw7ARzeKzxM0FnFkHIowtg52F4dhJWmJjk9pGP8rZvuwb
+EwbNES4OQ_CNJgQr0nda75jsGMTS1xTqlyW5om10vGAZh8g_2AyjqkToHLiai2paA-DRxV_G-1NaM_8lV6Fz1ttTtUixdciFe7xB_4c5Y-oPBF5J7mjKMPAX
+ddaFMPQqunggu-EMWW7rqBgAGRgbOAXCT70LkQcW0Ksdp8LFznGa1woLf2dN0M1G7YYGOkne8lsX0j4w771h7tCUoLS_Mf8wwqoV_THPGPUPPB3xipXusISV
+Iw7WOCWK06oR0TYQm010HGpoqPRgc4ec-Yxo5SKZYnfTGa77P09oBCTjYJevTjxciu4vvAEr5CkvOFjTDwWxdqT4jiTeyVvQ4ocgrB1uVq-gHGycUrGB0HdG
+6en8BbO7b4N3Rr6f0LYOoT625wJMwtvWUY_xJkpjgcLB3RA8QFpy66YkGJbTM1kcdHrTZHtvUAtvw1yP05Z_X07mkkY7WpSOqvAZJ7LndMvT7MaTvejZTJg3
+dilFawf_etpEKpLhcJihdTpxxVpdBG
+}
+
+!define SYMPLR_GROUPREVIEW(_color)                                 SPRITE_PUT(                                      symplr_GroupReview, _color)
+!define SYMPLR_GROUPREVIEW(_color, _scale)                         SPRITE_PUT(                                      symplr_GroupReview, _color, _scale)
+!define SYMPLR_GROUPREVIEW(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GROUPREVIEW,         symplr_GroupReview, _color, _scale)
+!define SYMPLR_GROUPREVIEW(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GROUPREVIEW,         symplr_GroupReview, _color, _scale, _shape)
+!define SYMPLR_GROUPREVIEW(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GROUPREVIEW, _label, symplr_GroupReview, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GROUPREVIEW>> White

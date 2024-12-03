@@ -1,0 +1,12 @@
+sprite $symplr_USB_Chord [64x64/16z] {
+xTTLSiKm44JH0M7t_jSRS4prM1DEVFzFbK4evnsfngqtJ3KByKPEd6GDF3Y8Qc-FGVPXtudriHriWpmJAci6-fW7i-ogXAofp-bLRi39rzWz3ZY7wuz_-iL0
+tt_PAKAl-S9w-ZdJvY5JkExhkSyxdxDxpd5FjaP-dpTJDGjw1sqAy83lu1hwk0Tt8U1XCcVuVVxmT9bp1dndaRd2FkuJeUj2bCQzWD2P8pP_YPfI1M4HBmfE
+GINYvosjkKZ8hsll3_M7FtnYYllJVhy_V6Dvbwzi9-TX6Sg9q_FnM60wETwFLGZTVGr4BZI-SdheGjMJgHMGIG8ra019c8Io2W0joQVq3
+}
+
+!define SYMPLR_USB_CHORD(_color)                                 SPRITE_PUT(                                    symplr_USB_Chord, _color)
+!define SYMPLR_USB_CHORD(_color, _scale)                         SPRITE_PUT(                                    symplr_USB_Chord, _color, _scale)
+!define SYMPLR_USB_CHORD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR USB_CHORD,         symplr_USB_Chord, _color, _scale)
+!define SYMPLR_USB_CHORD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR USB_CHORD,         symplr_USB_Chord, _color, _scale, _shape)
+!define SYMPLR_USB_CHORD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR USB_CHORD, _label, symplr_USB_Chord, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR USB_CHORD>> White

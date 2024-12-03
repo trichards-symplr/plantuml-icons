@@ -1,0 +1,14 @@
+sprite $symplr_Airplane [64x64/16z] {
+xPO5jjWm30JDjZJtFsyXKPvSIEEw-64V6CUmKY3yntfNhAt6VRmhe7qR1-a2OmzFa3yL6VBczjtAiSKBvIWpkiVRkTC_uD_vTrv_XSzDiVmle3slex5qLU3Y
+Cm2geyH7DfLniAgzJEVFJSurfAPxjih9IilVyI_LQ-cMls5prtDmr7Jllw_nbI7Y5to8dziZFdcumO-yXsTuf3N-TFv4rOdVoB-PPwISJkLqIPrFbtnMn_ca
+PtGj1gOv_oxvB7HoB0tdVQxjdx_BZnHcPSIjlBc_NthOqTu4dv5DlcppywJ2sE8xzIZh9b_fjaxRuWlYavTvWlDOLr_dO_G7t7Wm8tpudWyphiagla1uuXqN
+ePmsLAYhlEEXqUqtpXTuv1st7pSb1r_WWNVSWccM-m8tV9Ifvy3j2IXMhsZqtSJhFtWrDoGC-hLd2skAHnAbhWe1q56SNv6Yee120rLG6P1M-QJsYMn02wc9
+WhQmhbAZEQ7HEpQKmf_Kkpu2
+}
+
+!define SYMPLR_AIRPLANE(_color)                                 SPRITE_PUT(                                   symplr_Airplane, _color)
+!define SYMPLR_AIRPLANE(_color, _scale)                         SPRITE_PUT(                                   symplr_Airplane, _color, _scale)
+!define SYMPLR_AIRPLANE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR AIRPLANE,         symplr_Airplane, _color, _scale)
+!define SYMPLR_AIRPLANE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR AIRPLANE,         symplr_Airplane, _color, _scale, _shape)
+!define SYMPLR_AIRPLANE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR AIRPLANE, _label, symplr_Airplane, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR AIRPLANE>> White

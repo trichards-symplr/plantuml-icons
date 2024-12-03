@@ -1,0 +1,14 @@
+sprite $symplr_HubReview [64x64/16z] {
+xTO5ikmm34JHjYnRbdh_w_qG9rL9DFGOpp3SCE6INx-QPwFWOK5c-fI-wOcpFQKNd8olrNUThANvVuVbhsFbvDWKF5sb8_dUVV26Xdk4jun7-h8ZPQS_rkEQ
+zebxiHLfKozOgKtEiAdXRDnOMSmazwCV-BwtVi07ZW-sxmiEuZFsNHPLfh7lw_4tKbvx-Mlm90Ghuvb_YUrVpID6b-VrZHkN-ttr5Ua6e3WPlKhLiQuAyI1z
+6hVt7w04Gp6LGNQWtTb_J1UjgG3EA5WjgG9Lkqvtzv-svflEUDBsJsew8p-XLmOMwPlKLvsSffC0neuJiW2Qvb-O1E1Kd3WhbAj3FnOUFbz985Zp_2dAs1XM
+ma3U_ZprQP9kzlbY2K5vl6ySo5y_taiwuXd7bJwRPuFptmIN52O-_z-F-S0LvMpROsoVK_0qZGmjIsqa6GLFKuDak9EaIJnz06ZEnH2Wp04yKQbQ1OiqW2Vu
+F0Cml4GnmTvV
+}
+
+!define SYMPLR_HUBREVIEW(_color)                                 SPRITE_PUT(                                    symplr_HubReview, _color)
+!define SYMPLR_HUBREVIEW(_color, _scale)                         SPRITE_PUT(                                    symplr_HubReview, _color, _scale)
+!define SYMPLR_HUBREVIEW(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HUBREVIEW,         symplr_HubReview, _color, _scale)
+!define SYMPLR_HUBREVIEW(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HUBREVIEW,         symplr_HubReview, _color, _scale, _shape)
+!define SYMPLR_HUBREVIEW(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HUBREVIEW, _label, symplr_HubReview, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HUBREVIEW>> White

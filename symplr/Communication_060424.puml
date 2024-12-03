@@ -1,0 +1,12 @@
+sprite $symplr_Communication_060424 [64x64/16z] {
+xTQ7KeL0343HR5zo__z_TNcnQnuJkt9eq-uE7UIVEvrASnLnPGNVbiIXNALEta1xStIWofic575L66wVnLN-QPzgsmtOsair-NtdckRqblkgqmEZUIRests6
+JNmArZidtR51-kx-x0Vqz_G5qDrMPKbJ5vY7UXaOUv4rZ1xhfIb6q-D-7knDibrkq8uV_oCPQA7ULA24UZD0KwWt2hCJxpEWUvz1atWo8CzLbdeP7NrY9Wit
+NLw_mWCWsV3FJDjlpAixED0gIvuyb-LMmGpB3nemRTib807viaaIqVSTQBORqHrGA2BX7IYW4fImkokgiqXO0XWIL-rdCkvnVJhT
+}
+
+!define SYMPLR_COMMUNICATION_060424(_color)                                 SPRITE_PUT(                                               symplr_Communication_060424, _color)
+!define SYMPLR_COMMUNICATION_060424(_color, _scale)                         SPRITE_PUT(                                               symplr_Communication_060424, _color, _scale)
+!define SYMPLR_COMMUNICATION_060424(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR COMMUNICATION_060424,         symplr_Communication_060424, _color, _scale)
+!define SYMPLR_COMMUNICATION_060424(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR COMMUNICATION_060424,         symplr_Communication_060424, _color, _scale, _shape)
+!define SYMPLR_COMMUNICATION_060424(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR COMMUNICATION_060424, _label, symplr_Communication_060424, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR COMMUNICATION_060424>> White

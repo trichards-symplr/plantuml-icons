@@ -1,0 +1,17 @@
+sprite $symplr_Windmill [64x64/16z] {
+xPQ7TeGh28Inmypxl-yzQ-6uqJ_bzaQodGz6n29_aFrlgMeKUVrhJJ-63IIh64qgIUXFGXIGW6OH42950HBbctJkpk7rDe0ORof8V4T3iCqnaenRMFqIZt2X
+gKYQl0yByOkwWHQyW2cJp9isV366JBQfWa2LGkDRsPHCptWYw_H2UyberF6DMxigS7bjgcpBkx1vT1iX4HvuZFfkLL9cEj_6zqQxuvKOhqw88a9bcVK00Int
+zMTf3BBnObrxkez0gNBZJSnR5xJksMxftwA6t7dh_nmPX_R3TLXxIn_H-mwTb-nzaua70K3SyL5ag1YyT6C4LIGIP-lWdCa05HrQbTZypb9xd-tEaOFta0jj
+nm3sY66D9R59utWVCRk3pTNkF2wbp6onhS1XRGbuT_VefvR2bvLBfeypc6WNBTPvEoRgB62c7bDHZ8XzAijHAMD-uyl61nIHhE3OJ1f9gBiFL9aVyq_OscWY
+erNRGXI46syklnbf6dlvacI-N6EpjqF4cAxjbqRcA19oKmxJbeB7JPEFpgvEzIGl5201S3x3jEMmHJ-sYj1XKpLm-KkbidOf1XBhPsjoc974GjFeZi7F-Abs
+TZZfdJS_gZ_o0JOFTRlpePKeGQFS-NtNZQM6f_C7Qq8qEB-TmyyMg6DxyIsWXiNN3xZYQVjEQvyAIg8C7gHEF7gpF1mVwfcIGGUlbZn7S967ZNF5wC5Tlqli
+lnNYgNZXlLGxxxz4CClLb9Xk-SBd6HZFjnZGPYjP-C37zQLTrRj2MnUTiFF9G1G_GXyjJZ2eUVvMZIGqVD57vmrfyECgrAdqZJQqrIoUl-NWBMNofLKGxR9-
+6uWgtxs1QdxZiy4dvMkBOxTfkVFp-cnHlc-XZcrcrCyB-1CBgRPAfMfDFuMF_l_7ylQR-79S7tvejLRvLzil
+}
+
+!define SYMPLR_WINDMILL(_color)                                 SPRITE_PUT(                                   symplr_Windmill, _color)
+!define SYMPLR_WINDMILL(_color, _scale)                         SPRITE_PUT(                                   symplr_Windmill, _color, _scale)
+!define SYMPLR_WINDMILL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR WINDMILL,         symplr_Windmill, _color, _scale)
+!define SYMPLR_WINDMILL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR WINDMILL,         symplr_Windmill, _color, _scale, _shape)
+!define SYMPLR_WINDMILL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR WINDMILL, _label, symplr_Windmill, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR WINDMILL>> White

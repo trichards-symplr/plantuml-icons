@@ -1,0 +1,15 @@
+sprite $symplr_EcoEnergy [64x64/16z] {
+xPPNWkGm24HR4L5r__Dkc2YsPEpz7tucD0-ArFRhR3zMntAycSzU_XFk3ku6pESXYk6DWPlDQGi0INXxXXlUyhLGoviUj0VAGN9L5JNUFhYhOf6uSXguar34
+GqiRoSX0MYgl1G_5eT5LeLr-X7u_N2VdyPCCZtuy-QsaDQApwDp9zVGoG3-fVpsrgLADR2cJ9ol8rDVMfvcLVGrcJ4-KCziC0DziAzg9A8WhkMG207UanHbs
+ebwiE-6ZbJUVNM8SWHFdQy1gNob3ZiaOpRHmn7ElWIzWtpCrAJsiQSWl7Hl4QSGjweaZMXjZoe-l5IjMOnBDwNHDxrzrU4oeSdJwZMoX3TBZ2jRhzXlnXO_Z
+YfIjvzisnuhUS3aP6Q3c1otYAzodv5T-1dmoj4ZufNpClgdNTLg4wjzQ1-fvzusP1zu_y3h183vCIBLy2IQjJmVqkQi730vPtq-32oqp1rsEZmG0wn5BlWqY
+Rgrcpted8Z0ZFcwVGNOPpczm5VngEp8fHIVTr_EuDvE1Lz8UurKMNWyiLu-I_ZEtnLE3sfC0yPPbP_q8Y1kk0gSAxfsCHBsj7IKBpf4FBfVOaKamaEl-zH1U
+Z-90Ojpt5oGn_b7P5f8tSqr4O8rMogkKsgU38YlLuD_lFP-_cT2PbRw-KVXCu2H8QxsdtsC_zXi
+}
+
+!define SYMPLR_ECOENERGY(_color)                                 SPRITE_PUT(                                    symplr_EcoEnergy, _color)
+!define SYMPLR_ECOENERGY(_color, _scale)                         SPRITE_PUT(                                    symplr_EcoEnergy, _color, _scale)
+!define SYMPLR_ECOENERGY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ECOENERGY,         symplr_EcoEnergy, _color, _scale)
+!define SYMPLR_ECOENERGY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ECOENERGY,         symplr_EcoEnergy, _color, _scale, _shape)
+!define SYMPLR_ECOENERGY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ECOENERGY, _label, symplr_EcoEnergy, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ECOENERGY>> White

@@ -1,0 +1,14 @@
+sprite $symplr_PersonalChecklist [64x64/16z] {
+xTO7SkCm38LXW0Gf0k_-zrqPGoFC99JMs5x-5AjzQcCL-gp_oJ4EIUjYy2J90UkjMtO5Xk6V7U045zWS6ZWIVg3FeGfBU8t3Pe3Ugk8L7xxSVeiJQUjgP_mO
+RdlVeJ4qbhC2zGvVLTbxnbnx1UhYOrt3f-zhm56uT0HPVMnzNuSN8hmftt6lZ8UkzC53RxaCVIx0gerNpuRhO-SEuBa5Nng3m_kLLKYKTru1wxwBpgqfO2Ny
+sKa7P7lYh3xFC9lBej3mteL_7fm2rVaP0-pUZfdjF0Dn773kmxvIDaH6Tvvqyl34qcR2zvuQq-Bl2y_hqgMyUH6l-l3UAmf5G7YxltxT6-fdNe3X-VKBVjqF
+MY_0l7UUysOSFELXphEU3SwpdjYiKBEIz77z_GgFCSChFYRSNByUKEVYtClq_FooIaIx3XYR-uR3FNX0wMjZ0_3UMzoDfNdYmrTlFgltqLYrnu_XHflalOy5
+u_xP7zoOTjbx__7voUeyuqyMMyzu60VFU8CvptfMECzwOZrvGqdwkFv-XOVEaF6aY9GIdghCAYNysc_kkuWCg8YqX3-mflHoVPofwJWxcAxwtnS
+}
+
+!define SYMPLR_PERSONALCHECKLIST(_color)                                 SPRITE_PUT(                                            symplr_PersonalChecklist, _color)
+!define SYMPLR_PERSONALCHECKLIST(_color, _scale)                         SPRITE_PUT(                                            symplr_PersonalChecklist, _color, _scale)
+!define SYMPLR_PERSONALCHECKLIST(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSONALCHECKLIST,         symplr_PersonalChecklist, _color, _scale)
+!define SYMPLR_PERSONALCHECKLIST(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSONALCHECKLIST,         symplr_PersonalChecklist, _color, _scale, _shape)
+!define SYMPLR_PERSONALCHECKLIST(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSONALCHECKLIST, _label, symplr_PersonalChecklist, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSONALCHECKLIST>> White

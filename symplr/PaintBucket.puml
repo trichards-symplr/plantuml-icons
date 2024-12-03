@@ -1,0 +1,15 @@
+sprite $symplr_PaintBucket [64x64/16z] {
+pPO7MZOX48Dt0Ibvxt_Ulyp3PqCsTetT8P39PClnEt6t8h-1NbYXjnmF_Id66_dZU8fJl4c-ddLVeP-lf0zUXehdXbArlg8AcgSdeVHogK5_pUddrbQlODBt
+njPBUW_w7XMbwy6Pc5xdI3Jlpzq-TYQaReseXyLUG4A7HsLiAetngdpkHYHCmCsosDYZqNRjf_mAx2PGGBmAsamMlGR0fY-ECdhoToSsWrK3oCl4qjC_OPTC
+qSRItP2KdWPWmmUjyUX8w9NyyP3lDBSHERvYoMZdbb-1VijtbjJkJnl4dXtG5V__iYJzPo4Yfndz9xROIbMKAtwPWXiw6ltsAAhqkLMdNV33vuOwbACmGdEB
+JIQ_qY_ud26JCAA4wuCoVutlTumTFm4pOJNVEZz4cfw4YemAsWLJw-r8caEOBann2zPW92c-pLl3v2Vjxt9hJc-Q8a2TEWtTGEHdzwCOOf36cOdopDA2fHJy
+-Qy4Wl5mo8fLcfJcwfddfSab0VrvEzAvCTaFi8EGUyZiQwT0wV8CeordqwDvWXYFJG3CZ4tH7E75-OmRSup5FW1-nBxgJ_3g_DkB3u1ts0V0JtXGxFYTF3z-
+4m1dy0S2a6pTxc_qCQuWXlFNe9fy5uFZS_4N
+}
+
+!define SYMPLR_PAINTBUCKET(_color)                                 SPRITE_PUT(                                      symplr_PaintBucket, _color)
+!define SYMPLR_PAINTBUCKET(_color, _scale)                         SPRITE_PUT(                                      symplr_PaintBucket, _color, _scale)
+!define SYMPLR_PAINTBUCKET(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PAINTBUCKET,         symplr_PaintBucket, _color, _scale)
+!define SYMPLR_PAINTBUCKET(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PAINTBUCKET,         symplr_PaintBucket, _color, _scale, _shape)
+!define SYMPLR_PAINTBUCKET(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PAINTBUCKET, _label, symplr_PaintBucket, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PAINTBUCKET>> White

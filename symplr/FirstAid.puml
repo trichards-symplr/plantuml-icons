@@ -1,0 +1,14 @@
+sprite $symplr_FirstAid [64x64/16z] {
+xPO5hkmm303NONlkVzu7yOjKHMgJzZECe0tC6hRqclXFDixGkDQLA_9ABr3J6GPXuKEvM3NgjIxN4IgwzEMgkeMVUlbokgnOoN8Ht96pwfrmtdi3EsjX6ilj
+n6zKRrAxAZvZSzxA4spKaNb67JwMFidbYvncV7dGXqeRFlgwJ_lz_PXhgpd98pyg0qst_T1jQxNr4mtt_7YC6XkGx_WPB1wpCIZxVWILUJTvrnVGhyJrWpH-
+86pw3JmwZWyCtVC3f957BGN2SNhjL-puC8Km1DtolLCIGiJz589uLsN33trRfDDzyDGXRVW9_5buzFjU9M_u6PlU56FKg1j-GRlH5dFB-E63ZxFmmIB-Plss
+LN_eLfZysFiVb_unZBW_h0JVTFqfklPTo-D4Mnj-XBZodTgLwVwJpVlFjrftGgaVU5G5MVjE09Fv5KlSV_x5wO6PVBpfUmPO5e-T3O--vxjK-SJK-AJ9xVUF
+L0EdXcVllv1ooIdygU_lVT_oVPJsxTzVJhKdD7bz6__vppi
+}
+
+!define SYMPLR_FIRSTAID(_color)                                 SPRITE_PUT(                                   symplr_FirstAid, _color)
+!define SYMPLR_FIRSTAID(_color, _scale)                         SPRITE_PUT(                                   symplr_FirstAid, _color, _scale)
+!define SYMPLR_FIRSTAID(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR FIRSTAID,         symplr_FirstAid, _color, _scale)
+!define SYMPLR_FIRSTAID(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR FIRSTAID,         symplr_FirstAid, _color, _scale, _shape)
+!define SYMPLR_FIRSTAID(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR FIRSTAID, _label, symplr_FirstAid, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR FIRSTAID>> White

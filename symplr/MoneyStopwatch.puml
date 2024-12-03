@@ -1,0 +1,17 @@
+sprite $symplr_MoneyStopwatch [64x64/16z] {
+tPQ7iWGf24L5L8Jp_z-xeSigwHsTsfpEos-uq9B6ygz6XiV6-s-L1s_yj-adqNJJOVocy51BfX6_HL_Xm-7VgIzWFUE_CO6DNrBBRw8ECvXcveJPaFBR2RIK
+qh6o-D_hMygoTXRHyx_rwz2CPMMyYB5SJF2xV3be3eHrhI9IjK-0MHyvu5UvT1ZYW6d9w0HC9cYzE0X2Ika07Df5301zXcEUEZOU4J3bt9An8bUGqyZrPywO
+Nmhwh04x3kE0NkAwQ7Rs3RIS7G2zVCCWe9KZWntznkGgBxBFVYVWxjlBdRPUZUipTfUxlB9Mi8AKtqpgkdaUI95V8R-qJxC0YDdactpXz4FX5oPVvFKHTZp7
+1cAeb28w7EZtwFEflO3auD6IhSEyFlnWxiNsC3zQhgUpjXap_wtmT35ZHz_1jv7jPdqF9DIyKZNB9JdeApD39zJSlMstuhiN9vAEyFpdUTNp0UVZMPU-4ybr
+x3YFPgLfO1_wfOjTgnuGyvsdYULkMGNSyIka9WWFtcyz2dFugriTVQoVIFtvaMPY6nhs6AoLc_E_ZpJfMn-dOQ_3khnBcuI-YwT1UCk6KGvOwh_rOz42YEi5
+QW6wNipnbyG2-wuVn9g2onp7r-SNQBi9ynYKsjB-pAN9EBvg_N4fdKG4eQdFJgjVLdFcQgxy1-4rFQaSv6qDXnmswQ3bJ7Xv8xxa0ZrbkMw9VYGgEuIMah0m
+OekkRqHgWCjIa0mbJdcs_LZLfWD4E--hkXndBDaOvCkGVMndXT2NHyysqfjApc4_tMgcxYO6j1pfAuV7YzKSlGyBm6JVGnFDmMiv8HQmiBgoyfhxEkBxrKQx
+pMb3Szh2UbFLDYmkTy8xqfsCj_9R4UqsFTojQ_aNyYC
+}
+
+!define SYMPLR_MONEYSTOPWATCH(_color)                                 SPRITE_PUT(                                         symplr_MoneyStopwatch, _color)
+!define SYMPLR_MONEYSTOPWATCH(_color, _scale)                         SPRITE_PUT(                                         symplr_MoneyStopwatch, _color, _scale)
+!define SYMPLR_MONEYSTOPWATCH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MONEYSTOPWATCH,         symplr_MoneyStopwatch, _color, _scale)
+!define SYMPLR_MONEYSTOPWATCH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MONEYSTOPWATCH,         symplr_MoneyStopwatch, _color, _scale, _shape)
+!define SYMPLR_MONEYSTOPWATCH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MONEYSTOPWATCH, _label, symplr_MoneyStopwatch, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MONEYSTOPWATCH>> White

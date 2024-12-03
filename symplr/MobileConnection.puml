@@ -1,0 +1,15 @@
+sprite $symplr_MobileConnection [64x64/16z] {
+xTO5Tcix34RXNxPbq9x_U1zfXLwSkB3WqYuVzIlue7w5_jJwKysap7PJtLNPrdBQs5ProI36KmkA91LOpzC0axBEqgR9aAJ1rAP5ltsZwvAPBjNyiK7TJPrv
+yqsNWZiV__U4BhMz7_ETd-FWiwtFVWllgtp3smANL5Xve9HF-GRfbKwcp_W1QwNVTF8re6lIfLuaRr9roRhbXeFl44KAndzpW_p_EwxAFFYoo5EkJfFSf5Qb
+ufAvINxu_Guq7NhjAuJfwruBfdtTv-hLN8dxycVQsQj4Bc3d8SkBaHszD22A1dSbTC3FFW-WYUkXz4mxUja4TduwH3tudAItnNqZb-Va4rP9naFziZn7Brc-
+B_VTbkUrFsSJrZUyBA1-tTS0rpl_UCBMfjmmw-NgLFJUJwgSdjTFiF_cWv1Ahjx1bwwyO7cLckU6pbGUG7j_obbvVd_2bxiFJbwTFk5lzu_qoxvn_olBVuRx
+RuyOh_s8wAVx3ynNViBX-85MmVRUe3PuxqrGzhw0xBrVHAJQU0KHh7U-14HzvMj0b9rtNQfLUlAxgTzyPshJoCsJSNX-Bh3ygKd-uWhJdrfmVovkyvmwsvfk
+MHzFzI9bPJSrwVlzwMy
+}
+
+!define SYMPLR_MOBILECONNECTION(_color)                                 SPRITE_PUT(                                           symplr_MobileConnection, _color)
+!define SYMPLR_MOBILECONNECTION(_color, _scale)                         SPRITE_PUT(                                           symplr_MobileConnection, _color, _scale)
+!define SYMPLR_MOBILECONNECTION(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MOBILECONNECTION,         symplr_MobileConnection, _color, _scale)
+!define SYMPLR_MOBILECONNECTION(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MOBILECONNECTION,         symplr_MobileConnection, _color, _scale, _shape)
+!define SYMPLR_MOBILECONNECTION(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MOBILECONNECTION, _label, symplr_MobileConnection, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MOBILECONNECTION>> White

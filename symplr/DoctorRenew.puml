@@ -1,0 +1,16 @@
+sprite $symplr_DoctorRenew [64x64/16z] {
+xTO5bkj834RXAnMef7__-vqNcA0xTauV6lZ2SCt4lryR_4ffyYtlCrRcYjc7fe9lj2YfLaIiB6dH5HmsIZaRN5aplXZ0aC817v5LbJ4uQLeSuAamQ24fOyuP
+gVOqW9QImjWqb0vUgk5SJ07t0KnTE1j24s1avwPqLbNIeadXrah5kwN66-z_Z37cd3581O19VIDtO1aVI7wVqcTJZRlTFdZMrR_ObD-ctnHWZHrTceQdnBDL
+7Ec9xVNNr3YcbwHbFClaC3DUkHeuUtgijVBqoBMcSpCB23wprBC1LpNPjwGOKtFyeJbIQboud5qcESpaP4q8BIw6sDTKC2K3Y82cuY8IkX_eNJtplSy0uq0_
+YoR0genxN_FWz6TWCbYLwx4VtDc7lZgeGKOahF7MjvHKdGsk90kNWrSvTpLX0OGkWWtTeM76cnNtOxTXKnhiCfhTrz-PDBaEXpsjeyv55oT-oqgDNVVUrE1f
+Wr1ddnfN6VJEVVnIOvVBkHhr_VpJzRhHT2aS3scmmpgpU3Lr4HoGmPkMah9pWAcnnJXcYcVM_jPRQyO7jg3cvwDZEfzqsLCkILMdn_bPafmFAdYqL0QpE34P
+baf-DcKR9-QSzotJ96FJ0jVWaKdWalpMy-CC65QBzpxJCW_qa6KRlJfT0AxueRUSm9Bptfli_02b9gpYLIirM6fiz4s0EhY8nPNtstjVMeQbdAs-gs7gG4aD
+hCrLEk6aBrM7hdBUhO2OU73IlQMaMhCxirgVAMK7NmgEQFUBt91KQzYvhiOnjhJiyOB5HwewnxNI01XZp4X9qVZEL3fTKcKCvtkUcf7ymf0cls7X_En_Vm4
+}
+
+!define SYMPLR_DOCTORRENEW(_color)                                 SPRITE_PUT(                                      symplr_DoctorRenew, _color)
+!define SYMPLR_DOCTORRENEW(_color, _scale)                         SPRITE_PUT(                                      symplr_DoctorRenew, _color, _scale)
+!define SYMPLR_DOCTORRENEW(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOCTORRENEW,         symplr_DoctorRenew, _color, _scale)
+!define SYMPLR_DOCTORRENEW(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOCTORRENEW,         symplr_DoctorRenew, _color, _scale, _shape)
+!define SYMPLR_DOCTORRENEW(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOCTORRENEW, _label, symplr_DoctorRenew, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOCTORRENEW>> White

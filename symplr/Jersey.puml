@@ -1,0 +1,14 @@
+sprite $symplr_Jersey [64x64/16z] {
+xTE5hjqm44LHqsGyP___znQie1g_cuAmsOA7wznW-gMtjrppv1UVgOKaI9T0KjZ7aHg2uSEjbloZKistNohgLxe4AAoap4WZHZKL2q6KAJSXpza283oqrfSE
+A9QI5v1Dk4FFfQEbvIBbj9T5iwL3hxb3l-KTMNQyR3-bFH5ZPX6U3VezhvKenqTg_Rw8_M0MgLRejxonN8wPi5fRZAMj4bWLSSEDbiwv6CdJgTnF0rTURnwb
+cuUcirI8EPzt7kXfgvxuyu4367t6vmETvVXyJhpXQQ-QfQs5TXg0Tlj3WzYrWDq4ElyNaRVlU-m3ZTtd0D39xmCLmh7ZRBQ19hJv0hfwGTkEiT5JkWuCxcq_
+VZpfujioZg3k_1Ym03FXQVWjNNroi7Rmyu00F7tjamEetRm0IBBqoIUJWYiVkQVH1p_odcPzzgF_mxyUyUV-wBb__Ulns_JC6zFiYQzCgqzy4NuRb4UUIGzz
+CfzawT_szlOT
+}
+
+!define SYMPLR_JERSEY(_color)                                 SPRITE_PUT(                                 symplr_Jersey, _color)
+!define SYMPLR_JERSEY(_color, _scale)                         SPRITE_PUT(                                 symplr_Jersey, _color, _scale)
+!define SYMPLR_JERSEY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR JERSEY,         symplr_Jersey, _color, _scale)
+!define SYMPLR_JERSEY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR JERSEY,         symplr_Jersey, _color, _scale, _shape)
+!define SYMPLR_JERSEY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR JERSEY, _label, symplr_Jersey, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR JERSEY>> White

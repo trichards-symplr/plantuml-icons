@@ -1,0 +1,13 @@
+sprite $symplr_Checklist [64x64/16z] {
+xTC5iXmn34LHeMNvxN-z0GK6NQsu8FJlC9n6DVtPsSmCETMoKCKX1vQh1J2FV2BhLG4xMpqJ3oTov85tJEBQUmRurwowUsAG0bX4m71twMfUgCRtzLF_FB2Q
+MMB5rvX8med8uaiJ66Qcj4yIg8JU540rjXp0oipDuHhVVqHk_48MtFgecGRyBTTobvuSQtl2EvulVgVrVbudlBLy6jWaFK-1jnbrV2MlbMduVNt_uLdhHUqn
+RdfUqAySJyMrPow-wZyn7zDh3qZnq_rFuCRvhgQdn4ykk4kRdZBvTXXloSVyzht6wVnKXkFvTIiUXzSF0rxyTFy7SEFcjvgUneqhxhAcfxjLnLtyCRzz7tMv
+2vuQJHyuzZcBs-ds0xFugHVW9-UPFvlT-P7YbHpDBmjLZzUl_klpvyWM5u3UnO1r_CIajmKGUfKb8DibjpBQfJFNHJcO_fm-0m
+}
+
+!define SYMPLR_CHECKLIST(_color)                                 SPRITE_PUT(                                    symplr_Checklist, _color)
+!define SYMPLR_CHECKLIST(_color, _scale)                         SPRITE_PUT(                                    symplr_Checklist, _color, _scale)
+!define SYMPLR_CHECKLIST(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CHECKLIST,         symplr_Checklist, _color, _scale)
+!define SYMPLR_CHECKLIST(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CHECKLIST,         symplr_Checklist, _color, _scale, _shape)
+!define SYMPLR_CHECKLIST(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CHECKLIST, _label, symplr_Checklist, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CHECKLIST>> White

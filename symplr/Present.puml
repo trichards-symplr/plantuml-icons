@@ -1,0 +1,13 @@
+sprite $symplr_Present [64x64/16z] {
+xPDLeYem4CMeZMN_wtsALl2_s-27Pkg7MpP5rAJbMQmjFRI3_qIxIfDonEvN441R4mEYNAUXyZykztKvVgq1no4OsD7A3dcfv__A4JqMSwYNr8YbR-Zrp_PF
+jAx7e2xq1AcVJghzZ1ksyCimD4S26IQvy2isL6ISxXtV-oX0-bcE_dfa0cKzovwnSHjBAhhoPIXT1p_VEK0fiBvrT45qtVV5ezxnau0lPNKF0FnCT3_-_Mbj
+fbUU9zBiy5hzHvDwfi7L3pb-ncGIhS_w-VSNfKEHjTyJb8zyd_ZRJoE5I1DYvh_2w5Vuw03tzFFl-RwVlJpdYqtzXZxdG_wX_lQtl_tjfvbVYQVy0eSfWRTw
+Yq0T8vtxXUVmmu8azWJrojZy1W
+}
+
+!define SYMPLR_PRESENT(_color)                                 SPRITE_PUT(                                  symplr_Present, _color)
+!define SYMPLR_PRESENT(_color, _scale)                         SPRITE_PUT(                                  symplr_Present, _color, _scale)
+!define SYMPLR_PRESENT(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PRESENT,         symplr_Present, _color, _scale)
+!define SYMPLR_PRESENT(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PRESENT,         symplr_Present, _color, _scale, _shape)
+!define SYMPLR_PRESENT(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PRESENT, _label, symplr_Present, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PRESENT>> White

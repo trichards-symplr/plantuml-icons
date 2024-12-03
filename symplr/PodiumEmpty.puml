@@ -1,0 +1,12 @@
+sprite $symplr_PodiumEmpty [64x64/16z] {
+xTG7SiGm28LXeGgy-vytFG7lYE3q-azJ-xRQBh-v_-fwcsVqt-___L1wgPTLh0Mbbtc17ATAcG_EsqBW0vuicOzvlZZH4fuiKtuktyXF-QsSPvivZxVhyrwJ
+Dw3ozL7KEJwX-r1FUGRs7FrDpmp-YxxIM_nGNM_m2e3F-CKknNWK8iuBX5tJUCUnzNGpiVEAO-IyTCjykV3SBLNlkLWQ-bciz_STK4ez0xBtIoOuzMioMlJv
+8QalNL03Fp1INm7GtdT8kV1Jf_SFfsVq-xLgtkNzQYFmk2tp143BrjVR4cztT7hz-FBhfrhgPZvWLUleeHRyB5o7yoJgE_1mdSj__rq3
+}
+
+!define SYMPLR_PODIUMEMPTY(_color)                                 SPRITE_PUT(                                      symplr_PodiumEmpty, _color)
+!define SYMPLR_PODIUMEMPTY(_color, _scale)                         SPRITE_PUT(                                      symplr_PodiumEmpty, _color, _scale)
+!define SYMPLR_PODIUMEMPTY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PODIUMEMPTY,         symplr_PodiumEmpty, _color, _scale)
+!define SYMPLR_PODIUMEMPTY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PODIUMEMPTY,         symplr_PodiumEmpty, _color, _scale, _shape)
+!define SYMPLR_PODIUMEMPTY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PODIUMEMPTY, _label, symplr_PodiumEmpty, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PODIUMEMPTY>> White

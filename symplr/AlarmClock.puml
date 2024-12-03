@@ -1,0 +1,17 @@
+sprite $symplr_AlarmClock [64x64/16z] {
+xPO9ZlCw38DjoRP4ylxtVJ22OjIqCGRhstxEqcmVALjkalQFqH_vZ5Z3sfFwM17J7qucfIrojQqH4P7xtsXRawyBid_YGOaPAx0tDg4VzTO69I9M92d6FHmI
+NeKFIklAXn0HixMbRNh9ak9x2HIz5YFDgsQjorAgaNupmCqlHNlZZS9RlM_xKxGRxksDR_vfC4lryolUBHJMlneCiMn-udqbgIqoLwy6zr1etd5FIimCH5wR
+Vf-3gTSUsTznWuHbDYCpOvejIB3t2ZfPDYg-AFYkGDBrBzqXhb91YRN2GnefJeU4N6vklhOJV6nN2OMtEv_QGay9uvhQiJ-sNNPe2uM_rP_Ya60GFleFqL8Q
+l4rRCKhHKt3-hDNvqveGVHjJk9MTMYzy2KQjygN-QSqa3LgNGUtV45-D8piANlbDi9ElDbAZBgMDDsYcebLabRrG3k5QYLEiQnaRDy65ziWto27V1YZnktRH
+zyU0_C3x3iYs3PHlnXllX9NuojS2sBS1suUc8ZME_50khVPTAGFRaM-aAHzub7E5FsPK4VloCxyqyu4tPTo6tpzkrAv8sHEVih7M9iRQecgV-bfZXzGMtwrT
+5q5fYusegqI--N78zpbtliyjY3L_pbE-VR5Ev7dyLSHGjBEM9dZi_raf8uxhxomUCgOYD8xuK8RcepbCEFAGWVrvS0CQntYCmnIPOCGfdWxPQNPN7FnJCOyT
+wjSj-h7tCBAtWwPWLDJxTy4lywDIQLH--VwdQBdFd0N188uRFoXObkuU3OB2t3j-6Gs8OJZZfT3mb9Wnt7r4KagFCgopfgHf0UeI4NQza_vEkI64suZ8Y64U
+aAJyDUwMb8ZCoCJUJ7CAlyNtvqoGL_avwnlaMLdVfBkvMNl9Vp63lU9tERNTZXgdAsoqVvR-w2y
+}
+
+!define SYMPLR_ALARMCLOCK(_color)                                 SPRITE_PUT(                                     symplr_AlarmClock, _color)
+!define SYMPLR_ALARMCLOCK(_color, _scale)                         SPRITE_PUT(                                     symplr_AlarmClock, _color, _scale)
+!define SYMPLR_ALARMCLOCK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ALARMCLOCK,         symplr_AlarmClock, _color, _scale)
+!define SYMPLR_ALARMCLOCK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ALARMCLOCK,         symplr_AlarmClock, _color, _scale, _shape)
+!define SYMPLR_ALARMCLOCK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ALARMCLOCK, _label, symplr_AlarmClock, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ALARMCLOCK>> White

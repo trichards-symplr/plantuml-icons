@@ -1,0 +1,14 @@
+sprite $symplr_MoneyBag [64x64/16z] {
+xPP5ai0m30JDWlx_UvSfgiHmtpu51HFPa_J4Frr6IRMFbdANdjCPnG4Cm06ewGZ7Xm8YW0s3emhgn_FDth9c6syNZ77KF3gviARXwO8mqWbGmlcPW8B4Ueue
+Ly6TdivG9AG_Bg24z4Tavoyb7M9SoUc82ZN_KCFuhMbO-iD03ji7vmU7biuONB1qXe3B3mQMpzIFyukN_UODwkpIdEntoVO3E7xNh6vEeVsy7b0yRobVdYEl
+1o-qsVj565dFtGZXmgf8KpHCMeVhLCubgA7vPg3jyct6NFjnBVu32SOo4ozueB-1XtqnyBJDofUMhSQD-O42uNENknRxfcaOZAcrHUBe05edJmLgZ6o0kvI9
+bSuzUZY0ovwLwuqoJHteKULR_7RXPGM_zVR8qvVryBxV2vYVwoB8sjRJyqQt-bM_HPssthUlyOSItz-glpiVU8bnsvv-kHlqy7RGRtvzm2pFSZ059cE-Nbb5
+ssILHdp7vVEpF_HGm7A7ZZYQ5lIP2nQGfJtr-MtByxyQMSLdF4Ne3cFZtmCRlKMw0bxJaceyu3rjaPke1LHwIO5_NW4
+}
+
+!define SYMPLR_MONEYBAG(_color)                                 SPRITE_PUT(                                   symplr_MoneyBag, _color)
+!define SYMPLR_MONEYBAG(_color, _scale)                         SPRITE_PUT(                                   symplr_MoneyBag, _color, _scale)
+!define SYMPLR_MONEYBAG(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MONEYBAG,         symplr_MoneyBag, _color, _scale)
+!define SYMPLR_MONEYBAG(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MONEYBAG,         symplr_MoneyBag, _color, _scale, _shape)
+!define SYMPLR_MONEYBAG(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MONEYBAG, _label, symplr_MoneyBag, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MONEYBAG>> White

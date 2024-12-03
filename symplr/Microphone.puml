@@ -1,0 +1,14 @@
+sprite $symplr_Microphone [64x64/16z] {
+xPTNek8m303TPMlkVzujiOXXMGV1pzPvZyweEQI4lvcKc-JqePmxHYyVs0eBpM_g0b1JX1mhG7zB7m0QGeHqUnNVqgNU-z90toc-XaS_57yB6IGy-FCrnLdz
+KMhIzltv224KpVQsC_rFLoj1TNM_ozCP7d-Rfe1Z3HEaRUJiQjzHsPwozvNssgzG9cUpiKnSlc2iQVVdj_OqZ9MiWD5TzUytpFOR-F_d_xlxTRBcNoUlvb-Y
+Q_ubxYRVv_nrKi-uEW6nhsrMVdX-_ttdjxdVtk_be5pubZb2ljmpRgUOPsP5BbSMocLz3NRjYsNPpgVF1jfHJlp-8XrFhRsymbyKA4U6Sgp6yLIeHzWnYvIT
+7w7E1tq-_euvlN8yREXWWnpn1x_RsFHg7v2WMICgztvN4FiaN-zyqjfZB1yB75_jGjHM9ocWhK9h2f3NnrUayqIhmgATvrKvN5FE026B0gZaSEhLi_-uJn9N
+QMfrlAu0UUwouSb-pguzH8WD80Kd3M2q70ytrm4WFdVbMwoE_9GEV7u1O9M3TV4Hjlt-QtwfDnf8FN7gcGtE077e2UWYXR-Fhm
+}
+
+!define SYMPLR_MICROPHONE(_color)                                 SPRITE_PUT(                                     symplr_Microphone, _color)
+!define SYMPLR_MICROPHONE(_color, _scale)                         SPRITE_PUT(                                     symplr_Microphone, _color, _scale)
+!define SYMPLR_MICROPHONE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MICROPHONE,         symplr_Microphone, _color, _scale)
+!define SYMPLR_MICROPHONE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MICROPHONE,         symplr_Microphone, _color, _scale, _shape)
+!define SYMPLR_MICROPHONE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MICROPHONE, _label, symplr_Microphone, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MICROPHONE>> White

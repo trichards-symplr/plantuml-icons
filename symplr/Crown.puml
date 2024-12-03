@@ -1,0 +1,14 @@
+sprite $symplr_Crown [64x64/16z] {
+xPLLbkD034LRHOAx__KEbNEKhlX3PvXkOsGzmJEz_TRyfpNv1h41UFjA-G0YWFbrtS4-jHQ5_ZLwm_O_Ido5NE1X7No51Jsx6kDhz9xw-LNpF_wDhp8mMFkV
+2Lzv-kUM5yQNkTOvv09K0JklZBbcUqa5auna53tabj5CT3NmbrCufpDUvBRyUIhP6xPpqVavHrcdBVtwatcUVpTvtWTn17SzVMoGBHgyytHVjyVjuzV7WQTU
+yv9D5Ci_gMVcSfi1iW_fE_TewKvwVJK9CXh4aEOyMzt8w--8HvVkHCOak1Wvq_D-sQi75-tPgWLOT_0XdpwEw_ncWPXVuWRU552vkzqc5yUbC887w_w6l6Ao
+0Y2M78UdPtptIew7X9pQCzxJksIXzx92QXQjaAEU1XP9-yve2O72L4bnquMMxQkNhGygKBUl7g_tCMRPlgypCDFgXUjZ2jJjgn-fTp5crRwwC_KaCKfukvLF
+ogmR-G3N4dPR80hBvwJoQYjlPOBnEhxNzShwoeitty4dCAlodlid2xIt0drnQxLInkx7ig10s7ZxJVZFHm
+}
+
+!define SYMPLR_CROWN(_color)                                 SPRITE_PUT(                                symplr_Crown, _color)
+!define SYMPLR_CROWN(_color, _scale)                         SPRITE_PUT(                                symplr_Crown, _color, _scale)
+!define SYMPLR_CROWN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CROWN,         symplr_Crown, _color, _scale)
+!define SYMPLR_CROWN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CROWN,         symplr_Crown, _color, _scale, _shape)
+!define SYMPLR_CROWN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CROWN, _label, symplr_Crown, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CROWN>> White

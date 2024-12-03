@@ -1,0 +1,14 @@
+sprite $symplr_IDBadge [64x64/16z] {
+xTG54kiu48JX7f16chx_UKEc2hciPFVnLn3yJGByUlxHAhYeXWihk92gE2nO0IY9Y-Irh0mSPalfW3DnGHgEInO0XHteyzl4WEdlGfgHCXzmm7ovmTOOymqD
+2RRf2P8Ae34mHAVBxcIVRaGnP3wZamwWic6N1DzPdaRmJWWscdodBQCHl9UALJ9DyEpju8ab4mjd2bxP6Jn9-lrqV-IjBuFNyAmojjFuon5S1u-A9ywss_kj
+ZuWawUEz95U9yHxYKSj53PVn_jvGB-RsUI-DL_N3NadsbcJ7nkxf-rwINQVH2oo23_HjNvdhr5VCFEzrUTld-hQnVd3_f61Is7vm__trV__yyENuGKbc_tJ-
+V3z_IvdMZrGRxpKutxTqCkjWNqWc6RSyjprUoZr_tJlP54x6DHTuphEfyO6zx9DrFWoPjx1FtrWymAjUITpuaiEOn-_VrY7t9hWHShYVZVUI1OzwEzgFkkyB
+XjMjB-mOrhUJ2XaO5AHWuIJx49AEZIK7fU6EcWymnI_Wdt_E
+}
+
+!define SYMPLR_IDBADGE(_color)                                 SPRITE_PUT(                                  symplr_IDBadge, _color)
+!define SYMPLR_IDBADGE(_color, _scale)                         SPRITE_PUT(                                  symplr_IDBadge, _color, _scale)
+!define SYMPLR_IDBADGE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR IDBADGE,         symplr_IDBadge, _color, _scale)
+!define SYMPLR_IDBADGE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR IDBADGE,         symplr_IDBadge, _color, _scale, _shape)
+!define SYMPLR_IDBADGE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR IDBADGE, _label, symplr_IDBadge, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR IDBADGE>> White

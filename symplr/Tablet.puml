@@ -1,0 +1,12 @@
+sprite $symplr_Tablet [64x64/16z] {
+xTT5WiGm34HHSqjLzp_lC3J8OKx-9lWCIxjZvVq871ITac3o2A9B99F1FIY-kg-xef362ZBXEYOKwsNfwYDX-TpLUzY-u2UzJvuhDGzsAze-0Ib-bwpoTu3f
+zTC7rrwJzyVtbxyyP_5nbCSMV0kz_ENzfzTT-sHwxCTlTF-NZp7SvUzoluK6JtI8DHy4zoFmuPx_jrhphcE9OdXszjdoobjNhzPH8PAbw_JqnkiRYPRqCzGc
+IZ3YQyYkblykt1N_Iry5Tw3U0G
+}
+
+!define SYMPLR_TABLET(_color)                                 SPRITE_PUT(                                 symplr_Tablet, _color)
+!define SYMPLR_TABLET(_color, _scale)                         SPRITE_PUT(                                 symplr_Tablet, _color, _scale)
+!define SYMPLR_TABLET(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR TABLET,         symplr_Tablet, _color, _scale)
+!define SYMPLR_TABLET(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR TABLET,         symplr_Tablet, _color, _scale, _shape)
+!define SYMPLR_TABLET(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR TABLET, _label, symplr_Tablet, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR TABLET>> White

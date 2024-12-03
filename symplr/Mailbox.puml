@@ -1,0 +1,14 @@
+sprite $symplr_Mailbox [64x64/16z] {
+xTLNWjim40JHnY1FtV-yZhC94cYHplQ-dut5q4fwmBlK-hEcyoglP9tMc2rSxBk2_vtzi72j_yxzEozckdZ_vvtlIv_E8P-ZflrCZnccMzd1Mx5SsmHcjcUT
+OHPodK3Nge8NXTHXfllt7tzTyh8SqnnFs_toUW23vOMTdB7jPSlf9aCBWxBjbS7U_9IqQlY-Ltzzna7JBSZxFhq-9PXkTTg-rwGgP5nt5FoWhmo54jyk30xw
+p5IeyVT5EkmD_zRhAoOgGBdJyrXl0EHDtzZxsZU6EdtJJuvON5qxxAUbUmpiwFgZx-2ssTzYFwgsVJ6FVHSZUicaWrvfGjCYET67VIyr66bzWPxeLPOHAamx
+qIj620EwqfbUwNCJtqweEjc_Z931iyxtCKA5cNI-Zn4yRkDy7oDGTQKFbgLB_UhlxmsIjZB-jVUv0JZnFJuNyP8TN3NYEifERnNgrs-PonzpqWCSstv2_Vdz
+UzyYIxFerhkF
+}
+
+!define SYMPLR_MAILBOX(_color)                                 SPRITE_PUT(                                  symplr_Mailbox, _color)
+!define SYMPLR_MAILBOX(_color, _scale)                         SPRITE_PUT(                                  symplr_Mailbox, _color, _scale)
+!define SYMPLR_MAILBOX(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MAILBOX,         symplr_Mailbox, _color, _scale)
+!define SYMPLR_MAILBOX(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MAILBOX,         symplr_Mailbox, _color, _scale, _shape)
+!define SYMPLR_MAILBOX(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MAILBOX, _label, symplr_Mailbox, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MAILBOX>> White

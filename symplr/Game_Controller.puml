@@ -1,0 +1,16 @@
+sprite $symplr_Game_Controller [64x64/16z] {
+xL9RjciX24FnHJB_-TwbkEkYP_jtFvlph8QG8F8VyCCFFsWt0AEaEoMtIR7wGYa07UWN1JqKonAGZCGeggLDJgz_qIR5ggesW6YX73m72bxmCPQD77808asP
+sdH-N6Q-GBAkdAtCFvNiyi2yF8FxjC-3W4PaDqhQqY7rp2Ll5uFFloFE1zvz46F_subF--4SJ49R0H4Dj4q6LIfjInQ_NErJAQ0ci9NfO3KvSAuMiCcW5Lq6
+t6CXFaE7By1iQC4-agH3uRpDnFOsLdRGVunKKUAK-wT1sAutp9WxOsUVUTqacC_1nB48hAjahEV0wzqWM7Lg3A-F_Nrsngx6BfLu-liyxVW7aQD_L-iy-q_M
+MN_4aptr18hFh_MMHBHtNVPau52wd1QU8-L9ChQzGAMGSqeaASRg59OfFIahviBOR-NrzHbOwgCdaJ96NNadl7wlco_msIHRsPFpcWJ0cpKItEop8PrKro6A
+io4HXMviWEXkclceqxraJLE79Bv1SXpABAz7lSxRHww15q0VDvCItO50RxKRrl_wZKKXHgjjE2NkLpPm0IXxmX50xg03xMM_fFHXlMRVwBTw4Mt3-joG4keJ
+mhm7wqizLGugBOedEJ2Mb_fmw163kKkh8rg3nNOn5zH2HR-e1SSnpSLnI1Fjn6d6YLqDnnVBh_M5Y16lvZGmm-ajOg5TEWLNruXAt9B6aYDs4uzXBfQLk8l7
+buuZEtblud4tufFTBOBbXNXTG6EJW7uCrP0jF4iwuqhVqttK5S5-y6WVylYhJcYItEci5sGIDKbgS2SH1IG01kc8l2bFUKJg060gSaV3n9FlXn_-0G
+}
+
+!define SYMPLR_GAME_CONTROLLER(_color)                                 SPRITE_PUT(                                          symplr_Game_Controller, _color)
+!define SYMPLR_GAME_CONTROLLER(_color, _scale)                         SPRITE_PUT(                                          symplr_Game_Controller, _color, _scale)
+!define SYMPLR_GAME_CONTROLLER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GAME_CONTROLLER,         symplr_Game_Controller, _color, _scale)
+!define SYMPLR_GAME_CONTROLLER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GAME_CONTROLLER,         symplr_Game_Controller, _color, _scale, _shape)
+!define SYMPLR_GAME_CONTROLLER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GAME_CONTROLLER, _label, symplr_Game_Controller, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GAME_CONTROLLER>> White

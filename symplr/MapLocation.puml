@@ -1,0 +1,15 @@
+sprite $symplr_MapLocation [64x64/16z] {
+xLK7TYKn20jutD3zpvkcb67oFU3TrxOedKSHikmyhV4VKifHv1UBom28MVUh3yCPNVQ8Jm3ML5v_rJe1uDWeLm13J-qwW9xd3g3y93JoqwVmLr7zN7na6OZ1
+-4ipQiTDUbA30RpFRFZ2U0zCG5Bi2xE1LaIq6c1lXPBQO6BontTo1Hkq1045bAdr7AJu3DwYmHvGFRZKW4NrXax6SWaFjedgUKZpgXGhXSijmGns2U8BA8d_
+d0EKGC1S_V6R_4keVrthfx611kRw_1eiSVTbuH-Q8m8bhaxfGlzgkFwtHyU3-zD3-fobRE3kBwcri9nI-VU30ITggA1_lzwHUm2zoghY-yOWp_LUCV0eimPt
+Dqf5C3wWcX7VszM1Xax3haxh79z5kJmqIklbCVsy2SGrwtqFlaSxQESp1ER6w6Pl0Ema7kmLisJA3GGvKpmY9Q81lRx10FaKhtv6QaBuuYMit-BDKCT-6b7V
+Mmamp-GqKBrTN3W0SUB8hU-7Trq_WEf39ZUkdLSw3ArpxdiR05boz13cEYZPEpH_bU-rBNLvHXx-R6EF14r3Zsgu51585OcQEofDNt3_7_tiTDr31npzVPXJ
+VnkcJty3NW
+}
+
+!define SYMPLR_MAPLOCATION(_color)                                 SPRITE_PUT(                                      symplr_MapLocation, _color)
+!define SYMPLR_MAPLOCATION(_color, _scale)                         SPRITE_PUT(                                      symplr_MapLocation, _color, _scale)
+!define SYMPLR_MAPLOCATION(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MAPLOCATION,         symplr_MapLocation, _color, _scale)
+!define SYMPLR_MAPLOCATION(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MAPLOCATION,         symplr_MapLocation, _color, _scale, _shape)
+!define SYMPLR_MAPLOCATION(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MAPLOCATION, _label, symplr_MapLocation, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MAPLOCATION>> White

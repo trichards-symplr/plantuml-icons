@@ -1,0 +1,14 @@
+sprite $symplr_Keyboard [64x64/16z] {
+xPG7hYD124GBEX7kVz-5zkJzEQUd4NgomTPK1tnv_lZZ3xQArp2yuJMe4LuC5NN12-bgvYyV5pSLUN5utPNUFxSgz-4kzp3uiBWlOTjHx5husLHJt6ZUmP8X
+Dv416garb13QK4I4q4LkRNnJg6tp3UhkHXQrZrIaZhvzAjK3pZRbr0enEimRnvDjGxne36bn6Lx5sJIUbZzSro-wzykycnkvcNU96csXqc_geItKIxPfIMtd
+-QAg3LrLG9BQGWcX7LLLENNCjeAHRUTvr5e9r5e1IakjDsq4r5O1ReqFUfcN36Q6LcTeCz1UDnqbbR9DPg3bcjymOpV9_4B9R6H-OiwXcPzgvjTDI-f_-ScS
+rvpNEQyvhpcVsbABckIywJM_RcO2ZSfrgaIj74KneZPAdMrzjj4bFo8AdGKFwDxsslz_tllh0-__-lolwvzwMNz-OFtt_LSh0sNH0d0gJbgnjDsn_uUg48Ls
+TDqvx_ywst3V-HlB-JlX-k3vsyz_syy_xzpElsH-V3d_3zm_Eu_VFophfGSCaPAwizn_jpP64-c066uK5pmVCiE2khq0xrYWeI-WuLlpnnz__0C
+}
+
+!define SYMPLR_KEYBOARD(_color)                                 SPRITE_PUT(                                   symplr_Keyboard, _color)
+!define SYMPLR_KEYBOARD(_color, _scale)                         SPRITE_PUT(                                   symplr_Keyboard, _color, _scale)
+!define SYMPLR_KEYBOARD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR KEYBOARD,         symplr_Keyboard, _color, _scale)
+!define SYMPLR_KEYBOARD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR KEYBOARD,         symplr_Keyboard, _color, _scale, _shape)
+!define SYMPLR_KEYBOARD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR KEYBOARD, _label, symplr_Keyboard, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR KEYBOARD>> White

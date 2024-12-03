@@ -1,0 +1,17 @@
+sprite $symplr_MoneyCycle [64x64/16z] {
+xPVPceGg38G9MvRY_L_tB0s8OfonxwVk-9egmXzeDJpfJwcmg9eAbqHVUgaeBh8QlrZvOpQfEQUKSk7FMFCNRibqgISB07kHG0AWahSb0pIEIKz9URXT5G3b
+Vxj1WwiwbrXDo2bUYkD01i2r2r3No3W4VAI5LWbgC23wzZmtIu4W8MIMtab9eo00He9ojpEGZdtKi1IB0X3g0rCA5UpiVTWf1DeP4dTsG-aECCtY4-fJO-KO
+t02IpPAYvQVshLLj1yYmy9ioCADtW75ilbXyj9F19fOTe8mn8xsnxm0ZC7xQkIil-yhU0JBaWLd3sZm0vH8TW3sQxYcrsK6lAd24N01cM2znyoT1WzNJTbR8
+6I3xHuRHFXepjv3JMkPIpsXGPdFPKA8TPk8hV6qzDbBuMGdczTwQKNYZqYkaRHFIchpoLx1VLdltlp_mayiVLcxiUhFhcbVyqvFKq1fqZqtz1cn-hKwRig5j
+fwDyiERbZq8_qcdcdWu9xsIklu3VsUE-VaqB-ayII8gfM4EvvFMDA_9l_jO0Xt-E_Sh75SabEeKRq00h_gvmxYW0kuSGErSWZgx8cIKCS4BuZbxwBRCpb0WB
+bAeS8JJzqDsVXUOVxj8OpP2L7PzxSnxQzQ_v-TwdEEV4_GRkZmcVkdhBXmBPxRvg7i_gkENQwgiycOzSkvtzXJC3wXUG9rOPg_a0q-I_ArcVKsVrEq0QxoyA
+MA7jxICjLYD-1qWskv0DWFRNxXwRmSjUlSOO6N3Coeek6ISshhSi3eu0mCg97PL-dCU9NIzHDNWomEZ6ZkAmhdtbu8fXDDXfUdwnVtmzeWcyk9yAWqWDluig
+zWy8oWm0J6-_VWm0eCArClTMMANmNh4gJjAQmjUAkTJAjUGO7lIdVm4
+}
+
+!define SYMPLR_MONEYCYCLE(_color)                                 SPRITE_PUT(                                     symplr_MoneyCycle, _color)
+!define SYMPLR_MONEYCYCLE(_color, _scale)                         SPRITE_PUT(                                     symplr_MoneyCycle, _color, _scale)
+!define SYMPLR_MONEYCYCLE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MONEYCYCLE,         symplr_MoneyCycle, _color, _scale)
+!define SYMPLR_MONEYCYCLE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MONEYCYCLE,         symplr_MoneyCycle, _color, _scale, _shape)
+!define SYMPLR_MONEYCYCLE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MONEYCYCLE, _label, symplr_MoneyCycle, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MONEYCYCLE>> White

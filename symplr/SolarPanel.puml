@@ -1,0 +1,14 @@
+sprite $symplr_SolarPanel [64x64/16z] {
+xPU5kXmX58E7WoVl_xprCfDlINlTSsKN-P4GLewhlfJoHNKzAzVgEBp0EoZyz22Mo5MWL5VB1t0M9ijQrgMwira-y_zyvN2uje7vvDEgBfoMR-mN7h7ZCs3v
+mMhuE3qsl6vP9mNpfTxpO6pvgNnIoZG1PbqcG8BeFWUhsQGeURuPaqL1xBFOsSqXYoGQcTWZXSF61trfaElvr0ROux-ZB3-xp2bhMR8ycEKkYHSsG9BulSq1
+c6u-VftDySmsFX8Jq-826BwNj7Gs--hbUNNMny_S-UJwgUF-jS2jqrqiGFWmFbjVWUIE373nSxnlijNkCFqh65bFDIc1Gqgx02NUMTi01JbEJIc1a58tyN67
+tDXD0ANMyRxDNel2QKi1-FWjObW-0IO-TrpndaTOnm8mNJL-weRdcNUyToC1vgQvAGQBuMLnQf6VGld6OUBdjWWastSPhdmOtWHm4ECYSlwwHfYhU6fk-Nje
+mwSYQktNGoT-FTQcpN4OULTLpyf_yIb-gtB67zqBvysNADRZ7fgtNxtY-83w3W
+}
+
+!define SYMPLR_SOLARPANEL(_color)                                 SPRITE_PUT(                                     symplr_SolarPanel, _color)
+!define SYMPLR_SOLARPANEL(_color, _scale)                         SPRITE_PUT(                                     symplr_SolarPanel, _color, _scale)
+!define SYMPLR_SOLARPANEL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SOLARPANEL,         symplr_SolarPanel, _color, _scale)
+!define SYMPLR_SOLARPANEL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SOLARPANEL,         symplr_SolarPanel, _color, _scale, _shape)
+!define SYMPLR_SOLARPANEL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SOLARPANEL, _label, symplr_SolarPanel, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SOLARPANEL>> White

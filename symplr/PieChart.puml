@@ -1,0 +1,16 @@
+sprite $symplr_PieChart [64x64/16z] {
+xLT7WkCm32DLIU3_xztcS6CvZ4SpjosufB81i8gynN-KMelAbr0d0904O5q_6MmWYG09RxAD1XAOBOgMxY3HDsS6YLbaWNQGsEd1ebBMLTaeZY4vEY4VG46y
+hG5s4KEvZpTvWqc8D1Bpll_vDdKL0HtqE-N1N2Ud7JrK43TswcJByX8g1ImYUfzWa3KZRpnwE1BajSU3g99grwAkvXmq7kJPQtzWUmWO2KPgtEDh9nBjvkdR
+bb00MYDxqfyIvK5UmEZ9YC6-WdRLpcaNEoGZoY1g-6ZHxjhne5zamwCnbF3HMRiNNs5LAVe9zfy-wa7UbTEv-kivBVJa8mLRCgwK9QET10MXpqacVI5lwJYT
+9kJpm_Ce2tbfoGA8P0cEokb3sUWdyUrYHJloWD2LlBIciMVhY8BieaWNBJt5-vNU2ewe4O-jbbfR7zFS0G0dKi1hXNWKVht30sG0mFaX0VJjGcHy9d2tENgh
+jMW4vF5d0or_pv37ooIBx25dsFZozMyEBNx9-O-l4N_tAuTpQVNjgXyuSMWs1oBWvBy4wa5vMpa4Q-B5VG09WVjeHF8mxiElVw-4x4EHxZ3R6FJzqqb-5aYF
+9vkOH4gfRf_mQigfRsfFowVQqz28TwP8DTX_gaUUOFy_awa8-_yOfDq9xnyLw23gpS4UTUFuRgaHgfEk6-O6QVMrDdQl46eWOKrblO1CbKte14W0S0UEzqC-
+XJ8S04a2y5w-Ul-hjSXVZUy
+}
+
+!define SYMPLR_PIECHART(_color)                                 SPRITE_PUT(                                   symplr_PieChart, _color)
+!define SYMPLR_PIECHART(_color, _scale)                         SPRITE_PUT(                                   symplr_PieChart, _color, _scale)
+!define SYMPLR_PIECHART(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PIECHART,         symplr_PieChart, _color, _scale)
+!define SYMPLR_PIECHART(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PIECHART,         symplr_PieChart, _color, _scale, _shape)
+!define SYMPLR_PIECHART(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PIECHART, _label, symplr_PieChart, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PIECHART>> White

@@ -1,0 +1,14 @@
+sprite $symplr_SecureCard [64x64/16z] {
+xPJdmY8X34K9BSczx_-yMsR8okY7ulhNOoydRO3qEL--IDDTUddK3Nm3t4TmqdKN0taDqEABJOn8Cs3RD2M4Ul4XhyJi09n0EmleL_-b3W8amSFirFTyfuiO
+aHeXF_kOa6GuYByHCle4omT-MlYxzKjVrF_v_9fTw7S1d8G3g6dXymv93vJQjTL5_KKlr0SvzXYW-bx_KJ_Sr1mat_Kh2CrHYL_R4zAU0zBbkc6H9_ybOxzq
+Twk70a8clxSdw6XNdAO-Ge4--UaPJZjUzTZrnZ8gg7j-YL9XvukE6M3FTvw2ZChTfaDemyT8B-EKi-4hBNpg6YFIZtucjgvVfEd40L6Yi9tyYFOV0W8v9f7J
+4cE_ZI_N6E3iEstjzsdy0jhiIvmkD5dvZVxFhmHcVzuFAqZUydFANuWK5CSICj_oyvRVg6b2LXWj_AJMmfSZxWPopbbe_GI7h_IqXvwDEWCzkjzC7tlzIWOr
+xP91bpHJ8kGU1KIT9gBRUXWWqV8PJC4eVfy64WSaFQVtgOupXfRqdqWkaVbpldpvyXi
+}
+
+!define SYMPLR_SECURECARD(_color)                                 SPRITE_PUT(                                     symplr_SecureCard, _color)
+!define SYMPLR_SECURECARD(_color, _scale)                         SPRITE_PUT(                                     symplr_SecureCard, _color, _scale)
+!define SYMPLR_SECURECARD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SECURECARD,         symplr_SecureCard, _color, _scale)
+!define SYMPLR_SECURECARD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SECURECARD,         symplr_SecureCard, _color, _scale, _shape)
+!define SYMPLR_SECURECARD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SECURECARD, _label, symplr_SecureCard, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SECURECARD>> White

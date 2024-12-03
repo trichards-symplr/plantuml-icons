@@ -1,0 +1,14 @@
+sprite $symplr_Key [64x64/16z] {
+xPO53Y0X54EBGz_zxxiPMFVFkhmapTZ7Iidev_6V_zGYtPCDrZN9BDFlonagB5sodjBx_YUM34bNT9oq0AShut3MW3PnKPW2HHM6DA1UB7rJ0IXIWt7XN8RP
+eKd5J4KmImAef-ziIjGve4C_VVV8BXWuoP1LOMQpwdFpjJISrO2-1pwJWHPpha3R0qycgSqIYMnzBIl9Ja7d-fPpRGVZP-QHpO8LZ-oMGyxno0wi-yWUkQ92
+Fd95WQhyo1N9j2FtXwssH2YjjPBUTYv0MUR1gsxdPiYvDC5hj3uDSUUISTEX0AtX73sZb4ezqmU2PzIIqXdwoizzoBc2fM8yn_GkNVHGqEgn_A6nxnnPFB_T
+OsNVra1KnjiTxjeQs7k3giPufxtC2jNtjyRxr2Oxs7zxouuPgc_qT_vinhwV-bhoKsloQpj86f4DP2UrrtavsIT5Zigvypfoocr7eSMoRwhK3GQcb267Jqkb
+lhn6bdBuFw_1-E0cGZKU9IdbRkWAizDl3Aoi6r9RjbVF-aFupmi
+}
+
+!define SYMPLR_KEY(_color)                                 SPRITE_PUT(                              symplr_Key, _color)
+!define SYMPLR_KEY(_color, _scale)                         SPRITE_PUT(                              symplr_Key, _color, _scale)
+!define SYMPLR_KEY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR KEY,         symplr_Key, _color, _scale)
+!define SYMPLR_KEY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR KEY,         symplr_Key, _color, _scale, _shape)
+!define SYMPLR_KEY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR KEY, _label, symplr_Key, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR KEY>> White

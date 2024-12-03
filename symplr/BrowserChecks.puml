@@ -1,0 +1,15 @@
+sprite $symplr_BrowserChecks [64x64/16z] {
+xTE7RlCy34RXGqhKUk__Ul-Hr37agh6-YTK7Inx7Yp1_npVBfTPQil4pSjUXPtvK6f9wBL7gOvNu8KLI64zM91NOroxdMvKQswgKcMMfiYcan5MIWYssFZCa
+OqTJOvOpG5VTlBqp2Ic0jFS0eNRT4KKPw0hkTSKrnzNEAzyudjBip4S7S8aRvqasXf_vUUaxIUEPzpvypZc_h3TzvTbt6NsKCvzwrpi0IGtwcS_FtzMTDPFi
+TG6VSfTU2qi5YfCA5rsPum9JJgYVtwZBanfTpgoeSLnWoccAuqZ70yBnl1YW7QUfVt5WsDVE_oVLzNyLkf7vB4jsBcyuLouLED__dIObPabgxFPqVVe9rTdl
+gTB87FAGAjU-IVrnR38CFtQr4ZbAqt6nkPSae-WYaTU_rBKtTmDyPe0zLnvrQDG8zLMVui6ErSd18p9GL22lUprLRF6uGr9wtqTzI53gB4EkjVAsltVJz-Vy
+D1kE7vDytu_r_9nyhDxtc07OnRbhu_sZVCXWZuL1BWzntuTUZ7OTPxhjhTGF0VvO-6kmvS_FRq3emabwkf_VWBBeVsL-0EUgBdkNsDCKYvwXoeui-QhFalgz
+8LLMFNbeIs7TWsSftqXmz0kIiINKMEYgxB2XO259lMwG1ajPUuQpPhbiIFnEt_u5
+}
+
+!define SYMPLR_BROWSERCHECKS(_color)                                 SPRITE_PUT(                                        symplr_BrowserChecks, _color)
+!define SYMPLR_BROWSERCHECKS(_color, _scale)                         SPRITE_PUT(                                        symplr_BrowserChecks, _color, _scale)
+!define SYMPLR_BROWSERCHECKS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BROWSERCHECKS,         symplr_BrowserChecks, _color, _scale)
+!define SYMPLR_BROWSERCHECKS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BROWSERCHECKS,         symplr_BrowserChecks, _color, _scale, _shape)
+!define SYMPLR_BROWSERCHECKS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BROWSERCHECKS, _label, symplr_BrowserChecks, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BROWSERCHECKS>> White

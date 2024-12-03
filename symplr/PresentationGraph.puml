@@ -1,0 +1,14 @@
+sprite $symplr_PresentationGraph [64x64/16z] {
+xTO54jmm38LXAHRPx_xtRPFLD9oiFHqe_ClmXOd-cludxZODwz8m5uDy0fgf0tNCDmH_1gCZl01CSu96LEIzilCAfqy0CxvfvsthoUCrW1EiavtBaRxfu1cv
+t2fyn9C2Fd5f00zvSdmgDEIBLLnLfs-yDjp6hvuh09U9BwemMlAs13txzh3HEj8tVAedRsYy9HfhzTS2vLAA0V2JFoppm2xRxIGDTlGJsc57LbdZ7GyxUq4b
+4g5C47GkETrvW395tFCxpoy-URyl-IeVJkpSuojY7NlMuIjcbxpF9zTPIl8EdtoY0jJaNJuvKK7oBfzyhi2fsoVF7dq1BdnB_ku9q9DVU_SAnE9By8Wd0nOV
+a25F9KPznWSljYdSpZrwnckFdjJN0iql4hhtk-JXakRT__S6ZFiyVWpwv42C-EGL3OX-dpm4TNuPyOiJrELDjqyr-zS10ExU4EuLiUNftmOGM9FzoQ_ao_C1
+MSpCmtusKJOfBUdq-IZqk_lV3m
+}
+
+!define SYMPLR_PRESENTATIONGRAPH(_color)                                 SPRITE_PUT(                                            symplr_PresentationGraph, _color)
+!define SYMPLR_PRESENTATIONGRAPH(_color, _scale)                         SPRITE_PUT(                                            symplr_PresentationGraph, _color, _scale)
+!define SYMPLR_PRESENTATIONGRAPH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PRESENTATIONGRAPH,         symplr_PresentationGraph, _color, _scale)
+!define SYMPLR_PRESENTATIONGRAPH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PRESENTATIONGRAPH,         symplr_PresentationGraph, _color, _scale, _shape)
+!define SYMPLR_PRESENTATIONGRAPH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PRESENTATIONGRAPH, _label, symplr_PresentationGraph, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PRESENTATIONGRAPH>> White

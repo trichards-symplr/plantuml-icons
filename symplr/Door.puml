@@ -1,0 +1,12 @@
+sprite $symplr_Door [64x64/16z] {
+xTOtTWCn40JH6NXqtV-yylHktp2HH5J-apL0ssKhlzCM3g3hKHxxp7VNE7MJRn98pUsqlj6RUPa2gUUO_omF0HebvZzBNGBDuY7_MMeIg0VyBgz28R_BzVVy
+yiilltnjvHa_42tkCzMwuhwGhH7t9dMD9tmQi_kVUV_BBxzyzNCFc_Ut0r9BLxp83_bkUtEylLtuLxQnt2NGA3ilszhvzguUyxlj3Qf9ibXUfq38ufMvy-5o
+il_OEm
+}
+
+!define SYMPLR_DOOR(_color)                                 SPRITE_PUT(                               symplr_Door, _color)
+!define SYMPLR_DOOR(_color, _scale)                         SPRITE_PUT(                               symplr_Door, _color, _scale)
+!define SYMPLR_DOOR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DOOR,         symplr_Door, _color, _scale)
+!define SYMPLR_DOOR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DOOR,         symplr_Door, _color, _scale, _shape)
+!define SYMPLR_DOOR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DOOR, _label, symplr_Door, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DOOR>> White

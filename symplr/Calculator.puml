@@ -1,0 +1,14 @@
+sprite $symplr_Calculator [64x64/16z] {
+xTD7jkCm34JH0XXHjV_zzj6t97OYJRl3o7V6y1m5_EJ3KvvBXhLABJ4S2rrYzBcWw9ZAKi9Q5p555G0b-7lT0L1fqHiGqgINCj1Kvps18cR_lIO2LMtPXp9c
+A7_QauwPKFxqd_vFdxz_-VmlvazYtkYNyx_Hh-pqtdcA303MxdNTw5tYIIe0ADth_hplwdug8f15FoNIdlQK0oZjMZTLN49fioSDe_Tqi9Tw7xsB1-tsMPJ8
+VlK87jfkd_ZLjxilxP3V_VwkXrTwZVwTzy_rtVylL72onpptb-O_IxmSgN6ij-Q_yDO188rrs7-ON-JQ7ehXaEwrR_H6tPW0T0tbUT_4TWeHI6FTj3M_wOTr
+VMD-FGCfOSnlTrZUxqEzIACFXLE-tITAggDFaQd0Teyg4QE77_b-doMfZzweQFJjlgicQlH50Qfiz-Q0sUZXW9VD-Vtb_syl_VzLx2Sg09VYNCVp-NKWg0iD
+GELOPw2hOAOh07W-9NonTAqDSD4mOrGaM_0YDSmbIboHEbQiSIao_gAFRm
+}
+
+!define SYMPLR_CALCULATOR(_color)                                 SPRITE_PUT(                                     symplr_Calculator, _color)
+!define SYMPLR_CALCULATOR(_color, _scale)                         SPRITE_PUT(                                     symplr_Calculator, _color, _scale)
+!define SYMPLR_CALCULATOR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALCULATOR,         symplr_Calculator, _color, _scale)
+!define SYMPLR_CALCULATOR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALCULATOR,         symplr_Calculator, _color, _scale, _shape)
+!define SYMPLR_CALCULATOR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALCULATOR, _label, symplr_Calculator, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALCULATOR>> White

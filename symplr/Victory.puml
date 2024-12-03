@@ -1,0 +1,14 @@
+sprite $symplr_Victory [64x64/16z] {
+xTG7Sjim44PXWAYxx_xt3ICM29nW9QJRvdCltyys8pVkpgTQa_zf7daKvmwPWziA82a9dB_8Bqzc0QZRzqfnQmNTVgu0Y-q5AL3tAVTeHnMA8BO7xy8s48xZ
+Ac7ZmNcmlHBTDj0VV-CkehPFj078RYr3uoHdLzf0WX92WTHuiNK_a7cK3MuFXAfQWydjWKSTdnte-Vn0p-S7vhZtru4hzzxoaDl02iFskV4Cbgz0Ehwjw-V5
+dz-k9Q0wgw37iIArhSRZd3Iu5oND8vyrkNSQUBlR---zydxDUEb6RQyCNyIz0aZlLNil0EhVldwOl7-tzsFltz25ClA5yceX0NdaCv1CBg1XVFv1GIol9Fl-
+9VHZFFyb8p56M3y9UPa-Uj_i6MGkvLbVt5FbBtYlF5TdVQ1BPdr4bZFPVTakewBIgdxWsm-7X_t7hZ3lDPufSTftV_j0FiQtVRZwrjK7zwFAqspGxXXHdqWi
+xkZk6m
+}
+
+!define SYMPLR_VICTORY(_color)                                 SPRITE_PUT(                                  symplr_Victory, _color)
+!define SYMPLR_VICTORY(_color, _scale)                         SPRITE_PUT(                                  symplr_Victory, _color, _scale)
+!define SYMPLR_VICTORY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR VICTORY,         symplr_Victory, _color, _scale)
+!define SYMPLR_VICTORY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR VICTORY,         symplr_Victory, _color, _scale, _shape)
+!define SYMPLR_VICTORY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR VICTORY, _label, symplr_Victory, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR VICTORY>> White

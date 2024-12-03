@@ -1,11 +1,10 @@
 sprite $symplr_Gear_Hub [64x64/16z] {
-xPU7hkmg34Ljq-tz_z_x3c6CXOwYpBkzBRNi6HOz1Vgs_4Ccju7fWOf9Ms5WKbOmJEJ1xu01OmMzGbq1C0Foer-fX9-eXS-aFy2VR7-o_Kd-plD7qj1bXu7g
-WSMGcHwfQ146IWI3q0_sE_9N-Lpe3RyuEVpWqS_OoFILzp-bbEqatFZS-eisaw4TcodlvWUzW_Iq3HswQwijYgGFU4UM5_kdKkSb85JHfr0J1OA9nS0sl3Uk
-fdRb0cZ90CenOMgxC8avogxRrKBnIPYvX0ybSlyp3SXYqEHxm33cZ-bDVs1CpUEwPg24Fzc-g7tGoKdOSnueZE_cpwDJNq7gq55S4TfmyjPZ_IBJG8zd2IpD
-O2WK28nkuTLM0qR9nTR4LUXxVXjw5Kq-OHssAXqzF_iLM6BVasZ8lW_anY_reX0rZ78DE0gtLTCSIYAkatRwWXToFkyNn_kWOk7-Nl59dOtrB6VxTIs7fAlz
-jiYdRyVuyxM8CVuIuz_S-DHqFIYIR_ZcyszQwT5VHNars99aNTqfllvFVko_ZaK-zXyxztvvnTJDj5u5zuOlSEnSlH6rORL_OD3pOVtAKULn_mVHIA6Jy0SB
-mcz0OetNS5Oqga2wzud3Z-UVvbdRklJlYAHE3n-gxkyFfzpz-Mkrm7MgSBQGFs_esfY8u_cV-XvySfYSb3yGJzmatbWztZ-bqZjm6CVt3ndwLVj4w9QAUD3w
-Ezs7AJx-GJSyll-vJkHDdnFzqE-Vd__znWsTTnYe4Go9tZy_nFVFyVtxdR-_V_xvmTIsFqFufdZq6oRzzloGw84qeGL_2aA_6Fy1
+pLU9hYGX21HH4Uh__tTZ3oPDqXbdXprUlLE7qlBYA3yQVThiNxF9i63q9TzWdJjWdnWtaKvHFB0w2EXHLXTf9Q9UKgFXzER0ZCCkM0r30YP3WVkuwgq6ZNGT
+OW25gNGr1n0wnyFyk7f98Q7p9SVk0jfhZehGwRl9G90VbknGOBI1A7-B0UZEfx1axrOiA0M-nYcT9owAug4QB1uL0Rp-Ib35W73jW9I8WL4Y1EYLfmyJ3nLQ
+ZloYyAiIi4RKNaZRMtvNAbrXivP7CEGjNuBi1zJGK00pTfK3xaiGBCXT_16-XCjICNZTNc_FBVwu13BqGWFWma2dTMteA3w-PWMkEmR_t-Wt_9RrnUgBGdsn
+ktu-W2pJAbmsMEeQT7p8RtZOA0wT9m7OhBP91dcpOcQA0gvUFtzQZU158e6ccsqeXhj_c-OxFw2HW7aHtCxD5gexBdqvMRQBIK2hZuHvsR4laFmTk_jpvdwt
+vEV3roMP_d6zEPy6wApR_TuSS9tktxSBgYy2x_W4nzmRpixdlVJf5dQp-8QFcqLI_-VxDn_sxtH-V3Y_y_tHn_iZVdy-kx_bS7yJxoVnVl-U_o239lnNmdy-
+--znyD-9-96EN-VugS_nCns_C_a39aVwoEKlBP4_9VAtLFwOpr_J-NC-Vy_N3_dwvLm_jQVwwGm3l7vBre_9-lKdunS
 }
 
 !define SYMPLR_GEAR_HUB(_color)                                 SPRITE_PUT(                                   symplr_Gear_Hub, _color)

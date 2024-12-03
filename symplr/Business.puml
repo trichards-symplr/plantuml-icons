@@ -1,0 +1,13 @@
+sprite $symplr_Business [64x64/16z] {
+xPC5plGm30KJnw7txd_U7-eei9pz64OqRZrIqNq7Vl6vRb72ceExXBdFX6wHYRa7Wzi3a344mcrIcESXxVP2p1VZT_lvbYEhsoQD2DJzte-B9its84Ct67m8
+6AF7Ni-p7cAGKG_8T2Qv7v43J7qJKkPxMqLFvFFqlxrb_cOMpqHQNvdRByLoI9oahgAJkDupsOw9Bf9d2M0JZhwG14YMH08WIoIv26CxLPK4_uFHPv37ZIb0
+89aGgLqL21ViIBi6P4ozEb7QB47SB0844M0-fOJpQp_DAqVg0LyxEJpHHtRmN5_L0FIflZZZX_Q_lHYNU-LLlFLey68FNgN-NnPqIZZlXOYNIR1b_uyMNEe1
+lOBrWG3JqkzVlrxlGxr6yMFvQd-JJz_75_M9sEypQvz1t86dW9JU-xhV8omNU0SvmNlt6lpo5m
+}
+
+!define SYMPLR_BUSINESS(_color)                                 SPRITE_PUT(                                   symplr_Business, _color)
+!define SYMPLR_BUSINESS(_color, _scale)                         SPRITE_PUT(                                   symplr_Business, _color, _scale)
+!define SYMPLR_BUSINESS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BUSINESS,         symplr_Business, _color, _scale)
+!define SYMPLR_BUSINESS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BUSINESS,         symplr_Business, _color, _scale, _shape)
+!define SYMPLR_BUSINESS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BUSINESS, _label, symplr_Business, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BUSINESS>> White

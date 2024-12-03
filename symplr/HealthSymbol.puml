@@ -1,0 +1,15 @@
+sprite $symplr_HealthSymbol [64x64/16z] {
+xPQ74kCW34IF8YJj_l_tNdCqCS44SfwRcZSb1QrGiH4__XzVKlvD-ZUfc0Ca2RYr_9bQ7EnntO-Z7VkQIYsbLhM_tc1xGGZ-RfVxR1maR1r3Sf9UBnOC9Ef2
+NjuO9IEfR-KLf6qiprE7hBBpT-vH5WdQF88COjqYdzR0O_UbWpg9JBQUR13fedD3OkP1drMzB86_Uarae4EaGwALR2_b9Dt-0DgGWLzi_zgEg9CFuIgP1-Es
+hqz3I4Qa3NrWNRHXiw-liVQqbIrzWBudxHo-7BIdtkKWdUBrMJwD348VF8qqle_kbCI3T3Z7WvD6Y3IKRt0TZ0kPB5EzR-dhMCvzVGBbhlvk_5Czya4AumCx
+wKjVF-lw5qJ_64pwj_ty-Ap9SdwXI_sBFFLU3wRFRmBRZVSd_6thQvGlq9ldHoRre_DBxvoVHkGn8ntq_fUhyzisvWTcyyElvcmUXe9Qq3kMwmcimz_pCJ-R
+ttLl_9QfuxK3ZqarKjOEafFszWBK5hdJ5jS_JzFbXbMDitCQGZdM5XX9RzTgUbwemn1MqpaiTSRcQyH94cxQHEHnVISqFAuf1dR09TIR53N7WKSodvCMmfjy
+-GK
+}
+
+!define SYMPLR_HEALTHSYMBOL(_color)                                 SPRITE_PUT(                                       symplr_HealthSymbol, _color)
+!define SYMPLR_HEALTHSYMBOL(_color, _scale)                         SPRITE_PUT(                                       symplr_HealthSymbol, _color, _scale)
+!define SYMPLR_HEALTHSYMBOL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HEALTHSYMBOL,         symplr_HealthSymbol, _color, _scale)
+!define SYMPLR_HEALTHSYMBOL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HEALTHSYMBOL,         symplr_HealthSymbol, _color, _scale, _shape)
+!define SYMPLR_HEALTHSYMBOL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HEALTHSYMBOL, _label, symplr_HealthSymbol, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HEALTHSYMBOL>> White

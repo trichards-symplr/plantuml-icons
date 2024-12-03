@@ -1,0 +1,11 @@
+sprite $symplr_Laptop [64x64/16z] {
+xSvLiWCW50JHmM5c_-jz6bSWdjpptrMDrsTCR1pHYiEcfb6CMAjYYIConVM1em86KHLBKGHSJDt2ebb8Ql0QKH1s-gOOkbNvtLuL_OBIU_JMMs-zzTOtfTYj
+oU_sdXgGiTi38NRpsEl7NBClr1os021h7W5KrPXdn4YwtxxbINzzkl0VgSug3Y_Dc6y
+}
+
+!define SYMPLR_LAPTOP(_color)                                 SPRITE_PUT(                                 symplr_Laptop, _color)
+!define SYMPLR_LAPTOP(_color, _scale)                         SPRITE_PUT(                                 symplr_Laptop, _color, _scale)
+!define SYMPLR_LAPTOP(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR LAPTOP,         symplr_Laptop, _color, _scale)
+!define SYMPLR_LAPTOP(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR LAPTOP,         symplr_Laptop, _color, _scale, _shape)
+!define SYMPLR_LAPTOP(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR LAPTOP, _label, symplr_Laptop, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR LAPTOP>> White

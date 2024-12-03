@@ -1,0 +1,14 @@
+sprite $symplr_Coffee [64x64/16z] {
+xPNPjk9024LJSy7-_-_jmKlQPL94qjEJ-wMK2EiKmibsvaFQpqCWHXBAuqD3de4u2lddMM4y0cA161tzaWlTP5WWXb0VPu6lmAHjlvMllvK_xDO9abretial
+UzwqGja2KOI-A1IdmgdGTWSEyxCfzJ_-0mcoDLxsGBar_cBogHRGM-erMTU6gJSzCUf8DaXswMA1VqcAiavlH55dvyCu-Jqw6ar0Hpxe3sv8PcSSycTqjxNb
+L0R8Qro2gwbx0lrLr-EO-PstZeFB693iyINZkOZoifDAiOMDRBP9EHKso_I1j6gvVRFwFWLr_l8C0QispIjFKifxgrRgmQIEfSKVP1DfT6Jrh7e23hShK9VQ
+X16GdpWrgg5MsFDQ-uMjWLTzk6zxfUs5aEIMD_zrdnU5kQx_w7rIjAojOzjIKw0woqcn0eiU25Aw0BXsFdVbW-8vfBRB-HAtzu2EcjxPeoGdFVGIoehcbMtG
+hxBwBmOWVUSPcy-lTT6tMwIpF1bFvhW4akFA8ThgjzQU04bP342D5iZEX7JGNj8rkKwyvQnA2DzSwbIkKUcli_NXmtS
+}
+
+!define SYMPLR_COFFEE(_color)                                 SPRITE_PUT(                                 symplr_Coffee, _color)
+!define SYMPLR_COFFEE(_color, _scale)                         SPRITE_PUT(                                 symplr_Coffee, _color, _scale)
+!define SYMPLR_COFFEE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR COFFEE,         symplr_Coffee, _color, _scale)
+!define SYMPLR_COFFEE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR COFFEE,         symplr_Coffee, _color, _scale, _shape)
+!define SYMPLR_COFFEE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR COFFEE, _label, symplr_Coffee, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR COFFEE>> White

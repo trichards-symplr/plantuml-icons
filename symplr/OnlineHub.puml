@@ -1,0 +1,14 @@
+sprite $symplr_OnlineHub [64x64/16z] {
+xTO5aYGn30NHRv9ivVtlkyqxNHGrNeOt4AGi9lqf_alw5Zd0DIq1KmieTFcG4IgWJsk41gaJIZEzYgIa33qOccP0PCtBhKvbc2RCzhaJJTDIS66QrHYfmRXf
+kaYzwYLxDnqnN8cdv_NtbBa87IZWWwWN3NHLafu6lGPD1voB_5YP5Y2huJfIh2L9kLGeLwsa3-jlw_LhBVFcMPJL_kzm8WBYYWizb62a4tsdwYM1dZfDFwWl
+Rdclx_uGkxrnKNVw3wes9J27LczYqRUNdLoL8V6LlVMdpdYfCFeDjCq-tVusTIvyx_X90yaeAfWsUOHfftUfXzJ8ohI9yx_oe_intBrV_ut--RxofkkpYWqt
+0xTEL4qAiYf3lw0lj9_Rj-xvQFlNW-lBl-ptnuCgq3f8kTx_akTd7-q3lms65XekGTQWA4XonhDV65iNT2MAWLHCgYRbKU-z_Csu3OQM1XTDw_rVYjNWJV8O
+LUl-S71jtK-QxujPNlVDs_dlHEgo3o3IkUzixr1le4WvIqvOODgn_nuP4aXW9s-a0hb2luigcKc3dfsk4mONllazKdH2SiAqL0QZwBlxxmi
+}
+
+!define SYMPLR_ONLINEHUB(_color)                                 SPRITE_PUT(                                    symplr_OnlineHub, _color)
+!define SYMPLR_ONLINEHUB(_color, _scale)                         SPRITE_PUT(                                    symplr_OnlineHub, _color, _scale)
+!define SYMPLR_ONLINEHUB(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ONLINEHUB,         symplr_OnlineHub, _color, _scale)
+!define SYMPLR_ONLINEHUB(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ONLINEHUB,         symplr_OnlineHub, _color, _scale, _shape)
+!define SYMPLR_ONLINEHUB(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ONLINEHUB, _label, symplr_OnlineHub, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ONLINEHUB>> White

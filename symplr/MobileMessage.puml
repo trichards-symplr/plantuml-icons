@@ -1,0 +1,15 @@
+sprite $symplr_MobileMessage [64x64/16z] {
+tTU5kjim38PXIOPO-kx_UaU5fp6bu-tyPNXZ3iZ7YTei-Xwk7i4iuKqljJdXtcRn8EeL3vgjgnOSUn_KYyqNsUIWNTNFPHCFxMkSv9H6NdCRYlU-FNbNmpnq
+Z_NDrTZuqlin6lvx_U6xsAKFOXtgfT_-_exVZS-lzlfp_g1ilLNtbjU-GDxuWsy9NNcfe4j_WETS0LrvSNpb4xVMQT1clXOHKSWBtnwJsK1x_vGLN_WWTU-w
+yi545Ep7l3JQj-SwzyyVT59_lRNBH38nzndIiuyxdpWU9IZClJWSPZd0ElyisaK4REx5kIL9v-z56uX8a1TUiaDKbT4NsgFgRV1zzjxdtj9BJ3llj_h7StGx
+N-dYTkv_z5w9QVyv42y1i1TlKKJ4AVFnwzUrY3hHpRzx9J8--CbHLi4w7_T9L0OF9ds2TFQDq9V5UUrpltxjViJ_8IyvtIVoZ_XJ7_ouRuJ-XAzWCl61Ifz6
+6dmXoSohoH1Dl-7uzn5zj6Ny3U-nIxxqehlytlE_F7XhpJhVlkFyMGD2vIM9ZPU-SWMWYdIdJCkqxjSCK4uL2jruYp1vZOEVFn-oIo7EDKZfV77ciay9_AXb
+bgC5JQvYBLZ5YxmHpNMQOl8xyna
+}
+
+!define SYMPLR_MOBILEMESSAGE(_color)                                 SPRITE_PUT(                                        symplr_MobileMessage, _color)
+!define SYMPLR_MOBILEMESSAGE(_color, _scale)                         SPRITE_PUT(                                        symplr_MobileMessage, _color, _scale)
+!define SYMPLR_MOBILEMESSAGE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MOBILEMESSAGE,         symplr_MobileMessage, _color, _scale)
+!define SYMPLR_MOBILEMESSAGE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MOBILEMESSAGE,         symplr_MobileMessage, _color, _scale, _shape)
+!define SYMPLR_MOBILEMESSAGE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MOBILEMESSAGE, _label, symplr_MobileMessage, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MOBILEMESSAGE>> White

@@ -1,0 +1,14 @@
+sprite $symplr_Hospital2 [64x64/16z] {
+xPI5SiCm44HNS2VTxl__RyUZE0noocrUu63yJ0BSuaLoz_eEFoGflyEFt9_sS-yCD4MtMUE441bmKimdu1Ow8uqsTKgPzMijoBLky3CED4dS_H_1MHzc33Gr
+ozjy8paQmKODsycOz5tIQ7H9JFjqqa-bbCE8fbqscW_ycXvopv_3FyylUC3K-yivtmXRngyTmhRnit6exmF7QJZXl_FvouJ_eyS_FMJY_QMK3Y4TmhRnzutZ
+_tx__UEVV_dur_mGgdxo-olkVX6gkvtvvNtxXuathjzQ0r0lmx5V9CKxdbyAoOxxyn0m2IuTV6q1eEnqmvAgpL4NNqf0oASV_a2Ia7PZqqxyOXd9Ab0jeTXA
+0Sn6CrkvutSvYhWMAp4E3rNOMaW5eEp4RyT-4sE1gy9ZlojGf7JFTopOLJzB8JKywyCa4S_xS2cznwyYVePl2r9qYZsataSXBaXQc-mSYPjPaymCGD8xI03w
+0ZKF5o6q1FnoNhm1
+}
+
+!define SYMPLR_HOSPITAL2(_color)                                 SPRITE_PUT(                                    symplr_Hospital2, _color)
+!define SYMPLR_HOSPITAL2(_color, _scale)                         SPRITE_PUT(                                    symplr_Hospital2, _color, _scale)
+!define SYMPLR_HOSPITAL2(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HOSPITAL2,         symplr_Hospital2, _color, _scale)
+!define SYMPLR_HOSPITAL2(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HOSPITAL2,         symplr_Hospital2, _color, _scale, _shape)
+!define SYMPLR_HOSPITAL2(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HOSPITAL2, _label, symplr_Hospital2, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HOSPITAL2>> White

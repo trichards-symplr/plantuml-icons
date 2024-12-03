@@ -1,0 +1,12 @@
+sprite $symplr_LightningBolt [64x64/16z] {
+xPQ7RGGn40EfB97zr-jiwzvHMCA8FnNCW3hSul-vKrXWaAW6WoKcn1dISk8bDIjUjE8j_IvIrLXUZNJYUzSquXUeOiIdJ1hB5mnD8nwWYX6FGXhnmD0muW4g
+6_4eeX4FJ7KZ7Y0J0kJNUDIWFZNUAfeH3r1hNgaueOdfFUCM7iNl9rlgXK7Ly_YlK1C7p1yiXtWU_vKgvRFuQlp3TlpNIG_ZyvLqUSzd7orlANlIe_fRfFor
+wfnCxaa338qzNG2gEET75lTqCVqzNLG_ImKXChcd2z0rztH1_RhZ0_fxkg3-qeIXtqKWhb-eWhZ-eZeCVOdcsPfWw4iLblw4fK_0qiymcEfmI1Kdt7a4
+}
+
+!define SYMPLR_LIGHTNINGBOLT(_color)                                 SPRITE_PUT(                                        symplr_LightningBolt, _color)
+!define SYMPLR_LIGHTNINGBOLT(_color, _scale)                         SPRITE_PUT(                                        symplr_LightningBolt, _color, _scale)
+!define SYMPLR_LIGHTNINGBOLT(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR LIGHTNINGBOLT,         symplr_LightningBolt, _color, _scale)
+!define SYMPLR_LIGHTNINGBOLT(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR LIGHTNINGBOLT,         symplr_LightningBolt, _color, _scale, _shape)
+!define SYMPLR_LIGHTNINGBOLT(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR LIGHTNINGBOLT, _label, symplr_LightningBolt, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR LIGHTNINGBOLT>> White

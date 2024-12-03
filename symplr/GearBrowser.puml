@@ -1,0 +1,14 @@
+sprite $symplr_GearBrowser [64x64/16z] {
+xPPNWjim34G9Tk3T_xw938hRg4Jh-kDnOG4U1-eAhzPRRyMKVwqK9srS9VCL1D0h1CZ6DrJ25HAbRQsImrNAwDOOwJnZjXKi8PD3mfx3htK_tlGgsSvVhS7N
+V9Ngm_UVrB-Ar_CAe5VmsKsXDV2Bj9pdaq7Q4snqiNAIxm3RPAM5qBQ_282UuWMgTEX03Y437RfKa5F-HXv5z5cEUlePtYiEdmvShDMdp_0BerdMV_aa5oDM
+_DYSz0--WzOEUSLdw4MX7_89ruwdsbLx_HvEHxpHf7GRU3Q6hEmplKZ53lW4CUmI1MivfTmCJ6OWGZxqdtdHNLt5c3dYIGlUOt77rRDcCIFW-8htFD-xYaxu
+oqHtVCtFSoo3PyLIvaEop8GZVlQDUg4LG2yhL6mo1xpavhvnDlIE3sJi0MXPLhpOlCGBVMopVEoJJl59mEGddq6hLzAexYZXewqqTwqAPS6xpR2QuPbGliHN
+lCgNU6JoyIklQnxlxFK7Y9v6cFNxcFoLTyfsFdcyEXzzjRn78zR2v6zxVxdr_UdszxVRtn-lVtzzjTvwwmy
+}
+
+!define SYMPLR_GEARBROWSER(_color)                                 SPRITE_PUT(                                      symplr_GearBrowser, _color)
+!define SYMPLR_GEARBROWSER(_color, _scale)                         SPRITE_PUT(                                      symplr_GearBrowser, _color, _scale)
+!define SYMPLR_GEARBROWSER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GEARBROWSER,         symplr_GearBrowser, _color, _scale)
+!define SYMPLR_GEARBROWSER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GEARBROWSER,         symplr_GearBrowser, _color, _scale, _shape)
+!define SYMPLR_GEARBROWSER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GEARBROWSER, _label, symplr_GearBrowser, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GEARBROWSER>> White

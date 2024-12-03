@@ -1,0 +1,13 @@
+sprite $symplr_EcoLog [64x64/16z] {
+xTS7ZkuW30JWtx41U-R-vtqLUMj0aEsxevBwIR6mB79xqVpag7wQLcJ67Hm5q24FmekTfJf87_16JBwmOlGASCmA533EdYbncqR0UlAeP76ZA24xFXEibxmI
+Mpw3orxoF2DcpZ0x1d2qp63FfbVt8DnjqsVzNz3BeMQsvxK1uD_OkfS6aW32WstPLv2eAd_FZJ7qOjOUzL-GaPTA37qywJyGcXTJR-uWt4kEufmJwLVgFzZV
+4ik72pwdZ83w_tFAYXSWvssY1M-Cpj6liTH_ZRNpRbYMVD3ky-WdA_uXFoPUz7__zJLtbkIAvFF-GszzjlzS2fYTDF0M0JAYzakIiE80YRe-FvGz2DkOFm8I
+22-wEB-IuyhywqsxwmNn-UQ_QgEhogRF_jlq1I09rBUeNzvp_tDSz9M-wtEWFqxEt7dyz2t9mZRt-34jG8BKKMcX0wmEGeTBG-8y97pwWp9AVQH_yXi
+}
+
+!define SYMPLR_ECOLOG(_color)                                 SPRITE_PUT(                                 symplr_EcoLog, _color)
+!define SYMPLR_ECOLOG(_color, _scale)                         SPRITE_PUT(                                 symplr_EcoLog, _color, _scale)
+!define SYMPLR_ECOLOG(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR ECOLOG,         symplr_EcoLog, _color, _scale)
+!define SYMPLR_ECOLOG(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR ECOLOG,         symplr_EcoLog, _color, _scale, _shape)
+!define SYMPLR_ECOLOG(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR ECOLOG, _label, symplr_EcoLog, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR ECOLOG>> White

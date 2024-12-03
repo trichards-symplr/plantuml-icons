@@ -1,0 +1,15 @@
+sprite $symplr_WaterReuse [64x64/16z] {
+xLQ7WYmX21Dm59F__zvNnhlTLPdoUirrnq0mo5pwLx0XVmkzaELRifFjvzB_qxMufAGW0RXzQLfWjrp03hZUPnVi34azm5OQI3IvnpQGVAGJ49fa0uboXrv1
+xgc702bbaBYMqDYthm5I9M7NT4yTQm03OLVqBV0IX0wH3k07zrJ1-f0YPyrMfwLidLVbKKiBkV6pRT5hP3bK3rbq4xE_HnKebhC36vQIG0_vRKbL235IfvfY
+0RAaLpBlUXS1DPonY8M2DTmPx0wtMT3G6idFuyAZ5Nss5O65HiZivb7eodPPlhwetgPdUVex4kclnp49q83VnkEJdZuM882i_7fI8cWZNm_uOX4XbL5ToFV-
+8qSLAZ3bZyzFqFFcnNB844qY__htAtxidn4llMx4p8zwPQx900tozOo1LtDJEn5jwGyFsYd3hJkEz1m1IkeiE1PJIQ98Kh0Gybo6lRHV7exAbtSriO5aUosI
+VMXhktfpQWKxyYWCQ037x37CGP9ZMD_9g98wH5GjMugHWxcePZlPW8v9v5qKadmFKDAN8sSpLH4dMTCn6ZITm4dGqp5E_qEGHbO_vIkEzHd8CW_A6GB64iH1
+v6coHQWWcyti2X8otOKOsaYYsdEX02Isu2x5i8RkT_FMkkaemIm_XXI0xm3SWjjx1TkgkzTYmIZw1lYMlW_-uoC
+}
+
+!define SYMPLR_WATERREUSE(_color)                                 SPRITE_PUT(                                     symplr_WaterReuse, _color)
+!define SYMPLR_WATERREUSE(_color, _scale)                         SPRITE_PUT(                                     symplr_WaterReuse, _color, _scale)
+!define SYMPLR_WATERREUSE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR WATERREUSE,         symplr_WaterReuse, _color, _scale)
+!define SYMPLR_WATERREUSE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR WATERREUSE,         symplr_WaterReuse, _color, _scale, _shape)
+!define SYMPLR_WATERREUSE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR WATERREUSE, _label, symplr_WaterReuse, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR WATERREUSE>> White

@@ -1,0 +1,12 @@
+sprite $symplr_HealthBrowser [64x64/16z] {
+xTO7KaGn281X0gJ1_U-h36yrpPROzTkQOVxj9V3L_lr3uZSZVAX5jmY22QfQDwXgi3vh3R0XLCrsMPLX2skr2r42LWQqcnE1LoELjWy7VUCBUgbRvDPlk_h4
+MzBfy_zMFJkqwu5T03VCLpthnRzIhe8Rvgi-gfHxFgVY6DmmN_VP5ZuVDVFVsr_WSU59RXTwmR6dzYkHr1MVkzWjnXw20nWNeZnEog9VMy_pz-j3oZFoUR7h
+2Mt1sSZSiovKczV5-pVt4DCCRO39b5kVZELjtzZx_7rz7x0tzGKHwScUTH37tgtxUHCZrCJDl7oht__J_Slf_kby_tQ-VzpVltwrV__k
+}
+
+!define SYMPLR_HEALTHBROWSER(_color)                                 SPRITE_PUT(                                        symplr_HealthBrowser, _color)
+!define SYMPLR_HEALTHBROWSER(_color, _scale)                         SPRITE_PUT(                                        symplr_HealthBrowser, _color, _scale)
+!define SYMPLR_HEALTHBROWSER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HEALTHBROWSER,         symplr_HealthBrowser, _color, _scale)
+!define SYMPLR_HEALTHBROWSER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HEALTHBROWSER,         symplr_HealthBrowser, _color, _scale, _shape)
+!define SYMPLR_HEALTHBROWSER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HEALTHBROWSER, _label, symplr_HealthBrowser, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HEALTHBROWSER>> White

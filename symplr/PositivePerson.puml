@@ -1,0 +1,14 @@
+sprite $symplr_PositivePerson [64x64/16z] {
+xPM7jkCW34IHJDNz_-_TYivQBud1szkSvg9B1YnDqc-j_phast3wD_BZf_EP_9mts-8Bo3E-iiSdeptX1VBkfj57lkyUXPSw7nTTowr6Vj2ss7XKIW-7kYkZ
+p0N2WsrbUZnIR0EHLtCJxmlsb8UwytK7px-aTbZkKjf5qM4mZaLlq-JgVTo47YgdEuEXAtyMlCB8_Y1Zwn4GENbX633yaQPzLUWVwwM0oVqKWUAEZ76RDsgw
+D_eN3Ljk6sXXN6KrVSLSnICaEBOP7ZAyRaXC75U_v1LS6lVhSl-noN7_wdMw2l6n6Fzb1BeL3xzxQgUcgsx_ZWPs-1YHqst9W55ByS3ObFPwiWsS8aN7JZoP
+LoV9hRUgAOdFr2802imKrWRjI-pC7yuUGDVn9yK0Nq3dpN4TWDBTNG7eHuOsVrsBUGp9gvIkdfoLQJT3-uJBt929_m4yuQM8ZyX7sXUOU8YXV9NndPPSsLrx
+Jsy4Q2ZA4_UbwyxWXDluUTkILxXeZxx97y6eFzZd1-SZzWVxl3to-JzV-CylPHzh6XAVDZIbWv9-Cxq7
+}
+
+!define SYMPLR_POSITIVEPERSON(_color)                                 SPRITE_PUT(                                         symplr_PositivePerson, _color)
+!define SYMPLR_POSITIVEPERSON(_color, _scale)                         SPRITE_PUT(                                         symplr_PositivePerson, _color, _scale)
+!define SYMPLR_POSITIVEPERSON(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR POSITIVEPERSON,         symplr_PositivePerson, _color, _scale)
+!define SYMPLR_POSITIVEPERSON(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR POSITIVEPERSON,         symplr_PositivePerson, _color, _scale, _shape)
+!define SYMPLR_POSITIVEPERSON(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR POSITIVEPERSON, _label, symplr_PositivePerson, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR POSITIVEPERSON>> White

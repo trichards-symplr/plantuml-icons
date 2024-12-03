@@ -1,0 +1,17 @@
+sprite $symplr_GearWrench [64x64/16z] {
+xPO7SiCw34G1Tk3T_xo_4E8mvbXA-MLQNc9RRPVBXf7SyKiUFXdfHtA5nS-Qn_F4oJ_JMnmOvN_JbwfFUgtFLWOUevsQCsJIyNPT1EnPRf14YiCyc2e7l4ov
+Wpt9inXK1yQ7f6K0Ni4aWJt8umUQ7ekXGIXFWrCkqaQe3-fe8lS6EUG7ckHW6kIt-dJEfGZ0gFgi3-p5G4KS5OBnGP0yyZyQ5Aga4Zse1WnTnewflCMsSVOY
+6ntWb_UubKl18-58Sf1yTThlTuFHOmAfSgBZwbt3RZSSUXtjEH-jBFT8fzoLWn7DroQBpgIjWUjF0VGA279HeTNcS-ps2j4Lyw2kqTlfeSwv2E4AQDIpwL9h
+TPeSz31ONK-WqL3zYnqY4UWCMGw3w7hTSwS4QJ_b_I-IVD2tiGpAN1d4MO_Dt7it-Xxu-YQvhGETBUTfiuU-C4xz7hq2OH3AzKZ6FzD7SusU7DlBfT5Ye3xN
+fz3FVQeQBfTUHd_IxxYL4Ni6N8z7dlL6aHKq6MlVywHl07YPnt7P8w_gVgHigQzj4QZj1P4Xt8zTrdQ2nCJqOvbDwLhTLqFZZK5PHoEbf79mJMx3LpNiEhqF
+WziA52tg2Ze07yEnRR37zWqzXgwkv7amEGmo_RrUB-40lQxaKd8-3PB8Om2nbx6BXNZCmcFzLeFsVOC4VMzVh_f5WostroLchHRzie67V56ToLSJP3W3rMxM
+lzg5T9VhQmRxgXgMdyUdGRapK0Umutvffu6-Dr37KdjzvyWTA2y6zhQpRUrhRJub8GUyxIwiUlY6jbj8OnqEHZh784hUu_jQUVV-dI9VWIJFdFfjW3bq-PbU
+aktQ-KY6DZahOOfTyIdEXSkFqDOdzRwrN_u4
+}
+
+!define SYMPLR_GEARWRENCH(_color)                                 SPRITE_PUT(                                     symplr_GearWrench, _color)
+!define SYMPLR_GEARWRENCH(_color, _scale)                         SPRITE_PUT(                                     symplr_GearWrench, _color, _scale)
+!define SYMPLR_GEARWRENCH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GEARWRENCH,         symplr_GearWrench, _color, _scale)
+!define SYMPLR_GEARWRENCH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GEARWRENCH,         symplr_GearWrench, _color, _scale, _shape)
+!define SYMPLR_GEARWRENCH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GEARWRENCH, _label, symplr_GearWrench, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GEARWRENCH>> White

@@ -1,0 +1,13 @@
+sprite $symplr_HardDrive [64x64/16z] {
+xT85hcCn38LXsq6Vi__zZkBgzSBGZGT4zSF2zmTKsPdFTFqZxeJz4MS4ygjhx23FZoCa-H58yMmW-6Gv0XdEHA2NWy_zW9Crk95Dd92jW9Ca20qoo6gs4LWB
+3vBwrQgLU1_X4G_NPSrSd8o0WlwCY-0h89NiWx0DVWbqqWhPddE7dWDEWFCv1taFx77uBJ3wSnw_dR1pO9FB9P3Wbq22Nm8ZmI-11By6Qe8VWKdM1nnt_YvE
+CiN5o2PYeAUu1jGi_t3xDHz_nWjfURva4_4qhuJ8I7EPRAA09Ra0AfqponKGSTOa5riUiCJ7vk9pgn_xJwn-t5-ZvrQNM7k9abjTNcjtlc_0DbQFYRMTQA_S
+tkeIQwl89047oBcnUep7cuk39BpiSb4GklvQiVMt1jyC39NNc9DJDcUIy5vh6m3HP7lCmPZOIMhgc3wwoN-Qptm3
+}
+
+!define SYMPLR_HARDDRIVE(_color)                                 SPRITE_PUT(                                    symplr_HardDrive, _color)
+!define SYMPLR_HARDDRIVE(_color, _scale)                         SPRITE_PUT(                                    symplr_HardDrive, _color, _scale)
+!define SYMPLR_HARDDRIVE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HARDDRIVE,         symplr_HardDrive, _color, _scale)
+!define SYMPLR_HARDDRIVE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HARDDRIVE,         symplr_HardDrive, _color, _scale, _shape)
+!define SYMPLR_HARDDRIVE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HARDDRIVE, _label, symplr_HardDrive, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HARDDRIVE>> White

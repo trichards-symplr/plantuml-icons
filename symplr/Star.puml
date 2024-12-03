@@ -1,0 +1,14 @@
+sprite $symplr_Star [64x64/16z] {
+xLK5ZWGn3BjIoFz_xq5qbJgWTXhj2jVBOCUXwTVxy04Pm2bCLpXoD3gifgAm63q1vU_5q8BXnLzRq01G-fiQ2g_zNSY0eOw5sCMODKEZuHrfVmRg8MU1RFBr
+qFIyQw00Xyy2tWnFPxsqrNkaiw0-4qYbiLqdBWCGgdb2p9N4u73w4TdWCE5MBbOoToPCgDxNjB6YG-gXsqvKLrwcz-zI3idnteHdmZ0W30di1uRcbCZb8RsA
+Jo7_DkudR-ydsk4JxUuNd-HeZowNTb2KtWNQSxhwcvX07kd7fMzHUXUeSNeNYDDT8C_vDh-E2MGrjMbnva_vWhRUgWdK2_I--6LnrFDYKTkoVhhGfurpCLIV
+D1-FlEfFYPQ_6roMFrwWwkMFDuXEwfcOoeP3EMIN67-m-hX2XdnaI_FdF3OWFzgUvhokm-bH0u1UI0EiT2S2W9xm3SsBf4FMno_or7y3MYuzd6CqL5ErUOSP
+3avtsWvBytDLONplC971Jhu--04
+}
+
+!define SYMPLR_STAR(_color)                                 SPRITE_PUT(                               symplr_Star, _color)
+!define SYMPLR_STAR(_color, _scale)                         SPRITE_PUT(                               symplr_Star, _color, _scale)
+!define SYMPLR_STAR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR STAR,         symplr_Star, _color, _scale)
+!define SYMPLR_STAR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR STAR,         symplr_Star, _color, _scale, _shape)
+!define SYMPLR_STAR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR STAR, _label, symplr_Star, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR STAR>> White

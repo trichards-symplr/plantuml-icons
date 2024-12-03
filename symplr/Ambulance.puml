@@ -1,0 +1,14 @@
+sprite $symplr_Ambulance [64x64/16z] {
+xPK7pkGW34OncERl_lVTCDR8w2Su4gko9MywuoTSKi9VpiiB9OVug5UuIFJr38W389hapk_8Rd70bK0IxC84oT7rVy8W7ViPBHIqOx-Y14O_z4M0prkb0xzZ
+8cryZ_I5EuGUVR-MzkodUb5-RXJBjTe0Tdqhk2o7aIBqxBVIKNyUvL86WlRiSoYhhmiHOCUFp2mVlp4dMlrG8BJtlrCk6FJ5r_8yl_VUACJhGo2hhnKu_ZJ7
+nLyhM7tQ-9Or2PfVFmN6m7nTCCh65mnO-uUwlqfAV9o_0mjGpto5saXXvqiNtzU62DtwpJhaGO9owrDYvlHarzeXg__CFCzpF-HSZ_TNqk97vkWx5h7wBBZe
+JZQfuqBurYz37W5vM_8tejpuhCjKWRIh5vLq8rvz6VgWej_xVRg4BNu2x4fDD_Qy3YJp6yed_URTa2nS5HvfgC9G9d_3v2lyRUl0yjzY-GziK7GnzuzkcVj7
+5y4ucfznTlmOPyUlSNJ-_3ulBxy
+}
+
+!define SYMPLR_AMBULANCE(_color)                                 SPRITE_PUT(                                    symplr_Ambulance, _color)
+!define SYMPLR_AMBULANCE(_color, _scale)                         SPRITE_PUT(                                    symplr_Ambulance, _color, _scale)
+!define SYMPLR_AMBULANCE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR AMBULANCE,         symplr_Ambulance, _color, _scale)
+!define SYMPLR_AMBULANCE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR AMBULANCE,         symplr_Ambulance, _color, _scale, _shape)
+!define SYMPLR_AMBULANCE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR AMBULANCE, _label, symplr_Ambulance, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR AMBULANCE>> White

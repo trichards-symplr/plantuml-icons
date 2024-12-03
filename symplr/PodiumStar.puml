@@ -1,0 +1,14 @@
+sprite $symplr_PodiumStar [64x64/16z] {
+xPQ5qkiw30PhjhJl_xm_9f537hkzz_0E5DVmITNqqUCVhlYN_4Jv2Nuj5tuIDwWx22VVmt0K6JtvbVeOHac7_0FucTWuhPYd4fGrY-QDURnQbCyWW4wSMkD-
+U_2mVo-ezhQJqAv7-QgbuIjeD_SbPskPDe48_JguGbtacEJhUKPJN6fVgEvUje9vuOjFpIcmNioDzXz8JT_VTga8m6ESSzNTLFyASYmjpFMTxFN9FlGWaxel
+dpXRm0gTcYRCdz-wMenFR4W4j8aZRJhSrA80QBpog_bURPSkgVbIcHeUhUE2ixMcgCJlsrPdTvb02GbG87juOdz0m_9JqcT6dwPbug1XL0kIx9TyUXObTcrN
+GRf5GNn_VAqTd6lBzcvtWAcjNjaZpGdlCxEO8CS6SDkNXkR8OToOty4duma_iYFC-XKf6wiVLZzk17VdnzC4Zakrs147VVl_0YehYapxRPmU_MtyG7h1Dtw0
+xnML3IlOwQL2kD2P8LnrRuv6Bh4bjv-bYbxDwySe3Yvy_uB_-luLYQDKvENyJxXIHobhLFzu1m
+}
+
+!define SYMPLR_PODIUMSTAR(_color)                                 SPRITE_PUT(                                     symplr_PodiumStar, _color)
+!define SYMPLR_PODIUMSTAR(_color, _scale)                         SPRITE_PUT(                                     symplr_PodiumStar, _color, _scale)
+!define SYMPLR_PODIUMSTAR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PODIUMSTAR,         symplr_PodiumStar, _color, _scale)
+!define SYMPLR_PODIUMSTAR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PODIUMSTAR,         symplr_PodiumStar, _color, _scale, _shape)
+!define SYMPLR_PODIUMSTAR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PODIUMSTAR, _label, symplr_PodiumStar, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PODIUMSTAR>> White

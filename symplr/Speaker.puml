@@ -1,0 +1,14 @@
+sprite $symplr_Speaker [64x64/16z] {
+xTO5qYiv40JXQd5Ntl-y2mf7_6nRi_0mpV0DaxwhVlUx6Fbb8nxophrS7_0AiyONrGNblZTDTnhaNHvOTxCVJFvwvEF4rzRUpd2U-640zsi-Z7FCD7d99xd_
+Myowu3kMwfn5OUgvDqK3eAkHnpvi1MvxCknZNvngJ6bHhlYmLKd9n1M_ZR59bIj-CHJBNlljkG_Jj1jOvruDLeseYSiLhsgmUU67NcffhoPTyIzzEn-rjHfN
+VRS1x7R5LuFN6ClWSkmxv4tLX7heA_INhmUK0_-oyTRUDnpuo4_cRH7SPZuP9zwMr237y9xvm0U-iLxcOMoQbEVzeltjfdP9aphzUPyKxQUNBolpn8TUJfM5
+xTV9z5VjfrrdIetnl1_qluNrTs6AD6dF-qBkkN2HglTtTZplPQeK1XjIKYDru6_JFcoxt-RXn2j9lHHcwiZBlFopcDIXZuHL9KLBM3hrKZVODhZfILz8lTJI
+jbTz_lejRFsJtvMi-p_F-pwCv_YYPQm7HV9rNg67HVkg-bx_xay
+}
+
+!define SYMPLR_SPEAKER(_color)                                 SPRITE_PUT(                                  symplr_Speaker, _color)
+!define SYMPLR_SPEAKER(_color, _scale)                         SPRITE_PUT(                                  symplr_Speaker, _color, _scale)
+!define SYMPLR_SPEAKER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SPEAKER,         symplr_Speaker, _color, _scale)
+!define SYMPLR_SPEAKER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SPEAKER,         symplr_Speaker, _color, _scale, _shape)
+!define SYMPLR_SPEAKER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SPEAKER, _label, symplr_Speaker, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SPEAKER>> White

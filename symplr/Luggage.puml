@@ -1,0 +1,13 @@
+sprite $symplr_Luggage [64x64/16z] {
+xTC54kCm40NH4Oxcz_tlkv5hWnMmjGmTXcUIPD-Z__ql9Av9aGxnn6FP3fLA4Tvc7Kh9TZXHRPObMsZL__V_VQwdHFXimFoOT-iYyIJLdHoaYD1LnYcWxV9Y
+sBCSfLsxbprFz1s-CmxzyfZZzhnA_3mVstDMdIzDwQ1FqWOPyqMKDTz_JvzpMlV99QI-wBD04aHQyKbe-o1YnGzarhnQ4ct1Iza4X3Lqt1TaZXogQS7FXoZR
+lwIqxESFKbxs3L_sULxtbWvv7n427yZFWNlClAQtll0fHNhj6n0WRJlqIoDyG0ZDHtdbA_CRAS_l7ifekoGfK7hYAswYsoTl5iIjjvniLgmYs-6JbA_-fg3l
+yVD_Jxqektp_wXhw9fz4NJl-Thw0Z5ekzKFNRpPuo0-CtwmC0Je7O_VyEUTqEzT0v_dxqCFyVUujIxnF8zbTgTzzaTk8KyCVkgxVlwCl
+}
+
+!define SYMPLR_LUGGAGE(_color)                                 SPRITE_PUT(                                  symplr_Luggage, _color)
+!define SYMPLR_LUGGAGE(_color, _scale)                         SPRITE_PUT(                                  symplr_Luggage, _color, _scale)
+!define SYMPLR_LUGGAGE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR LUGGAGE,         symplr_Luggage, _color, _scale)
+!define SYMPLR_LUGGAGE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR LUGGAGE,         symplr_Luggage, _color, _scale, _shape)
+!define SYMPLR_LUGGAGE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR LUGGAGE, _label, symplr_Luggage, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR LUGGAGE>> White

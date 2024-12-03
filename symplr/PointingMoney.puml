@@ -1,0 +1,15 @@
+sprite $symplr_PointingMoney [64x64/16z] {
+vTK7RkP638RX8QUIx_tl6mWIVbEz13NvTcshFIgSblvJ4LNvhdK0MFx82-0Er4zSOKXAqY5_ySQODph-WGl8iWdwtkU_fmxA5s__oYka9VwfW4wRDoh-iVdR
+p3zsW0O-XaF_sW4TFdS_gPfIhZLFc_lSLBGQlruZpa76YOn2bntlsupBptAyIZBGcSjHSVifBuimq1_NTOnswZlBEOE5TtQHKpz-tsRCV6onZy3FVJARhiil
+ff3eOx5UUlMwBaYCr6uEFbe-yuLnvel5GZHvvxCngQAgkGw0ziQt2SXwZ9ayzWEwx9S9VUWFkxquw2E_MagaXAK2UU0BSIAsiEFOlPTrgJruXNhhMvo7guER
+_dRXriUt7zj9oAatleJ7gsDPY_rzJyNYvGT-4AzssI-tSVvPlFFpiUrAgDTnS_JPWonUODLbtAfi9gtuUMnznkFgxDj9gCOFbdxWBOL8SmXL20KBkpiV8mOz
+0BlnVhHEnFU_z0BnsRjkt-YNFe76bssbESGnMAzzx3-PEJts7xtsDHQeZ4a74NhtYPVr8X8MmBXxxbF7Lg2kBaVklAoc7odhAR2bEvzggD4wXgTxFrqcHxo3
+Fl7YXmln21zswPFuVk2h1NxZampmLUK6uPtk_5n4w4Kcgys0SLIJp2erZdnYHaw76OJOvkMwCyL7bNGMqIbv-dLqaSW9_N_d7m
+}
+
+!define SYMPLR_POINTINGMONEY(_color)                                 SPRITE_PUT(                                        symplr_PointingMoney, _color)
+!define SYMPLR_POINTINGMONEY(_color, _scale)                         SPRITE_PUT(                                        symplr_PointingMoney, _color, _scale)
+!define SYMPLR_POINTINGMONEY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR POINTINGMONEY,         symplr_PointingMoney, _color, _scale)
+!define SYMPLR_POINTINGMONEY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR POINTINGMONEY,         symplr_PointingMoney, _color, _scale, _shape)
+!define SYMPLR_POINTINGMONEY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR POINTINGMONEY, _label, symplr_PointingMoney, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR POINTINGMONEY>> White

@@ -1,0 +1,14 @@
+sprite $symplr_HighFive [64x64/16z] {
+xPC5Zkmm44JDzEv_tjqPbre1vyCobgGOogz9Ydiz_ShdMhDtcq8fuSg_LcMgEbFUZek_ga4hfKDpKeJQ8Ax-8YMBeiWgVgO2mkfV298s2MQpWpuF3B_ugoB3
+jcCcwdSkG1dqrL-KwBRjf3ciu3oqsSVYBufxFxeCIIDJnsT_aGU_xI8KvmhO6e--MzLe5hvvoviInDcCt_lkGW5wl44TmXoP7rIXSvXxtrqfWXGROp9TwHIh
+RRwxbgy3HlK5WYMsCW8Kyo_PtFDzkPa9qln6MT7EIRxBFVjpPe1ipulocJlhqNVxg_nnTFGAsQbJ-vhkyz1NUEqSXZZeIf3dk4IudMOqMLdbzTs3DFSAe2Ig
+rQHkLDJ45JAPMtKrCOWsiKqspG1iR-lMdhqk0gjv9hjAmXMnhRnBIO_pcSzKyw_vwAI_ygQuy8dw_tmbdVdy5BwHV_bVVdTyEfytlbAVpZUA7ID4-V_p_ubF
+47Rv6FBXxpo87-Yy1NWQRxWfjAVnBIp-KtZvduN_vN_vNxwdc-3-xK_t0mU5f_ekjNxJ6FTlI-u9_fVM8m
+}
+
+!define SYMPLR_HIGHFIVE(_color)                                 SPRITE_PUT(                                   symplr_HighFive, _color)
+!define SYMPLR_HIGHFIVE(_color, _scale)                         SPRITE_PUT(                                   symplr_HighFive, _color, _scale)
+!define SYMPLR_HIGHFIVE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HIGHFIVE,         symplr_HighFive, _color, _scale)
+!define SYMPLR_HIGHFIVE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HIGHFIVE,         symplr_HighFive, _color, _scale, _shape)
+!define SYMPLR_HIGHFIVE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HIGHFIVE, _label, symplr_HighFive, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HIGHFIVE>> White

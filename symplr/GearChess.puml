@@ -1,0 +1,16 @@
+sprite $symplr_GearChess [64x64/16z] {
+pPO7ikiW34KD0e5qzh_ULs8c_8G1xD_lgs5GlIeS_o5Y3ByY7W0i_veykFoi5qOEsG4mbVloIltwNMWeyMx-e4KIKt6WtjG0qZz81VIMV7cz7olOdMGc_Fq0
+ZtSIo3kdZeVhvad7gC2lru-Efy6fLyl79gocQyddAr8Pxof-BNXv_1xJvUIhmKCv1cJyQl1PDtKvGLdIN2ZxuE_KvKYHRfApBC9jYJYo2tu99Tm9FY5tnkPG
+7fLyfsbjrDZjYxdxGD_AM32yVtA0bJz6wfLQQZKWdgQBF8e_sJUzgc5ZFt72ulDZSGY7WbcRXTFkY0QUCqYVVStrK05c2lnnha1ksbeIow4rjKzQ9KxAB89d
+Xnf-x7KPnqwTj45qmAMLOhzDqvHY2nIPBuxXIZhbbQPysOLDf1CTnD3J2pTEjP3ZHbnxJY0y74fd_fihDXSNA9rK_DiLQnhzeSQ0rH3fz6XJ1V4bGVD14hhu
+Ldw_VJAWr_qV5aS4Y2SZpuuiT1-tEoPKIfFn9tyfp9CtUaIB12nkwYTtnuRwZHBwys02HSTga4lzq_aP-IoMcm_594AT-r_6SZoXZRXbyGe-dW7g48y2jOAj
+Ds1wnTUXnczYzPoVEQyss8WMa06x5r05g--GvbdzWYx5uq3L_NVx7hiD55b1jw-Bm19p-OnTsF5oQG7lwti4nArymfRXxo3u8lrUTu0oBnzd3m-hwF8ESlnc
+V08
+}
+
+!define SYMPLR_GEARCHESS(_color)                                 SPRITE_PUT(                                    symplr_GearChess, _color)
+!define SYMPLR_GEARCHESS(_color, _scale)                         SPRITE_PUT(                                    symplr_GearChess, _color, _scale)
+!define SYMPLR_GEARCHESS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GEARCHESS,         symplr_GearChess, _color, _scale)
+!define SYMPLR_GEARCHESS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GEARCHESS,         symplr_GearChess, _color, _scale, _shape)
+!define SYMPLR_GEARCHESS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GEARCHESS, _label, symplr_GearChess, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GEARCHESS>> White

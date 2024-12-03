@@ -1,0 +1,13 @@
+sprite $symplr_Mouse [64x64/16z] {
+xPO5TkWm30HbjdRkVzxFu1GYDsMOCCnxAmLjZo_QU9oFqcFqZ1wbYt6vSdU1Bjf909fNgnTg9TjLwYFxFkds69pwIdugzGTY_9YN_51vIAp8c-qp19BFEK4_
+vYw1wluj8o_7-bCJZ6sztD6_9dp75vxkx7_HJeA9rYohKg14UfRoiW5hw8uYtndhXdVHrjfgu4jftJ2hnm3pN2_7wcLMyEEUKphpJd-DTyQW1tuEhbuxzPqI
+-yV-FS9tD4IxxAVb_jdtLqItn_YJ-YW_Ttk4l_BbV_bVlWA_CyBFmnaL3tmx8Vn0L08_-C8vFV0RElqBJnOWnkcnY0BjtlIocCxTHIRV_1Vke7AxCKBPjgW2
+ZLhoNqgT0a-sInU0_W98rHv26Qx_p7vdz2--0m
+}
+
+!define SYMPLR_MOUSE(_color)                                 SPRITE_PUT(                                symplr_Mouse, _color)
+!define SYMPLR_MOUSE(_color, _scale)                         SPRITE_PUT(                                symplr_Mouse, _color, _scale)
+!define SYMPLR_MOUSE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MOUSE,         symplr_Mouse, _color, _scale)
+!define SYMPLR_MOUSE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MOUSE,         symplr_Mouse, _color, _scale, _shape)
+!define SYMPLR_MOUSE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MOUSE, _label, symplr_Mouse, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MOUSE>> White

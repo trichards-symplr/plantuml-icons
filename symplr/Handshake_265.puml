@@ -1,0 +1,13 @@
+sprite $symplr_Handshake_265 [64x64/16z] {
+xTDNTkGm34HHW1bL-r-l0ut3fZfAd3pM_TOhPVb5JgVJIOjPLbaLGPA8yfWQ9lKwHwaWgeehc7pk9cwa8Me4xRDf9E0uQxt7I3Alc7G9Kr-JQ_HU1X9c3Zrt
+6k8NCeahz_eWBi7phNszvskzvqswkD87UgvWMUWRpNEIvNWF9iz1iYxqsVCWFd2eBvzXwBdumA5UGC1p7pZMgm4m5Ha3ktkdmUinSAWVCjG7rdgo3u2iIxrY
+6ZZOQzFDG7lT9vaOSJNmicUS-e3h0RlNwp3_Bldk09dLLU-9WJ2oJR_WD11y00DRFs932cZwkOjx0stJPxaZWGYF1XHGUI60J0y6CY4lAOXo6T3B0CWYEpIo
+tGmK4gYoI_bAVA2H20hMgBAJFyLCcYf8eY_kvaynUnaQW217g944FqDJML51D16LLHg3_BzEftS
+}
+
+!define SYMPLR_HANDSHAKE_265(_color)                                 SPRITE_PUT(                                        symplr_Handshake_265, _color)
+!define SYMPLR_HANDSHAKE_265(_color, _scale)                         SPRITE_PUT(                                        symplr_Handshake_265, _color, _scale)
+!define SYMPLR_HANDSHAKE_265(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HANDSHAKE_265,         symplr_Handshake_265, _color, _scale)
+!define SYMPLR_HANDSHAKE_265(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HANDSHAKE_265,         symplr_Handshake_265, _color, _scale, _shape)
+!define SYMPLR_HANDSHAKE_265(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HANDSHAKE_265, _label, symplr_Handshake_265, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HANDSHAKE_265>> White

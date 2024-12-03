@@ -1,0 +1,15 @@
+sprite $symplr_FinanceGraph [64x64/16z] {
+xTPNWYCX30HG1O9GtV-ycmI6aSTfSwhF5eziTzDVbVyHrs_o5VLhMA58StZ_cb4RVSu0t24l-nPUtOMayPDAiY_mvs2fVJWmacU7LtuCLxAdue3RJUuNs5kH
+1ikUkCMqRdfhHUOCErhOpzc35ZZVyEndRQ14Dzj_BeedVwi3XyP3vZaLnUZcUVwv0ve1-7h_0HzyxSHqBNef0UZqym1SiessbyKMYXICQo-mTH3wbWEwUAJE
+fjfx7-ZhgGGVW1vyi06wE3U-71-DjrVfmW6TFAe6J2uEvtLy9AsrWPwuYm5wS2BR771swBd-nFbBUvqyKdLoLuS3dFtcCWVKu3EBSvmqdJwFFZjON4uULsNr
+Ao8TBV68BTvXcqSxAySW65Syd4qEsC7FL4TKDpzkn-8Ti2j-hZzpm0vUIO4Hl468I89idxW1Td0Y1Q9gA77zipzv9mNiu4GQrHi-yHZGDjz9lemn74QKU7GG
+N4nk-7r-adai6NNlJwllUDPIx3EHjxmhaGQVde5t_AuVVDL5wILVWX_rbtpmqqjvvBdCzI_EUdW7t_JvzyCnka5t7P07lfYPn_YjfNhu5_RlrtgCh_TH_mg_
+t_zVv_kt-Ft-_tf_r3qcfFjDxE3ughrHFpqn7-yAeVmerxF_-ZIC_dBaz5yHsvxRLqJeZy__V0G
+}
+
+!define SYMPLR_FINANCEGRAPH(_color)                                 SPRITE_PUT(                                       symplr_FinanceGraph, _color)
+!define SYMPLR_FINANCEGRAPH(_color, _scale)                         SPRITE_PUT(                                       symplr_FinanceGraph, _color, _scale)
+!define SYMPLR_FINANCEGRAPH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR FINANCEGRAPH,         symplr_FinanceGraph, _color, _scale)
+!define SYMPLR_FINANCEGRAPH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR FINANCEGRAPH,         symplr_FinanceGraph, _color, _scale, _shape)
+!define SYMPLR_FINANCEGRAPH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR FINANCEGRAPH, _label, symplr_FinanceGraph, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR FINANCEGRAPH>> White

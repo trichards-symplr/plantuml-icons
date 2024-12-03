@@ -1,0 +1,14 @@
+sprite $symplr_Diamond [64x64/16z] {
+xPK5akKm34GLi_tkVzw5L4hbriTbVCC6TGkIiT-8__mdvIBKLfJyzFRaDSKUSG1pPq5S0gezO409yVAnY6lBxbE0QHkTOLRrV0FwVVUB3bcaafc9WGEQ7uhk
+bpLMa0y6EjCwwxxxPCTMWNJAgu7Zr5xqU-wRsMvWdF9kmENDycq6RcfHLJwkxOVLlOk9_DsrHRlZtiLKFgx53DHGWSEbrC2aomKdxsAJvb9Y8CCH3MiwRk2I
+LmCpd4hRxxKKPx4co8DROIqzjIKp-JgsOeoT2Op0WXaEBPrKhQS59ZLqV5iOqauTUH_y8rnVJzuSZMb2OyJh4ay3HBbeAFbrfqFLT4D1zAzvMA2Xux4qUjVh
+TajbFwGjsUjRa5fe054KDw-kwvPcF6X1v3xP0yItNj8gAR6oiUFLwzNZzKZo00aEVVreanKT3Hy1YQH3fkXe9d7T6NBzTG3ILRMz-VFw-PBZFEbTAwnhCTax
+k5G6RxvdzP8jrKM-qf3hRmQer_z_fZVb9VeydusRL9-gr-ZplCuO1QPzEHKcip5XsDTGkHZsTHHEkdqj6Q3PDr3gORyh__dFHm
+}
+
+!define SYMPLR_DIAMOND(_color)                                 SPRITE_PUT(                                  symplr_Diamond, _color)
+!define SYMPLR_DIAMOND(_color, _scale)                         SPRITE_PUT(                                  symplr_Diamond, _color, _scale)
+!define SYMPLR_DIAMOND(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DIAMOND,         symplr_Diamond, _color, _scale)
+!define SYMPLR_DIAMOND(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DIAMOND,         symplr_Diamond, _color, _scale, _shape)
+!define SYMPLR_DIAMOND(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DIAMOND, _label, symplr_Diamond, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DIAMOND>> White

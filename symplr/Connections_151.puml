@@ -1,0 +1,13 @@
+sprite $symplr_Connections_151 [64x64/16z] {
+xPQ7qkCW30PHmO2-zt_UAv2c8AUGkxzl-axMVSPA7nfYUgLk04oMSmnaiQymJbI1nHxWyI6hczy_6_Axh3yrD4gfBEy_0p00cXPXmyYNOPNLL6ixKlFAnNE9
+qPDv1ZOzaWtroTwG_PbukXT_AT6pFN-8NkYbNb7MUXrTHXsV9Iqm-WVvwLacDZIPYNF1esnXhu1D084gEtrzQF_pX-n_UgeQE0dT_q1pfjbfwFQk_XAupTVT
+vUXUNyt_MM9dVrsUPurnrxlOD4FTSHiGppe6lPoVQCy14ivQ5Vdc_CNTZMKw09sMEtuGlEFXsFSRe8cRswy2o5zdVYRzuwmxXw4Za_Eh8k_y5g1TwGAWUaVT
+KGgWPLTmvBGD5BbwwUXYFnqIk77K9tVSSw4ZN65zY-oEQsXfqA3Jh6BEKNU0UBStQt4y_s1oNwDllhUzta3UdORygva_S38xaVG5-0q
+}
+
+!define SYMPLR_CONNECTIONS_151(_color)                                 SPRITE_PUT(                                          symplr_Connections_151, _color)
+!define SYMPLR_CONNECTIONS_151(_color, _scale)                         SPRITE_PUT(                                          symplr_Connections_151, _color, _scale)
+!define SYMPLR_CONNECTIONS_151(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CONNECTIONS_151,         symplr_Connections_151, _color, _scale)
+!define SYMPLR_CONNECTIONS_151(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CONNECTIONS_151,         symplr_Connections_151, _color, _scale, _shape)
+!define SYMPLR_CONNECTIONS_151(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CONNECTIONS_151, _label, symplr_Connections_151, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CONNECTIONS_151>> White

@@ -1,0 +1,13 @@
+sprite $symplr_StairsCloud [64x64/16z] {
+vPO5akGm40J53Vd_znuQmd8loCUt6MYeAJMEqm8Vb3BCmQG-KbTZnzkwV03QIYvL73GloWNaq7JmlEhUqabnR2dsJNwGOIpe3PdkDCWhzi5FZeNaIPff-7ka
+fQiJ1WjvfMTwcd3gEugEzZP47RpC2K17VZth72yqXtfho5SRqIwAh70zGIvTuSKe-lo-1JrN35eepz1kTtgOenBfnzsjXoLNF8m-E5TiTOyWjzuX1rOzJ9JT
+SW9u59F4cShNoS8a78z2YqEjwQ0kBgSvB4VI8aAVndBL_mnB6Cjwg47P5xVJSxqYwGVENo6dv_ahN1qTMNIt-ORaTvihMBxj3LGkrDbqV4NK0ObsoeJTLk-E
+bdZfZmlbffUljtjDpt0YsxzVNpTufZSs7keTtz1LwVoF-v7qWuFwpFOWFzEtlF6Hqbvb0-gVc1P3-dVQgdJ-AlYNzBbj-3Ez_k2qDDlHz3lv3
+}
+
+!define SYMPLR_STAIRSCLOUD(_color)                                 SPRITE_PUT(                                      symplr_StairsCloud, _color)
+!define SYMPLR_STAIRSCLOUD(_color, _scale)                         SPRITE_PUT(                                      symplr_StairsCloud, _color, _scale)
+!define SYMPLR_STAIRSCLOUD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR STAIRSCLOUD,         symplr_StairsCloud, _color, _scale)
+!define SYMPLR_STAIRSCLOUD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR STAIRSCLOUD,         symplr_StairsCloud, _color, _scale, _shape)
+!define SYMPLR_STAIRSCLOUD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR STAIRSCLOUD, _label, symplr_StairsCloud, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR STAIRSCLOUD>> White

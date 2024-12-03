@@ -1,0 +1,12 @@
+sprite $symplr_SportsCourt [64x64/16z] {
+xTI7Skmm28NX1OCCvxp_yzuIeIqQfVV4_xHTnf-xTVhqZewET5jcjfxhn3S-CxlrpenLPAnA-kHhC0Sin_uhlEv9vgulyvgiKb_WdOGB80xI7_TXlHeqqiRr
+6zbgRBsO_SwHr_i8lTm_1RSwp6YVFVn_KKSQ01YxgxCA_nyOaw-1TM_Cs-UNjExxzSKZFhdT-etn35zi-l6RFENM2v_b6zkDhy7ZtjdgS7Bj1PJk_JvFtCLM
+__FQPxslRMmrlxy-FBGFmBpu7A-ZOlZso0Sf8Anx1o7FNp-2H989CbwqVcc0917wulLJIFabwt_JLQ2kQhCtFg_PI-Go89U5d7vxHqT7Vm4
+}
+
+!define SYMPLR_SPORTSCOURT(_color)                                 SPRITE_PUT(                                      symplr_SportsCourt, _color)
+!define SYMPLR_SPORTSCOURT(_color, _scale)                         SPRITE_PUT(                                      symplr_SportsCourt, _color, _scale)
+!define SYMPLR_SPORTSCOURT(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SPORTSCOURT,         symplr_SportsCourt, _color, _scale)
+!define SYMPLR_SPORTSCOURT(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SPORTSCOURT,         symplr_SportsCourt, _color, _scale, _shape)
+!define SYMPLR_SPORTSCOURT(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SPORTSCOURT, _label, symplr_SportsCourt, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SPORTSCOURT>> White

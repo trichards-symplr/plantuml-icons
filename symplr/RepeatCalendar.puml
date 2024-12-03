@@ -1,0 +1,15 @@
+sprite $symplr_RepeatCalendar [64x64/16z] {
+xPO7TkOm20P13SJS_xpf2QiNorwdl9f9-Ui8-5pbz_X3QtkY5fNxD0iI7qLkK8qNvdJt6JmJNV_Nda1Oo--NvW13NcXKsLCSiC_jjWaqUM8mP4i7XcxxyWlV
+mLLs38Xoukk4BYUKWBBrDI07trQmdJ-9r7TCsFX-LRtvCu1jaY_NfL-OHz5aT3kqlT2j7YxkyWqQg2HrpSXHEIVMxZk-Vhf6e-Lp-JpudfY4MG9kJtmq0IeB
+av4vRedy-fgrveATsNltv_y9sDF_e7wq6_92IldKTlFFFF1P0t7wwkji8ibmINyLShdqZrZzjRy2SiylIm2DcJwpRuZq1VHuR-cSK8_tg86bJ_W6gEiiwO-R
+yyka_QHlz_swv7VNZt_zHjprGR-p_oXyQ_zjp9FZvzetnlRulVOplXn7x_WLPC4PHqTciXQrfSYIH-K4_MYto4ehkJFkYFPHtkKRbANyVUPXnANL5owN7g27
+wRunv9GAJJP-F5ElXZSvme5-dLtWil4TXbmsFsNdjmukP_JKZtpfS3A-EfYS-L83J8_jGIQ_yP-muzldCW1NsMEKl7sVeqXInmHcbLFqu-lEC-5cmyo3Pppj
+QxHva8GrbRjeRNsCqLjL-IN-U0G
+}
+
+!define SYMPLR_REPEATCALENDAR(_color)                                 SPRITE_PUT(                                         symplr_RepeatCalendar, _color)
+!define SYMPLR_REPEATCALENDAR(_color, _scale)                         SPRITE_PUT(                                         symplr_RepeatCalendar, _color, _scale)
+!define SYMPLR_REPEATCALENDAR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR REPEATCALENDAR,         symplr_RepeatCalendar, _color, _scale)
+!define SYMPLR_REPEATCALENDAR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR REPEATCALENDAR,         symplr_RepeatCalendar, _color, _scale, _shape)
+!define SYMPLR_REPEATCALENDAR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR REPEATCALENDAR, _label, symplr_RepeatCalendar, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR REPEATCALENDAR>> White

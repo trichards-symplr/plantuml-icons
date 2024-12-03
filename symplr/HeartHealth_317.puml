@@ -1,0 +1,13 @@
+sprite $symplr_HeartHealth_317 [64x64/16z] {
+xPI7RWCn68BZRSFxFs-7TPFxVOciqObMY_81j_puPVhNlqBAEKLtiO9x0OuDx0BInMhfMJL8j9fp-MGGDwkiLhZ3yy9iMVLHZbO4MSPu9VFfMa0Ifys9REDs
+NUT0-BFbmMhZWGpgkUpKyc0oUV67YeHb9sAmoulHMCpwOEAULCTgSXZKDp9VghmnluxkwgMk61TGndUrwO38PhmxSNIp0_7y1ZJxzk4pLWTuuCN-t9jqG33s
+vxtV-VsXT5S71EjUknt2-dTPYdH0T8-nG699MhuU6N2lHc3vTUqxTS2z2k42Uwydt9wQXeYBkt97Avjy9tS32e_gFM0Mv6Q0AtLNNElad0X4EKdYH9MKnOqY
+Vni0oWlfqbdHnFI6pSkxQN8EqzD5bHXUuWDPJBppim6flrdJ0OhVAsf07E7ZW6pyEn4mWGipWo_KFBvp4Gi-5J3RtfN8ql7vW8xFAmd-hVIlVxq3
+}
+
+!define SYMPLR_HEARTHEALTH_317(_color)                                 SPRITE_PUT(                                          symplr_HeartHealth_317, _color)
+!define SYMPLR_HEARTHEALTH_317(_color, _scale)                         SPRITE_PUT(                                          symplr_HeartHealth_317, _color, _scale)
+!define SYMPLR_HEARTHEALTH_317(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HEARTHEALTH_317,         symplr_HeartHealth_317, _color, _scale)
+!define SYMPLR_HEARTHEALTH_317(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HEARTHEALTH_317,         symplr_HeartHealth_317, _color, _scale, _shape)
+!define SYMPLR_HEARTHEALTH_317(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HEARTHEALTH_317, _label, symplr_HeartHealth_317, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HEARTHEALTH_317>> White

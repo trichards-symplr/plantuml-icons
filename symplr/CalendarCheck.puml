@@ -1,0 +1,13 @@
+sprite $symplr_CalendarCheck [64x64/16z] {
+xTD7rkim28RXJmAriF_zNYxwkmX7ESeavHsuFwJOnXrxzou5PpPgak5t4MmqXE4dad0rxXQPhtqjcM-sNHTECclcnOcXFdzTzgSgdVy7yvdN0FKWrgh8-g_L
+_T-V8yyzmQysX7ultx_zRTtVjxmTF_tz6sDKe8_HW3P61ueUslVp5R-8gEcwCs_GlcVc310p0VbpoS0i1NuhfZElvNpaIOGydrfh3EYo0BMr2XJT0LYNFxb6
+djVZDVx_9-zwc1nVIic0BicM3B2kbEZo9xUvjFYT9hS1AV0Xlz5ddzFw-skj1EYIWM9BEzi37l__TbAHn_txJu0ksUv_cRmf2tZu-zKoM6700r-L0pQ0VHxx
+Bf8n1rpXiSVu711mzIrv_Hn0vIe7Yr_vES3di-fx_le9CO-p0GTy3ZZWSy01jm73-C40vGUDbRzxzmy
+}
+
+!define SYMPLR_CALENDARCHECK(_color)                                 SPRITE_PUT(                                        symplr_CalendarCheck, _color)
+!define SYMPLR_CALENDARCHECK(_color, _scale)                         SPRITE_PUT(                                        symplr_CalendarCheck, _color, _scale)
+!define SYMPLR_CALENDARCHECK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDARCHECK,         symplr_CalendarCheck, _color, _scale)
+!define SYMPLR_CALENDARCHECK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDARCHECK,         symplr_CalendarCheck, _color, _scale, _shape)
+!define SYMPLR_CALENDARCHECK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDARCHECK, _label, symplr_CalendarCheck, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDARCHECK>> White

@@ -1,0 +1,13 @@
+sprite $symplr_Cloud [64x64/16z] {
+xPHNOiCm34CZcSC4xd_Uxbs5fQtk65zPJqHe2AVVgqE7MjlFIk1E8Ni6EqW284duLXiAaglqrhgi8A6RS2VnmhM0N3VWGVgx0wECh-Gxkqfw4LToi74XjOGt
+Z2SvqMgxm_WBq6lZb_4tKZAWnBclKDa0gCMZny9vanq9N_aDq3_YXHbFoKRR6Y0ZpJLYjQ491NWdJw_LdQ23fqw4guYa_qv4FS2tIUWWh9MxnK3qrzDHeyT0
+WYS7FBsn14yEi6gkyp3diIw4AMXxU6DagQxV5607_Sor_NoRvIVzp-vlzlbDvaUpMYeNtVpzEO7OxXxJ_V6i1OJLSGFHn_sPQzYVp_rT5OPzitYWeF3bxkU7
+3Xsw1W
+}
+
+!define SYMPLR_CLOUD(_color)                                 SPRITE_PUT(                                symplr_Cloud, _color)
+!define SYMPLR_CLOUD(_color, _scale)                         SPRITE_PUT(                                symplr_Cloud, _color, _scale)
+!define SYMPLR_CLOUD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CLOUD,         symplr_Cloud, _color, _scale)
+!define SYMPLR_CLOUD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CLOUD,         symplr_Cloud, _color, _scale, _shape)
+!define SYMPLR_CLOUD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CLOUD, _label, symplr_Cloud, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CLOUD>> White

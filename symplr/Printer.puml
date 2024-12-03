@@ -1,0 +1,13 @@
+sprite $symplr_Printer [64x64/16z] {
+xTTLOiKW58JXWyFC_jSRTv8MgCltSlMF6_8B_LFsp3cf4S4hIBb4f7XIDG53g6oA0odawVCbyYIL50bqUQyrIVs6NZH9qzmRsIVGqcD4igrtc5NrwaWcG7dl
+YQFgtk8erlMvp-qZRkZoFhNqsjXHPB0FoFdLACa4i1nWv4HXksYabEA3b9PNaFPwX2kfuC__ruNvBZ38pZ587GLanqoLIs-_kF_lbHjPiSwPbjvpChsqzCg7
+WPVXnJQllthTItr0WTlURJSgadX00eJAUykqz2c2JcvZ8sICIsy8ES2y0f4ZTxiUIGadQWwS73WowFd1Az69jZV6Q7Wnuzz0o8adCUEu_BnXPFzFVhtIyT3R
+c0kozyb-vlrFXJW8pRtXnBJsOkp0_93xlsTulcSqF3_l8bFRy_iCX6uOF-nWf8mozeQMz_Ql1m
+}
+
+!define SYMPLR_PRINTER(_color)                                 SPRITE_PUT(                                  symplr_Printer, _color)
+!define SYMPLR_PRINTER(_color, _scale)                         SPRITE_PUT(                                  symplr_Printer, _color, _scale)
+!define SYMPLR_PRINTER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PRINTER,         symplr_Printer, _color, _scale)
+!define SYMPLR_PRINTER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PRINTER,         symplr_Printer, _color, _scale, _shape)
+!define SYMPLR_PRINTER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PRINTER, _label, symplr_Printer, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PRINTER>> White

@@ -1,0 +1,13 @@
+sprite $symplr_CalendarPages [64x64/16z] {
+xT874jmW38NX9n12ujt_lXasZJ5AHkdrsrv-snHyN__zfov8Y2jAWef4P_pGljdSnkx5vfFiVipD6cx2ToIeneljdky8BifbcxxEF-n9Tg-sBMhMUtNypl6v
+lXjIrWjzmU_QXnJbFUkoVl8B62v6ecXoV5l_ZUUth1zVqizIB-uEc7k3ke_ZhxM-aGGMgJ3IZxzwklxoFFyO0z0n16sCVlmrqhwXff5fhwWHKhBUZbEeDa1L
+WQugxpxZ7R9blPzBHC_dRmjgrg_ZKuH18WAO4VtrETs0Pqz1pM2aVV-61L0k6egIKoc3wvFpz-2qh6ShzifrV-NdKKNaU7eIijszSg78QNUF-XRkPD8R0qMB
+UlT2-gm9sjr3MTUJ7crOpMX8-XfHNBwadzIiZruKMT_u1Hfk6gieNgV_xx__tW
+}
+
+!define SYMPLR_CALENDARPAGES(_color)                                 SPRITE_PUT(                                        symplr_CalendarPages, _color)
+!define SYMPLR_CALENDARPAGES(_color, _scale)                         SPRITE_PUT(                                        symplr_CalendarPages, _color, _scale)
+!define SYMPLR_CALENDARPAGES(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDARPAGES,         symplr_CalendarPages, _color, _scale)
+!define SYMPLR_CALENDARPAGES(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDARPAGES,         symplr_CalendarPages, _color, _scale, _shape)
+!define SYMPLR_CALENDARPAGES(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDARPAGES, _label, symplr_CalendarPages, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDARPAGES>> White

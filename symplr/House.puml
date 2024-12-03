@@ -1,0 +1,12 @@
+sprite $symplr_House [64x64/16z] {
+xTHNSeGm48JX6MLrt_-yctSbP48DpZRVA_K3Yl8Z74gr2J8HQ8JXyyp10d3I0vnjk4pIKK1C0gjq8gjOZ1-iZ683-etX6oR00M8KY7xuHHhx15G6QUmJ0AXO
+PMPvy8HOZ55Y5hlsqo10c93WQz8gGDBQ0ruUL3EpMW1ELPh4P1_ys4Sy-Pcau4aN-aBSpQu7-1owM-oZNkNv7awliDA7nVtGaY_gZrwRFJqQfZqzMr_szEYl
+r-t-w8yUDvpjj--_X0U6cRvkth-YJpBJItiutm-6llcC_kYpJZd0kxl4eeEtFKRiOS2Xzx3rgFAHAknIonKx5EcedVm9Pm
+}
+
+!define SYMPLR_HOUSE(_color)                                 SPRITE_PUT(                                symplr_House, _color)
+!define SYMPLR_HOUSE(_color, _scale)                         SPRITE_PUT(                                symplr_House, _color, _scale)
+!define SYMPLR_HOUSE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HOUSE,         symplr_House, _color, _scale)
+!define SYMPLR_HOUSE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HOUSE,         symplr_House, _color, _scale, _shape)
+!define SYMPLR_HOUSE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HOUSE, _label, symplr_House, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HOUSE>> White

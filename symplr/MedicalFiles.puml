@@ -1,0 +1,13 @@
+sprite $symplr_MedicalFiles [64x64/16z] {
+xT85ecCn28LX20Gx-r_l4-vOlOpRNvSlROJ-elwNUB8VvaCUPtUyq-FqX_Y5fueVw5MtojtohcTwLFnz_h_NU2-1ECcUzOxh-VC-tggABql0d_LvVQxmWNyq
+mDpt07D_Ea2TX7xZU3VNGq-1EybZJ-OdHOPxLBhxgH_7j_nI5VvQlm9TxRa_FScrvZu1R2OY2G0wywV7PG5OCw-0lS5wo_lpcldgXmstV7yYm9vu0LPx8SzZ
+EZNnXke__-xnFWK5UE03GHlkphJTCuc1DV09e_rHz1G06Ncd3LDb4jL8ufbt50c0dZyG9BFvAy34Oky-PHq33Zm1GTHJo3o-O2E_0QMUGWzK04ry2oLYaKN4
+2UZGSm4f_Mm3C1hw_b6WiW10QUOxBHm5qzXtQvjlfMxYJ_l3F6hUYV-gFdhPNnVJ_ru1
+}
+
+!define SYMPLR_MEDICALFILES(_color)                                 SPRITE_PUT(                                       symplr_MedicalFiles, _color)
+!define SYMPLR_MEDICALFILES(_color, _scale)                         SPRITE_PUT(                                       symplr_MedicalFiles, _color, _scale)
+!define SYMPLR_MEDICALFILES(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MEDICALFILES,         symplr_MedicalFiles, _color, _scale)
+!define SYMPLR_MEDICALFILES(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MEDICALFILES,         symplr_MedicalFiles, _color, _scale, _shape)
+!define SYMPLR_MEDICALFILES(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MEDICALFILES, _label, symplr_MedicalFiles, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MEDICALFILES>> White

@@ -1,0 +1,16 @@
+sprite $symplr_GearWorld [64x64/16z] {
+xPT7Wkiu30KVc86w_tads1ggIPiB_TMawk1O40ALz0_WdyZ_90Uwv82tOdg80uJ4HRHd8I2d92deWpSZF_Br8iXI1n-0fr_pLM1O1vfqnfokDtdrbQ7A1hZf
+H0h09QKE-EAhGdhb4UciUm5F0w3RwclWxnH9HzsKzavFtw18qY60lNGfEID9dxuQSQsCC7tG3vsvVUDw6lWtV-ZehryngDf9V0QmrK-W5mLCEtaDa7k0Bxw2
+eXV-BTdyex4b01Yht-apawGTkzySGC-l73aGscduNCOqNN32D5d78oVIpvfj4jJxcLOgVbK9jivlCcPUzQE3VaLCN4Pgesv-crO2tUHIvam7VVOmDh_WN_Ao
+EIn9TiLnw3LjVYBkKkgT5UxUxMSR-jN3tMTAzuWwLPDEcyFuy0sqDN3t1-LLQEYBhtiqvU0xUOb-zltWb_dfu-tFlYQm1_MFMcjUbeY_7yv-e-iYywBD4RqV
+lDXfVklybNllupvXr1dKDpyJ-_hR3oxpu6GjflzHz5ocN_ODnpLP_KxVnpUPBKym3hvJF_RaoQ3FVdgw_V09n7oMT4f0AQ3FzNz0EXx0P1t0tyUFLlvYuDSp
+A1zw49ga7W2p_hNyHcWdzjDYojlnmtvqE6kZxVfd_-S1FXY_SlxaIhz_srJcccZhvRjVuKg3h4_gEu03NhxvGRk-LwLJ08S6S_pJdprlvsku2W59rW3QwYSe
+aWseEd5VdUKEYs-ldXUWw8pbzKWtVND2sHzSmIv-3g8wC_TdVXwywQO7VaHq2IwYcXvGVzu_nAX93x6SiqbMi-bVo-y
+}
+
+!define SYMPLR_GEARWORLD(_color)                                 SPRITE_PUT(                                    symplr_GearWorld, _color)
+!define SYMPLR_GEARWORLD(_color, _scale)                         SPRITE_PUT(                                    symplr_GearWorld, _color, _scale)
+!define SYMPLR_GEARWORLD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GEARWORLD,         symplr_GearWorld, _color, _scale)
+!define SYMPLR_GEARWORLD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GEARWORLD,         symplr_GearWorld, _color, _scale, _shape)
+!define SYMPLR_GEARWORLD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GEARWORLD, _label, symplr_GearWorld, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GEARWORLD>> White

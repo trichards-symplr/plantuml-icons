@@ -1,0 +1,14 @@
+sprite $symplr_PyramidRising [64x64/16z] {
+xPC55kGw30JR37N_ytvOq80J1PQX1eBrMWRf37_9L7q12IYwJOG1IJS9aw4AKVSOp20rPj0T-YUnCtM3PeLFkYvJ8Diyq7IH_BnmyVegyXAP8UiKCSUFvTVt
+qSHpSmxDcqsV2a1nLjCbG5M3dTqqZfTyIeAwivlxONpvE5TXfvlgYNXfxhoN_6qG8KjE0IgGt7wHt0AicPrufm1RHI_UBo1CncvyadOBg1Xz9vvkZ6KNZmC_
+yKvuyxCy1ZNyZnrfL_pqEMzGNcuaYlb-l5vyVIgWq4xu2VJc9mYBFuSMp5hEshiVG5jafXO_GJpsJLfFEytnb_Z5Zn1F-PEyvQlJ5z-FDzyAI9GZVpA7mSk5
+xNN7BtZ4PryvRSNN6EEWvcUWv9mxOoH__nNcnlC0uUCClEo_4FOcVv0sVFLNdxaLx_YHW_M3xFbgLC-lJBb-X62-HjSB0RBlgz7CNwWCERwTxVW1akDR0URt
+jiHxlfqkwsVnhcy5RE-VHfVhstdS73_4CxugJPsaDn9Jf_p8L2nw9yAp7rr_Yybid-6rVmiKEvzKAMWXSP8Pr8XQ2AMzqxinFbE3L4RGpyDV_WK
+}
+
+!define SYMPLR_PYRAMIDRISING(_color)                                 SPRITE_PUT(                                        symplr_PyramidRising, _color)
+!define SYMPLR_PYRAMIDRISING(_color, _scale)                         SPRITE_PUT(                                        symplr_PyramidRising, _color, _scale)
+!define SYMPLR_PYRAMIDRISING(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PYRAMIDRISING,         symplr_PyramidRising, _color, _scale)
+!define SYMPLR_PYRAMIDRISING(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PYRAMIDRISING,         symplr_PyramidRising, _color, _scale, _shape)
+!define SYMPLR_PYRAMIDRISING(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PYRAMIDRISING, _label, symplr_PyramidRising, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PYRAMIDRISING>> White

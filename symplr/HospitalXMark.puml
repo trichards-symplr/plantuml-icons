@@ -1,0 +1,16 @@
+sprite $symplr_HospitalXMark [64x64/16z] {
+xPDdWWGf24PHaVJT_xuhDZLRDQ7Jvl1-G37wJ4pJtv3_-P_EFDwtHo2HDtM1Ssj34UqTVKA8LPLw-1jwWnAfJH1rp6_67vw-jMQJLYABgpeDYV4Ttwq1O08W
+ZFDkCrKLTG3pExKvWa8RwYJIqGNWZy5ZNmxuD_TGJDxxYunbkmpqFWrRZqi_vRlccEr5KfsKYqYgjqiu-Deb-FV-o8aw6tOh3byWzVX75CYtFXawAO3yQkMt
+ssuAtd_GB0BjB3UMYBhfp3pgo0ATYf6wv-4uXkzpdPl0ZgJE0RW7Ob2YnyX0emwDlc9VDPoAxl3P23XgCTDbbzyRT7zvJktKGcxR79lNLkbVAR_NMubdR5uL
+MhN2YExwuxYgw_7Cs-kP1fGU-BryZZGwkFRVFfpElaJIoNQ-t3_rfXyBAEeM5z-aznwTWbV6pQS8IctfuKuqziuHMrAw-hcsBoMd7BvkmJLVNhtLFwhij-zF
+-1rfa6z5gzYc1ZtXazskdA4YGu-EN7qaoqTo-2qodkZr0mwXv7x_zdmC-XL6hOVvd4yzOEtOt12TNlEf6U32WyLHIvKloIoV9MaqTow_Ip8LDxGsBnyYebw-
+sQgYK-ZAA7_wAdnIW_18-UhdbVnU_wRcH_ev-hVppSm_V5yLbc-P3p-h-CddP9G_TjKgbzzsqI_-Y_rF_Y2_9wrylj3AxybFFcBXvGVEZ7g_d8Ad-XVQ5egC
+0-Fb_eVIGf2n_qd-66FUzssCOJ_vbkWzVrZ2T_j_po_-ZRxh1y0EiSYOoLGzGs5V_3Wu99oejU84q-_7__m2
+}
+
+!define SYMPLR_HOSPITALXMARK(_color)                                 SPRITE_PUT(                                        symplr_HospitalXMark, _color)
+!define SYMPLR_HOSPITALXMARK(_color, _scale)                         SPRITE_PUT(                                        symplr_HospitalXMark, _color, _scale)
+!define SYMPLR_HOSPITALXMARK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HOSPITALXMARK,         symplr_HospitalXMark, _color, _scale)
+!define SYMPLR_HOSPITALXMARK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HOSPITALXMARK,         symplr_HospitalXMark, _color, _scale, _shape)
+!define SYMPLR_HOSPITALXMARK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HOSPITALXMARK, _label, symplr_HospitalXMark, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HOSPITALXMARK>> White

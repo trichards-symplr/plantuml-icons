@@ -1,0 +1,17 @@
+sprite $symplr_CloudHub [64x64/16z] {
+xTNHbkEe3eNX3GYGzB__yvupKoPsZyDAkNhMtFLtbSHi04LUw3j_rEwP6Mv5ly62arVzK770UwlLHW1JFr8JHj5I7QBy97uVto2BdYg9l_yKUie9NLgtOqj3
+tsZMhKeDgaw3O-y6HHzKvp3ZMAaD5LE5cKn9mVmGdq3wT60j13QnIQgHHmq_LOnvRBhvAjvCrLaCRFq2JTeBikgbt1wnWfEXlR6jJLaFOxLlPsghRdVczpaD
+rzROFfZvbWzj9IQf9rxqGIUhDWf8Ce3K1vLj3zO9ae9H8R-CesuwzOWkbGdpdWx09ILDoI5lzHkifGtwxKmmhHnZ4gorribR7q3liCPNNOohPW6O93LoKw3L
+8evhkR-KjHMfZUam_n8vgWv99lcA5BqulgdnwHpQu6onmBIKzxOTn1W-nryy4hkchUU8gQKJkjoVIduj1LV8jPmlLAlxFDEMRTxfN-c4A9jymcMpmZpoIKBK
+B_FNV93nCcwBNbCrKfLJRCz_WQgbmQfjv-IVyuFKAUchyHZRymyrkWh-UXqgc4u6LIgJ7FgGLxhakRc67DgJ_tzfURy60sPzc6--kKKdGCONB-h7Dp8YWQOQ
+ImBCxRrrgYe9bv2CKywghThiIrtNhNKmozMTzgNLeiSAI4dJx-ZrN-KD_s6-M7koVhEY7GEYV7V-4e3jQnM9IxL8LPALLxwtIv01PRTyg84AeOfhaA_yFpN5
+RWCDsW39XuftDUQHx_ah68rjHGF0tiv_qm526sLccBxBoo9d-K7_RVsd-UOnoorVPdZL8nKWR_a4g7h2yPQ4_oL0iYaDiZbJJmIcv4KAgeAGuNfYa0x3_ZQQ
+L9fau33qIF0-T0AXXwnNtRNUzEwF_mC
+}
+
+!define SYMPLR_CLOUDHUB(_color)                                 SPRITE_PUT(                                   symplr_CloudHub, _color)
+!define SYMPLR_CLOUDHUB(_color, _scale)                         SPRITE_PUT(                                   symplr_CloudHub, _color, _scale)
+!define SYMPLR_CLOUDHUB(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CLOUDHUB,         symplr_CloudHub, _color, _scale)
+!define SYMPLR_CLOUDHUB(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CLOUDHUB,         symplr_CloudHub, _color, _scale, _shape)
+!define SYMPLR_CLOUDHUB(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CLOUDHUB, _label, symplr_CloudHub, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CLOUDHUB>> White

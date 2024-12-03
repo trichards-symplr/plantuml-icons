@@ -1,0 +1,15 @@
+sprite $symplr_HubShield [64x64/16z] {
+xPPNZlCm30QfIefp__F-XJ0W99Rhlkwa9nhc4-Kc1_oIIkjTpLHxAqaUKVhWYz6Bt28r8t3JtlxHkpd1Q9SvQiYkBNzLhUe0LkM4vf4q7oKRWFSaQpg0PZaX
+TGUM5Qg3jtqhltjV1x0O1rxtHG7wuf_QVkIGbUuEAbyOVJ_KP8UZKUHxldhFJuGvgEzy8Nn_xGyiIN-TNmf1ask_eBAdUEWtV4co1BBSyeFtVj8rT_tA4UbU
+_jhML5dxByYjfX_u1j1V-mese1tukPnJeOWqMFk5QxPTQkcduHU4dwR_5CTI7WnvwLU2_DQNCi2oXD_a9nZrUV-c8eFoVFtiVAVEvPJEz3EywFxq6qEUedYU
+q-_oZEm0xUEqSkluKIHmV0meMnHRwApP9kpJIr1bZowmpUzeBB77m0VTWzdmxRb0aIFIsi-WfKK3awDoH6RiBcbg10287msNGnBOhgLHe9YF5fsWo345-kVL
+X-8oYJcSKMU13D_xIeCkvpJG8x-3oXKLJ0BeuSY6Xdv90SzR5FUvrGzejtUMkMfjBaQLUoG3Iv6bI90qGjscyH6s0YfFo0EyxDy_Ys1P91lGvGKTC2DwyOga
+R27UahgUsR_y1G
+}
+
+!define SYMPLR_HUBSHIELD(_color)                                 SPRITE_PUT(                                    symplr_HubShield, _color)
+!define SYMPLR_HUBSHIELD(_color, _scale)                         SPRITE_PUT(                                    symplr_HubShield, _color, _scale)
+!define SYMPLR_HUBSHIELD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HUBSHIELD,         symplr_HubShield, _color, _scale)
+!define SYMPLR_HUBSHIELD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HUBSHIELD,         symplr_HubShield, _color, _scale, _shape)
+!define SYMPLR_HUBSHIELD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HUBSHIELD, _label, symplr_HubShield, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HUBSHIELD>> White

@@ -1,0 +1,14 @@
+sprite $symplr_Chess [64x64/16z] {
+pPP76cGX20OH4rBtF-_aR3_GoRNhK8kVy8dyASglwHLOGt_QRtnWbf_q2zHc06wZ5RbcqKNKuGEhtVeT4n4fMljqmFkTho1VqE7WLMvmllj_TnWt_cJ--0Ls
+uHkszzGkwiUMjy8yBrz_EPNzj7ecBnXGpi9x4T7zlmix2wyYZVKgbnw6rvSDjxo4vLFuDOAvZCE7bMq7uPyPOO2ynnLFmqSKoCB7XF76zckthO0QTRvbVr_K
+YwLLAEV-jhHbONBZ5_bC6sDCGAzy_Mmx7t2LrD-tenZuj0znKdyVlW4CaO79bV_1jEPWHQH0k_Mb0_W7prXoxOiwSnl5pSzFXmvD4Z_EqUNd_GP3BlpefRdt
+5Kn-mVTDl_8xNdx5XoQ_u3SyB6tcp-XGAVaHiMXHQPUaVeqVzWIZFqT3GpT-uSPMkwSAwoiwz5oV15Z9gnUHbg-54Oipi-AFf3OdhtDr7ca7rqMBIdXoTUiJ
+7R-u-c_F3uMylps9_slRFKTCt81EYab47JDaDFcVU0i
+}
+
+!define SYMPLR_CHESS(_color)                                 SPRITE_PUT(                                symplr_Chess, _color)
+!define SYMPLR_CHESS(_color, _scale)                         SPRITE_PUT(                                symplr_Chess, _color, _scale)
+!define SYMPLR_CHESS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CHESS,         symplr_Chess, _color, _scale)
+!define SYMPLR_CHESS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CHESS,         symplr_Chess, _color, _scale, _shape)
+!define SYMPLR_CHESS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CHESS, _label, symplr_Chess, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CHESS>> White

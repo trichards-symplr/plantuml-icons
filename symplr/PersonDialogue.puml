@@ -1,0 +1,13 @@
+sprite $symplr_PersonDialogue [64x64/16z] {
+xTG5ekGu301HoJ99TV_xxgQLp-HuUAQh6LxObj-eUzR7MatVuvFrx2qVCFfQ0Vh6WybgJfTN5P3b6lEjZ-_fYyg-rmb4tVM5h6_wm8je1zlozJox0z_odV7i
+ZEgCdeiDBqj-q9_v0THZEK0i-KQShtwEYdPwbhnosm5BPn0gkQ2-vAL2J0VFnPbafSYQbne0O-_wKMigrgfARUMohmwuvdc4w9Tycbn01mT2BtY3hb82rmvT
+n89vmSyyHIK8ygs2hlZyOr1oOScF_Fsvykt9STmul1uBy2RPf8gegjpIMurt5bg0m_UdtoBILs0SEZWRyhOoRtxIv0pqvWtmPzoRlDy7NgJYelvqCZTyycqV
+aNpNatpN9z_sbdpRYwdi-spF-nKVrDSUohhlnEbDqtT2rjCW_F36lFa9LIvK0WvVyPk7BjTgyToF8bURpxrUitT_ztS_p3fkPbk-yLJ8HZt-Z-Df5lcz-my
+}
+
+!define SYMPLR_PERSONDIALOGUE(_color)                                 SPRITE_PUT(                                         symplr_PersonDialogue, _color)
+!define SYMPLR_PERSONDIALOGUE(_color, _scale)                         SPRITE_PUT(                                         symplr_PersonDialogue, _color, _scale)
+!define SYMPLR_PERSONDIALOGUE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSONDIALOGUE,         symplr_PersonDialogue, _color, _scale)
+!define SYMPLR_PERSONDIALOGUE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSONDIALOGUE,         symplr_PersonDialogue, _color, _scale, _shape)
+!define SYMPLR_PERSONDIALOGUE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSONDIALOGUE, _label, symplr_PersonDialogue, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSONDIALOGUE>> White

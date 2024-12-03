@@ -1,0 +1,18 @@
+sprite $symplr_Brain [64x64/16z] {
+xPPRjgWe34G9887i-O-t7mUjeyXoTV_V_FXYap8fnBI9Fr4yY5xdHUr1UFaVU6V6i9HiCAF_rzGZm4ik3J03MidL8NhBt-oLBV9rCO9XFnTvYh1FF0TuBTSW
+0q8NzKV4fuGpc-A0Ov4N7_X12Cz7oob3JhaTIch1yPM-NlG0UZAmr85npL0_13Xe57JFAK5AkNNGpE1xsa8zBYeqp6STYhmHjXSVHQUkRD8MbxPWRCMVq-PK
+HANxMKdv4jhU_2LmGE1ltWdEn0LUU25KH0XRUGjGwOBoRdrN8Ht6oWzmbQs_JL35Jw-t9zyW9qMdxlNdQESLJvwJQ96bVrE_m9zEXAVhEh6ldqEz-TzfTxxX
+D__NjmShrBl_ZnUlWIEbWxK0FylAG3TA4l_epXnp4BlghUybFeFfZhqhUE2Q-nvsSOEmE-zF1pJQpLTPpmgKgsukfIUWK7sSCQ6g-zSuQvSGLtzUxhUVuS6G
+VC2UYR3T2WZQwU9RRIsqbfxErHZ50HFHuiZ58M1k9jV3D2TZNK1TcjEWJ4F1o907p88ONMFeQv_oayynlAG4SqVBb_MI_F2GhqTBQM5fafBKJV-rrdQy8MRV
+V_74Ze-5t-lF0J3AofSn2xh_Wgb-6MW7cW84SpGWQrsy-wSDs1neltm3tBJzgdyF0UFXgrpk-aj-RBz3wHKLbhQ8VnUAtVTtFh1ltiuq-_t387tp2UozVyYS
+jQHajUpvKYsbMjVNN1qz07_lVmwCjEcUEkZwtOJ8ucKh_P3wxb-oGDEv6WHgRv5teMn_leYoBd2GlJGtgjvxWjNGi2xtO8y_zW-r2DJSCo1lOJtpiDyL3R-V
+50j_vjZtO7wQ2yTlfuxpLgZs-yXmFCnHe3miLYL_6mtS6JT1jtI3rg2bht00XZ82LNC1-1UjJqstKuqoceDCz1bM71Xzp6mET1-05_i4Ln54FVztTwc_8zUZ
+PbqSkbZYJ_mD
+}
+
+!define SYMPLR_BRAIN(_color)                                 SPRITE_PUT(                                symplr_Brain, _color)
+!define SYMPLR_BRAIN(_color, _scale)                         SPRITE_PUT(                                symplr_Brain, _color, _scale)
+!define SYMPLR_BRAIN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BRAIN,         symplr_Brain, _color, _scale)
+!define SYMPLR_BRAIN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BRAIN,         symplr_Brain, _color, _scale, _shape)
+!define SYMPLR_BRAIN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BRAIN, _label, symplr_Brain, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BRAIN>> White

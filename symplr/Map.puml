@@ -1,0 +1,12 @@
+sprite $symplr_Map [64x64/16z] {
+xTP7biOW30FWq46w_td_IiPEncoc5si7Uf-VbzxU6uzdeETW_ETEsatgWBn04gXnKubbWEIwGH2F-TNp7Dy04gEGrMnGSF3Ar5sasoSPn5Gzw-plYNL0RJoz
+x2oDuMSo-LnL_4mYYpAs5s8_VfftxzwzU_VktRiFXQpnIAHfSUdbk2E1diJhXlV6zE7bXCpxyHYU_bM36i_-EVvUw4CGZHHoE5wxzdDyE1tF8BbkbE_tyKPY
+9TkYmTWydYi
+}
+
+!define SYMPLR_MAP(_color)                                 SPRITE_PUT(                              symplr_Map, _color)
+!define SYMPLR_MAP(_color, _scale)                         SPRITE_PUT(                              symplr_Map, _color, _scale)
+!define SYMPLR_MAP(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MAP,         symplr_Map, _color, _scale)
+!define SYMPLR_MAP(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MAP,         symplr_Map, _color, _scale, _shape)
+!define SYMPLR_MAP(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MAP, _label, symplr_Map, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MAP>> White

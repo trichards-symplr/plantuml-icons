@@ -1,0 +1,13 @@
+sprite $symplr_CalendarSearch [64x64/16z] {
+tT9dcg0W48JXwY0DrFtlkuQ9AlCqcyVtX_ap0HxWGQGwxbcLHEzik5Vf65FVwD6RdzdHoyjL5uM7lGzUnTxpK716jatilRKht_je6r9EkP0Jtq_gi3S6xWKj
+qKCneaZq2S_iIzvTF-EFF1zvZ-z5LJyliIubtGT9e90KB2GLHjBJVUcz0ykw5FYwNFjrQOa-fNLa-hnyB-OgN_IoUbtYVNcmuAw7ZlfAzhl_lzAwjwrp5JBR
+6yamRAoINUU-tyacUAMTr9bUoS17bLqc-iPwFPBldPJh6rdc_-qQ5vm5QxONKkv-oRN7xSnnDbnrMlBx5mQk6ZtP1mkkAfTaNnYtlQVVltxz_I3haCD8d9m6
+9JZM0D9kNghXdVcG0C5sy_eBieINYmixyfRp3PnqJE3dwmjPCA5nLHK7Q_Ev5f8z5b-Ya_JP793Wgv3fVESbQXG3flE49-RnQpcyAPxj1m
+}
+
+!define SYMPLR_CALENDARSEARCH(_color)                                 SPRITE_PUT(                                         symplr_CalendarSearch, _color)
+!define SYMPLR_CALENDARSEARCH(_color, _scale)                         SPRITE_PUT(                                         symplr_CalendarSearch, _color, _scale)
+!define SYMPLR_CALENDARSEARCH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CALENDARSEARCH,         symplr_CalendarSearch, _color, _scale)
+!define SYMPLR_CALENDARSEARCH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CALENDARSEARCH,         symplr_CalendarSearch, _color, _scale, _shape)
+!define SYMPLR_CALENDARSEARCH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CALENDARSEARCH, _label, symplr_CalendarSearch, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CALENDARSEARCH>> White

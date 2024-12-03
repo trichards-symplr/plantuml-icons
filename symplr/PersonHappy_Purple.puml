@@ -1,0 +1,15 @@
+sprite $symplr_PersonHappy_Purple [64x64/16z] {
+xPK7bkGm20K19GJ__kVTjJqy-xabgpV7cXog3Ef4J_n7-5ja1G1zDy7gNkaauuDC9zMdGGC0fK20BaJI0Q500Q0FTO5pkWGw-lMRq1CxPEGdED4PO82ltuLE
+v4Wqmj69908PTYwMGvTj7D2GX3tWqCFlvoRvqFtG4oq2FTQ9mUIgPvgHhm57ePsob_f4dmOAa0yTPQ2l0mfOQmPew3hH9u6AdJhHrm7EhML-IwyztGD6EmCz
+MRlx7UXo3R33nhfqdEs05K2x1tYWjy5ZEh9UNW86vrt_-9C3bcX8SMp64T0ZSEXnTR6unfW6r9YWxe5Thp5yYnrdIEKeAH6nxVDeM5o5tgDiVg0eIo5faVTy
+AOrVVGNWoYjVr87HE5mxWBBo6-0wsoQLvVnSv5lFxxlxN09P-r82FlyS-Det17hUz45U-ra3-TRzVpC_DKDP-HLMqyZEsCWtt-pc5soaqS3MCj_d1y8FE3T7
+fWaBVqr-zjF2ThGdlyBpt9OEU7hoamDTnZR72yF4dxrwX13f1p-6H7tHEsArX3Rs6r8S4lJ5ZsR2t4UAOrIQa80-cryZC4S0dU-l03_x37qwFrtvw_F_AVv_
+FmDcve2R6P3fIp5SCFfo97qcv-spq5_B9m
+}
+
+!define SYMPLR_PERSONHAPPY_PURPLE(_color)                                 SPRITE_PUT(                                             symplr_PersonHappy_Purple, _color)
+!define SYMPLR_PERSONHAPPY_PURPLE(_color, _scale)                         SPRITE_PUT(                                             symplr_PersonHappy_Purple, _color, _scale)
+!define SYMPLR_PERSONHAPPY_PURPLE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PERSONHAPPY_PURPLE,         symplr_PersonHappy_Purple, _color, _scale)
+!define SYMPLR_PERSONHAPPY_PURPLE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PERSONHAPPY_PURPLE,         symplr_PersonHappy_Purple, _color, _scale, _shape)
+!define SYMPLR_PERSONHAPPY_PURPLE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PERSONHAPPY_PURPLE, _label, symplr_PersonHappy_Purple, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PERSONHAPPY_PURPLE>> White

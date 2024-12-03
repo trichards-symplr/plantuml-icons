@@ -1,0 +1,15 @@
+sprite $symplr_ChessPerson [64x64/16z] {
+pTG7ZkCm34RXdsgK-Ev_tzsC3AJ8dZZJ7qhg9qDqqOzbfWzN7C3qiLB0ntogFjvmovMXrx8MpBf9dNRAZ1YU9Ca1HYjf3WwIdbQODId1ADSTPpZ5HqcvWqib
+wwQ6wsdWspfatHSKFQiIcZbzMRhgMPsgMIQMjKdFVT7COFqnx1F7buB-mlvTjsMJqlCH1BwxMNlxN27htJACcak7jcnUaXDs-lgxpzkv4LZjCLhIVWcQZaej
+ADSxthFMok48R72fJCwbo5foi5qUq8j3cNnaP_TOWw6Td65p-NBXsuUX9TiV0QHj7UhasvTfv1CZCBXka8rha5Nfki-9Ot-zIARVknE2-evNbcwy0bzkaxxh
+SzMrKZPV8DozvUjFZ5q_RWTp_Q8mY_pa-77lxU8tG7F0RTd_AIyeCeSts44l-aP8IWD62SZd_Vr5LxSvlEfLjZlBEjtqkfUplL_qEQyEIKkd_LpWCrw3i7Uy
+hJxkl0r2HmLbyGdiuHdbEgX1djvwdZuD-lBupJfe0EJhtG6i-tM6ZlB5TziTqr4MzpvfRL1qs8CthJdjKxxXd_AT-YaVv5TyVgY2Nl2TjSZdVOqb89tsUtN6
+fxo1dVMD--8Y1_MiTnwo-VjPBxjlkuavw_SBogTymp_ZZmSmwEu-2FyVICdtWdgqy6rTwkmsT51fbxgt_rL9gUrLz9Vw1m
+}
+
+!define SYMPLR_CHESSPERSON(_color)                                 SPRITE_PUT(                                      symplr_ChessPerson, _color)
+!define SYMPLR_CHESSPERSON(_color, _scale)                         SPRITE_PUT(                                      symplr_ChessPerson, _color, _scale)
+!define SYMPLR_CHESSPERSON(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CHESSPERSON,         symplr_ChessPerson, _color, _scale)
+!define SYMPLR_CHESSPERSON(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CHESSPERSON,         symplr_ChessPerson, _color, _scale, _shape)
+!define SYMPLR_CHESSPERSON(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CHESSPERSON, _label, symplr_ChessPerson, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CHESSPERSON>> White

@@ -1,0 +1,14 @@
+sprite $symplr_Mic [64x64/16z] {
+xLTNihKX25D4XMJ_w_qBCzpUuBwUd5wYab3c6qKyC4SVwlWFMots0XbyqXkdE2JqFsyU45AbR_ACX9KN45B7CovHupllgy_WAMqFl16Jg8cNsoT0AHt_hUUt
+500mt_bnVyLNMe7_FjfJEl_xQ9rQuB-pQmAZ0hpPpYhXJspbAmNZuuzXlAzBPeExaBoncPDtncTnLiJFMhaaOEO0KT5UKtina2HmPbTwqQt5pd7fpqUfDxw9
+PzqNkAfyfsNNd-2jqbTu1uGG6KdLEmkY4sNw9Z9PRpmN4O95icuoT6nuPpUarz7tJhBVzuR6HBZOycuqfG_TilxH6jZ8DvGwVMQoA-DDVNjFwVTemAdTeidm
+LnPD2z4mdMYHbxiU4Ytd8chIbiE3tYcS7P4t0SXp0ZIz5r2wstFzfrkJhiGGzCC7DNRl0jXzUhZ7QjBBTS-ngd9CYpk2976owTOFV9Sw2JCqsWKGb0MInEfV
+LSdUPNOV3_m5
+}
+
+!define SYMPLR_MIC(_color)                                 SPRITE_PUT(                              symplr_Mic, _color)
+!define SYMPLR_MIC(_color, _scale)                         SPRITE_PUT(                              symplr_Mic, _color, _scale)
+!define SYMPLR_MIC(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MIC,         symplr_Mic, _color, _scale)
+!define SYMPLR_MIC(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MIC,         symplr_Mic, _color, _scale, _shape)
+!define SYMPLR_MIC(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MIC, _label, symplr_Mic, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MIC>> White

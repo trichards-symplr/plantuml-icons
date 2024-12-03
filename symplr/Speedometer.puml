@@ -1,0 +1,16 @@
+sprite $symplr_Speedometer [64x64/16z] {
+xPJPejim24IjNN3-_tkxO2M1HhvrNxhFIpQEF30enr-f_qgrJyMaizVqOt0JY99s-uWo0NIqaZFaNDfGW5dkq5K0UHY6vMXz_Ltd0Wo37MzA0v2FkwW0tYRu
+nW0-iZ109dB52rDWNE8J-f6WxlaAwMWmBritwnrrbbqpIhScBeOWa5rTb3itAx8tdny-PN_-wYllMkY6dwfvn-VwVCURmx8F9kMSzZ6NMAVliTIXc7JKbubf
+u41ZRsY4qs31c7gApkCCCz0ytW3jnQ1Kp4Wzw-JvUmwp1ock6oGqM8Jnmek0po13Ri1S9XLz6sP-uca2BJi3WtbsFAnojs3E_3Wlw7nDVAMHHpxDp-CQjxAL
+-3DD3L78DUwbh2OdFKp-qdnKVpIWRfaIr7luKT37R_vGkOER8BlhvfgwWRiBsHdUKoHRomwF6kVS9itFnDC2e1xtQeoJhzvIi8q83e-gp9FfvQlSI4w9xM7Q
+yGQiMRFKxNtoKUPb8xr5ltIEN4t5a92ltm-lggQpG1u_N_44tXV8j_CBLg6wY_AkndGncjJFRze15PVfxW8qfaDQY0_syVdYWdfB3fT-vhAHcsjoJRkir9wR
+qfxrd8O5R8ztyxXMk7UT6NRofYRzQTg5ak_HVjTrcQxb3bVERfkDtRyTS8U7iHuQ__Gcj3jyWsbhvJT9azWXTrH0ieQzK80mkLo2ucyAQCmIJT5aL6mjAKIp
+6l4ZYmP9Z3Mf7hzU__LVdm4
+}
+
+!define SYMPLR_SPEEDOMETER(_color)                                 SPRITE_PUT(                                      symplr_Speedometer, _color)
+!define SYMPLR_SPEEDOMETER(_color, _scale)                         SPRITE_PUT(                                      symplr_Speedometer, _color, _scale)
+!define SYMPLR_SPEEDOMETER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SPEEDOMETER,         symplr_Speedometer, _color, _scale)
+!define SYMPLR_SPEEDOMETER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SPEEDOMETER,         symplr_Speedometer, _color, _scale, _shape)
+!define SYMPLR_SPEEDOMETER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SPEEDOMETER, _label, symplr_Speedometer, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SPEEDOMETER>> White

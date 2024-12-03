@@ -1,0 +1,14 @@
+sprite $symplr_BatGraphUp [64x64/16z] {
+xTG5ZkGm44RXt-ogT__pBgGaPo5kzJ1-m_1YLElrVKlIu-K9ZCVd74oFP5XMSVgZXq-IAkXHQimyFROliBuy2fYKZA6zrAVrf2iJmC6Jjh83K2uUR30SiAGz
+nrirI1SFzYBbacvliST1z__-W4Tvqw2lamgXmzGTEYCUGzMXJhUU9dJTeqAMv02p7WyALNSPmEWEtG4CUgd4GrDRDazB1aVdMSh78uQa77tdL7PdNrJxYCUl
+K9Dsz3x2TLzYt10y_j6eHzyLxAfl5pThOB6fwKQVMcz9u-g5AO4F8y9D7zlYq3PR4lckRs3T87wL5odKtf9kzF5qmsEZ5zVfHfyX5agAUxSyg1T47tzGkhTN
+BBpXUbm_eDSExQBFPTdqQy-c_kyJfxxjLQVDgei-WmSOspvSzwxGhllllh1uVaJVEDL7zJC5UsG_5EQRzD_zpC6Yh_bGeYU77lt8mVVtPpdw9VfbzVaiF4cT
+PKgoyuzLAWu4I_hYldtx2G
+}
+
+!define SYMPLR_BATGRAPHUP(_color)                                 SPRITE_PUT(                                     symplr_BatGraphUp, _color)
+!define SYMPLR_BATGRAPHUP(_color, _scale)                         SPRITE_PUT(                                     symplr_BatGraphUp, _color, _scale)
+!define SYMPLR_BATGRAPHUP(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BATGRAPHUP,         symplr_BatGraphUp, _color, _scale)
+!define SYMPLR_BATGRAPHUP(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BATGRAPHUP,         symplr_BatGraphUp, _color, _scale, _shape)
+!define SYMPLR_BATGRAPHUP(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BATGRAPHUP, _label, symplr_BatGraphUp, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BATGRAPHUP>> White

@@ -1,0 +1,13 @@
+sprite $symplr_Sound_Board [64x64/16z] {
+xTQ7RiD030FGM_99vF__Rs5KsV7GTJScLeZeUQzqvCWHCSHYSgKp60_osOEG6ek0bZpDbnLA1gl_L4ufdixklunjm3VQPtiJFvbUstNDfwfBlX9-EkgpwlD0
+6V7Do9xN_0JIoeAld6FBtYUmu2UQTc352wqrB7jDUTrV9bXzTpGFUz_XOIyq4U3Y0UEQRoH11m-BAvoZozuV0dt1fzA9jdhzv8aewTxdYTGQl_x4TySufqJz
+UNU0hc0BUD_WUNVgF9wJKlPx8qaKht4Fg84oxXsSQ-zW6_Rtnr_8NW9-1bgIUpywUU_-tp-__D-suds35xtFRvt_KU_WwtnNVCJxqHdrkVlHUU8prT_7-Rts
+wrfkwhqFvLVvyUyF_Opld_7lBrmlYuY5jzii1aO2a_JX73do1W
+}
+
+!define SYMPLR_SOUND_BOARD(_color)                                 SPRITE_PUT(                                      symplr_Sound_Board, _color)
+!define SYMPLR_SOUND_BOARD(_color, _scale)                         SPRITE_PUT(                                      symplr_Sound_Board, _color, _scale)
+!define SYMPLR_SOUND_BOARD(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SOUND_BOARD,         symplr_Sound_Board, _color, _scale)
+!define SYMPLR_SOUND_BOARD(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SOUND_BOARD,         symplr_Sound_Board, _color, _scale, _shape)
+!define SYMPLR_SOUND_BOARD(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SOUND_BOARD, _label, symplr_Sound_Board, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SOUND_BOARD>> White

@@ -1,0 +1,12 @@
+sprite $symplr_HospitalSymbol [64x64/16z] {
+xTDLWiGW48JXQZHqtV-y8yZAM9fruNkB_1447s5PijgLW4lAAUdoxMIEPeLqbw_Fc436wnCJz2_tuXj1vtpbR7ta450LTYgMdizm5iWX6teXlPm5ihulKQNQ
+M6ozmvbxxb7bNzQlFlYJ_EP--8R-mdo_Ueb3-AxvrxEvVktVrUTqbdiVoLIfgOToq8jrp6ZfPTDc4rIXQ9DWw0rMVtLxOO6T8mDU2IJLZ2Gk94vnkEIYNS07
+MOu
+}
+
+!define SYMPLR_HOSPITALSYMBOL(_color)                                 SPRITE_PUT(                                         symplr_HospitalSymbol, _color)
+!define SYMPLR_HOSPITALSYMBOL(_color, _scale)                         SPRITE_PUT(                                         symplr_HospitalSymbol, _color, _scale)
+!define SYMPLR_HOSPITALSYMBOL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HOSPITALSYMBOL,         symplr_HospitalSymbol, _color, _scale)
+!define SYMPLR_HOSPITALSYMBOL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HOSPITALSYMBOL,         symplr_HospitalSymbol, _color, _scale, _shape)
+!define SYMPLR_HOSPITALSYMBOL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HOSPITALSYMBOL, _label, symplr_HospitalSymbol, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HOSPITALSYMBOL>> White

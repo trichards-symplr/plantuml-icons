@@ -1,0 +1,13 @@
+sprite $symplr_BrowserClick [64x64/16z] {
+xPO5WXqX40LVur3tFs-iln2V9fxT6fV2JJ-1LrufhOTeHHks23DD3oQhnUWmT2U1ASZkPAOkOTsKkYbtQP4afrprArMDeauwyfNziAmZVsVtOOPXzq_O_PN3
+yAFv_-N-gs-rZzxogTznLZdnRJ6AIQb13_gk5pasw66_k-uCIj1F36smWdubIp9xF5hC7qWIp79M_tFvJq3Fntw51Qncqadw3L9g2vZL3ifFWoQf381H0hun
+_TFon-hvI87sKxq6ifmj7u7ss_Ucw_de-Mh_wL82ELi-oiN-soKjgfwa3gnqoNVgzh5Cl4MwVsd-DaZFMtgImzDFVlyL1krvIvQJmRPV6FrhJDR-u-pl6Upr
+OfDlaYNbv07S6Tf9zUjChqTF-eHUQoqfk5GQGDxA8CAY6ipZ02gpCRK5e126jraFm1PJCGQiUz9jiKmn2dWdcE1wa8KxcfpeieSpfkc_uPMt
+}
+
+!define SYMPLR_BROWSERCLICK(_color)                                 SPRITE_PUT(                                       symplr_BrowserClick, _color)
+!define SYMPLR_BROWSERCLICK(_color, _scale)                         SPRITE_PUT(                                       symplr_BrowserClick, _color, _scale)
+!define SYMPLR_BROWSERCLICK(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BROWSERCLICK,         symplr_BrowserClick, _color, _scale)
+!define SYMPLR_BROWSERCLICK(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BROWSERCLICK,         symplr_BrowserClick, _color, _scale, _shape)
+!define SYMPLR_BROWSERCLICK(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BROWSERCLICK, _label, symplr_BrowserClick, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BROWSERCLICK>> White

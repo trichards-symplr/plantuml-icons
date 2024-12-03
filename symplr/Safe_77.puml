@@ -1,0 +1,13 @@
+sprite $symplr_Safe_77 [64x64/16z] {
+xPO5bWGn20NZ0Vxzppl6liwsq3OkzJHISS6v7pzyobj9hf6m0mbTxm3NhGYuTSyxfWmqdznsNiwFWdMmd_G5QocJFX3S6ZB8yFqd-Ad-8_HCBML8jls87dxO
+jr9Clu1oXo3sVJgN4e5DlwAu3aOQ-kUC-D9-ZHqozakCgSpuZ1wvxnSerVG9a0uWkJvLHFKzys_dxxw-bt9oURSVpXCKkSNuhry_U_zilvwqKjGtpu_jntC6
+iF_yH-zS20-xFzU_7zU_NzU_d-__VuGh_2l-xolYXtUFdwwF7rlyog9GDUZL4F2LyRCVnEy0dH1GjX3mkGPOu_S1xVsm4CHs_YRyd5AYMR-SQrY-CkihrKsH
+IGccdqY9xeyVHm
+}
+
+!define SYMPLR_SAFE_77(_color)                                 SPRITE_PUT(                                  symplr_Safe_77, _color)
+!define SYMPLR_SAFE_77(_color, _scale)                         SPRITE_PUT(                                  symplr_Safe_77, _color, _scale)
+!define SYMPLR_SAFE_77(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SAFE_77,         symplr_Safe_77, _color, _scale)
+!define SYMPLR_SAFE_77(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SAFE_77,         symplr_Safe_77, _color, _scale, _shape)
+!define SYMPLR_SAFE_77(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SAFE_77, _label, symplr_Safe_77, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SAFE_77>> White

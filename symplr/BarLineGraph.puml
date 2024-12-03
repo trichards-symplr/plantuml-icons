@@ -1,0 +1,14 @@
+sprite $symplr_BarLineGraph [64x64/16z] {
+xTC73kKW38JXCJOOcFlVTnLYvKMaI6nldshAdsgmwh__BEitr4gIFPttO44YUoKx3avTw9qLaCuC1Akoq3SQW4B7ikZpU8g2h-EaIkRfdGiJhgoJDozMk7Ey
+zvcRBjUxkvCzuvsGHL9dnPaqSYeV6Dl-ht6I-lcrN_zVPjrxsqjlLMrwd-Vv6QMEjoMh8NDNSUkQZx8silOepVVSt8FYaLHoX1b8fU_JNaVVoVbXKfxpJXfI
+Di5Gnx0f6m2ov4tzz9M6CvsM9yeeVHICOR5Fdmg2c0cCR38FGyrEwjJVpcOZ7HFZfk2XJqVUMfoND4WyOdN5rC__dyo0ap7z0OUdtfh4o1md5B8Ff3ptPtFl
+61PwT5QHoex5FiSkvQ1pdydWjts9NT16DiNSLnxcVYO2tFHPDZhtZ-RUi4aFlRfyK-_KR-f5zyP3MUk3yg1hlTY-evUXqvRwE6vi6DfghuvlwCEtzF9jlLE_
+gSzTtdjcR7JlTO-kxyym-d2p_iBSftDYPEX0EIUL30KXzuHluLHy4y4lfRvCS5Avp70YUTde_lll2m
+}
+
+!define SYMPLR_BARLINEGRAPH(_color)                                 SPRITE_PUT(                                       symplr_BarLineGraph, _color)
+!define SYMPLR_BARLINEGRAPH(_color, _scale)                         SPRITE_PUT(                                       symplr_BarLineGraph, _color, _scale)
+!define SYMPLR_BARLINEGRAPH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BARLINEGRAPH,         symplr_BarLineGraph, _color, _scale)
+!define SYMPLR_BARLINEGRAPH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BARLINEGRAPH,         symplr_BarLineGraph, _color, _scale, _shape)
+!define SYMPLR_BARLINEGRAPH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BARLINEGRAPH, _label, symplr_BarLineGraph, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BARLINEGRAPH>> White

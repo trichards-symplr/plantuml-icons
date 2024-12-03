@@ -1,0 +1,15 @@
+sprite $symplr_TimeCompiance [64x64/16z] {
+xPS7bkGm24G1PVxzxxlFeNdgjJtsvbWJEdueeImY__LVMji3fKlUUQIh00alz-hq2pupv5wPyNVpvkngNyKNNd8H6VxbVBTD8jBu2hvDRv6-YbTTIm5Lleg7
+9O0pvEluGLyRhr_96wIJngVM7NgnErug_ddZhHFoSiEBysvKsuArabEk7V1ymKlHrIhedDoXBxPjBFzBkBkiJBBv1NYIHNNdAlJ7yqTXg0I_Vvtsa9y7GYQ7
+9yePdr-A1bHSzLZn0dhaCw4bILhT9sadxWRjo1UyRwghHzbGOmwGoZu_zCFvfxwyS9Ay1yXWcu7o8T_n5HIP0aobBunpljQzGBRyxn81DBTIeCKxvpna4MEr
+rsAasM5b13tFZwlubhXJfWM5wdjIrOMtKrwSrd5zyMDlkvDVK0RCh_WKE-NglxDv6GIV5fuZdoXhrXYTTUgG2ctWqxou6l_gFSQvIwW3s8pSpvy52ALQT8fM
+7_2TTZcjxG6_L-ce5iJ4wtWfl5sSEHBOpVuPFYEMsDlaEkD7tZGFpGYGw86Fk_qpLA37js95rITyEA18V4iR39M7V1nBMZQjoSg8ENZFXuf3g9iyvaEf-WR7
+4BpXhx_rutXjzaUUFv-Vtt_8_U7hxo__zGa
+}
+
+!define SYMPLR_TIMECOMPIANCE(_color)                                 SPRITE_PUT(                                        symplr_TimeCompiance, _color)
+!define SYMPLR_TIMECOMPIANCE(_color, _scale)                         SPRITE_PUT(                                        symplr_TimeCompiance, _color, _scale)
+!define SYMPLR_TIMECOMPIANCE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR TIMECOMPIANCE,         symplr_TimeCompiance, _color, _scale)
+!define SYMPLR_TIMECOMPIANCE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR TIMECOMPIANCE,         symplr_TimeCompiance, _color, _scale, _shape)
+!define SYMPLR_TIMECOMPIANCE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR TIMECOMPIANCE, _label, symplr_TimeCompiance, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR TIMECOMPIANCE>> White

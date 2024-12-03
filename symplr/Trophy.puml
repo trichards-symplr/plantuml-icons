@@ -1,0 +1,15 @@
+sprite $symplr_Trophy [64x64/16z] {
+xP87qjuW34H5CI2z-zytOmmpsFfwUlA_AQuhhHR93-EBZPS8SeVAIoIvGw66fnZnWLwUmdtzHfCpeMnUx-UFJNSCbJCAsUcrKvOkJEpI7b3_ghDuJLZUsK1E
+PBY-Ik3-ZTZjsPHYv4j6Edkkdcvd2x5SCgtKOQtvJ9NjRDyamiNIvizQoQVYctQC8c9efntMvlerjbkcxCXZ4aKAa_x9ZRg64I0CVTb3JhteJXjdcr4vrJbN
+6sbd89rJm-9XkyZE9TP6FGqIZ75tUOAqDfeaM0CO7OF8nOt_Rs1ibrWIbFbDmwnAculbDZMi0qoh_jtozuhILeFpBaV_Ji9mkn8XhS7qha6XBawKUdmoSPHZ
+z3A_GKhiQ9W3nCFs1aaysWCFusE2VkYPVhEab-Zk7Q7dF0rKW7gy1fBCqedXnX71mZHGXsYvRMYFlid4Ex0q38JMWWoIbgDybBB8FK6XnJlpAIqQ57b40He4
+SMpzWsLvJ5G0zTOOWJub6_W936XHNY8sY6wk4kHbhX5aoF8EXgs6da_kuz9LtkHD4kYoboAV5XXh_L41YpqwbO-87AXyI6W0HJudWNmFyKl_fV_r-nV0Oxz0
+xmWVID9zv0MC-wWyfzfzYlnhV0C
+}
+
+!define SYMPLR_TROPHY(_color)                                 SPRITE_PUT(                                 symplr_Trophy, _color)
+!define SYMPLR_TROPHY(_color, _scale)                         SPRITE_PUT(                                 symplr_Trophy, _color, _scale)
+!define SYMPLR_TROPHY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR TROPHY,         symplr_Trophy, _color, _scale)
+!define SYMPLR_TROPHY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR TROPHY,         symplr_Trophy, _color, _scale, _shape)
+!define SYMPLR_TROPHY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR TROPHY, _label, symplr_Trophy, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR TROPHY>> White

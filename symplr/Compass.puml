@@ -1,0 +1,17 @@
+sprite $symplr_Compass [64x64/16z] {
+xPVPegjS28C3h8da_P_t7znQTTLgpxdUtrKd84bnmWs_cBaR_WfloHUzs9yLTqhYXYHcmRS49N8Ktrn4IqfizjLiIkmEMDG-_gCjZKfIR7YaIwoB0sg3YtfF
+YVuyl0FbntAlfPJQauiaGr2i3yxfYCq1O3-IhP9YNzGDVAHG0vOIozPGkIaR50E5oflf7RvgdEiN_p_VvqrvaT8mrwyqAU6yjc3KG97w-SCwZLWQN8MOIeJK
+S8UlGnmpLJIZ-lDsTNJnGdq1DV14I85t1rs99kAP9YB4UJpTgC0NK1sfzZP-lDJdRGmksYo0SXFjLIzUIjdRK-KK2j4FuL5Iseq0L2LsXXeeFuQicqEDAaPY
+XtGNpyjqSxHN3Hp3DX9D_RmE4PJ6PEBwzw54gip_CZe_x3FfeJpewI1jyjZWbCI2Dr9n3A2hWdpVKugKL33JrOu5Oyfp_L3ArSd4B3YNUayoxHYXR7EoqqYs
+ed6k3oUB9CKnGctBPCTS9AxratwFS1oGVAqOU64HiUgVwsUwwB0XlXsORQa_l6s7TcUj4dsES1vObA3yyc8c-HmXG9tstKcCwqth52jyKaUYQXpVMr7Y2ak9
+FfJJuJvKWVC2sEVRWS7Z5euvhwf4xWqlO-11xdm2i-cJ6Kz9up1jZYlLS98uKm-xISNiDaGK4PynolPJGvlJfXfI7SyuvVQsBI6QI-MxoyTGOc9ee8gE1uQu
+3BlmLp54morTDEFLhXRHaRE2i6cw0gcyRBqsADXnvNcN6Pz5BiE7r8-nvdntroU9SuDAiLxKUqff67UNrfJgyaCsE-kFb5XXlF-B-ZAZK29R650Cy3BM6zZw
+K0uKYWs8GKbSMRePWjB00pPMzT6vCQe1aHGBRjcjPh6bczdFPvqI6xuZaXAt-_SsLWVu7gj9wWNP7N-AHzkVNwxvvLy
+}
+
+!define SYMPLR_COMPASS(_color)                                 SPRITE_PUT(                                  symplr_Compass, _color)
+!define SYMPLR_COMPASS(_color, _scale)                         SPRITE_PUT(                                  symplr_Compass, _color, _scale)
+!define SYMPLR_COMPASS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR COMPASS,         symplr_Compass, _color, _scale)
+!define SYMPLR_COMPASS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR COMPASS,         symplr_Compass, _color, _scale, _shape)
+!define SYMPLR_COMPASS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR COMPASS, _label, symplr_Compass, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR COMPASS>> White

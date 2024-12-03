@@ -1,0 +1,14 @@
+sprite $symplr_GlobalIndex [64x64/16z] {
+xTPLOiDA40NH7cgujV_rFWYJd76OoWndr3y2-qhzDREEovodTIlGiHV8J_aY-ydrlQXkHmLXp-NIi8CaUxufDNkoJjf6YphoOJiburM-aw_oLdgTJxNNUVgh
+V7oOxpDdVwbVAVvFCL_WLw4hBsgUwuDQXIzMa2xyF5-49SiMqu9eIPxZ2pnmk_0Mk4Fi-qKb4BwIM9v05cFRgyoI4fUf26kgNRzOPagpDe8OpQpAp9cRFcKs
+y8kbBf7JhH6RNl6_67VyP9bLxVcEcmLsnxUBhxJd9qYW_-FcLOAsvGSL8UB_YhnuHH7Qz1V3EktE_FsS-Krv0---L6twe5adxlYWsS0t_IJCIYkoX2fzASsI
+lkaj6IwWiYuUK6iIjkixKA9VpJzHWTgsDwVQeDg5xrBlOjg-juNcelfY3cakQTevteR8G4cYAAgVVVnrSPtyHSV_6GNAc1zt_jdep-ThlUnLNlKgFybN-LAt
+fshA7HxauSBjUUxKnfNnKIqviP6aLZksVQMePiU5q76WcdQovdaYRtQ_l_u5
+}
+
+!define SYMPLR_GLOBALINDEX(_color)                                 SPRITE_PUT(                                      symplr_GlobalIndex, _color)
+!define SYMPLR_GLOBALINDEX(_color, _scale)                         SPRITE_PUT(                                      symplr_GlobalIndex, _color, _scale)
+!define SYMPLR_GLOBALINDEX(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR GLOBALINDEX,         symplr_GlobalIndex, _color, _scale)
+!define SYMPLR_GLOBALINDEX(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR GLOBALINDEX,         symplr_GlobalIndex, _color, _scale, _shape)
+!define SYMPLR_GLOBALINDEX(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR GLOBALINDEX, _label, symplr_GlobalIndex, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR GLOBALINDEX>> White

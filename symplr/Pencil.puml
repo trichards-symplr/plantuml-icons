@@ -1,0 +1,12 @@
+sprite $symplr_Pencil [64x64/16z] {
+xSv7SWCn50DHC0_Hzp-l8wUqbJwTFTY_BkZ1NIlQMJB77eTZXxjj18oJQZZGe4ZXG4h6wJNWIE2Wde41IO-kSmOQT3ssD0-D5UW1RfWQq989SViMYF2KLw0g
+HxXq1XJZAz1gb4iPXk9S3TeUxp-CN_pY5x_unRN9PUO67oMR6UOThq3q_0h4UCK7l0OSuJ9DAn3X1Kih4E2QlAa9MO5bEqbv6ee2CrFLXfaLM08C7acXTG3t
+irRkNLh2GDSvS--y0cCMtJPyxwQsT-qP
+}
+
+!define SYMPLR_PENCIL(_color)                                 SPRITE_PUT(                                 symplr_Pencil, _color)
+!define SYMPLR_PENCIL(_color, _scale)                         SPRITE_PUT(                                 symplr_Pencil, _color, _scale)
+!define SYMPLR_PENCIL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR PENCIL,         symplr_Pencil, _color, _scale)
+!define SYMPLR_PENCIL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR PENCIL,         symplr_Pencil, _color, _scale, _shape)
+!define SYMPLR_PENCIL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR PENCIL, _label, symplr_Pencil, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR PENCIL>> White

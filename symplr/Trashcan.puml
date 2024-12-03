@@ -1,0 +1,13 @@
+sprite $symplr_Trashcan [64x64/16z] {
+xSz7WiCm34DHYbGZSF_pJf_qa7AqpLyWnNuk4lLEJSlBs1mWWFQIBaxYEnBw0WVHVvwzWh337lHI1e2fCey_mI34G09abqa__FIge6lHIJO1xP1lT77wttT8
+vppa9vi0HNu2JO4LPlYB1CZJ3vv_pCXtyaJuq1En7_gRwUEG-2vniN_xj7qVDSWnXl_i_Db1pjCwOQ5Nu6kD_hK5EByne5zREIMinBvnRFcUUOdzOD_oaotr
+9VGrzHfufsMUaKVgdHPvQEfhw4lYvwOVRA6NrFSjtpcU-vBxnhdbQ-Gryt_qcJSkU4JUCwy8VENCV8bys_ITGx8YFzWtVLlmvQcVh5lULpmryBRWxQa7DVKU
+UUH-iWQ-BFWMU4aRx5k-SspvId_cZGk-WACHgce_g-JtWhM2NV8QlmFmk_ZRxrnMqlbdRjQxtFRk4m
+}
+
+!define SYMPLR_TRASHCAN(_color)                                 SPRITE_PUT(                                   symplr_Trashcan, _color)
+!define SYMPLR_TRASHCAN(_color, _scale)                         SPRITE_PUT(                                   symplr_Trashcan, _color, _scale)
+!define SYMPLR_TRASHCAN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR TRASHCAN,         symplr_Trashcan, _color, _scale)
+!define SYMPLR_TRASHCAN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR TRASHCAN,         symplr_Trashcan, _color, _scale, _shape)
+!define SYMPLR_TRASHCAN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR TRASHCAN, _label, symplr_Trashcan, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR TRASHCAN>> White

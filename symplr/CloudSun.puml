@@ -1,0 +1,14 @@
+sprite $symplr_CloudSun [64x64/16z] {
+xTLLkcqX30FWj1HBvZ_UuxhwiU6w_i-aEE0FyDz_uVWMBdvRdlzQtk96tW8xKtsv_aPLR8GqyAxNJt4QTe8Qo79yNo3wv1pDKtmxXGfOfvwH0M2c-58e49JO
+eqITbAPXq72kIYnuqIWwlaH8FItTYHAjXXdLy0ariUM3UaIbraO5DWP5pZ58YO7FceYRZE9mFAaKEpwZV1Ttl6cwhi1Gmr8-7bMN2LTDh4NQuNwPS14HVEQu
+OXuTLQ_vBZvIFNbdgtWP8U3FSDKqS6MafIOBKu64B7YtEa3M9YaL95CaHzn-IJibFZ0aZQHUZoBL5wTcLdSt87FtqYWre8c6Z6B1HfTgam9P5mrRLGyQCYCB
+3aof8dA5gdd-YrCZrwquGXMKN60p_4j7kG3fE39KaGga8xaztd49T0qSUJsUPVfbNGrh-xTpQcBFb_DqQPp49nP2OjnETuetYslzEpQIko4sKei29ecpOCCA
+fPwR-V6tRKCFHYs6LnP3ek6GTptZ7AEFIJteXY_WTL1Fg0TiXYzdNY9gXED7-kyU
+}
+
+!define SYMPLR_CLOUDSUN(_color)                                 SPRITE_PUT(                                   symplr_CloudSun, _color)
+!define SYMPLR_CLOUDSUN(_color, _scale)                         SPRITE_PUT(                                   symplr_CloudSun, _color, _scale)
+!define SYMPLR_CLOUDSUN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CLOUDSUN,         symplr_CloudSun, _color, _scale)
+!define SYMPLR_CLOUDSUN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CLOUDSUN,         symplr_CloudSun, _color, _scale, _shape)
+!define SYMPLR_CLOUDSUN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CLOUDSUN, _label, symplr_CloudSun, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CLOUDSUN>> White

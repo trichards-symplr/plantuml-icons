@@ -1,0 +1,14 @@
+sprite $symplr_Skyscrapers [64x64/16z] {
+xPPdjlGu24GB1GJ5_lSxWpe7M-qlf_l3-Rud0NLEumt_w2kmouWLO-6xxS6bhzX3VuGVD40Z1209IEJJmP3FV8Rb5TCF0eLfMV0tyUFanzMFO_wm3ZGR0gWf
+8CFQV83FVDK6L5K1kdP0LEjyW6FhB-VrotdzH_jtzVVhD-m6WsOHrC_z4k-G0xwLPopal7_Uzi_OyW4H078-0XOopy3fS3bk-He4uE4061rl_t-4h7oRli8M
+-__bV4wVq-VS_sB-blM_ct_C-M-gsFAh6SvXWrbDlusPlp7pDnhGni21_I_M_vltRrq_lPzV3c0Spy_zetbSpSzTVlGvF-Dhwczp_x-yxzD_anyxd9_Icm2j
+D-In0BMtPNxwNNxS11W-037lG7Sxjl_uslhzFdvxpKzd-avFdmeekUXVSksVb88BfGYG3_Roevueo6j-Z8b9XAtpunnZq2xxrs1nkZlvMVtS0DYZxm3yX_kN
+_L_yzVwbbAjVYgGljUBiezO2b5gnvISN7q3w0Ax-XIrV4i-JkIGMhVuFsLeZwutnpWycaLokDzd-_UPCt18-_yaR5T-OmYD4nnF2E4B37y9_
+}
+
+!define SYMPLR_SKYSCRAPERS(_color)                                 SPRITE_PUT(                                      symplr_Skyscrapers, _color)
+!define SYMPLR_SKYSCRAPERS(_color, _scale)                         SPRITE_PUT(                                      symplr_Skyscrapers, _color, _scale)
+!define SYMPLR_SKYSCRAPERS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SKYSCRAPERS,         symplr_Skyscrapers, _color, _scale)
+!define SYMPLR_SKYSCRAPERS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SKYSCRAPERS,         symplr_Skyscrapers, _color, _scale, _shape)
+!define SYMPLR_SKYSCRAPERS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SKYSCRAPERS, _label, symplr_Skyscrapers, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SKYSCRAPERS>> White

@@ -1,0 +1,15 @@
+sprite $symplr_Hands [64x64/16z] {
+xTO54gGw54RXFovd_-jzCg6PN4AA7jUljEMWDnGQ_efOBUfMhRgLMGJT0DrpCnzoXoJ9XS5BSg_UwGq5YXmlIOKm-a2M5UB4QSZGClGXg996dwWo2hDkhwaE
+fhSd4TiiwSNbjkqBNiyyVTDtmjVfNRs8DttsspvoqTS-qBQzueLV-qZVzglltcTcLI-n0v_VLtZkznha0DuVVI6EFb8klTF2TmZo06tqBaeANb9qjZzcEQHJ
+QO2Nr80oUiFqZIX96DNfz5wVwgaafqbugz_pe0lmczvdBI38YA1DNucwodGPdRplawuSL4qgkBblhHnQwJUz0XITYZsVYXMrYjFNwV8Ndw7a3nej9zt9e0Da
+6UuydKJN1eJTD3IQ1WTPDtmfqCe7ZLwy9WMyERTLnYhsjxXUMwjGSvbMrzG7I9fK-arlJYlFVQFAk1k0JDhqpepIxXwugANVhMq7MktwHDC5sDLVMZ_bjQzh
+xwUwC-iFFKVVZ_yceAJBsqaWsJuaIIb83lUnHyfGjJ7rZI1Fbp9vz9A3qAPnzhDTNqpFD5gTMNhk1Rtw-uT43s_rsllkVSnMslVWrfwhiErzqDh7OkttFvX-
+wylxGDpsp_T_MFld-JFC_2U6X_cV5Tpe8r6PGz-ilwTtRNVGjFuduQ6tVESgwLRTV1zAwxFczRlu5m
+}
+
+!define SYMPLR_HANDS(_color)                                 SPRITE_PUT(                                symplr_Hands, _color)
+!define SYMPLR_HANDS(_color, _scale)                         SPRITE_PUT(                                symplr_Hands, _color, _scale)
+!define SYMPLR_HANDS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HANDS,         symplr_Hands, _color, _scale)
+!define SYMPLR_HANDS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HANDS,         symplr_Hands, _color, _scale, _shape)
+!define SYMPLR_HANDS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HANDS, _label, symplr_Hands, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HANDS>> White

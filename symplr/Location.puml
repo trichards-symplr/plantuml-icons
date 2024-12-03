@@ -1,0 +1,15 @@
+sprite $symplr_Location [64x64/16z] {
+tLK54YCn3DjmBFt_lOVhoRHnenw31hfaaAMur_-Br8O1PgEcxmZk01r0JzyMFK72HgsbjW6G7D-GeO6mSYrKaAplXa_IyjEp0dA-rxiHKQbEsZlnHiHK2uXl
+34-vv7MNeJiOAxnCW0GmyahGp-4PpFULaGG0a9ntpaQUPOGNg216-Nff8BApEpAeX1UYFH3drrm9pCVoxIjrSiHJdPmdzl0ySyjitihh-7w7zLteX9i13Zxs
+Tz4t_MvW70ZWAyaI-ImTNgvFxX8ZRiu_2h5I6rjqAczhw7YmXCCTJl97uuNyyqN_JV3tr7sNQ7LL2AL_HgoVrD_V8I0mQLv3-hyHyM9ODegnJ6wR_UUoyO60
+URNv58vhfnQRt7VjCa45_JafjkzOAyVQvw3SGGzVxmyMT2wWxq-qXocg1UfacW40h6uYwWtgM6BfxIdzCKJvtJlx3Zn0AJotrD_KG5xbfGGHB4oi9T3QxoOC
+dyxhFHGW1rqnwT3N_z8GpXUJxiVokz6mMMTpXT1GM4Tgc1wEjR2EK0j2Ep52CJmnGZ4yCS9lCFvckBmklXskMV96lWKUAAINcoG9wUKv4kT6Ce3eNZ4GtN_Z
+AlfsrEllnaS
+}
+
+!define SYMPLR_LOCATION(_color)                                 SPRITE_PUT(                                   symplr_Location, _color)
+!define SYMPLR_LOCATION(_color, _scale)                         SPRITE_PUT(                                   symplr_Location, _color, _scale)
+!define SYMPLR_LOCATION(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR LOCATION,         symplr_Location, _color, _scale)
+!define SYMPLR_LOCATION(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR LOCATION,         symplr_Location, _color, _scale, _shape)
+!define SYMPLR_LOCATION(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR LOCATION, _label, symplr_Location, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR LOCATION>> White

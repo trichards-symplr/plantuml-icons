@@ -1,0 +1,13 @@
+sprite $symplr_Sun [64x64/16z] {
+xTPN6jWW30DWsM26TF_pTi-K-7Ewr_ySEMp0t-o_7lWcv4_C_y_xiZnlov4OecLvemOo-rB0x1BVmAC2UJmlO3tcZ6xr-Bi2UArlwWtkZjTgSM39W4Q9AtgF
+HOaDC6sK3Maxtl4j3Jonn8vFT6gXReYEppWVjA2zYryAD1HH7L_evU7h8WxA3TZd3rkr0UGtxMNNlckNrxe_SJJLan3Va2CKE0e5d6zTIpdVCOG6ZeO2ndSQ
+xhJxzhUVCNuW3GT6ecGfpiEtKE9twzTHipHFexTGP8SDs4L3LPFwDQw6kf3cvurNeCo1Hd4Oth11iG5Uxhq1jYHopxb9QHbWXn78BYcVf2IHqvEhBRlZp5jp
+I-x699xTZVMujqS5fdP-vcrD92oGvn7s1xtV_kVTyJVxxoK
+}
+
+!define SYMPLR_SUN(_color)                                 SPRITE_PUT(                              symplr_Sun, _color)
+!define SYMPLR_SUN(_color, _scale)                         SPRITE_PUT(                              symplr_Sun, _color, _scale)
+!define SYMPLR_SUN(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SUN,         symplr_Sun, _color, _scale)
+!define SYMPLR_SUN(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SUN,         symplr_Sun, _color, _scale, _shape)
+!define SYMPLR_SUN(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SUN, _label, symplr_Sun, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SUN>> White

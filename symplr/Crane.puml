@@ -1,0 +1,14 @@
+sprite $symplr_Crane [64x64/16z] {
+xT85qZGf40RXmk7D-zztsGvYN8kLt_9pUHeenbP_2bgDuF8PT8I2puyuIr4e-FpnkGMXuFL9wm5ERzdtWENz3rZU_u3bpmzedyhK_qxBhmSKr9ydgP_s9rPs
+Vi1el4xex6lEkJ7iLB22ohCQf2ZooQVJ-KyLkZth-5kZddoR3-qt_flrLvU-yIvTpt-0E2LUpn_M_4z5TEb5jHT9Tbi8GT1AgO8SWdtfPz8WHSsYcSl7mVpa
+zo53Dh_FqixwJ3drXfym2dmUkisgrmkQMPBRgz6IniRzDHXXmqTevlT9whHNlXwpWSTUIjRWXUzKi_34CxbPW-S-evB4i0T1irbvvQqpKtXo_-NWhxmLgOKd
+K-sKGfUYUPgkGpU_3mNAXg_qJd5xwCU0dVxWnmEsV86T_MTWOtwPiNT_8spulFVwAOnATtiOmSh6_QlD1ZZzokF3BBTL3RElUDDT_HjVTLTrSEy6n3dF5AMS
+RjCtdj5luol_gF2n3_b1oNxu_W8
+}
+
+!define SYMPLR_CRANE(_color)                                 SPRITE_PUT(                                symplr_Crane, _color)
+!define SYMPLR_CRANE(_color, _scale)                         SPRITE_PUT(                                symplr_Crane, _color, _scale)
+!define SYMPLR_CRANE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CRANE,         symplr_Crane, _color, _scale)
+!define SYMPLR_CRANE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CRANE,         symplr_Crane, _color, _scale, _shape)
+!define SYMPLR_CRANE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CRANE, _label, symplr_Crane, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CRANE>> White

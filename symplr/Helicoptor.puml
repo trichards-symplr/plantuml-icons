@@ -1,0 +1,14 @@
+sprite $symplr_Helicoptor [64x64/16z] {
+xTG5RknW30JW-SaqzxzlG74nz1YQhrq8669BYp_eyNWyUeJW-pNEVY21SrGIXxguIJcBR-lhY7FMS4WewsjLsoTT6AEtb2esZOxAo6AVz4f7CAN0ff103a3y
+axR4gwUaI6Gv7S0IVyPPCUZZY336mcpCMjrR08BtwViKmUMuZoDYEXRaUX0a5NX5ubBEQL64Z8hK641fhU22SUJAdApOA0MLgp3fcQT9tZ7SVNr21f8oohlr
+kGUPtAGRUzQr4GCpiY4vBRSREO9I-z3NF0EB8IvmamfqiY3b4nIoAXslbZnYGSEiqct0p9SZV-qQ8sESiugK2cEDtqgAOHQC-cbj4jwGKZPOgTeXwfQ3jvhh
+w3WZN4D4G-2kFS_Et5JLgJYLupPjFf2A13UEKtqRYvBHti-tzTw5XdF6gEU_MnUC7DYHUyUPR7qKx6X1mxKMd0KPhvQ3dDwrfjmrS5-drve6hTQ2Rz5eGEfv
+y2FnjU7R-dyNNnhPxeRkizkjx_617_LuF2O
+}
+
+!define SYMPLR_HELICOPTOR(_color)                                 SPRITE_PUT(                                     symplr_Helicoptor, _color)
+!define SYMPLR_HELICOPTOR(_color, _scale)                         SPRITE_PUT(                                     symplr_Helicoptor, _color, _scale)
+!define SYMPLR_HELICOPTOR(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR HELICOPTOR,         symplr_Helicoptor, _color, _scale)
+!define SYMPLR_HELICOPTOR(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR HELICOPTOR,         symplr_Helicoptor, _color, _scale, _shape)
+!define SYMPLR_HELICOPTOR(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR HELICOPTOR, _label, symplr_Helicoptor, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR HELICOPTOR>> White

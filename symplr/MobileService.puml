@@ -1,0 +1,12 @@
+sprite $symplr_MobileService [64x64/16z] {
+xT05ekKW40NHQgmXT__hVUvE6FcI4vUAmD-pS0NCZRcA0ba58lCbI2gCi1h1niTYH6x6g4GVIp5mLfJfKhLH4mUX6brYRTgO4lE58iavQ9L-HJeE_ZGnGvGQ
+8uBaZ8XIOClal62b7lYsgXxPSxL3NtWkwCoWIcfsw1Hugwdbj1S1IovDnbPLuIt9k6QJAblf-0CjyOn9Ztx93bkseafNJrDYwtZDwEjT-URV-dhRvyH4Hz_X
+B_UMntfN_bVzqY_zqY_zqiUSyq1lsiZpUugxsp__VoJZLktecsgwKQJ0fu8UA7pElDtmn4-s1W
+}
+
+!define SYMPLR_MOBILESERVICE(_color)                                 SPRITE_PUT(                                        symplr_MobileService, _color)
+!define SYMPLR_MOBILESERVICE(_color, _scale)                         SPRITE_PUT(                                        symplr_MobileService, _color, _scale)
+!define SYMPLR_MOBILESERVICE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR MOBILESERVICE,         symplr_MobileService, _color, _scale)
+!define SYMPLR_MOBILESERVICE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR MOBILESERVICE,         symplr_MobileService, _color, _scale, _shape)
+!define SYMPLR_MOBILESERVICE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR MOBILESERVICE, _label, symplr_MobileService, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR MOBILESERVICE>> White

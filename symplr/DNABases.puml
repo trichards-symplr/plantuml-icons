@@ -1,0 +1,16 @@
+sprite $symplr_DNABases [64x64/16z] {
+xLQ7jkKW21GRPVx_VtU3XfCSdsxVq-wyUXC764GmVSS77vXjNXIqd-43bBv41_-KVvJq9HZzP_YoSuCmV4Hn0KMVa9HIWmqPdCvGo2NsXPmoPle0EVCpBWMb
+Ff0J6JJYWx8SZDJLHJOOnV-uG4S3LjvRD-WXiBTyb6201A7eAo0AtmSmW4uts-emMsejrA0HLjw7e6wX-1yN9PY80f5ZHHUTg-bYUz9KrFzAdlxbc0KDUZ9O
+dy4skKFAG3cx5vrvoFNEtlN3db0IR0qGk-jX9cIw32s-mreCi4qrri6EG3J7u-4p0u3bn41Q8S48ciSFC970HXch1qehNV7U65VQd9EYVXYsFO1hLlYAe0mA
+uB7PPlURlr-x5uXSHf-IlGvNZ4LPdk3P5ZgWDiN5EMWSt32xz0_FEFcnG0-TDStdD-9fgayKVt7vfLhftL0PR__kRCMwC7LOxnqeFzV_M_3BY84nGB_cdmn0
+7VwPsTUl-j_zC_HxSPe2D0qkyw9lypyT6R8xcGOBGEl-h_D3e7U0lG0bzhylQGr5ozCuXBghFtTWUQ4_cu0Q7-e_qPVdho_ROOSPFDj_T9t5Lxax3stE83f5
+6rq5PKy2pSEuWkHkdFvFMhrh1M20dleloso4kRoQg_icnV5EKSQikFj_ctggsvmYwfxkaRkAcH2OYAWBBp-SFpGYhp7_cYxpZ_Vphpixvc-PvxQrci_pDof8
+ydFx-LVcVvaU0oFVDnJSAXtfGkj-_-pzXxmoonFv8abK7enrdtc5dkv_5f4Sxv_sX3xkdopf2Fx3-w_jbWdwVxd_spOnFVqHJcd_u1i
+}
+
+!define SYMPLR_DNABASES(_color)                                 SPRITE_PUT(                                   symplr_DNABases, _color)
+!define SYMPLR_DNABASES(_color, _scale)                         SPRITE_PUT(                                   symplr_DNABases, _color, _scale)
+!define SYMPLR_DNABASES(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR DNABASES,         symplr_DNABases, _color, _scale)
+!define SYMPLR_DNABASES(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR DNABASES,         symplr_DNABases, _color, _scale, _shape)
+!define SYMPLR_DNABASES(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR DNABASES, _label, symplr_DNABases, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR DNABASES>> White

@@ -1,0 +1,18 @@
+sprite $symplr_BrainConnections [64x64/16z] {
+xPK7hcit30KFgSxP_tu3cxg-h-btb2H_K5uH1sAphA_uor_AZDLDKijVVWgh0sP0jGKhY5RqumnWIF9WqIGL88gEs8HfsYn6SJrmw1dWBIWwCLcBgQJHKcvL
+WLjBpo9qWYK5IdRS03HGlrAlrACVBz-3VXKXTIIlWKiowEU6xKCBQbxMfVGbO-qkDNrDtxewHTASWMvVdRcAf8KENCs9TUNZklq9JxzIlkCphY74xVThk4xz
+WVjxbrHebs_CXxli1-vVs6vThErlorWQdFtoOD2rzlnVVhjwuHxOmIUPkmMRWQIILJjDvRG2PJoObFT-aCbP-bdLcOehy-_PQF3BLBiEpnHQhjwWPSgPpBs4
+J7t0nfh-RWnZM6ebWA74bqkDggJCrU_EcPA9wvhOW9XCU8fjd-z81rYI2aEL6Bj_Go-_pwQEofZ-wfjVaK79oofDpiLEB_FF-M-lttDEB3zh1dtHx4d3jGjl
+RtsBov-HaPtLi-pAtQEIsW2OpRPVHm1XUjl_2Uo7hPYIlIcDAHlGjm-hg1AIHZgfwJFEabWPeEsRNSzVPUY09R5osvBqDmnLQeRf8ulDm_Sl_Jda99_J2COJ
+Oe-vcsw_hZGgCwFMwVt8Bm_hYx2NFuXPtdw5d7sjFUd2_Vumhwqet_LjqdScPVlN6P7wqK-OiYvPpd__KgeALIVVmBIPMBuZJLgO54LQImDJujcScm9GxXsg
+rmhS5S_EK581_FtqMYFqwRn1lDPZQWEjlQ-09IrquIEWUPqGHFEwO5PjZ245x--lbT3D8006KO87NJTG6kjOV_hkjPW8oMifwH_hb_VkUk_hmKvg-tTqCnqu
+-WV-f6zZ3PFEle_LTIQVkRDl04idAaETbS_xU__wRzEaw42Zgh2njxwpiMVG0ITQqFn1whPzcJ_eh1wOJZIWwyQ1SDqCeEgC5NlVpuzFdHVJ3sDCQQ5V1hmG
+-cKQMUylKyOe-a_p3m
+}
+
+!define SYMPLR_BRAINCONNECTIONS(_color)                                 SPRITE_PUT(                                           symplr_BrainConnections, _color)
+!define SYMPLR_BRAINCONNECTIONS(_color, _scale)                         SPRITE_PUT(                                           symplr_BrainConnections, _color, _scale)
+!define SYMPLR_BRAINCONNECTIONS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR BRAINCONNECTIONS,         symplr_BrainConnections, _color, _scale)
+!define SYMPLR_BRAINCONNECTIONS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR BRAINCONNECTIONS,         symplr_BrainConnections, _color, _scale, _shape)
+!define SYMPLR_BRAINCONNECTIONS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR BRAINCONNECTIONS, _label, symplr_BrainConnections, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR BRAINCONNECTIONS>> White

@@ -1,0 +1,13 @@
+sprite $symplr_ClickBrowser [64x64/16z] {
+xPQ54SD04CJs6TH_lU7aneE-CCaCUYRj-FCd5HT92mfkYemAipS7VO854A7AIOLWzqCAEXuAMiMmE3j5cQh0a0Rh0YXqyxFYpD9eKXjQHLxw3kxkJxpCU9jF
+MgQ_HX_XeUNtzzDjVeMURl0BmApnMZ_0cC0eBj_eDAK6qFCrVWBjo0EWHRUlUNeLwp4VmUbN-vewG8ykFu956Ig0ozUWBlNgymlpSWUpI3u_GBeqnYfvVNNQ
+vOxaywq9v6W1-7nDiX8a2y3dLxew5e3NZv1WN0A8Jby3wAUe8pIlNpYe7LAOpE3r0ypZPqnt-6gKqtVJ7RuDets4xvu_YjmKyoj3JfO3p8thHvKRrgyth9zl
+NR__-RC5
+}
+
+!define SYMPLR_CLICKBROWSER(_color)                                 SPRITE_PUT(                                       symplr_ClickBrowser, _color)
+!define SYMPLR_CLICKBROWSER(_color, _scale)                         SPRITE_PUT(                                       symplr_ClickBrowser, _color, _scale)
+!define SYMPLR_CLICKBROWSER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR CLICKBROWSER,         symplr_ClickBrowser, _color, _scale)
+!define SYMPLR_CLICKBROWSER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR CLICKBROWSER,         symplr_ClickBrowser, _color, _scale, _shape)
+!define SYMPLR_CLICKBROWSER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR CLICKBROWSER, _label, symplr_ClickBrowser, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR CLICKBROWSER>> White
