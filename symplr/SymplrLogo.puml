@@ -1,0 +1,14 @@
+sprite $symplr_SymplrLogo [48x48/16z] {
+hTC5qgn8403XhAxspljVT-stOTOWudqZME80mEPdS4EO0CNW7Xj0lTsV0T0FDwq5C3StZGEm9pSr0Kxdfjm0Axah089Vf4m-jS8DAH-YrKTzwVrPFzhA9tth
+MkxtaVLu0ABte02Ke8v2Z0PGHdxqPLIWbgu1BDrO0MlgOMc5E5f8uMW1O0YaQkuEOPbgKpTqTP7Ir0a05UXcskU4b7FwEVOj7DL8cMuFtyQ2DVk6Th3JdLHB
+SSMmfkn5D-3JdD1w5SOg9caZp6eIZfJJAPQt5w0Oh54CYWdMVe2rKZxMXq_TtG2Jqz8WFlgnWB5JhCJvwOkwOBSmN_evWNu--ekXDkP8urPFBYTzDNdjNu_d
+tLhKC_Qb_pdVQzyRZ4rnpKjl0SVV-xLWBj1-xIVTTkqhCApfW6EzzXujbtuALDKAo_BMw-Qrxnh0rWqCkVHRpKl_-hv0tq1y_-RCrO0W-EGf_9YBLtFoRYOl
+zlY__ihsg0_pKP_6evvhJYatkXjoyqYJHyRXaRLuv0mUiV54c3ookErt
+}
+
+!define SYMPLR_SYMPLRLOGO(_color)                                 SPRITE_PUT(                                     symplr_SymplrLogo, _color)
+!define SYMPLR_SYMPLRLOGO(_color, _scale)                         SPRITE_PUT(                                     symplr_SymplrLogo, _color, _scale)
+!define SYMPLR_SYMPLRLOGO(_color, _scale, _alias)                 SPRITE_ENT(  _alias, SYMPLR SYMPLRLOGO,         symplr_SymplrLogo, _color, _scale)
+!define SYMPLR_SYMPLRLOGO(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, SYMPLR SYMPLRLOGO,         symplr_SymplrLogo, _color, _scale, _shape)
+!define SYMPLR_SYMPLRLOGO(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, SYMPLR SYMPLRLOGO, _label, symplr_SymplrLogo, _color, _scale, _shape)
+skinparam folderBackgroundColor<<SYMPLR SYMPLRLOGO>> White
