@@ -22,3 +22,22 @@ Example:
 - Copy these logo files into the "symplr" folder.
 
 - During the encoding process, sprites are compressed to reduce size.
+
+## Plantuml Template Header example
+
+'================= DO NOT MODIFY BELOW  =================
+
+!define symplrlib https://raw.githubusercontent.com/trichards-symplr/plantuml-icons/refs/heads/main/symplr
+!includeurl symplrlib/SymplrLogo.puml
+
+<style>
+  document {
+    Margin 30 30 30 30
+  }
+</style>
+
+left header <$symplr_SymplrLogo,color=BlueViolet>
+
+center footer Symplr Confidential
+
+'================= DO NOT MODIFY ABOVE  =================
