@@ -25,6 +25,7 @@ Example:
 
 ## Plantuml Template Header example
 
+```plantuml
 '================= DO NOT MODIFY BELOW  =================
 
 !define symplrlib https://raw.githubusercontent.com/trichards-symplr/plantuml-icons/refs/heads/main/symplr
@@ -41,3 +42,4 @@ left header <$symplr_SymplrLogo,color=BlueViolet>
 center footer Symplr Confidential
 
 '================= DO NOT MODIFY ABOVE  =================
+```
